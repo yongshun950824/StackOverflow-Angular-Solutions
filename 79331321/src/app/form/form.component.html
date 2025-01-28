@@ -1,0 +1,41 @@
+<p>folder form. type in form name and press enter</p>
+<form [formGroup]="myForm">
+  <div formArrayName="folderHierarchy">
+    <label for="folderHierarchy">create folder </label>
+    <div>
+      <div>
+        <button
+          type="button"
+          class="btn btn-custom rounded-corners btn-circle mb-2"
+          (click)="addFolder()"
+          [disabled]="!folderHierarchy.valid"
+        >
+          Add
+        </button>
+        <span class="pl-1"> new folder</span>
+      </div>
+      <div>
+        <div *ngIf="!folderHierarchy.valid" class="folder-hierarchy-error">
+          invalid folder hierarchy
+        </div>
+        <div class="folderContainer">
+          <div>
+            <div
+              *ngFor="let folder of folderHierarchy.controls; let i = index"
+              [formGroupName]="i"
+            >
+              <folder-hierarchy
+                (remove)="removeFolder(i)"
+                [folder]="getForm(folder)"
+                [index]="i"
+              >
+              </folder-hierarchy>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+<!--{{ folderHierarchy.errors | json }}-->

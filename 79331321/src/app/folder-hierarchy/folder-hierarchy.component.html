@@ -1,0 +1,68 @@
+<div *ngIf="folder" #folderRow class="folder-row" [formGroup]="folder">
+  <div class="folder-header">
+    <div class="folder-name-container">
+      <label for="folderName" class="folder-name-label">Name:</label>
+      <input
+        #folderName
+        id="folderName"
+        [ngClass]="nameControl.errors ? 'invalid-input' : ''"
+        class="folder-name-input"
+        placeholder="Folder Name"
+        type="text"
+        maxlength="50"
+        autocomplete="off"
+        name="name"
+        formControlName="name"
+        (keyup.enter)="folderName.blur()"
+      />
+    </div>
+
+    <button
+      type="button"
+      class="btn-remove-folder"
+      (click)="removeFolder(folder)"
+    >
+      Remove
+    </button>
+
+    <button
+      type="button"
+      class="btn-add-subfolder"
+      [disabled]="disableAdd(folder)"
+      (click)="addSubFolder(folder)"
+    >
+      Add Subfolder
+    </button>
+  </div>
+
+  <div
+    *ngIf="folder && folder.value.subFolders.length > 0"
+    class="subfolder-container"
+  >
+    <div
+      *ngFor="let subFolder of getSubFoldersControls(folder); let i = index"
+      class="subfolder-item"
+    >
+      <folder-hierarchy
+        (remove)="removeSubFolder(folder, i)"
+        [folder]="subFolder"
+        [parentDirectory]="getSubFolderParent(subFolder)"
+      >
+      </folder-hierarchy>
+    </div>
+  </div>
+
+  <div
+    *ngIf="nameControl.errors && nameControl.errors.required"
+    class="folder-hierarchy-error"
+  >
+    Name is required.
+  </div>
+
+  <div
+    *ngIf="nameControl.errors && nameControl.errors.duplicateName"
+    class="folder-hierarchy-error"
+  >
+    Name already exists
+  </div>
+</div>
