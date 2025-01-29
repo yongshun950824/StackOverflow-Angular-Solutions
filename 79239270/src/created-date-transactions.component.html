@@ -1,0 +1,143 @@
+<div class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-6">
+        <h1 class="m-0">Admin Dashboard: {{ pageTitle }}</h1>
+      </div>
+      <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+          <li class="breadcrumb-item">
+            <!-- <a [routerLink]="['/admin-dashboard']">Dashboard</a> -->
+          </li>
+          <li class="breadcrumb-item active">{{ pageTitle }}</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-xs-12 col-12">
+        <div class="card card-danger">
+          <div class="card-header">
+            <h3 class="card-title">{{ search }}</h3>
+            <div class="card-tools">
+              <button
+                type="button"
+                class="btn btn-tool"
+                data-card-widget="collapse"
+              >
+                <i class="fas fa-minus"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="startDate"
+                    >Start Date:<span style="color: red">*</span></label
+                  >
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"
+                        ><i class="far fa-calendar-alt"></i
+                      ></span>
+                    </div>
+                    <input
+                      type="text"
+                      placeholder="DD-MM-YYYY"
+                      class="form-control"
+                      bsDatepicker
+                      [minDate]="minStartDate"
+                      [maxDate]="maxStartDate"
+                      [(ngModel)]="filter.startDate"
+                      [bsConfig]="{
+                        isAnimated: true,
+                        dateInputFormat: 'DD-MM-YYYY',
+                        returnFocusToInput: true,
+                        showClearButton: true,
+                        clearPosition: 'right',
+                        maxDate: maxStartDate
+                      }"
+                      (change)="
+                        filter.startDate &&
+                          filter.endDate &&
+                          onDateRangeSelected(filter.startDate, filter.endDate)
+                      "
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="endDate"
+                    >End Date:<span style="color: red">*</span></label
+                  >
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"
+                        ><i class="far fa-calendar-alt"></i
+                      ></span>
+                    </div>
+                    <input
+                      type="text"
+                      placeholder="DD-MM-YYYY"
+                      class="form-control"
+                      bsDatepicker
+                      [(ngModel)]="filter.endDate"
+                      [bsConfig]="endDateBsConfig"
+                      (change)="
+                        filter.startDate &&
+                          filter.endDate &&
+                          onDateRangeSelected(filter.startDate, filter.endDate)
+                      "
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Search By: Merchant, Description, Channel ..."
+                      class="form-control"
+                      id="searchInput"
+                      [(ngModel)]="filter.searchQuery"
+                    />
+                    <div class="input-group-append">
+                      <button
+                        class="btn btn-primary"
+                        type="button"
+                        (click)="onSearch()"
+                        [disabled]="!filter.startDate || !filter.endDate"
+                      >
+                        Search
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-success"
+                title="Export Excel Data"
+                (click)="onExportToExcel()"
+                [disabled]="!filter.startDate || !filter.endDate"
+              >
+                <i class="fa fa-file-excel-o" aria-hidden="true"></i> Export to
+                Excel
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
