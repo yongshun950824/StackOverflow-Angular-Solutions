@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [79313248][13] | [Making mat-autocomplete function like a Bootstrap select][14] |
 | [79320586][11] | [How to truncate long text with ellipsis in Angular PrimeNG 19 table?][12] |
 | [79326070_1][9] | [Rerouting to child route not working as expected][10] |
 | [79326070_2][7] | [Rerouting to child route not working as expected][8] |
@@ -51,3 +52,6 @@ npm start
 
 [11]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79320586
 [12]: https://stackoverflow.com/questions/79320586/how-to-truncate-long-text-with-ellipsis-in-angular-primeng-19-table/79321232#79321232
+
+[13]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79313248
+[14]: https://stackoverflow.com/questions/79313248/making-mat-autocomplete-function-like-a-bootstrap-select/79313290#79313290

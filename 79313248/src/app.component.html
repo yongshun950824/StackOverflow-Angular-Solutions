@@ -1,0 +1,41 @@
+<form [formGroup]="fruitFormBootstrap">
+  <div class="row">
+    <div class="col-4">
+      <label for="fruits" class="form-label">Fruits</label>
+      <select id="fruits" class="form-select" formControlName="fruit">
+        @for (fruit of fruits; track $index) {
+        <option [value]="fruit.value">{{ fruit.label }}</option>
+        }
+      </select>
+    </div>
+  </div>
+  <div>
+    <button class="btn btn-primary" (click)="submitBootstrapForm()">
+      Submit
+    </button>
+  </div>
+</form>
+
+<hr />
+
+<form [formGroup]="fruitFormMaterial">
+  <mat-form-field class="example-full-width">
+    <mat-label>Fruits</mat-label>
+    <input
+      type="text"
+      placeholder="Pick one"
+      aria-label="Fruits"
+      matInput
+      formControlName="fruit"
+      [matAutocomplete]="auto"
+    />
+    <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn(fruits)">
+      @for (fruit of fruits; track fruit.value) {
+      <mat-option [value]="fruit.value">{{ fruit.label }}</mat-option>
+      }
+    </mat-autocomplete>
+  </mat-form-field>
+  <button mat-raised-button (click)="submitAngularMaterialForm()">
+    Submit
+  </button>
+</form>
