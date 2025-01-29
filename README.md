@@ -26,12 +26,12 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [79320586][11] | [How to truncate long text with ellipsis in Angular PrimeNG 19 table?][12] |
 | [79326070_1][9] | [Rerouting to child route not working as expected][10] |
 | [79326070_2][7] | [Rerouting to child route not working as expected][8] |
 | [79338132][5] | [chartjs / ng2-charts charts does not work properly in display flex][6] |
 | [79335155][3] | [How to make the bottom of a NgbModal to be transparent so that content beneath is visible through it][4] |
 | [79331321][1] | [How to validate that 2 folders on the same level cannot have the same name in a recursive Angular form array][2] |
-
 
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
@@ -49,3 +49,5 @@ npm start
 [9]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79326070_1
 [10]: https://stackoverflow.com/questions/79338132/chartjs-ng2-charts-charts-does-not-work-properly-in-display-flex/79338220#79338220
 
+[11]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79320586
+[12]: https://stackoverflow.com/questions/79320586/how-to-truncate-long-text-with-ellipsis-in-angular-primeng-19-table/79321232#79321232
