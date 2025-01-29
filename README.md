@@ -26,6 +26,8 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [79326070_1][9] | [Rerouting to child route not working as expected][10] |
+| [79326070_2][7] | [Rerouting to child route not working as expected][8] |
 | [79338132][5] | [chartjs / ng2-charts charts does not work properly in display flex][6] |
 | [79335155][3] | [How to make the bottom of a NgbModal to be transparent so that content beneath is visible through it][4] |
 | [79331321][1] | [How to validate that 2 folders on the same level cannot have the same name in a recursive Angular form array][2] |
@@ -40,3 +42,10 @@ npm start
 
 [5]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79338132
 [6]: https://stackoverflow.com/questions/79338132/chartjs-ng2-charts-charts-does-not-work-properly-in-display-flex/79338220#79338220
+
+[7]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79326070_2
+[8]: https://stackoverflow.com/questions/79338132/chartjs-ng2-charts-charts-does-not-work-properly-in-display-flex/79338220#79338220
+
+[9]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79326070_1
+[10]: https://stackoverflow.com/questions/79338132/chartjs-ng2-charts-charts-does-not-work-properly-in-display-flex/79338220#79338220
+
