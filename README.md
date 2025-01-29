@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [79301084][17] | [Angular Reactive Form - Multiple parsing errors when trying to implement multiple step form][18] |
 | [79302036][15] | [Why is Angular asking for an standalone component, even though it is][16] |
 | [79313248][13] | [Making mat-autocomplete function like a Bootstrap select][14] |
 | [79320586][11] | [How to truncate long text with ellipsis in Angular PrimeNG 19 table?][12] |
@@ -59,3 +60,6 @@ npm start
 
 [15]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79302036
 [16]: https://stackoverflow.com/questions/79302036/why-is-angular-asking-for-an-standalone-component-even-though-it-is/79302217#79302217
+
+[17]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79301084
+[18]: https://stackoverflow.com/questions/79301084/angular-reactive-form-multiple-parsing-errors-when-trying-to-implement-multipl/79302024#79302024
