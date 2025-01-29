@@ -26,13 +26,13 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [79220004][21] | [Edit "Cruceros" with tituloQueHacer returning key-value pair: "descripcion: value" instead of string in the array][22] |
 | [79239270][19] | [Angular - ngx-datepicker validation not working as expected][20] |
 | [79301084][17] | [Angular Reactive Form - Multiple parsing errors when trying to implement multiple step form][18] |
 | [79302036][15] | [Why is Angular asking for an standalone component, even though it is][16] |
 | [79313248][13] | [Making mat-autocomplete function like a Bootstrap select][14] |
 | [79320586][11] | [How to truncate long text with ellipsis in Angular PrimeNG 19 table?][12] |
-| [79326070_1][9] | [Rerouting to child route not working as expected][10] |
-| [79326070_2][7] | [Rerouting to child route not working as expected][8] |
+| [79326070_1][9]<br />[79326070_2][7] | [Rerouting to child route not working as expected][8] |
 | [79338132][5] | [chartjs / ng2-charts charts does not work properly in display flex][6] |
 | [79335155][3] | [How to make the bottom of a NgbModal to be transparent so that content beneath is visible through it][4] |
 | [79331321][1] | [How to validate that 2 folders on the same level cannot have the same name in a recursive Angular form array][2] |
@@ -67,3 +67,6 @@ npm start
 
 [19]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79239270
 [20]: https://stackoverflow.com/questions/79239270/angular-ngx-datepicker-validation-not-working-as-expected/79239682#79239682
+
+[21]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79220004
+[22]: https://stackoverflow.com/questions/79220004/edit-cruceros-with-tituloquehacer-returning-key-value-pair-descripcion-valu/79221598#79221598
