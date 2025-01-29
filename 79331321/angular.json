@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "demo": {
+    "79331321": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,8 +13,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/demo",
+            "outputPath": "dist/79331321",
             "index": "src/index.html",
+            "tsConfig": "src/tsconfig.app.json",
+            "polyfills": "src/polyfills.ts",
             "main": "src/main.ts",
             "assets": [],
             "styles": ["src/global_styles.css"],
@@ -43,18 +45,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "demo:build"
+            "browserTarget": "79331321:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "demo:build:production"
+              "browserTarget": "79331321:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "demo:build"
+            "browserTarget": "79331321:build"
           }
         },
         "test": {
@@ -79,5 +81,5 @@
       }
     }
   },
-  "defaultProject": "demo"
+  "defaultProject": "79331321"
 }

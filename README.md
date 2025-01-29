@@ -2,6 +2,25 @@
 
 Written Solutions for StackOverflow questions.
 
+**How to start application:**
+
+1. Select folder.
+
+```
+cd <question-id>
+```
+
+2. Install packages & dependencies. *Use `-f` (force) if needed.*
+
+```
+npm install
+```
+
+3. Start the application.
+
+```
+npm start
+```
 
 **Solutions and Linked question:**
 
