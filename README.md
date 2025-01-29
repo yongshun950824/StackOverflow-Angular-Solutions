@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [79302036][15] | [Why is Angular asking for an standalone component, even though it is][16] |
 | [79313248][13] | [Making mat-autocomplete function like a Bootstrap select][14] |
 | [79320586][11] | [How to truncate long text with ellipsis in Angular PrimeNG 19 table?][12] |
 | [79326070_1][9] | [Rerouting to child route not working as expected][10] |
@@ -55,3 +56,6 @@ npm start
 
 [13]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79313248
 [14]: https://stackoverflow.com/questions/79313248/making-mat-autocomplete-function-like-a-bootstrap-select/79313290#79313290
+
+[15]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79302036
+[16]: https://stackoverflow.com/questions/79302036/why-is-angular-asking-for-an-standalone-component-even-though-it-is/79302217#79302217
