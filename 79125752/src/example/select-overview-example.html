@@ -1,0 +1,24 @@
+<form [formGroup]="countryForm" (ngSubmit)="onSubmit()">
+  <mat-form-field appearance="outline">
+    <mat-label>Countries</mat-label>
+    <mat-select
+      formControlName="countryControl"
+      multiple
+      [compareWith]="countryCompareWithFn"
+    >
+      <mat-option *ngFor="let country of countries" [value]="country">
+        {{ country.name }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</form>
+<div>
+  <button
+    mat-raised-button
+    color="accent"
+    type="button"
+    (click)="patchFormWithCountry()"
+  >
+    Patch Form
+  </button>
+</div>

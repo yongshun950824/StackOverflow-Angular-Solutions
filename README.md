@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [79125752][23] | [Angular Reactive Form - Issue when patching form control with object instead of value][24] |
 | [79220004][21] | [Edit "Cruceros" with tituloQueHacer returning key-value pair: "descripcion: value" instead of string in the array][22] |
 | [79239270][19] | [Angular - ngx-datepicker validation not working as expected][20] |
 | [79301084][17] | [Angular Reactive Form - Multiple parsing errors when trying to implement multiple step form][18] |
@@ -70,3 +71,6 @@ npm start
 
 [21]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79220004
 [22]: https://stackoverflow.com/questions/79220004/edit-cruceros-with-tituloquehacer-returning-key-value-pair-descripcion-valu/79221598#79221598
+
+[23]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79125752
+[24]: https://stackoverflow.com/questions/79125752/angular-reactive-form-issue-when-patching-form-control-with-object-instead-of/79125766#79125766
