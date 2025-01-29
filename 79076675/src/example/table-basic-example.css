@@ -1,0 +1,16 @@
+/* table {
+  width: 100%;
+} */
+
+.table {
+  width: 100%;
+  margin: 50px;
+}
+
+.mat-column-id {
+  width: 32px;
+  border-right: 1px solid black;
+  color: red;
+  /* padding: 0; */
+  max-width: 32px;
+}
