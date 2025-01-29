@@ -11,7 +11,7 @@ import { MyModalComponent } from './my-modal/my-modal.component';
   declarations: [NgbdModalComponent, MyModalComponent],
   exports: [NgbdModalComponent],
   bootstrap: [NgbdModalComponent],
-  entryComponents: [MyModalComponent],
+  //entryComponents: [MyModalComponent],
   providers: [],
 })
 export class NgbdModalComponentModule {}

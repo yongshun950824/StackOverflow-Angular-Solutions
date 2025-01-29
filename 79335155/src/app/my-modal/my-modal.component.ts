@@ -5,8 +5,10 @@ import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
   selector: 'app-my-modal',
   templateUrl: './my-modal.component.html',
   styleUrls: ['./my-modal.component.css'],
+  standalone: false
 })
 export class MyModalComponent implements OnInit {
+  name = ''
   constructor(public activeModal: NgbActiveModal) {}
 
   ngOnInit() {}
