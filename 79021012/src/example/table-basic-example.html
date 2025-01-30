@@ -1,0 +1,94 @@
+<div *ngFor="let rc of filteredSizeCode; let i = index" class="table-responsive table-content">
+  <h3 class="text-primary mt-1 mb-3">
+    Unit Type : {{rc.unitTypeSizeConcat[0]}}
+  </h3>
+  <table
+    mat-table
+    [dataSource]="datasources[i]"
+    matSort
+    class="mat-elevation-z8"
+    matSortDisableClear
+  >
+    <ng-container matColumnDef="unitRateType">
+      <th
+        class="centered-sorted-header"
+        mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+      >
+        Unit Rate Filter
+      </th>
+      <td mat-cell *matCellDef="let row; let i=index">
+        {{row.list.unitRateType}}
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="rateChangeType">
+      <th
+        class="centered-sorted-header"
+        mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+      >
+        Rate Change Type
+      </th>
+      <td mat-cell *matCellDef="let row; let i=index">
+        {{row.list.rateChangeType}}
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="effectiveDate">
+      <th
+        class="centered-sorted-header"
+        mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+      >
+        Effective Date
+      </th>
+      <td mat-cell *matCellDef="let row; let i=index">
+        {{row.list.effectiveDate | date: 'MM-dd-yyyy'}}
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="noticeDays">
+      <th
+        class="centered-sorted-header"
+        mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+      >
+        Notice Days
+      </th>
+      <td mat-cell *matCellDef="let row; let i=index ">
+        {{row.list.noticeDays}}
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="value">
+      <th
+        style="padding-left: 28px"
+        mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+      >
+        Value
+      </th>
+      <td mat-cell *matCellDef="let row; let i=index">
+        {{ row.list.rateChangeType == 'Rotating Fixed Amount' || row.list.rateChangeType == 'One Time Only Fixed Amount' ? '$' : null }}
+        {{ row.list.value }} {{ row.list.rateChangeType == 'Rotating Fixed Percentage' || row.list.rateChangeType == 'One Time Only Fixed Percentage' ? '%' : null }}
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="recurringPeriod">
+      <th
+        style="padding-left: 28px"
+        mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+      >
+        Recurring Period
+      </th>
+      <td mat-cell *matCellDef="let row; let i=index">
+        {{row.list.recurringPeriod ? row.list.recurringPeriod : null}}
+      </td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>
