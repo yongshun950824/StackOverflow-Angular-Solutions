@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [79033592][35] | [Angular 18 - Route to nested components][36] |
 | [79061554][33] | [Angular Reactive Form - ng-select in form array works remotely but fails when it's online][34] |
 | [79064582][31] | [<mat-form-field> component doesn't work properly with FormArray and formGroupName][32] |
 | [79072225][29] | [Accessing Angular Typed Form Property from a FormArray in the HTML Template][30] |
@@ -94,3 +95,6 @@ npm start
 
 [33]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79061554
 [34]: https://stackoverflow.com/questions/79061554/angular-reactive-form-ng-select-in-form-array-works-remotely-but-fails-when-it/79064021#79064021
+
+[35]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79033592
+[36]: https://stackoverflow.com/questions/79033592/angular-18-route-to-nested-components/79033661#79033661
