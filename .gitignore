@@ -1,3 +1,5 @@
 #dependencies
+**/dist
+**/.vscode
 **/.angular
 **/node_modules
