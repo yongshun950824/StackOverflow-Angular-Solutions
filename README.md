@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78994055][43] | [Flowbite date-range-picker: How to get selected dates? (angular)][44] |
 | [79021012][41] | [Passing generic Pipe that implements PipeTransform in Angular][42] |
 | [79025867][39] | [Angular Material - How to display data with the loop in the mat-table][40] |
 | [79030597][37] | [Angular Material - How to sort the data for mat-table in the loop][38] |
@@ -110,3 +111,6 @@ npm start
 
 [41]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79021012
 [42]: https://stackoverflow.com/questions/79021012/passing-generic-pipe-that-implements-pipetransform-in-angular/79021477#79021477
+
+[43]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78994055
+[44]: https://stackoverflow.com/questions/78994055/flowbite-date-range-picker-how-to-get-selected-dates-angular/78994310#78994310
