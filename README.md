@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [79025867][39] | [Angular Material - How to display data with the loop in the mat-table][40] |
 | [79030597][37] | [Angular Material - How to sort the data for mat-table in the loop][38] |
 | [79033592][35] | [Angular 18 - Route to nested components][36] |
 | [79061554][33] | [Angular Reactive Form - ng-select in form array works remotely but fails when it's online][34] |
@@ -102,3 +103,6 @@ npm start
 
 [37]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79030597
 [38]: https://stackoverflow.com/questions/79030597/angular-material-how-to-sort-the-data-for-mat-table-in-the-loop/79030711#79030711
+
+[39]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79025867
+[40]: https://stackoverflow.com/questions/79025867/angular-material-how-to-display-data-with-the-loop-in-the-mat-table/79026302#79026302
