@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78954885][47] | [Angular 11 - Route using named outlet redirects to '/'][48] |
 | [78959015][45] | [Mat Table using titles of header with spaces][46] |
 | [78994055][43] | [Flowbite date-range-picker: How to get selected dates? (angular)][44] |
 | [79021012][41] | [Passing generic Pipe that implements PipeTransform in Angular][42] |
@@ -118,3 +119,6 @@ npm start
 
 [45]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78959015
 [46]: https://stackoverflow.com/questions/78959015/mat-table-using-titles-of-header-with-spaces/78959195#78959195
+
+[47]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78954885
+[48]: https://stackoverflow.com/questions/78954885/angular-11-route-using-named-outlet-redirects-to/78955233#78955233
