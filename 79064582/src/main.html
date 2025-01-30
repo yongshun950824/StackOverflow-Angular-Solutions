@@ -1,0 +1,27 @@
+<form [formGroup]="formMain">
+  <div formArrayName="details">
+    <div
+      *ngFor="let detail of detailsFormArray.controls; index as i"
+      [formGroupName]="i"
+    >
+      <mat-form-field appearance="fill">
+        <mat-label>Label of a detail</mat-label>
+        <input id="detail-label" matInput type="text" formControlName="label" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Description of a detail</mat-label>
+        <input
+          id="detail-description"
+          matInput
+          type="text"
+          formControlName="description"
+        />
+      </mat-form-field>
+    </div>
+  </div>
+</form>
+
+<br />
+
+<button type="button" (click)="addDetails()">+ Add Details</button>

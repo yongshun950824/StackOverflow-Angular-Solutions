@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [79064582][31] | [<mat-form-field> component doesn't work properly with FormArray and formGroupName][32] |
 | [79072225][29] | [Accessing Angular Typed Form Property from a FormArray in the HTML Template][30] |
 | [79076675][27] | [Angular Material Table - How to specify the width of a column][28] |
 | [79103801][25] | [How to pass array with multiple objects to Angular FormControl?][26] |
@@ -86,3 +87,6 @@ npm start
 
 [29]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79072225
 [30]: https://stackoverflow.com/questions/79072225/accessing-angular-typed-form-property-from-a-formarray-in-the-html-template/79072390#79072390
+
+[31]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79064582
+[32]: https://stackoverflow.com/questions/79064582/mat-form-field-component-doesnt-work-properly-with-formarray-and-formgroupnam/79064619#79064619
