@@ -1,0 +1,51 @@
+<div class="container mt-3">
+  <form [formGroup]="currencyForm" class="row g-3">
+    <div class="col-md-5" formArrayName="currencies">
+      <button
+        type="button"
+        class="btn btn-sm btn-secondary"
+        (click)="addCurrency()"
+      >
+        Add Currency
+      </button>
+
+      <div
+        *ngFor="let currency of currencies.controls; let idx = index;"
+        [formGroupName]="idx"
+      >
+        <div class="row">
+          <div class="col-4">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Currency Code"
+              formControlName="code"
+              maxlength="3"
+              [class.is-valid]="getCurrencyFormGroupByIndex(idx).get('code')!.valid"
+              [class.is-invalid]="getCurrencyFormGroupByIndex(idx).get('code')!.invalid"
+            />
+          </div>
+          <div class="col-6">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Currency Label"
+              formControlName="label"
+              [class.is-valid]="getCurrencyFormGroupByIndex(idx).get('label')!.valid"
+              [class.is-invalid]="getCurrencyFormGroupByIndex(idx).get('label')!.invalid"
+            />
+          </div>
+          <div class="col-2">
+            <button
+              type="button"
+              class="btn btn-danger"
+              (click)="removeCurrency(idx)"
+            >
+              Remove
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
