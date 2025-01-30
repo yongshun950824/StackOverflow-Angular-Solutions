@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78959015][45] | [Mat Table using titles of header with spaces][46] |
 | [78994055][43] | [Flowbite date-range-picker: How to get selected dates? (angular)][44] |
 | [79021012][41] | [Passing generic Pipe that implements PipeTransform in Angular][42] |
 | [79025867][39] | [Angular Material - How to display data with the loop in the mat-table][40] |
@@ -114,3 +115,6 @@ npm start
 
 [43]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78994055
 [44]: https://stackoverflow.com/questions/78994055/flowbite-date-range-picker-how-to-get-selected-dates-angular/78994310#78994310
+
+[45]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78959015
+[46]: https://stackoverflow.com/questions/78959015/mat-table-using-titles-of-header-with-spaces/78959195#78959195
