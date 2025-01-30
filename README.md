@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [79030597][37] | [Angular Material - How to sort the data for mat-table in the loop][38] |
 | [79033592][35] | [Angular 18 - Route to nested components][36] |
 | [79061554][33] | [Angular Reactive Form - ng-select in form array works remotely but fails when it's online][34] |
 | [79064582][31] | [<mat-form-field> component doesn't work properly with FormArray and formGroupName][32] |
@@ -98,3 +99,6 @@ npm start
 
 [35]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79033592
 [36]: https://stackoverflow.com/questions/79033592/angular-18-route-to-nested-components/79033661#79033661
+
+[37]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79030597
+[38]: https://stackoverflow.com/questions/79030597/angular-material-how-to-sort-the-data-for-mat-table-in-the-loop/79030711#79030711
