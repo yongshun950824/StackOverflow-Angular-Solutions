@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [79061554][33] | [Angular Reactive Form - ng-select in form array works remotely but fails when it's online][34] |
 | [79064582][31] | [<mat-form-field> component doesn't work properly with FormArray and formGroupName][32] |
 | [79072225][29] | [Accessing Angular Typed Form Property from a FormArray in the HTML Template][30] |
 | [79076675][27] | [Angular Material Table - How to specify the width of a column][28] |
@@ -90,3 +91,6 @@ npm start
 
 [31]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79064582
 [32]: https://stackoverflow.com/questions/79064582/mat-form-field-component-doesnt-work-properly-with-formarray-and-formgroupnam/79064619#79064619
+
+[33]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79061554
+[34]: https://stackoverflow.com/questions/79061554/angular-reactive-form-ng-select-in-form-array-works-remotely-but-fails-when-it/79064021#79064021

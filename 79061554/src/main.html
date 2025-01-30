@@ -1,0 +1,108 @@
+<div [formGroup]="pform">
+  <div formArrayName="items">
+    <div *ngFor="let item of items.controls; let i = index">
+      <hr />
+      <h5>Product {{i + 1}}</h5>
+      <div [formGroupName]="i">
+        <div class="row">
+          <!-- Product -->
+          <div class="col-md-4">
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label" for="product"
+                >Product</label
+              >
+              <div class="col-sm-9">
+                <ng-select
+                  formControlName="product"
+                  [compareWith]="compareFn"
+                  [items]="products"
+                  (change)="onSelectProduct($event, i)"
+                  bindLabel="product"
+                  bindValue="product"
+                >
+                  <!-- [formControl]="item?.get('product')" -->
+                </ng-select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Price -->
+          <div class="col-md-1">
+            <div class="form-group row">
+              <!-- <label class="col-xs-3 col-form-label" for="price">P</label> -->
+              <div class="col-xs-6 offset-1">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="price"
+                  placeholder="0"
+                  formControlName="price"
+                  readonly
+                />
+                <!-- [formControl]="item?.get('price')" -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Qty -->
+          <div class="col-md-3">
+            <div class="form-group row">
+              <label class="col-xs-2 offset-1 col-form-label" for="quantity"
+                >Qty</label
+              >
+              <div class="col-xs-6 offset-1">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="quantity"
+                  placeholder="0"
+                  formControlName="quantity"
+                  (change)="calItemTotal(item)"
+                />
+                <!-- [formControl]="item?.get('quantity')" -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Total -->
+          <div class="col-md-3">
+            <div class="form-group row">
+              <label class="col-xs-3 col-form-label" for="total">Amt</label>
+              <div class="col-xs-6 offset-1">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="total"
+                  placeholder="0"
+                  formControlName="total"
+                  readonly
+                />
+                <!-- [formControl]="item?.get('total')" -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Button -->
+          <div class="col-md-1">
+            <div class="form-group row">
+              <span
+                (click)="removeItem(i)"
+                class="btn btn-sm btn-warning btn-rounded btn-fw"
+                ><span><i class="icofont icofont-trash"></i></span
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-1">
+    <div class="form-group row">
+      <span
+        (click)="addItem()"
+        class="btn btn-sm btn-primary btn-rounded btn-fw"
+        ><span><i class="icofont icofont-plus-circle"></i></span
+      ></span>
+    </div>
+  </div>
+</div>
