@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78825229][71] | [Autocomplete not showing suggestions][72] |
 | [78833686][69] | [Autocomplete not showing suggestions][70] |
 | [78853206][67] | [Autocomplete not showing suggestions][68] |
 | [78866666][65] | [ngbAccordion [closeOthers] attribute with *ngFor][66] |
@@ -166,3 +167,6 @@ npm start
 
 [69]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78833686
 [70]: https://stackoverflow.com/questions/78833686/angular-custom-form-validator/78833755#78833755
+
+[71]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78825229
+[72]: https://stackoverflow.com/questions/78825229/angular-directive-change-color-of-button-on-hover/78825438#78825438
