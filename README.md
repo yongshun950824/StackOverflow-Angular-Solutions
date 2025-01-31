@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78910618][53] | [Angular hostDirectives API Not Passing @Input Values Correctly in Composed Directives][54] |
 | [78933942][51] | [Angular: Object key accessible via variable on component but not on HTML][52] |
 | [78942098][49] | [How to hide axes for no data case?][50] |
 | [78954885][47] | [Angular 11 - Route using named outlet redirects to '/'][48] |
@@ -130,3 +131,6 @@ npm start
 
 [51]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78933942
 [52]: https://stackoverflow.com/questions/78933942/angular-object-key-accessible-via-variable-on-component-but-not-on-html/78934078#78934078
+
+[53]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78910618
+[54]: https://stackoverflow.com/questions/78910618/angular-hostdirectives-api-not-passing-input-values-correctly-in-composed-direc/78910650#78910650
