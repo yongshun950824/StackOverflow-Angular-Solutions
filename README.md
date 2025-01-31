@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78884034][59] | [Dynamically select radio button in angular][60] |
 | [78882958][57] | [Angular - How to position a fixed navbar correctly when scrolling to sections with the same ID][58] |
 | [78884869][55] | [Angular: Scroll to a section on page load when navigating to a specific URL fragment][56] |
 | [78910618][53] | [Angular hostDirectives API Not Passing @Input Values Correctly in Composed Directives][54] |
@@ -142,3 +143,6 @@ npm start
 
 [57]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78882958
 [58]: https://stackoverflow.com/questions/78882958/angular-how-to-position-a-fixed-navbar-correctly-when-scrolling-to-sections-wi/78885959#78885959
+
+[59]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78884034
+[60]: https://stackoverflow.com/questions/78884034/dynamically-select-radio-button-in-angular/78884059#78884059

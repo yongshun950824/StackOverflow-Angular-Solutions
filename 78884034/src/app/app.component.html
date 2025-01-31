@@ -1,0 +1,11 @@
+<mat-radio-group [(ngModel)]="selected">
+<mat-radio-button [value]="true">
+	{{ selected }}
+</mat-radio-button>
+</mat-radio-group>
+
+	<button
+			(click)="toggleSelection()"
+		>
+			Toggle selection
+		</button>
