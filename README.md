@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78884869][55] | [Angular: Scroll to a section on page load when navigating to a specific URL fragment][56] |
 | [78910618][53] | [Angular hostDirectives API Not Passing @Input Values Correctly in Composed Directives][54] |
 | [78933942][51] | [Angular: Object key accessible via variable on component but not on HTML][52] |
 | [78942098][49] | [How to hide axes for no data case?][50] |
@@ -134,3 +135,6 @@ npm start
 
 [53]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78910618
 [54]: https://stackoverflow.com/questions/78910618/angular-hostdirectives-api-not-passing-input-values-correctly-in-composed-direc/78910650#78910650
+
+[55]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78884869
+[56]: https://stackoverflow.com/questions/78884869/angular-scroll-to-a-section-on-page-load-when-navigating-to-a-specific-url-frag/78885993#78885993
