@@ -1,0 +1,164 @@
+<h1 class="mt-5">Dynamic accordion - [closeOthers] not working</h1>
+<div ngbAccordion #myAccordion="ngbAccordion" [closeOthers]="true">
+  <ng-container *ngFor="let item of items;let idx = index">
+    <div
+      ngbAccordionItem="{{'panel' + (idx + 1) }}"
+      #first="ngbAccordionItem"
+      [collapsed]="true"
+    >
+      <div
+        ngbAccordionHeader
+        class="accordion-button custom-header justify-content-between"
+      >
+        <p class="m-0">
+          Panel {{item}} - {{ first.collapsed ? 'collapsed' : 'opened' }}
+        </p>
+        <button ngbAccordionToggle class="btn btn-link p-0">Toggle me</button>
+      </div>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+            terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+            skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+            single-origin coffee nulla assumenda shoreditch et. Nihil anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+            sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+            occaecat craft beer farm-to-table, raw denim aesthetic synth
+            nesciunt you probably haven't heard of them accusamus labore
+            sustainable VHS.
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>
+
+<h1 class="mt-5">Fixed accordion - [closeOthers] works</h1>
+
+<div ngbAccordion #accordion="ngbAccordion" [closeOthers]="true">
+  <div
+    ngbAccordionItem="panelone"
+    #panelone="ngbAccordionItem"
+    [collapsed]="true"
+  >
+    <div
+      ngbAccordionHeader
+      class="accordion-button custom-header justify-content-between"
+    >
+      <p class="m-0">
+        Panel 1 - {{ panelone.collapsed ? 'collapsed' : 'opened' }}
+      </p>
+      <button ngbAccordionToggle class="btn btn-link p-0">Toggle</button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+          Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+          single-origin coffee nulla assumenda shoreditch et. Nihil anim
+          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+          sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+          occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+          you probably haven't heard of them accusamus labore sustainable VHS.
+        </ng-template>
+      </div>
+    </div>
+  </div>
+
+  <div
+    ngbAccordionItem="paneltwo"
+    #paneltwo="ngbAccordionItem"
+    [collapsed]="true"
+  >
+    <div
+      ngbAccordionHeader
+      class="accordion-button custom-header justify-content-between"
+    >
+      <p class="m-0">
+        Panel 2 - {{ paneltwo.collapsed ? 'collapsed' : 'opened' }}
+      </p>
+      <button ngbAccordionToggle class="btn btn-link p-0">Toggle</button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+          Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+          single-origin coffee nulla assumenda shoreditch et. Nihil anim
+          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+          sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+          occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+          you probably haven't heard of them accusamus labore sustainable VHS.
+        </ng-template>
+      </div>
+    </div>
+  </div>
+
+  <div
+    ngbAccordionItem="panelthree"
+    #panelthree="ngbAccordionItem"
+    [collapsed]="true"
+  >
+    <div
+      ngbAccordionHeader
+      class="accordion-button custom-header justify-content-between"
+    >
+      <p class="m-0">
+        Panel 3 - {{ panelthree.collapsed ? 'collapsed' : 'opened' }}
+      </p>
+      <button ngbAccordionToggle class="btn btn-link p-0">Toggle</button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+          Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+          single-origin coffee nulla assumenda shoreditch et. Nihil anim
+          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+          sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+          occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+          you probably haven't heard of them accusamus labore sustainable VHS.
+        </ng-template>
+      </div>
+    </div>
+  </div>
+
+  <div
+    ngbAccordionItem="panelfour"
+    #panelfour="ngbAccordionItem"
+    [collapsed]="true"
+  >
+    <div
+      ngbAccordionHeader
+      class="accordion-button custom-header justify-content-between"
+    >
+      <p class="m-0">
+        Panel 4 - {{ panelfour.collapsed ? 'collapsed' : 'opened' }}
+      </p>
+      <button ngbAccordionToggle class="btn btn-link p-0">Toggle</button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+          Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+          single-origin coffee nulla assumenda shoreditch et. Nihil anim
+          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+          sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+          occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+          you probably haven't heard of them accusamus labore sustainable VHS.
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>

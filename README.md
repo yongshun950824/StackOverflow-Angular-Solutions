@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78866666][65] | [ngbAccordion [closeOthers] attribute with *ngFor][66] |
 | [78882009][63] | [Is there a way attach data or ngModel with material tab?][64] |
 | [78882712][61] | [Angular Reactive Form - Get 'formDirective is null' error][62] |
 | [78884034][59] | [Dynamically select radio button in angular][60] |
@@ -154,3 +155,6 @@ npm start
 
 [63]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78882009
 [64]: https://stackoverflow.com/questions/78882009/is-there-a-way-attach-data-or-ngmodel-with-material-tab/78882201#78882201
+
+[65]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78866666
+[66]: https://stackoverflow.com/questions/78866666/ngbaccordion-closeothers-attribute-with-ngfor/78868814#78868814
