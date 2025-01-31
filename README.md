@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78933942][51] | [Angular: Object key accessible via variable on component but not on HTML][52] |
 | [78942098][49] | [How to hide axes for no data case?][50] |
 | [78954885][47] | [Angular 11 - Route using named outlet redirects to '/'][48] |
 | [78959015][45] | [Mat Table using titles of header with spaces][46] |
@@ -126,3 +127,6 @@ npm start
 
 [49]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78942098
 [50]: https://stackoverflow.com/questions/78942098/how-to-hide-axes-for-no-data-case/78942403#78942403
+
+[51]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78933942
+[52]: https://stackoverflow.com/questions/78933942/angular-object-key-accessible-via-variable-on-component-but-not-on-html/78934078#78934078
