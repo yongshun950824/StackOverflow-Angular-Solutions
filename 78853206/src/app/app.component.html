@@ -1,0 +1,64 @@
+<div class="flex flex-1 flex-column h-full">
+  <p-card
+    header="primeNg Autocomplete (straight from lib)"
+    subheader="API Adresse"
+    class="m-2"
+  >
+    <p class="m-0 flex flex-row flex-wrap align-items-baseline">
+      <span class="p-float-label flex mt-3">
+        <p-autoComplete
+          [(ngModel)]="selectedCodePostalCommuneLabel"
+          [minLength]="3"
+          [forceSelection]="true"
+          [suggestions]="suggestionsCodePostalCommune"
+          (completeMethod)="searchCodePostalCommune($event)"
+          (onSelect)="onSelectedCodePostalCommune($event)"
+          (onKeyUp)="onUnselectedCodePostalCommune($event)"
+          (onUnselect)="onUnselectedCodePostalCommune($event)"
+          (onClear)="onUnselectedCodePostalCommune($event)"
+          [size]="50"
+          [showClear]="true"
+        >
+          <ng-template let-feature pTemplate="item">
+            <div class="flex align-items-center gap-2 font-semibold">
+              {{ feature.properties.postcode }} -
+              {{ feature.properties.label }}
+            </div>
+            <div class="flex align-items-center gap-2 text-xs">
+              {{ feature.properties.context }}
+            </div>
+          </ng-template>
+        </p-autoComplete>
+        <label for="float-label">Code postal ou Commune</label>
+      </span>
+    </p>
+  </p-card>
+
+  <p-card
+    header="primeNg Autocomplete (using formly)"
+    subheader="API Adresse"
+    class="m-2"
+  >
+    <p class="m-0 flex flex-row flex-wrap align-items-baseline">
+      <span class="p-float-label flex mt-3">
+        <form [formGroup]="form" *ngIf="fields" class="request-form">
+          <formly-form
+            [model]="model"
+            [fields]="fields"
+            [options]="options"
+            [form]="form"
+          ></formly-form>
+        </form>
+      </span></p
+  ></p-card>
+</div>
+
+<ng-template #featureItemTemplate let-feature>
+  <div class="flex align-items-center gap-2 font-semibold">
+    {{ feature.properties.postcode }} -
+    {{ feature.properties.label }}
+  </div>
+  <div class="flex align-items-center gap-2 text-xs">
+    {{ feature.properties.context }}
+  </div>
+</ng-template>
