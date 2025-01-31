@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78942098][49] | [How to hide axes for no data case?][50] |
 | [78954885][47] | [Angular 11 - Route using named outlet redirects to '/'][48] |
 | [78959015][45] | [Mat Table using titles of header with spaces][46] |
 | [78994055][43] | [Flowbite date-range-picker: How to get selected dates? (angular)][44] |
@@ -122,3 +123,6 @@ npm start
 
 [47]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78954885
 [48]: https://stackoverflow.com/questions/78954885/angular-11-route-using-named-outlet-redirects-to/78955233#78955233
+
+[49]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78942098
+[50]: https://stackoverflow.com/questions/78942098/how-to-hide-axes-for-no-data-case/78942403#78942403
