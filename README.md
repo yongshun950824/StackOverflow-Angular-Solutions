@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78833686][69] | [Autocomplete not showing suggestions][70] |
 | [78853206][67] | [Autocomplete not showing suggestions][68] |
 | [78866666][65] | [ngbAccordion [closeOthers] attribute with *ngFor][66] |
 | [78882009][63] | [Is there a way attach data or ngModel with material tab?][64] |
@@ -162,3 +163,6 @@ npm start
 
 [67]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78853206
 [68]: https://stackoverflow.com/questions/78853206/autocomplete-not-showing-suggestions/78854006#78854006
+
+[69]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78833686
+[70]: https://stackoverflow.com/questions/78833686/angular-custom-form-validator/78833755#78833755
