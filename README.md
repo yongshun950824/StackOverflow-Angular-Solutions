@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78882009][63] | [Is there a way attach data or ngModel with material tab?][64] |
 | [78882712][61] | [Angular Reactive Form - Get 'formDirective is null' error][62] |
 | [78884034][59] | [Dynamically select radio button in angular][60] |
 | [78882958][57] | [Angular - How to position a fixed navbar correctly when scrolling to sections with the same ID][58] |
@@ -150,3 +151,6 @@ npm start
 
 [61]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78882712
 [62]: https://stackoverflow.com/questions/78882712/angular-reactive-form-get-formdirective-is-null-error/78882739#78882739
+
+[63]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78882009
+[64]: https://stackoverflow.com/questions/78882009/is-there-a-way-attach-data-or-ngmodel-with-material-tab/78882201#78882201
