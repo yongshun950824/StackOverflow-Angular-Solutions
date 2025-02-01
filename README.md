@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78597409][109] | [How to Implement a Loading Spinner for HTTP Calls in Angular 17?][110] |
 | [78604475][107] | [Some Material Icons not working with Angular Material][108] |
 | [78611691][105] | [Unable to Fetch Data from JSON File Using HttpClient in Angular 18][106] |
 | [78637327][103] | [Angular - Email pattern validation][104] |
@@ -242,3 +243,6 @@ npm start
 
 [107]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78604475
 [108]: https://stackoverflow.com/questions/78604475/some-material-icons-not-working-with-angular-material/78605027#78605027
+
+[109]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78597409
+[110]: https://stackoverflow.com/questions/78597409/how-to-implement-a-loading-spinner-for-http-calls-in-angular-17/78597463#78597463
