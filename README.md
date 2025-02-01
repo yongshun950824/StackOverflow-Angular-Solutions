@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78714956][87] | [Why doesn't my toggle button work in Angular?][88] |
 | [78718734][85] | [How to bind selected checkbox values to Form Array with FormBuilder][86] |
 | [78727566][83] | [Ngx-mat-select-search: Can't click anything but 'ALL' in my select menu][84] |
 | [78727984][81] | [Nested navigation menu with CdkMenu][82] |
@@ -198,3 +199,6 @@ npm start
 
 [85]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78718734
 [86]: https://stackoverflow.com/questions/78718734/how-to-bind-selected-checkbox-values-to-form-array-with-formbuilder/78718938#78718938
+
+[87]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78714956
+[88]: https://stackoverflow.com/questions/78714956/why-doesnt-my-toggle-button-work-in-angular/78715033#78715033
