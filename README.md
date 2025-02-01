@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78800695][73] | [Autocomplete not showing suggestions][74] |
 | [78825229][71] | [Autocomplete not showing suggestions][72] |
 | [78833686][69] | [Autocomplete not showing suggestions][70] |
 | [78853206][67] | [Autocomplete not showing suggestions][68] |
@@ -170,3 +171,6 @@ npm start
 
 [71]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78825229
 [72]: https://stackoverflow.com/questions/78825229/angular-directive-change-color-of-button-on-hover/78825438#78825438
+
+[73]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78800695
+[74]: https://stackoverflow.com/questions/78800695/form-validation-for-required-fields-on-submit-in-angular-17/78800804#78800804
