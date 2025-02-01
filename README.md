@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78672113][97] | [Angular Material doesn't load certain icons][98] |
 | [78677608][95] | [Angular sentence-case pipe disrupt also existing camel cases?][96] |
 | [78694614][93] | [How to Filter and Handle Input Character Removal][94] |
 | [78709966][91] | [Angular 17 - Auxiliary route][92] |
@@ -218,3 +219,6 @@ npm start
 
 [95]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78677608
 [96]: https://stackoverflow.com/questions/78677608/angular-sentence-case-pipe-disrupt-also-existing-camel-cases/78677700#78677700
+
+[97]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78672113
+[98]: https://stackoverflow.com/questions/78672113/angular-material-doesnt-load-certain-icons/78672138#78672138
