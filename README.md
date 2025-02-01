@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78648508][99] | [Some Material icons are not rendering in my Angular project][100] |
 | [78672113][97] | [Angular Material doesn't load certain icons][98] |
 | [78677608][95] | [Angular sentence-case pipe disrupt also existing camel cases?][96] |
 | [78694614][93] | [How to Filter and Handle Input Character Removal][94] |
@@ -222,3 +223,6 @@ npm start
 
 [97]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78672113
 [98]: https://stackoverflow.com/questions/78672113/angular-material-doesnt-load-certain-icons/78672138#78672138
+
+[99]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78648508
+[100]: https://stackoverflow.com/questions/78648508/some-material-icons-are-not-rendering-in-my-angular-project/78650012#78650012
