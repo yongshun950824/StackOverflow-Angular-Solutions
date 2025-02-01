@@ -26,9 +26,10 @@ npm start
 
 | Project source | Question |
 |-|-|
-| [78800695][73] | [Autocomplete not showing suggestions][74] |
-| [78825229][71] | [Autocomplete not showing suggestions][72] |
-| [78833686][69] | [Autocomplete not showing suggestions][70] |
+| [78790607][75] | [Angular - Why isn't my dropdown list working][76] |
+| [78800695][73] | [Form validation for required fields on Submit in Angular 17][74] |
+| [78825229][71] | [Angular Directive - Change color of button on hover][72] |
+| [78833686][69] | [Angular - Custom form validator][70] |
 | [78853206][67] | [Autocomplete not showing suggestions][68] |
 | [78866666][65] | [ngbAccordion [closeOthers] attribute with *ngFor][66] |
 | [78882009][63] | [Is there a way attach data or ngModel with material tab?][64] |
@@ -174,3 +175,6 @@ npm start
 
 [73]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78800695
 [74]: https://stackoverflow.com/questions/78800695/form-validation-for-required-fields-on-submit-in-angular-17/78800804#78800804
+
+[75]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78790607
+[76]: https://stackoverflow.com/questions/78790607/angular-why-isnt-my-dropdown-list-working/78791095#78791095
