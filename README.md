@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78645195][101] | [Filter nested column in PrimeNG Table (Angular)][102] |
 | [78648508][99] | [Some Material icons are not rendering in my Angular project][100] |
 | [78672113][97] | [Angular Material doesn't load certain icons][98] |
 | [78677608][95] | [Angular sentence-case pipe disrupt also existing camel cases?][96] |
@@ -226,3 +227,6 @@ npm start
 
 [99]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78648508
 [100]: https://stackoverflow.com/questions/78648508/some-material-icons-are-not-rendering-in-my-angular-project/78650012#78650012
+
+[101]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78645195
+[102]: https://stackoverflow.com/questions/78645195/filter-nested-column-in-primeng-table-angular/78645948#78645948
