@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78718734][85] | [How to bind selected checkbox values to Form Array with FormBuilder][86] |
 | [78727566][83] | [Ngx-mat-select-search: Can't click anything but 'ALL' in my select menu][84] |
 | [78727984][81] | [Nested navigation menu with CdkMenu][82] |
 | [78745006][79] | [Subtask is Updated Without Saving and Incorrect Icon Displayed on Reopening Task Dialog][80] |
@@ -194,3 +195,6 @@ npm start
 
 [83]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78727566
 [84]: https://stackoverflow.com/questions/78727566/ngx-mat-select-search-cant-click-anything-but-all-in-my-select-menu/78728227#78728227
+
+[85]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78718734
+[86]: https://stackoverflow.com/questions/78718734/how-to-bind-selected-checkbox-values-to-form-array-with-formbuilder/78718938#78718938

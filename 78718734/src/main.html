@@ -1,0 +1,14 @@
+<form [formGroup]="serviceTaskForm">
+  <ng-container class="demo-select-all-checkboxes" *ngFor="let task of tasks">
+    <mat-checkbox
+      (change)="onCheckboxChange($event, task.itemId)"
+      [checked]="isChecked(task.itemId)"
+    >
+      <!-- {{ previousTask.itemId }} {{ previousTask.invoice}}  -->
+      IdItem {{ task.itemId }} - - Invoice Number {{ task.invoice }}
+    </mat-checkbox>
+    <br />
+  </ng-container>
+</form>
+
+{{ serviceTaskForm.value | json }}
