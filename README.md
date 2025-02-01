@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78713656][89] | [Unable to use an Object's property in templates when imported from a different class][90] |
 | [78714956][87] | [Why doesn't my toggle button work in Angular?][88] |
 | [78718734][85] | [How to bind selected checkbox values to Form Array with FormBuilder][86] |
 | [78727566][83] | [Ngx-mat-select-search: Can't click anything but 'ALL' in my select menu][84] |
@@ -202,3 +203,6 @@ npm start
 
 [87]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78714956
 [88]: https://stackoverflow.com/questions/78714956/why-doesnt-my-toggle-button-work-in-angular/78715033#78715033
+
+[89]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78713656
+[90]: https://stackoverflow.com/questions/78713656/unable-to-use-an-objects-property-in-templates-when-imported-from-a-different-c/78713701#78713701
