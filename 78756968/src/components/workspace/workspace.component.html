@@ -1,0 +1,13 @@
+<h2>workspace</h2>
+
+<button (click)="navigateToExampleList()">
+  Example List (Navigate with component)
+</button>
+
+<br />
+
+<a [routerLink]="['/w', { outlets: { workspace: ['list'] } }]"
+  >Example List (Navigate with routerLink)</a
+>
+
+<router-outlet name="workspace"></router-outlet>

@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78756968][77] | [Error NG04002: Cannot match any routes when navigating to nested route in Angular with named router outlet][78] |
 | [78790607][75] | [Angular - Why isn't my dropdown list working][76] |
 | [78800695][73] | [Form validation for required fields on Submit in Angular 17][74] |
 | [78825229][71] | [Angular Directive - Change color of button on hover][72] |
@@ -178,3 +179,6 @@ npm start
 
 [75]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78790607
 [76]: https://stackoverflow.com/questions/78790607/angular-why-isnt-my-dropdown-list-working/78791095#78791095
+
+[77]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78756968
+[78]: https://stackoverflow.com/questions/78756968/error-ng04002-cannot-match-any-routes-when-navigating-to-nested-route-in-angula/78757155#78757155
