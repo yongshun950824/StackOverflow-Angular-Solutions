@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78637327][103] | [Angular - Email pattern validation][104] |
 | [78645195][101] | [Filter nested column in PrimeNG Table (Angular)][102] |
 | [78648508][99] | [Some Material icons are not rendering in my Angular project][100] |
 | [78672113][97] | [Angular Material doesn't load certain icons][98] |
@@ -230,3 +231,6 @@ npm start
 
 [101]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78645195
 [102]: https://stackoverflow.com/questions/78645195/filter-nested-column-in-primeng-table-angular/78645948#78645948
+
+[103]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78637327
+[104]: https://stackoverflow.com/questions/78637327/angular-email-pattern-validation/78637493#78637493

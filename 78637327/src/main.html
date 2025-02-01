@@ -1,0 +1,24 @@
+<form #form="ngForm" (submit)="submit()">
+  <label for="userEmail">User Email:</label><br />
+  <input
+    type="email"
+    class="userMobile"
+    id="userEmail"
+    name="userEmail"
+    [(ngModel)]="selectedLocker.lockeruseremail"
+    required
+    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.(com|in)$"
+    #email="ngModel"
+  /><br />
+  <ng-container *ngIf="email.errors?.pattern">
+    Invalid email pattern.
+  </ng-container>
+
+  <button [disabled]="!form.form.valid">Submit</button>
+</form>
+
+{{ form.form.valid | json }}
+<!--{{ form.form.errors | json }}
+{{ form.form.value | json }}
+{{ email.errors | json }}
+{{ email.valid | json }}-->
