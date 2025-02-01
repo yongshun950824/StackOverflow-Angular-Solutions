@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78587077][111] | [Angular reactiveForms control - how to pass own input value as input parameter for a validator][112] |
 | [78597409][109] | [How to Implement a Loading Spinner for HTTP Calls in Angular 17?][110] |
 | [78604475][107] | [Some Material Icons not working with Angular Material][108] |
 | [78611691][105] | [Unable to Fetch Data from JSON File Using HttpClient in Angular 18][106] |
@@ -246,3 +247,6 @@ npm start
 
 [109]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78597409
 [110]: https://stackoverflow.com/questions/78597409/how-to-implement-a-loading-spinner-for-http-calls-in-angular-17/78597463#78597463
+
+[111]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78587077
+[112]: https://stackoverflow.com/questions/78587077/angular-reactiveforms-control-how-to-pass-own-input-value-as-input-parameter-f/78587570#78587570
