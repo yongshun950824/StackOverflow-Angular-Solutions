@@ -1,0 +1,25 @@
+<ng-template #childMenu>
+  <div cdkMenu style="display: flex; flex-direction: column">
+    <span *ngFor="let child of items">
+      <!-- Handle branch node menu items -->
+      @if (child.children && child.children.length > 0) {
+      <span>
+        <button
+          cdkMenuItem
+          color="primary"
+          [cdkMenuTriggerFor]="menu.childMenu"
+        >
+          <span>{{ child.displayName }}</span>
+        </button>
+        <app-menu-item #menu [items]="child.children"></app-menu-item>
+      </span>
+      } @if (!child.children || child.children.length === 0) {
+      <span>
+        <button cdkMenuItem [routerLink]="child.route">
+          <span>{{ child.displayName }}</span>
+        </button>
+      </span>
+      }
+    </span>
+  </div>
+</ng-template>

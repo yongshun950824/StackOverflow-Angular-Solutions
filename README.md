@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78727984][81] | [Nested navigation menu with CdkMenu][82] |
 | [78745006][79] | [Subtask is Updated Without Saving and Incorrect Icon Displayed on Reopening Task Dialog][80] |
 | [78756968][77] | [Error NG04002: Cannot match any routes when navigating to nested route in Angular with named router outlet][78] |
 | [78790607][75] | [Angular - Why isn't my dropdown list working][76] |
@@ -186,3 +187,6 @@ npm start
 
 [79]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78745006
 [80]: https://stackoverflow.com/questions/78745006/subtask-is-updated-without-saving-and-incorrect-icon-displayed-on-reopening-task/78745388#78745388
+
+[81]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78727984
+[82]: https://stackoverflow.com/questions/78727984/nested-navigation-menu-with-cdkmenu/78728537#78728537

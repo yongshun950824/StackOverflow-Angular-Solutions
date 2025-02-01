@@ -1,0 +1,21 @@
+<div cdkMenuBar>
+  @for (item of navItems; track item) { @if (item.children &&
+  item.children.length > 0) {
+
+  <button
+    cdkMenuItem
+    [cdkMenuTriggerFor]="menu.childMenu"
+    [disabled]="item.disabled"
+  >
+    {{ item.displayName }}
+  </button>
+  <app-menu-item #menu [items]="item.children"></app-menu-item>
+  } @if (!item.children || item.children.length === 0) {
+  <!-- Leaf node buttons here -->
+
+  <button color="primary" [routerLink]="item.route">
+    {{ item.displayName }}
+  </button>
+
+  } }
+</div>
