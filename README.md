@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78727566][83] | [Ngx-mat-select-search: Can't click anything but 'ALL' in my select menu][84] |
 | [78727984][81] | [Nested navigation menu with CdkMenu][82] |
 | [78745006][79] | [Subtask is Updated Without Saving and Incorrect Icon Displayed on Reopening Task Dialog][80] |
 | [78756968][77] | [Error NG04002: Cannot match any routes when navigating to nested route in Angular with named router outlet][78] |
@@ -190,3 +191,6 @@ npm start
 
 [81]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78727984
 [82]: https://stackoverflow.com/questions/78727984/nested-navigation-menu-with-cdkmenu/78728537#78728537
+
+[83]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78727566
+[84]: https://stackoverflow.com/questions/78727566/ngx-mat-select-search-cant-click-anything-but-all-in-my-select-menu/78728227#78728227

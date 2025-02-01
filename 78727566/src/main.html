@@ -1,0 +1,27 @@
+<mat-form-field appearance="fill" class="matformfield">
+  <mat-label class="matlabel" *ngIf="!selectedModules.length"
+    >Select Modules</mat-label
+  >
+  <mat-select #drop multiple [(ngModel)]="selectedModules">
+    <!--[(ngModel)]="selectedModules"-->
+
+    <!--<input (keyup)="onKey($event)">-->
+    <mat-select-trigger *ngIf="drop.value && drop.value.length">
+      {{ drop.value.length === modules.length ? 'ALL' : drop.value}}
+    </mat-select-trigger>
+    <!--<mat-option class="matoption" (click)="onClick(drop.options, true)" [value]="'ALL'">ALL</mat-option>-->
+    <mat-option>
+      <ngx-mat-select-search [formControl]="control"></ngx-mat-select-search>
+    </mat-option>
+    
+    <mat-option
+      class="matoption"
+      *ngFor="let module of filteredRecords | async"
+      [value]="module"
+      [disabled]="isAllSelected() && module !== 'ALL'"
+      (click)="onClick(drop.options, module === 'ALL')"
+      >{{ module }}</mat-option
+    >
+    <!--[value]="module.value", {{ module.viewValue }}-->
+  </mat-select>
+</mat-form-field>
