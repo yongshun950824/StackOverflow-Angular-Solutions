@@ -1,0 +1,55 @@
+.vertical-divider {
+  display: inline-block;
+  height: 24px;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.12);
+  margin: 0 8px;
+}
+
+.subtasks-container {
+  display: flex;
+  flex-direction: column;
+  max-width: calc(50% - $column-gap-content / 2);
+  padding-bottom: 20px;
+}
+
+.subtask-text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.subtask-text input {
+  flex: 1;
+  margin-left: 8px;
+  outline: none;
+  transition: border-bottom 0.3s;
+}
+
+.subtasks-actions-container {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+mat-icon {
+  cursor: pointer;
+}
+
+.editable {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #29abe2;
+  background-color: #fff;
+}
+
+.read-only {
+  border: none;
+}
+
+.read-only:focus {
+  outline: none;
+  border: none;
+}

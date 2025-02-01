@@ -1,0 +1,68 @@
+<div mat-dialog-title>Create Task</div>
+
+<mat-dialog-content>
+  <form [formGroup]="taskForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+      <mat-label>Title</mat-label>
+      <input
+        matInput
+        formControlName="title"
+        type="text"
+        placeholder="Enter a title"
+      />
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Subtasks</mat-label>
+      <input
+        matInput
+        formControlName="subtasks"
+        type="text"
+        placeholder="Enter a subtask"
+      />
+      <button mat-icon-button matSuffix (click)="addSubtask()" type="button">
+        <mat-icon>add</mat-icon>
+      </button>
+      <div class="vertical-divider" matSuffix></div>
+      <button mat-icon-button matSuffix (click)="clearSubtask()" type="button">
+        <mat-icon>close</mat-icon>
+      </button>
+      <mat-hint>Press enter to add a subtask</mat-hint>
+    </mat-form-field>
+  </form>
+  <!-- SHOW HERE ALL SUBTASKS-->
+
+  <div class="subtasks-container">
+    @for (subtask of subtasks; track subtask){
+    <div class="subtask-text">
+      <span>&#8226;</span>
+      <input
+        [(ngModel)]="subtask.description"
+        type="text"
+        name="subtask"
+        [readonly]="!subtask.isEditable"
+        [ngClass]="{
+          editable: subtask.isEditable,
+          'read-only': !subtask.isEditable
+        }"
+      />
+      <div class="subtasks-actions-container">
+        @if(!subtask.isEditable) {
+        <mat-icon color="primary" (click)="editSubtask($index)">edit</mat-icon>
+        } @if(subtask.isEditable) {
+        <mat-icon color="primary" (click)="saveSubtask($index, subtask)"
+          >save</mat-icon
+        >
+        }
+        <mat-icon color="warn" (click)="deleteSubtask($index)">delete</mat-icon>
+      </div>
+    </div>
+    }
+  </div>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button (click)="onSubmit()" mat-raised-button color="primary" type="submit">
+    Create/Update
+  </button>
+</mat-dialog-actions>
