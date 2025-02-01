@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78611691][105] | [Unable to Fetch Data from JSON File Using HttpClient in Angular 18][106] |
 | [78637327][103] | [Angular - Email pattern validation][104] |
 | [78645195][101] | [Filter nested column in PrimeNG Table (Angular)][102] |
 | [78648508][99] | [Some Material icons are not rendering in my Angular project][100] |
@@ -234,3 +235,6 @@ npm start
 
 [103]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78637327
 [104]: https://stackoverflow.com/questions/78637327/angular-email-pattern-validation/78637493#78637493
+
+[105]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78611691
+[106]: https://stackoverflow.com/questions/78611691/unable-to-fetch-data-from-json-file-using-httpclient-in-angular-18/78611779#78611779
