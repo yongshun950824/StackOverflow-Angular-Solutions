@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78604475][107] | [Some Material Icons not working with Angular Material][108] |
 | [78611691][105] | [Unable to Fetch Data from JSON File Using HttpClient in Angular 18][106] |
 | [78637327][103] | [Angular - Email pattern validation][104] |
 | [78645195][101] | [Filter nested column in PrimeNG Table (Angular)][102] |
@@ -238,3 +239,6 @@ npm start
 
 [105]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78611691
 [106]: https://stackoverflow.com/questions/78611691/unable-to-fetch-data-from-json-file-using-httpclient-in-angular-18/78611779#78611779
+
+[107]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78604475
+[108]: https://stackoverflow.com/questions/78604475/some-material-icons-not-working-with-angular-material/78605027#78605027
