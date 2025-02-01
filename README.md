@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78694614][93] | [How to Filter and Handle Input Character Removal][94] |
 | [78709966][91] | [Angular 17 - Auxiliary route][92] |
 | [78713656][89] | [Unable to use an Object's property in templates when imported from a different class][90] |
 | [78714956][87] | [Why doesn't my toggle button work in Angular?][88] |
@@ -210,3 +211,6 @@ npm start
 
 [91]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78709966
 [92]: https://stackoverflow.com/questions/78709966/angular-17-auxiliary-route/78710039#78710039
+
+[93]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78694614
+[94]: https://stackoverflow.com/questions/78694614/how-to-filter-and-handle-input-character-removal/78694892#78694892

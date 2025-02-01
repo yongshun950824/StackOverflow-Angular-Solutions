@@ -1,0 +1,10 @@
+/* Add application styles & imports to this file! */
+
+input {
+  margin-bottom: 10px;
+}
+
+.task {
+  border: 1px solid #000;
+  margin-bottom: 10px;
+}
