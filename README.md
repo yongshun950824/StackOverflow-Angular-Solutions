@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78677608][95] | [Angular sentence-case pipe disrupt also existing camel cases?][96] |
 | [78694614][93] | [How to Filter and Handle Input Character Removal][94] |
 | [78709966][91] | [Angular 17 - Auxiliary route][92] |
 | [78713656][89] | [Unable to use an Object's property in templates when imported from a different class][90] |
@@ -214,3 +215,6 @@ npm start
 
 [93]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78694614
 [94]: https://stackoverflow.com/questions/78694614/how-to-filter-and-handle-input-character-removal/78694892#78694892
+
+[95]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78677608
+[96]: https://stackoverflow.com/questions/78677608/angular-sentence-case-pipe-disrupt-also-existing-camel-cases/78677700#78677700
