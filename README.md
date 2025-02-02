@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78509299][125] | [Angular Material Drag and Drop: Dragging an item works but not dropping][126] |
 | [78514760][123] | [How to Identify Source and Target Containers in Angular Drag and Drop][124] |
 | [78514411][121] | [NG-Bootstrap - ngbDatepicker with custom template is not auto-closing][122] |
 | [78526039][119] | [How can I retrieve the full object when adding or editing a task instead of just the ID][120] |
@@ -272,5 +273,8 @@ npm start
 [121]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78514411
 [122]: https://stackoverflow.com/questions/78514411/ng-bootstrap-ngbdatepicker-with-custom-template-is-not-auto-closing/78515311#78515311
 
-[123]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78514411
+[123]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78514760
 [124]: https://stackoverflow.com/questions/78514760/how-to-identify-source-and-target-containers-in-angular-drag-and-drop/78515106#78515106
+
+[125]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78509299
+[126]: https://stackoverflow.com/questions/78509299/angular-material-drag-and-drop-dragging-an-item-works-but-not-dropping/78509468#78509468
