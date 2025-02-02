@@ -1,0 +1,27 @@
+<!-- <div *ngIf="getMatchingImage() as info">
+  <img
+    class="empty-cart-img"
+    [src]="info.imageUrl"
+    width="70%"
+    decoding="async"
+    loading="lazy"
+    alt="Empty List"
+  />
+  <figcaption>
+    <ng-content></ng-content>
+  </figcaption>
+</div> -->
+
+@if (getMatchingImage(); as info) {
+<img
+  class="empty-cart-img"
+  [src]="info.imageUrl"
+  width="70%"
+  decoding="async"
+  loading="lazy"
+  alt="Empty List"
+/>
+<figcaption>
+  <ng-content></ng-content>
+</figcaption>
+}
