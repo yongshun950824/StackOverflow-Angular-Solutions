@@ -1,0 +1,17 @@
+<div class="task-status-container">
+  <div class="title-container">
+    <div class="title">{{ taskStatus.value }}</div>
+  </div>
+
+  <div
+    [id]="taskStatus.key"
+    cdkDropList
+    [cdkDropListData]="assignTasksByStatus(taskStatus.key)"
+    (cdkDropListDropped)="drop($event)"
+    class="task-status-container-body"
+  >
+    @for (task of assignTasksByStatus(taskStatus.key);track task.id) {
+    <app-task cdkDrag [task]="task" [cdkDragData]="task"></app-task>
+    }
+  </div>
+</div>
