@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78448907][137] | [Angular 17 - How to indicate both else to same ng-template for *ngIf using @if @else][138] |
 | [78458776][135] | [Angular 16 Reactive Form - Form Control disabled not working][136] |
 | [78461122][133] | [Angular: property binding with the property name constructed inside the loop][134] |
 | [78487909][131] | [Recursive template inside inner @for in Angular 17][132] |
@@ -298,3 +299,6 @@ npm start
 
 [135]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78458776
 [136]: https://stackoverflow.com/questions/78458776/angular-16-reactive-form-form-control-disabled-not-working/78458872#78458872
+
+[137]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78448907
+[138]: https://stackoverflow.com/questions/78448907/angular-17-how-to-indicate-both-else-to-same-ng-template-for-ngif-using-if/78451664#78451664
