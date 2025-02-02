@@ -268,5 +268,5 @@ npm start
 [119]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78526039
 [120]: https://stackoverflow.com/questions/78526039/how-can-i-retrieve-the-full-object-when-adding-or-editing-a-task-instead-of-just/78526146#78526146
 
-[121]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78526039
-[122]: https://stackoverflow.com/questions/78526039/how-can-i-retrieve-the-full-object-when-adding-or-editing-a-task-instead-of-just/78526146#78526146
+[121]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78514411
+[122]: https://stackoverflow.com/questions/78514411/ng-bootstrap-ngbdatepicker-with-custom-template-is-not-auto-closing/78515311#78515311
