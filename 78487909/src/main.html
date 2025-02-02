@@ -1,0 +1,13 @@
+<ng-template #recursiveGroups let-groups>
+  @for (group of groups; track group; let i = $index) { {{ group.name }}
+  <br />
+
+  <ng-container
+    *ngTemplateOutlet="recursiveGroups; context:{ $implicit: group.subGroups }"
+  ></ng-container>
+  }
+</ng-template>
+
+<ng-container
+  *ngTemplateOutlet="recursiveGroups; context:{ $implicit: data }"
+></ng-container>

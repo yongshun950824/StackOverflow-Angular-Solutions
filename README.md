@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78487909][131] | [Recursive template inside inner @for in Angular 17][132] |
 | [78504300][129] | [Subtasks not displaying in form when clicking "editTask"][130] |
 | [78505089][127] | [Angular 17 - In @if syntax, how to store returned value from a function in a variable and use it in the same @if block][128] |
 | [78509299][125] | [Angular Material Drag and Drop: Dragging an item works but not dropping][126] |
@@ -286,3 +287,6 @@ npm start
 
 [129]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78504300
 [130]: https://stackoverflow.com/questions/78504300/subtasks-not-displaying-in-form-when-clicking-edittask/78504354#78504354
+
+[131]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78487909
+[132]: https://stackoverflow.com/questions/78487909/recursive-template-inside-inner-for-in-angular-17/78488391#78488391
