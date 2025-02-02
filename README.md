@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78514411][121] | [NG-Bootstrap - ngbDatepicker with custom template is not auto-closing][122] |
 | [78526039][119] | [How can I retrieve the full object when adding or editing a task instead of just the ID][120] |
 | [78529096][117] | [Why is my bootstrap carrousel not loading on Angular 17 SSR?][118] |
 | [78531280][115] | [How do I return a nested object array using a Signal in Angular/Typescript?][116] |
@@ -266,3 +267,6 @@ npm start
 
 [119]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78526039
 [120]: https://stackoverflow.com/questions/78526039/how-can-i-retrieve-the-full-object-when-adding-or-editing-a-task-instead-of-just/78526146#78526146
+
+[121]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78526039
+[122]: https://stackoverflow.com/questions/78526039/how-can-i-retrieve-the-full-object-when-adding-or-editing-a-task-instead-of-just/78526146#78526146

@@ -1,0 +1,71 @@
+<p>This datepicker uses a custom template month layout.</p>
+
+<ng-template #customMonthYearTemplate let-dp>
+  <div class="p-2">
+    <div class="btn-group d-flex justify-content-end mb-2" role="group">
+      <button
+        type="button"
+        class="btn btn-sm btn-outline-primary"
+        (click)="navigate(dp, -12)"
+      >
+        Prev
+      </button>
+      <button
+        type="button"
+        class="btn btn-sm btn-outline-primary"
+        (click)="today(dp)"
+      >
+        Today
+      </button>
+      <button
+        type="button"
+        class="btn btn-sm btn-outline-primary"
+        (click)="navigate(dp, 12)"
+      >
+        Next
+      </button>
+    </div>
+    <div ngbDatepickerContent>
+      <div class="month-view-datepicker">
+        <div class="months-container">
+          <div
+            *ngFor="let month of dp.state.months"
+            class="month"
+            (click)="selectMonth(month, d2)"
+            [class.selected]="isSelected(month)"
+          >
+            {{ getMonthName(month) }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>
+
+<div class="col-12">
+  <input
+    type="checkbox"
+    class="btn-check"
+    id="btnCheck1"
+    name="d2"
+    autocomplete="off"
+    ngbDatepicker
+    #d2="ngbDatepicker"
+    [displayMonths]="12"
+    [navigation]="'none'"
+    [startDate]="startDate"
+    [minDate]="minDate"
+    [maxDate]="maxDate"
+    [contentTemplate]="customMonthYearTemplate"
+    [positionTarget]="buttonEl"
+  />
+  <label
+    class="btn btn-outline-secondary"
+    for="btnCheck1"
+    (click)="d2.toggle()"
+    type="button"
+    #buttonEl
+  >
+    {{ getMonthName(model) }}
+  </label>
+</div>
