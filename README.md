@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78449124][139] | [Angular Datepicker with format MM.yyyy wants to select day][140] |
 | [78448907][137] | [Angular 17 - How to indicate both else to same ng-template for *ngIf using @if @else][138] |
 | [78458776][135] | [Angular 16 Reactive Form - Form Control disabled not working][136] |
 | [78461122][133] | [Angular: property binding with the property name constructed inside the loop][134] |
@@ -302,3 +303,6 @@ npm start
 
 [137]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78448907
 [138]: https://stackoverflow.com/questions/78448907/angular-17-how-to-indicate-both-else-to-same-ng-template-for-ngif-using-if/78451664#78451664
+
+[139]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78449124
+[140]: https://stackoverflow.com/questions/78449124/angular-datepicker-with-format-mm-yyyy-wants-to-select-day/78449296#78449296
