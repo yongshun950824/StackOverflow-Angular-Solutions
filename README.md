@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78531280][115] | [How do I return a nested object array using a Signal in Angular/Typescript?][116] |
 | [78561845][113] | [Angular reactive form hasValidator return false for custom validator function][114] |
 | [78587077][111] | [Angular reactiveForms control - how to pass own input value as input parameter for a validator][112] |
 | [78597409][109] | [How to Implement a Loading Spinner for HTTP Calls in Angular 17?][110] |
@@ -254,3 +255,6 @@ npm start
 
 [113]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78561845
 [114]: https://stackoverflow.com/questions/78561845/angular-reactive-form-hasvalidator-return-false-for-custom-validator-function/78562676#78562676
+
+[115]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78531280
+[116]: https://stackoverflow.com/questions/78531280/how-do-i-return-a-nested-object-array-using-a-signal-in-angular-typescript/78531331#78531331
