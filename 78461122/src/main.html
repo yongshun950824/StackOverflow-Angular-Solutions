@@ -1,0 +1,7 @@
+<form [formGroup]="myForm">
+  <input
+    type="checkbox"
+    *ngFor="let tier of [1,2,3]"
+    formControlName="tier{{tier}}_eligibility"
+  />
+</form>
