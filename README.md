@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78458776][135] | [Angular 16 Reactive Form - Form Control disabled not working][136] |
 | [78461122][133] | [Angular: property binding with the property name constructed inside the loop][134] |
 | [78487909][131] | [Recursive template inside inner @for in Angular 17][132] |
 | [78504300][129] | [Subtasks not displaying in form when clicking "editTask"][130] |
@@ -294,3 +295,6 @@ npm start
 
 [133]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78461122
 [134]: https://stackoverflow.com/questions/78461122/angular-property-binding-with-the-property-name-constructed-inside-the-loop/78463196#78463196
+
+[135]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78458776
+[136]: https://stackoverflow.com/questions/78458776/angular-16-reactive-form-form-control-disabled-not-working/78458872#78458872
