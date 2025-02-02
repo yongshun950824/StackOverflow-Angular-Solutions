@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78526039][119] | [How can I retrieve the full object when adding or editing a task instead of just the ID][120] |
 | [78529096][117] | [Why is my bootstrap carrousel not loading on Angular 17 SSR?][118] |
 | [78531280][115] | [How do I return a nested object array using a Signal in Angular/Typescript?][116] |
 | [78561845][113] | [Angular reactive form hasValidator return false for custom validator function][114] |
@@ -262,3 +263,6 @@ npm start
 
 [117]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78529096
 [118]: https://stackoverflow.com/questions/78529096/why-is-my-bootstrap-carrousel-not-loading-on-angular-17-ssr/78531266#78531266
+
+[119]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78526039
+[120]: https://stackoverflow.com/questions/78526039/how-can-i-retrieve-the-full-object-when-adding-or-editing-a-task-instead-of-just/78526146#78526146
