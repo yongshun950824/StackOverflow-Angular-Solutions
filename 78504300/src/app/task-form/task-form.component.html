@@ -1,0 +1,29 @@
+<div mat-dialog-title>Edit Task</div>
+
+<mat-dialog-content>
+  <form [formGroup]="taskForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+      <mat-label>Title</mat-label>
+      <input
+        matInput
+        formControlName="title"
+        type="text"
+        placeholder="Enter a title"
+      />
+    </mat-form-field>
+
+    <app-chip-field
+      [control]="subTasksFormControl"
+      [controlTitle]="'subtask'"
+    ></app-chip-field>
+  </form>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-raised-button color="primary" type="submit">
+    {{ data?.task ? 'Update Task' : 'Create Task' }}
+  </button>
+  <button mat-raised-button mat-dialog-close type="button" color="warn">
+    Close
+  </button>
+</mat-dialog-actions>

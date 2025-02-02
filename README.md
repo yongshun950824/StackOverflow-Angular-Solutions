@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78504300][129] | [Subtasks not displaying in form when clicking "editTask"][130] |
 | [78505089][127] | [Angular 17 - In @if syntax, how to store returned value from a function in a variable and use it in the same @if block][128] |
 | [78509299][125] | [Angular Material Drag and Drop: Dragging an item works but not dropping][126] |
 | [78514760][123] | [How to Identify Source and Target Containers in Angular Drag and Drop][124] |
@@ -282,3 +283,6 @@ npm start
 
 [127]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78505089
 [128]: https://stackoverflow.com/questions/78505089/angular-17-in-if-syntax-how-to-store-returned-value-from-a-function-in-a-var/78505137#78505137
+
+[129]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78504300
+[130]: https://stackoverflow.com/questions/78504300/subtasks-not-displaying-in-form-when-clicking-edittask/78504354#78504354
