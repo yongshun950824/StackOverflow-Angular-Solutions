@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78397584][155] | [Angular 17 - How to add errorStateMatcher to Form Array, but one that traverses formGroups at consecutve indices][156] |
 | [78402771][153] | [Split *ngFor data into 2 columns][154] |
 | [78408606][151] | [Getting the inner HTML value from the dropdown][152] |
 | [78411187][149] | [Angular material table multiple header rows mapping][150] |
@@ -334,3 +335,6 @@ npm start
 
 [153]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78402771
 [154]: https://stackoverflow.com/questions/78402771/split-ngfor-data-into-2-columns/78403267#78403267
+
+[155]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78397584
+[156]: https://stackoverflow.com/questions/78397584/angular-17-how-to-add-errorstatematcher-to-form-array-but-one-that-traverses/78398305#78398305
