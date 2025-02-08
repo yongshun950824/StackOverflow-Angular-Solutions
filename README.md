@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78408606][151] | [Getting the inner HTML value from the dropdown][152] |
 | [78411187][149] | [Angular material table multiple header rows mapping][150] |
 | [78424574][147] | [NG-ZORRO - Disable previous date][148] |
 | [78428297][145] | [How to fix AppComponent is standalone, and cannot be declared in an NgModule?][146] |
@@ -326,3 +327,6 @@ npm start
 
 [149]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78411187
 [150]: https://stackoverflow.com/questions/78411187/angular-material-table-multiple-header-rows-mapping/78414244#78414244
+
+[151]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78408606
+[152]: https://stackoverflow.com/questions/78408606/getting-the-inner-html-value-from-the-dropdown/78408678#78408678

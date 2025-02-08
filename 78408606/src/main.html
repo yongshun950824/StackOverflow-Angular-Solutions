@@ -1,0 +1,21 @@
+<ul class="dropdown-menu">
+  <li>
+    <a class="dropdown-item" href="#" (click)="getMyValue('myval1', $event)"
+      >My Value 01</a
+    >
+  </li>
+  <li>
+    <a class="dropdown-item" href="#" (click)="getMyValue('myval2', $event)"
+      >My Value 02</a
+    >
+  </li>
+</ul>
+
+
+<ul class="dropdown-menu">
+  <li *ngFor="let item of items">
+    <a class="dropdown-item" href="#" (click)="getMyValue2(item)"
+    >{{item.label}}</a
+  >
+  </li>
+</ul>
