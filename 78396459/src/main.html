@@ -1,0 +1,118 @@
+<!--<h1>Hello from {{ name }}!</h1>
+    <a target="_blank" href="https://angular.dev/overview">
+      Learn more about Angular
+    </a>-->
+
+<!-- dates info -->
+<form [formGroup]="datesInfo" class="form-group">
+  <!-- dates array -->
+  <div formArrayName="datesArray">
+    @for (date of datesArray; track $index) {
+
+    <ng-container [formGroupName]="$index">
+      <!-- start date -->
+      <mat-form-field class="form-date">
+        <!-- label -->
+        <mat-label> Start Date </mat-label>
+
+        <!-- input -->
+        <input
+          matInput
+          id="startDate-{{$index}}"
+          [matDatepicker]="startDatePicker"
+          [errorStateMatcher]="startDateAfterEndDateMatchers[$index]"
+          [formControl]="formGetters[$index]!.startDate"
+          autocomplete="off"
+          readonly
+          required
+        />
+
+        <!-- hint -->
+        <mat-hint>DD/MM/YYYY</mat-hint>
+
+        <!-- picker -->
+        <mat-datepicker-toggle
+          matIconSuffix
+          [for]="startDatePicker"
+          [disabled]="false"
+        ></mat-datepicker-toggle>
+        <mat-datepicker
+          #startDatePicker
+          [startAt]="(formGetters[$index]?.startDate?.value ?? null)"
+        ></mat-datepicker>
+
+        <!-- errors -->
+        <mat-error
+          *ngIf="formGetters[$index]?.startDate?.invalid
+                  && (formGetters[$index]?.startDate?.dirty || formGetters[$index]?.startDate?.touched)"
+        >
+          @if(formGetters[$index]?.startDate?.errors?.['required']) { Start Date
+          is required. }
+        </mat-error>
+        <mat-error
+          *ngIf="datesInfo.get('datesArray')!.get([$index])?.hasError('startDateAfterEndDate')"
+        >
+          Cannot be after End Date
+        </mat-error>
+      </mat-form-field>
+
+      <!-- end date -->
+      <mat-form-field class="form-date">
+        <!-- label -->
+        <mat-label> End Date </mat-label>
+
+        <!-- input -->
+        <input
+          (keydown)="endDatePicker.open()"
+          (click)="endDatePicker.open()"
+          matInput
+          id="endDate-{{$index}}"
+          [matDatepicker]="endDatePicker"
+          [errorStateMatcher]="startDateAfterEndDateMatchers[$index]"
+          [formControl]="formGetters[$index]!.endDate"
+          autocomplete="off"
+        />
+
+        <!-- hint -->
+        <mat-hint>DD/MM/YYYY</mat-hint>
+
+        <!-- picker -->
+        <mat-datepicker-toggle
+          matIconSuffix
+          [for]="endDatePicker"
+          [disabled]="false"
+        ></mat-datepicker-toggle>
+        <mat-datepicker
+          #endDatePicker
+          [startAt]="(formGetters[$index]?.endDate?.value ?? null)"
+        ></mat-datepicker>
+
+        <!-- errors -->
+        <mat-error
+          *ngIf="formGetters[$index]?.endDate?.invalid
+                  && (formGetters[$index]?.endDate?.dirty || formGetters[$index]?.endDate?.touched)"
+        >
+          @if (formGetters[$index]?.endDate?.errors?.['required']) { 
+            End Date is required. 
+          }
+        </mat-error>
+        <mat-error
+          *ngIf="datesInfo.get('datesArray')!.get([$index])?.hasError('startDateAfterEndDate')"
+        >
+          Cannot be before Start Date
+        </mat-error>
+
+        <!-- {{ datesInfo.get('datesArray')!.get([$index])?.errors | json }}
+        {{ datesInfo.get('datesArray')!.get([$index])?.get('endDate')?.errors | json }}
+        {{ datesInfo.get('datesArray')!.get([$index])?.get('endDate')?.hasError('endDateExceedsStartDate') }}  -->
+
+        <mat-error
+          *ngIf="datesInfo.get('datesArray')!.get([$index])?.get('endDate')?.hasError('endDateExceedsStartDate')"
+        >
+          End Date cannot exceeds any Start Date
+        </mat-error>
+      </mat-form-field>
+    </ng-container>
+    }
+  </div>
+</form>
