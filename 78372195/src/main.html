@@ -1,0 +1,14 @@
+<nav>
+  <ul>
+    <li><a [routerLink]="['/home']">Home</a></li>
+    <li><a [routerLink]="['/some-component']">Some</a></li>
+  </ul>
+</nav>
+
+<div>
+  <router-outlet />
+
+  <div class="details">
+    <router-outlet name="details"></router-outlet>
+  </div>
+</div>

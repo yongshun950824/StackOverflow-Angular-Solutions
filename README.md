@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78372195][167] | [Navigate to top level route in named router from nested components][168] |
 | [78377302][165] | [Angular - Bootstrap 5 Carousel is not working][166] |
 | [78378554][163] | [Angular 17 - Showing empty data when using pipe][164] |
 | [78378979][161] | [Align items to the right and Navbar drop-down menu not working with Angular 17 and Bootstrap 5.3][162] |
@@ -358,3 +359,6 @@ npm start
 
 [165]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78377302
 [166]: https://stackoverflow.com/questions/78377302/angular-bootstrap-5-carousel-is-not-working/78377400#78377400
+
+[167]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78372195
+[168]: https://stackoverflow.com/questions/78372195/navigate-to-top-level-route-in-named-router-from-nested-components/78373258#78373258
