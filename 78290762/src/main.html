@@ -1,0 +1,18 @@
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <ng-container *ngFor="let prop of props">
+        <th>{{prop}}</th>
+      </ng-container>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of output">
+      <td>{{row.name}}</td>
+      <ng-container *ngFor="let prop of props">
+        <th>{{row[prop] ?? 'NA'}}</th>
+      </ng-container>
+    </tr>
+  </tbody>
+</table>

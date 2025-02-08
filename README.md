@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78290762][179] | [Angular 8 - Display array data in table][180] |
 | [78298340][177] | [APP_INITIALIZER - TypeError: appInits is not a function][178] |
 | [78314506][175] | [Angular 17 - How to use async values in object using new @if syntax][176] |
 | [78331421][173] | [Display mat table cell text as hyperlink or text based on another value from API response][174] |
@@ -382,3 +383,6 @@ npm start
 
 [177]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78298340
 [178]: https://stackoverflow.com/questions/78298340/app-initializer-typeerror-appinits-is-not-a-function/78298599#78298599
+
+[179]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78290762
+[180]: https://stackoverflow.com/questions/78290762/angular-8-display-array-data-in-table/78290917#78290917
