@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78402771][153] | [Split *ngFor data into 2 columns][154] |
 | [78408606][151] | [Getting the inner HTML value from the dropdown][152] |
 | [78411187][149] | [Angular material table multiple header rows mapping][150] |
 | [78424574][147] | [NG-ZORRO - Disable previous date][148] |
@@ -330,3 +331,6 @@ npm start
 
 [151]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78408606
 [152]: https://stackoverflow.com/questions/78408606/getting-the-inner-html-value-from-the-dropdown/78408678#78408678
+
+[153]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78402771
+[154]: https://stackoverflow.com/questions/78402771/split-ngfor-data-into-2-columns/78403267#78403267
