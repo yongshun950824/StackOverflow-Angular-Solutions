@@ -1,0 +1,40 @@
+<form
+  action=""
+  class="flex flex-col gap-15 p-10 items-center justify-center border-2 border-black grow-0"
+>
+  <div name="part1" class="flex flex-col p-10 gap-5 bg-red-100">
+    <label for="" class="text-5xl font-bold drop-shadow-md typewriter">
+      <h1 class="">Where do we start?</h1>
+    </label>
+    <select
+      [(ngModel)]="flightSelectionService.startingCity"
+      name="startingCity"
+      id=""
+      class="min-w-[10rem] rounded-lg text-3xl text-center font-semibold bg-white"
+    >
+      <option class="border-black bg-white" value="Warsaw">Warsaw</option>
+    </select>
+  </div>
+  @if(flightSelectionService.startingCity !== ''){
+  <div name="part2" class="flex flex-col gap-5 bg-blue-100 p-10">
+    <label for="" class="text-5xl font-bold drop-shadow-md typewriter">
+      <h1>What is a destination?</h1>
+    </label>
+    <select
+      name="endingCity"
+      id=""
+      class="min-w-[10rem] rounded-lg text-3xl text-center font-semibold bg-white"
+    >
+      <option>Paris</option>
+    </select>
+  </div>
+  }
+  <button
+    routerLink="/find-a-flight/date"
+    class="border-2 border-black rounded-full px-5 py-3 w-fit mx-auto text-lg font-semibold"
+  >
+    Select the date
+  </button>
+</form>
+<p>selected starting city is {{ flightSelectionService.startingCity }}</p>
+<!-- <p>selected ending city is {{ flightSelectionService.endingCity }}</p> -->

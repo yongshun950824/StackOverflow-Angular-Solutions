@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78330889][171] | [Angular ngModel Two-Way Data Binding Not Working with Select Element in Form][172] |
 | [78338672][169] | [How to wait Subscribe to finish and return value from function?][170] |
 | [78372195][167] | [Navigate to top level route in named router from nested components][168] |
 | [78377302][165] | [Angular - Bootstrap 5 Carousel is not working][166] |
@@ -366,3 +367,6 @@ npm start
 
 [169]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78338672
 [170]: https://stackoverflow.com/questions/78338672/how-to-wait-subscribe-to-finish-and-return-value-from-function/78338887#78338887
+
+[171]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78330889
+[172]: https://stackoverflow.com/questions/78330889/angular-ngmodel-two-way-data-binding-not-working-with-select-element-in-form/78331738#78331738
