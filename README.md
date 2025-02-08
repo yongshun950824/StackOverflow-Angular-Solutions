@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78378979][161] | [Align items to the right and Navbar drop-down menu not working with Angular 17 and Bootstrap 5.3][162] |
 | [78393854][159] | [Angular - Validator not working when pasting the value to control with Phone Directive to format value][160] |
 | [78396459][157] | [Angular - Cannot get ErrorStateMatcher to work with FormGroup inside a FormArray][158] |
 | [78397584][155] | [Angular 17 - How to add errorStateMatcher to Form Array, but one that traverses formGroups at consecutve indices][156] |
@@ -346,3 +347,6 @@ npm start
 
 [159]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78393854
 [160]: https://stackoverflow.com/questions/78393854/angular-validator-not-working-when-pasting-the-value-to-control-with-phone-dir/78394113#78394113
+
+[161]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78378979
+[162]: https://stackoverflow.com/questions/78378979/align-items-to-the-right-and-navbar-drop-down-menu-not-working-with-angular-17-a/78379116#78379116
