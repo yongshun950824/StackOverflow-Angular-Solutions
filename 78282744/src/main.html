@@ -1,0 +1,45 @@
+<h3>Form with Form Array</h3>
+<form [formGroup]="form">
+  <div formArrayName="properties">
+    <ng-container
+      *ngFor="let propertiesForm of properties.controls; let i = index"
+    >
+      <div [formGroupName]="i">
+        <label>Label: </label>
+        <input formControlName="label" />
+        <br />
+
+        <label>Value: </label>
+        <input formControlName="value" />
+      </div>
+      <hr />
+    </ng-container>
+  </div>
+</form>
+
+<span>Form value</span>
+<p>{{ form.value | json }}</p>
+
+<hr />
+
+<h3>Form (2) with Form Group</h3>
+<form [formGroup]="form2">
+  <div formGroupName="properties">
+    <ng-container
+      *ngFor="let propertiesForm of propertiesFormGroup.controls | keyvalue;"
+    >
+      <div [formGroupName]="propertiesForm.key">
+        <label>Label: </label>
+        <input formControlName="label" />
+        <br />
+
+        <label>Value: </label>
+        <input formControlName="value" />
+      </div>
+      <hr />
+    </ng-container>
+  </div>
+</form>
+
+<span>Form value</span>
+<p>{{ form2.value | json }}</p>
