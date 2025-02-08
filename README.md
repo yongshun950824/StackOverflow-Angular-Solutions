@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78234690][185] | [navbar not appear in the result?][186] |
 | [78281868][183] | [Angular Ionic Reactive Form: Form Not Displaying][184] |
 | [78282744][181] | [FormArray with nested FormGroups. How to access the nested form group controls?][182] |
 | [78290762][179] | [Angular 8 - Display array data in table][180] |
@@ -394,3 +395,6 @@ npm start
 
 [183]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78281868
 [184]: https://stackoverflow.com/questions/78281868/angular-ionic-reactive-form-form-not-displaying/78282856#78282856
+
+[185]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78234690
+[186]: https://stackoverflow.com/questions/78234690/navbar-not-appear-in-the-result/78236508#78236508
