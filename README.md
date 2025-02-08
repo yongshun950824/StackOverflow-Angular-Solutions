@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78338672][169] | [How to wait Subscribe to finish and return value from function?][170] |
 | [78372195][167] | [Navigate to top level route in named router from nested components][168] |
 | [78377302][165] | [Angular - Bootstrap 5 Carousel is not working][166] |
 | [78378554][163] | [Angular 17 - Showing empty data when using pipe][164] |
@@ -362,3 +363,6 @@ npm start
 
 [167]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78372195
 [168]: https://stackoverflow.com/questions/78372195/navigate-to-top-level-route-in-named-router-from-nested-components/78373258#78373258
+
+[169]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78338672
+[170]: https://stackoverflow.com/questions/78338672/how-to-wait-subscribe-to-finish-and-return-value-from-function/78338887#78338887
