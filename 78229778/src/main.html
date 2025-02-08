@@ -1,0 +1,53 @@
+<form #f="ngForm">
+  <div class="form-group">
+    <label>Password</label>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Password"
+      #pas1="ngModel"
+      [class.is-invalid]="pas1.invalid && (pas1.dirty||pas1.touched)"
+      pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{12,30})"
+      required
+      class="form-control"
+      [(ngModel)]="user.pas1"
+      class="form-control"
+      name="pas1"
+      required
+    />
+    <section *ngIf="pas1.invalid && (pas1.dirty||pas1.touched)">
+      <small class="text-danger" *ngIf="pas1.hasError('required')">
+        Password is <strong>required</strong>
+      </small>
+      <small class="text-danger" *ngIf="pas1.hasError('pattern')">
+        Password must be atleast
+        <strong
+          >12 characters long, must have a special character, a capital letter
+          and a small letter</strong
+        >
+      </small>
+    </section>
+  </div>
+  <div class="form-group">
+    <label>Confirm Password</label>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Confirm Password"
+      #pas2="ngModel"
+      [class.is-invalid]="pas2.invalid && checkPass(pas1,pas2)"
+      [(ngModel)]="user.pas2"
+      name="pas2"
+      (keyup)="checkPass(pas1,pas2)"
+      required
+    />
+    <section *ngIf="pas2.invalid && (pas2.dirty||pas2.touched)">
+      <small class="text-danger" *ngIf="pas2.hasError('required')">
+        <strong>Mandatory field</strong>
+      </small>
+      <small class="text-danger" *ngIf="pas2.hasError('noMatch')">
+        <strong>Password did not match</strong>
+      </small>
+    </section>
+  </div>
+</form>
