@@ -1,0 +1,12 @@
+@if({ test: test$ | async, anotherOne: anotherOne$ | async }; as data) { @if
+(data.test?.length) {
+<span>Show something 1</span>
+} }
+
+<br />
+
+<!-- @if(combine$ | async; as data) { 
+  @if (data.test?.length) {
+    <span>Show something 2</span>
+  } 
+} -->

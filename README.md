@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78314506][175] | [Angular 17 - How to use async values in object using new @if syntax][176] |
 | [78331421][173] | [Display mat table cell text as hyperlink or text based on another value from API response][174] |
 | [78330889][171] | [Angular ngModel Two-Way Data Binding Not Working with Select Element in Form][172] |
 | [78338672][169] | [How to wait Subscribe to finish and return value from function?][170] |
@@ -374,3 +375,6 @@ npm start
 
 [173]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78331421
 [174]: https://stackoverflow.com/questions/78331421/display-mat-table-cell-text-as-hyperlink-or-text-based-on-another-value-from-api/78331578#78331578
+
+[175]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78314506
+[176]: https://stackoverflow.com/questions/78314506/angular-17-how-to-use-async-values-in-object-using-new-if-syntax/78314548#78314548
