@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78331421][173] | [Display mat table cell text as hyperlink or text based on another value from API response][174] |
 | [78330889][171] | [Angular ngModel Two-Way Data Binding Not Working with Select Element in Form][172] |
 | [78338672][169] | [How to wait Subscribe to finish and return value from function?][170] |
 | [78372195][167] | [Navigate to top level route in named router from nested components][168] |
@@ -370,3 +371,6 @@ npm start
 
 [171]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78330889
 [172]: https://stackoverflow.com/questions/78330889/angular-ngmodel-two-way-data-binding-not-working-with-select-element-in-form/78331738#78331738
+
+[173]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78331421
+[174]: https://stackoverflow.com/questions/78331421/display-mat-table-cell-text-as-hyperlink-or-text-based-on-another-value-from-api/78331578#78331578
