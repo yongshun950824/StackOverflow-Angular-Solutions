@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78378554][163] | [Angular 17 - Showing empty data when using pipe][164] |
 | [78378979][161] | [Align items to the right and Navbar drop-down menu not working with Angular 17 and Bootstrap 5.3][162] |
 | [78393854][159] | [Angular - Validator not working when pasting the value to control with Phone Directive to format value][160] |
 | [78396459][157] | [Angular - Cannot get ErrorStateMatcher to work with FormGroup inside a FormArray][158] |
@@ -350,3 +351,6 @@ npm start
 
 [161]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78378979
 [162]: https://stackoverflow.com/questions/78378979/align-items-to-the-right-and-navbar-drop-down-menu-not-working-with-angular-17-a/78379116#78379116
+
+[163]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78378554
+[164]: https://stackoverflow.com/questions/78378554/angular-17-showing-empty-data-when-using-pipe/78378702#78378702
