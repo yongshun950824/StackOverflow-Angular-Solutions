@@ -1,0 +1,39 @@
+<table mat-table [dataSource]="transformDataSource" class="mat-elevation-z8">
+  <ng-container *ngFor="let column of displayedColumns">
+    <ng-container matColumnDef="{{column}}">
+      <th mat-header-cell *matHeaderCellDef>
+        <ng-container
+          [ngTemplateOutlet]="headerTemplate"
+          [ngTemplateOutletContext]="{ $implicit: column }"
+        >
+        </ng-container>
+      </th>
+      <td mat-cell *matCellDef="let element">{{element[column]}}</td>
+    </ng-container>
+  </ng-container>
+
+  <ng-container *ngFor="let headerColumn of firstHeaderColumns">
+    <ng-container matColumnDef="{{headerColumn}}">
+      <th
+        mat-header-cell
+        *matHeaderCellDef
+        [attr.colspan]="headerColumn != '_' ? 2 : 1"
+        [style.text-align]="'center'"
+      >
+        {{headerColumn != '_' ? headerColumn : '' }}
+      </th>
+    </ng-container>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="firstHeaderColumns"></tr>
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+
+<ng-template let-prop #headerTemplate>
+  <ng-container [ngSwitch]="prop.split('_')[0]" [style.text-align]="'center'">
+    <ng-container *ngSwitchCase="'artistName'">Artist</ng-container>
+    <ng-container *ngSwitchCase="'percentage'">Perc %</ng-container>
+    <ng-container *ngSwitchCase="'value'">Value %</ng-container>
+  </ng-container>
+</ng-template>

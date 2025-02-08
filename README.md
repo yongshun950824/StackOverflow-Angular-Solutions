@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78411187][149] | [Angular material table multiple header rows mapping][150] |
 | [78424574][147] | [NG-ZORRO - Disable previous date][148] |
 | [78428297][145] | [How to fix AppComponent is standalone, and cannot be declared in an NgModule?][146] |
 | [78440948][143] | [Angular Material - Chips with Email validation][144] |
@@ -322,3 +323,6 @@ npm start
 
 [147]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78424574
 [148]: https://stackoverflow.com/questions/78424574/ng-zorro-disable-previous-date/78424688#78424688
+
+[149]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78411187
+[150]: https://stackoverflow.com/questions/78411187/angular-material-table-multiple-header-rows-mapping/78414244#78414244
