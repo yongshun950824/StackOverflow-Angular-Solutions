@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78446333][141] | [Angular Mat Pagination and Mat Sort are not working][142] |
 | [78449124][139] | [Angular Datepicker with format MM.yyyy wants to select day][140] |
 | [78448907][137] | [Angular 17 - How to indicate both else to same ng-template for *ngIf using @if @else][138] |
 | [78458776][135] | [Angular 16 Reactive Form - Form Control disabled not working][136] |
@@ -306,3 +307,6 @@ npm start
 
 [139]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78449124
 [140]: https://stackoverflow.com/questions/78449124/angular-datepicker-with-format-mm-yyyy-wants-to-select-day/78449296#78449296
+
+[141]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78446333
+[142]: https://stackoverflow.com/questions/78446333/angular-mat-pagination-and-mat-sort-are-not-working/78446457#78446457

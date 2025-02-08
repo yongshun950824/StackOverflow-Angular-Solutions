@@ -1,0 +1,26 @@
+{
+  "body": {
+    "httpstatuscode": 200,
+    "AppData": [
+      {
+        "disk": "0",
+        "load": "0.25",
+        "sno": 1,
+        "instances": "Instance1",
+        "cpu": "0",
+        "ram": "0.25"
+      },
+      {
+        "disk": "0",
+        "load": "0",
+        "sno": 2,
+        "instances": "Instance2",
+        "cpu": "0",
+        "ram": "0"
+      }
+    ],
+    "opStatusCode": 2000,
+    "type": "SUCCESS",
+    "message": "DATA RECEIVED SUCCESSFULLY"
+  }
+}
