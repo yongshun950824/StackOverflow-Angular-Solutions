@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78440948][143] | [Angular Material - Chips with Email validation][144] |
 | [78446333][141] | [Angular Mat Pagination and Mat Sort are not working][142] |
 | [78449124][139] | [Angular Datepicker with format MM.yyyy wants to select day][140] |
 | [78448907][137] | [Angular 17 - How to indicate both else to same ng-template for *ngIf using @if @else][138] |
@@ -310,3 +311,6 @@ npm start
 
 [141]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78446333
 [142]: https://stackoverflow.com/questions/78446333/angular-mat-pagination-and-mat-sort-are-not-working/78446457#78446457
+
+[143]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78440948
+[144]: https://stackoverflow.com/questions/78440948/angular-material-chips-with-email-validation/78441167#78441167
