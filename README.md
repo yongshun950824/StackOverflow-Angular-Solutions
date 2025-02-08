@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78428297][145] | [How to fix AppComponent is standalone, and cannot be declared in an NgModule?][146] |
 | [78440948][143] | [Angular Material - Chips with Email validation][144] |
 | [78446333][141] | [Angular Mat Pagination and Mat Sort are not working][142] |
 | [78449124][139] | [Angular Datepicker with format MM.yyyy wants to select day][140] |
@@ -314,3 +315,6 @@ npm start
 
 [143]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78440948
 [144]: https://stackoverflow.com/questions/78440948/angular-material-chips-with-email-validation/78441167#78441167
+
+[145]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78428297
+[146]: https://stackoverflow.com/questions/78428297/how-to-fix-appcomponent-is-standalone-and-cannot-be-declared-in-an-ngmodule/78428511#78428511

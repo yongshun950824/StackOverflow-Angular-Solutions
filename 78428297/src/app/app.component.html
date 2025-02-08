@@ -1,0 +1,7 @@
+<div *ngFor="let gif of gifs">
+  <h2 (click)="redirectToGif(gif)">{{ gif.title }}</h2>
+  <img [src]="gif.src" alt="{{ gif.title }}">
+  <a routerLink="/gifs">View Gifs</a>
+
+</div>
+<router-outlet></router-outlet>
