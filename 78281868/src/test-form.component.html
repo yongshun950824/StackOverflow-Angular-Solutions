@@ -1,0 +1,48 @@
+<form [formGroup]="inputForm" (ngSubmit)="onSubmit()">
+  <ion-list formArrayName="years">
+    <ion-item-group
+      *ngFor="let year of getYearsControls(); let yearIndex = index"
+      [formGroupName]="yearIndex"
+    >
+      <ion-header>
+        <ion-label>Year {{ yearIndex + 1 }}</ion-label>
+      </ion-header>
+      <ion-item>
+        <ion-label>Number of groups</ion-label>
+        <ion-input
+          type="number"
+          formControlName="numGroups"
+          placeholder="Number of groups"
+        ></ion-input>
+      </ion-item>
+      <ng-container formArrayName="groups">
+        <ion-item
+          *ngFor="
+            let group of getGroupsControls(yearIndex);
+            let groupIndex = index
+          "
+        >
+          <ion-label>Number of students</ion-label>
+          <ion-input
+            type="number"
+            formControlName="{{ groupIndex }}"
+            placeholder="Number of students"
+          ></ion-input>
+          <ion-button
+            (click)="removeStudents(yearIndex, groupIndex)"
+            color="danger"
+            fill="clear"
+          >
+            Remove Students
+          </ion-button>
+        </ion-item>
+        <ion-item-divider>
+          <ion-button (click)="addStudents(yearIndex)" expand="block"
+            >Add Number of Students</ion-button
+          >
+        </ion-item-divider>
+      </ng-container>
+    </ion-item-group>
+  </ion-list>
+  <ion-button type="submit" expand="block">Submit</ion-button>
+</form>
