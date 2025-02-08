@@ -1,0 +1,26 @@
+<form [formGroup]="purchaseOrderForm">
+  <div class="col-sm-6 col-md-3 form-group">
+    <div class="label-mini">
+      <span>Issue Date</span>
+    </div>
+    <nz-date-picker
+      nzSize="large"
+      nzPlaceHolder="Choose a date"
+      formControlName="issue_date"
+    >
+    </nz-date-picker>
+  </div>
+
+  <div class="col-sm-6 col-md-3 form-group">
+    <div class="label-mini">
+      <span>Delivery Date</span>
+    </div>
+    <nz-date-picker
+      nzSize="large"
+      nzPlaceHolder="Choose a date"
+      formControlName="delivery_date"
+      [nzDisabledDate]="disabledDeliveryDate"
+    >
+    </nz-date-picker>
+  </div>
+</form>

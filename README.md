@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78424574][147] | [NG-ZORRO - Disable previous date][148] |
 | [78428297][145] | [How to fix AppComponent is standalone, and cannot be declared in an NgModule?][146] |
 | [78440948][143] | [Angular Material - Chips with Email validation][144] |
 | [78446333][141] | [Angular Mat Pagination and Mat Sort are not working][142] |
@@ -318,3 +319,6 @@ npm start
 
 [145]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78428297
 [146]: https://stackoverflow.com/questions/78428297/how-to-fix-appcomponent-is-standalone-and-cannot-be-declared-in-an-ngmodule/78428511#78428511
+
+[147]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78424574
+[148]: https://stackoverflow.com/questions/78424574/ng-zorro-disable-previous-date/78424688#78424688
