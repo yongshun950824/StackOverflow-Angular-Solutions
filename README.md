@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78298340][177] | [APP_INITIALIZER - TypeError: appInits is not a function][178] |
 | [78314506][175] | [Angular 17 - How to use async values in object using new @if syntax][176] |
 | [78331421][173] | [Display mat table cell text as hyperlink or text based on another value from API response][174] |
 | [78330889][171] | [Angular ngModel Two-Way Data Binding Not Working with Select Element in Form][172] |
@@ -378,3 +379,6 @@ npm start
 
 [175]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78314506
 [176]: https://stackoverflow.com/questions/78314506/angular-17-how-to-use-async-values-in-object-using-new-if-syntax/78314548#78314548
+
+[177]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78298340
+[178]: https://stackoverflow.com/questions/78298340/app-initializer-typeerror-appinits-is-not-a-function/78298599#78298599
