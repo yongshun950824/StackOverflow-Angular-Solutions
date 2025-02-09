@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77889873][215] | [Angular ViewChild with Directive as selector returns undefined][216] |
 | [77894265][213] | [routerlink always returns to ' '][214] |
 | [77931867][211] | [Center text in a mat-select's mat-option][212] |
 | [77966361][209] | [Angular 17 - Error when creating reactive dynamic form array with child component][210] |
@@ -454,3 +455,6 @@ npm start
 
 [213]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77894265
 [214]: https://stackoverflow.com/questions/77894265/routerlink-always-returns-to/77894469#77894469
+
+[215]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77889873
+[216]: https://stackoverflow.com/questions/77889873/angular-viewchild-with-directive-as-selector-returns-undefined/77889917#77889917
