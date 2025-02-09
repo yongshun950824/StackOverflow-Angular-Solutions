@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78093681][199] | [Clicking one radio button affects another despite separate FormControl instances][200] |
 | [78098401][197] | [Angular - Get error NG0303 when using *ngFor][198] |
 | [78114502][195] | [Material table not rendering any data][196] |
 | [78158943][193] | [InnerHTML of div is missed after hiding div][194] |
@@ -422,3 +423,6 @@ npm start
 
 [197]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78098401
 [198]: https://stackoverflow.com/questions/78098401/angular-get-error-ng0303-when-using-ngfor/78099277#78099277
+
+[199]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78093681
+[200]: https://stackoverflow.com/questions/78093681/clicking-one-radio-button-affects-another-despite-separate-formcontrol-instances/78094894#78094894
