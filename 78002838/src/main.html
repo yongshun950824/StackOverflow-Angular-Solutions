@@ -1,0 +1,47 @@
+<div class="modal fade" id="messageModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-container class="hidden">
+  <a
+    #openMessage
+    id="open-message"
+    data-bs-toggle="modal"
+    data-bs-target="#messageModal"
+  >
+  </a>
+</ng-container>
+
+<ng-container class="hidden">
+  <div class="nav nav-tab">
+    <a
+      #openTab
+      id="tabclicker"
+      class="nav-link ingredients"
+      role="tab"
+      data-bs-toggle="tab"
+      data-bs-target="#tab-10"
+    ></a>
+  </div>
+</ng-container>
+
+<div class="tab-content">
+  <div class="tab-pane" id="tab-10" role="tabpanel" aria-labelledby="tab10">
+    tab-10
+  </div>
+</div>

@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78002838][207] | [Angular - How to open a Bootstrap tab programmatically][208] |
 | [78051410][205] | [routerLink doesn't navigate to lazy loading modules][206] |
 | [78051951][203] | [routerLink doesn't navigate to lazy loading modules for a named router outlet][204] |
 | [78059169][201] | [How to keep the order in Enum list in Typescript][202] |
@@ -438,3 +439,6 @@ npm start
 
 [205]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78051410
 [206]: https://stackoverflow.com/questions/78051410/routerlink-doesnt-navigate-to-lazy-loading-modules/78051544#78051544
+
+[207]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78002838
+[208]: https://stackoverflow.com/questions/78002838/angular-how-to-open-a-bootstrap-tab-programmatically/78004923#78004923
