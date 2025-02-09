@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77966361][209] | [Angular 17 - Error when creating reactive dynamic form array with child component][210] |
 | [78002838][207] | [Angular - How to open a Bootstrap tab programmatically][208] |
 | [78051410][205] | [routerLink doesn't navigate to lazy loading modules][206] |
 | [78051951][203] | [routerLink doesn't navigate to lazy loading modules for a named router outlet][204] |
@@ -442,3 +443,6 @@ npm start
 
 [207]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78002838
 [208]: https://stackoverflow.com/questions/78002838/angular-how-to-open-a-bootstrap-tab-programmatically/78004923#78004923
+
+[209]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77966361
+[210]: https://stackoverflow.com/questions/77966361/angular-17-error-when-creating-reactive-dynamic-form-array-with-child-componen/77966412#77966412
