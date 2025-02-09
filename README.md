@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78193647][189] | [How to deselect "Select All" option in the mat-select][190] |
 | [78229778][187] | [How to show warning message for unmatched confirm password][188] |
 | [78234690][185] | [navbar not appear in the result?][186] |
 | [78281868][183] | [Angular Ionic Reactive Form: Form Not Displaying][184] |
@@ -402,3 +403,6 @@ npm start
 
 [187]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78229778
 [188]: https://stackoverflow.com/questions/78229778/how-to-show-warning-message-for-unmatched-confirm-password/78229907#78229907
+
+[189]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78229778
+[190]: https://stackoverflow.com/questions/78193647/how-to-deselect-select-all-option-in-the-mat-select/78193959#78193959

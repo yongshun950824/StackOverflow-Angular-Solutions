@@ -1,0 +1,14 @@
+<mat-form-field appearance="fill">
+  <mat-label>Select Months</mat-label>
+  <mat-select multiple matNativeControl required (selectionChange)="onMonthsSelected($event)" [formControl]="selected_months">
+      <mat-option [value]="0" (click)="selectAllMonths(ev)" #ev>Select All</mat-option>   
+      <mat-option *ngFor="let month of months" [value]="month">
+          {{month}}
+      </mat-option>
+  </mat-select>
+</mat-form-field>
+
+
+<!-- Copyright 2024 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at https://angular.io/license -->
