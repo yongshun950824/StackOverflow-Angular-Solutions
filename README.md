@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78114502][195] | [Material table not rendering any data][196] |
 | [78158943][193] | [InnerHTML of div is missed after hiding div][194] |
 | [78185110][191] | [Clicking and removing an item in a for loop also affect another item][192] |
 | [78193647][189] | [How to deselect "Select All" option in the mat-select][190] |
@@ -414,3 +415,6 @@ npm start
 
 [193]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78158943
 [194]: https://stackoverflow.com/questions/78158943/innerhtml-of-div-is-missed-after-hiding-div/78159012#78159012
+
+[195]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78114502
+[196]: https://stackoverflow.com/questions/78114502/material-table-not-rendering-any-data/78115282#78115282
