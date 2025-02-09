@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78098401][197] | [Angular - Get error NG0303 when using *ngFor][198] |
 | [78114502][195] | [Material table not rendering any data][196] |
 | [78158943][193] | [InnerHTML of div is missed after hiding div][194] |
 | [78185110][191] | [Clicking and removing an item in a for loop also affect another item][192] |
@@ -418,3 +419,6 @@ npm start
 
 [195]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78114502
 [196]: https://stackoverflow.com/questions/78114502/material-table-not-rendering-any-data/78115282#78115282
+
+[197]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78098401
+[198]: https://stackoverflow.com/questions/78098401/angular-get-error-ng0303-when-using-ngfor/78099277#78099277
