@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78051410][205] | [routerLink doesn't navigate to lazy loading modules][206] |
 | [78051951][203] | [routerLink doesn't navigate to lazy loading modules for a named router outlet][204] |
 | [78059169][201] | [How to keep the order in Enum list in Typescript][202] |
 | [78093681][199] | [Clicking one radio button affects another despite separate FormControl instances][200] |
@@ -434,3 +435,6 @@ npm start
 
 [203]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78051951
 [204]: https://stackoverflow.com/questions/78051951/routerlink-doesnt-navigate-to-lazy-loading-modules-for-a-named-router-outlet/78052003#78052003
+
+[205]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78051410
+[206]: https://stackoverflow.com/questions/78051410/routerlink-doesnt-navigate-to-lazy-loading-modules/78051544#78051544
