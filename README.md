@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78185110][191] | [Clicking and removing an item in a for loop also affect another item][192] |
 | [78193647][189] | [How to deselect "Select All" option in the mat-select][190] |
 | [78229778][187] | [How to show warning message for unmatched confirm password][188] |
 | [78234690][185] | [navbar not appear in the result?][186] |
@@ -404,5 +405,8 @@ npm start
 [187]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78229778
 [188]: https://stackoverflow.com/questions/78229778/how-to-show-warning-message-for-unmatched-confirm-password/78229907#78229907
 
-[189]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78229778
+[189]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78193647
 [190]: https://stackoverflow.com/questions/78193647/how-to-deselect-select-all-option-in-the-mat-select/78193959#78193959
+
+[191]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78185110
+[192]: https://stackoverflow.com/questions/78185110/clicking-and-removing-an-item-in-a-for-loop-also-affect-another-item/78185309#78185309
