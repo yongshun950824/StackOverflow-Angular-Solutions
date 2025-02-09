@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { provideRouter, RouterOutlet } from '@angular/router';
 import 'zone.js';
-import { routes } from './ app.routes';
+import { routes } from './app.routes';
 import { SideMenuComponent } from './side-menu/side-menu.component';
 
 @Component({
