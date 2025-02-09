@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78051951][203] | [routerLink doesn't navigate to lazy loading modules for a named router outlet][204] |
 | [78059169][201] | [How to keep the order in Enum list in Typescript][202] |
 | [78093681][199] | [Clicking one radio button affects another despite separate FormControl instances][200] |
 | [78098401][197] | [Angular - Get error NG0303 when using *ngFor][198] |
@@ -430,3 +431,6 @@ npm start
 
 [201]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78059169
 [202]: https://stackoverflow.com/questions/78059169/how-to-keep-the-order-in-enum-list-in-typescript/78059386#78059386
+
+[203]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78051951
+[204]: https://stackoverflow.com/questions/78051951/routerlink-doesnt-navigate-to-lazy-loading-modules-for-a-named-router-outlet/78052003#78052003
