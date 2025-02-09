@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77894265][213] | [routerlink always returns to ' '][214] |
 | [77931867][211] | [Center text in a mat-select's mat-option][212] |
 | [77966361][209] | [Angular 17 - Error when creating reactive dynamic form array with child component][210] |
 | [78002838][207] | [Angular - How to open a Bootstrap tab programmatically][208] |
@@ -450,3 +451,6 @@ npm start
 
 [211]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77931867
 [212]: https://stackoverflow.com/questions/77931867/center-text-in-a-mat-selects-mat-option/77931996#77931996
+
+[213]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77894265
+[214]: https://stackoverflow.com/questions/77894265/routerlink-always-returns-to/77894469#77894469
