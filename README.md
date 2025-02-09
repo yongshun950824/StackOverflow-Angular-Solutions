@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77931867][211] | [Center text in a mat-select's mat-option][212] |
 | [77966361][209] | [Angular 17 - Error when creating reactive dynamic form array with child component][210] |
 | [78002838][207] | [Angular - How to open a Bootstrap tab programmatically][208] |
 | [78051410][205] | [routerLink doesn't navigate to lazy loading modules][206] |
@@ -446,3 +447,6 @@ npm start
 
 [209]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77966361
 [210]: https://stackoverflow.com/questions/77966361/angular-17-error-when-creating-reactive-dynamic-form-array-with-child-componen/77966412#77966412
+
+[211]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77931867
+[212]: https://stackoverflow.com/questions/77931867/center-text-in-a-mat-selects-mat-option/77931996#77931996
