@@ -1,0 +1,45 @@
+<div id="demands" class="mb-6 items-center">
+  <div *ngFor="let departmentDemand of departmentDemandList; let i = index">
+    <div class="mb-6 items-center">
+      <p class="w-5/12 mr-4 font-semibold underline">
+        {{i+1}} - {{departmentDemand.DepartmentName }} :
+      </p>
+    </div>
+
+    <div class="mb-6" *ngFor="let demand of departmentDemand.Demands">
+      <div class="flex items-center">
+        <input
+          type="checkbox"
+          name="{{ demand.Name }}"
+          value="{{ demand.Name }}"
+          class="mr-2"
+          checkBoxAccordionTrigger="{{demand.Id}}"
+        />
+        <label for="{{ demand.Id }}">{{ demand.Name }}</label>
+      </div>
+
+      <div class="mt-6 ml-8" [attr.accordion-body]="demand.Id">
+        <div
+          *ngFor="let parameter of demand.Parameters"
+          class="mb-2 items-center flex"
+        >
+          <label [for]="parameter.Id" class="w-3/12 block mr-4"
+            >{{ parameter.Name }} :</label
+          >
+          <input
+            [id]="parameter.Id"
+            [name]="parameter.Name"
+            class="
+              w-7/12
+              px-3
+              py-2
+              border
+              rounded-md
+              focus:outline-none focus:border-blue-200
+            "
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

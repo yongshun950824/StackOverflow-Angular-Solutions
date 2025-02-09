@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78158943][193] | [InnerHTML of div is missed after hiding div][194] |
 | [78185110][191] | [Clicking and removing an item in a for loop also affect another item][192] |
 | [78193647][189] | [How to deselect "Select All" option in the mat-select][190] |
 | [78229778][187] | [How to show warning message for unmatched confirm password][188] |
@@ -410,3 +411,6 @@ npm start
 
 [191]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78185110
 [192]: https://stackoverflow.com/questions/78185110/clicking-and-removing-an-item-in-a-for-loop-also-affect-another-item/78185309#78185309
+
+[193]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78158943
+[194]: https://stackoverflow.com/questions/78158943/innerhtml-of-div-is-missed-after-hiding-div/78159012#78159012
