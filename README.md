@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [78059169][201] | [How to keep the order in Enum list in Typescript][202] |
 | [78093681][199] | [Clicking one radio button affects another despite separate FormControl instances][200] |
 | [78098401][197] | [Angular - Get error NG0303 when using *ngFor][198] |
 | [78114502][195] | [Material table not rendering any data][196] |
@@ -426,3 +427,6 @@ npm start
 
 [199]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78093681
 [200]: https://stackoverflow.com/questions/78093681/clicking-one-radio-button-affects-another-despite-separate-formcontrol-instances/78094894#78094894
+
+[201]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78059169
+[202]: https://stackoverflow.com/questions/78059169/how-to-keep-the-order-in-enum-list-in-typescript/78059386#78059386

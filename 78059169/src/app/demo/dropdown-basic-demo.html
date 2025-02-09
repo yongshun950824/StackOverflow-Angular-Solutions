@@ -1,0 +1,19 @@
+<b>With keyvalue pipe</b><br />
+<p-dropdown
+  [options]="carlist | keyvalue: unsort"
+  [(ngModel)]="car.name"
+  optionLabel="value"
+  optionValue="key"
+  placeholder="Choose"
+></p-dropdown>
+
+<br />
+
+<b>With array</b><br />
+<p-dropdown
+  [options]="carlist | keyvalue: unsort"
+  [(ngModel)]="car.name"
+  optionLabel="value"
+  optionValue="key"
+  placeholder="Choose"
+></p-dropdown>
