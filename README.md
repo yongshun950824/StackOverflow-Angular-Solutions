@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77768661][233] | [Angular - ERROR Error: Cannot find control with name: 's..Address'][234] |
 | [77775061][231] | [Angular API requests for models with relationships to other models on id][232] |
 | [77769508][229] | [Angular Reactive Form - Validation is not working in formGroup][230] |
 | [77780364][227] | [Angular Custom Validation Control doesn't get form value][228] |
@@ -490,3 +491,6 @@ npm start
 
 [231]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77775061
 [232]: https://stackoverflow.com/questions/77775061/angular-api-requests-for-models-with-relationships-to-other-models-on-id/77775654#77775654
+
+[233]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77768661
+[234]: https://stackoverflow.com/questions/77768661/angular-error-error-cannot-find-control-with-name-s-address/77768690#77768690
