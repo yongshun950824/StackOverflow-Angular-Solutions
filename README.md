@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77743491][235] | [Get value of ng-select on form submit][236] |
 | [77768661][233] | [Angular - ERROR Error: Cannot find control with name: 's..Address'][234] |
 | [77775061][231] | [Angular API requests for models with relationships to other models on id][232] |
 | [77769508][229] | [Angular Reactive Form - Validation is not working in formGroup][230] |
@@ -494,3 +495,6 @@ npm start
 
 [233]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77768661
 [234]: https://stackoverflow.com/questions/77768661/angular-error-error-cannot-find-control-with-name-s-address/77768690#77768690
+
+[235]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77743491
+[236]: https://stackoverflow.com/questions/77743491/get-value-of-ng-select-on-form-submit/77743798#77743798

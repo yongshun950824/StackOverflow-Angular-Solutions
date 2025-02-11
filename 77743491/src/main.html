@@ -1,0 +1,60 @@
+<!-- <app-header></app-header> -->
+<div class="container">
+  <div class="row m-5">
+    <div class="col">
+      <div class="card">
+        <div class="card-header">New team creation</div>
+        <div class="card-body">
+          <form #formNewTeam="ngForm" (ngSubmit)="onSubmitNewTeam(formNewTeam)">
+            <div class="mb-3">
+              <label for="teamName" class="form-label">Team Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="teamName"
+                placeholder="Team name"
+                ngModel
+                #teamName="ngModel"
+                name="teamName"
+                required
+                minlength="6"
+                pattern="^[a-zA-Z0-9À-ú.-]{6,}"
+              />
+              <div
+                *ngIf="teamName.errors && formNewTeam.submitted"
+                class="text-danger"
+              >
+                <div *ngIf="teamName.errors['required']">
+                  Team Name is required
+                </div>
+                <div *ngIf="teamName.errors['pattern']">
+                  Your team name must be at least 6 characters long and without
+                  special characters except -
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <ng-select
+                [items]="countries"
+                bindLabel="frenchName"
+                bindValue="id"
+                placeholder="Select a country for your team"
+                ngModel
+                name="countryId"
+              >
+                <ng-template ng-label-tmp let-item="item">
+                  <b>{{item.frenchName}}</b>
+                </ng-template>
+                <ng-template ng-option-tmp let-item="item" let-index="index">
+                  <img height="18" width="25" [src]="item.logo" />
+                  <b style="margin-left: 10px">{{item.frenchName}}</b>
+                </ng-template>
+              </ng-select>
+            </div>
+            <button type="submit" class="btn btn-primary">Create</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
