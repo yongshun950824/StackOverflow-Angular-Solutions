@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77857020][221] | [Check all form fields for a unique value][222] |
 | [77887182][219] | [Angular Material - Disable single dropdown option element based on the selection][220] |
 | [77887348][217] | [PrimeNG pInputTextarea - Placeholder does not appear when [value] attribute is undefined][218] |
 | [77889873][215] | [Angular ViewChild with Directive as selector returns undefined][216] |
@@ -466,3 +467,6 @@ npm start
 
 [219]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77887182
 [220]: https://stackoverflow.com/questions/77887182/angular-material-disable-single-dropdown-option-element-based-on-the-selection/77887350#77887350
+
+[221]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77857020
+[222]: https://stackoverflow.com/questions/77857020/check-all-form-fields-for-a-unique-value/77857154#77857154
