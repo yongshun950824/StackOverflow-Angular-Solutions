@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77887182][219] | [Angular Material - Disable single dropdown option element based on the selection][220] |
 | [77887348][217] | [PrimeNG pInputTextarea - Placeholder does not appear when [value] attribute is undefined][218] |
 | [77889873][215] | [Angular ViewChild with Directive as selector returns undefined][216] |
 | [77894265][213] | [routerlink always returns to ' '][214] |
@@ -462,3 +463,6 @@ npm start
 
 [217]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77887348
 [218]: https://stackoverflow.com/questions/77887348/primeng-pinputtextarea-placeholder-does-not-appear-when-value-attribute-is-u/77887411#77887411
+
+[219]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77887182
+[220]: https://stackoverflow.com/questions/77887182/angular-material-disable-single-dropdown-option-element-based-on-the-selection/77887350#77887350

@@ -1,0 +1,23 @@
+<form [formGroup]="reactiveForm">
+  <mat-form-field>
+    <mat-label>Choose an option</mat-label>
+    <mat-select id="lineOfBusiness" formControlName="lineOfBusiness">
+      <mat-option value="commercial">Commercial</mat-option>
+      <mat-option value="residential">Residential</mat-option>
+      <mat-option value="industrial">Industrial</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Choose an option</mat-label>
+    <mat-select id="psv" formControlName="psv" #psvSelect>
+      <mat-option value="inclinometer">Inclinometer</mat-option>
+      <mat-option value="heil">Heil</mat-option>
+      <mat-option value="radar">Radar</mat-option>
+      <mat-option value="hydraulics">Hydraulics</mat-option>
+      <mat-option value="coretex">Coretex</mat-option>
+    </mat-select>
+  </mat-form-field>
+</form>
+
+
