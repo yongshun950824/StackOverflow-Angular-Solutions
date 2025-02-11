@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77743152][237] | [Showing items in Form Array][238] |
 | [77743491][235] | [Get value of ng-select on form submit][236] |
 | [77768661][233] | [Angular - ERROR Error: Cannot find control with name: 's..Address'][234] |
 | [77775061][231] | [Angular API requests for models with relationships to other models on id][232] |
@@ -498,3 +499,6 @@ npm start
 
 [235]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77743491
 [236]: https://stackoverflow.com/questions/77743491/get-value-of-ng-select-on-form-submit/77743798#77743798
+
+[237]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77743152
+[238]: https://stackoverflow.com/questions/77743152/showing-items-in-form-array/77743767#77743767

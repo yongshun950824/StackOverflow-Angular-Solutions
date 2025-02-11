@@ -1,0 +1,18 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div class="mb-3">
+    <label>Name</label>
+    <input type="text" formControlName="name" />
+  </div>
+  <div class="mb-3">
+    <label>Courses</label>
+    <div formArrayName="courses">
+      <div *ngFor="let course of courses.controls; let i = index">
+        <div [formGroupName]="i">
+          <input type="text" formControlName="name" />
+        </div>
+      </div>
+
+      <button type="button" (click)="addCourse()">Add New Course</button>
+    </div>
+  </div>
+</form>
