@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77769508][229] | [Angular Reactive Form - Validation is not working in formGroup][230] |
 | [77780364][227] | [Angular Custom Validation Control doesn't get form value][228] |
 | [77797038][225] | [Property Undefined but it is Defined Angular][226] |
 | [77850429][223] | [Angular Material 17 styling inactive MatTabs color][224] |
@@ -482,3 +483,6 @@ npm start
 
 [227]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77780364
 [228]: https://stackoverflow.com/questions/77780364/angular-custom-validation-control-doesnt-get-form-value/77780508#77780508
+
+[229]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77769508
+[230]: https://stackoverflow.com/questions/77769508/angular-reactive-form-validation-is-not-working-in-formgroup/77776858#77776858
