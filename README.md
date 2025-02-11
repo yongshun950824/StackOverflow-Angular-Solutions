@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77780364][227] | [Angular Custom Validation Control doesn't get form value][228] |
 | [77797038][225] | [Property Undefined but it is Defined Angular][226] |
 | [77850429][223] | [Angular Material 17 styling inactive MatTabs color][224] |
 | [77857020][221] | [Check all form fields for a unique value][222] |
@@ -478,3 +479,6 @@ npm start
 
 [225]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77797038
 [226]: https://stackoverflow.com/questions/77797038/property-undefined-but-it-is-defined-angular/77797063#77797063
+
+[227]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77780364
+[228]: https://stackoverflow.com/questions/77780364/angular-custom-validation-control-doesnt-get-form-value/77780508#77780508

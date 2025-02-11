@@ -1,0 +1,9 @@
+<form [formGroup]="sampleForm">
+  Password: <input type="password" formControlName="password" />
+  <br />
+  Confirm Password: <input type="password" formControlName="confirmPwd" />
+
+  <small *ngIf="cpwdError">
+    Confirm Password not matched.
+  </small>
+</form>
