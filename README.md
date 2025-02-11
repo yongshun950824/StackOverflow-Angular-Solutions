@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77887348][217] | [PrimeNG pInputTextarea - Placeholder does not appear when [value] attribute is undefined][218] |
 | [77889873][215] | [Angular ViewChild with Directive as selector returns undefined][216] |
 | [77894265][213] | [routerlink always returns to ' '][214] |
 | [77931867][211] | [Center text in a mat-select's mat-option][212] |
@@ -458,3 +459,6 @@ npm start
 
 [215]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77889873
 [216]: https://stackoverflow.com/questions/77889873/angular-viewchild-with-directive-as-selector-returns-undefined/77889917#77889917
+
+[217]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77887348
+[218]: https://stackoverflow.com/questions/77887348/primeng-pinputtextarea-placeholder-does-not-appear-when-value-attribute-is-u/77887411#77887411
