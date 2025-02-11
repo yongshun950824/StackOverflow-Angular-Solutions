@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77850429][223] | [Angular Material 17 styling inactive MatTabs color][224] |
 | [77857020][221] | [Check all form fields for a unique value][222] |
 | [77887182][219] | [Angular Material - Disable single dropdown option element based on the selection][220] |
 | [77887348][217] | [PrimeNG pInputTextarea - Placeholder does not appear when [value] attribute is undefined][218] |
@@ -470,3 +471,6 @@ npm start
 
 [221]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77857020
 [222]: https://stackoverflow.com/questions/77857020/check-all-form-fields-for-a-unique-value/77857154#77857154
+
+[223]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77850429
+[224]: https://stackoverflow.com/questions/77850429/angular-material-17-styling-inactive-mattabs-color/77850477#77850477
