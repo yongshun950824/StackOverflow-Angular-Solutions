@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77775061][231] | [Angular API requests for models with relationships to other models on id][232] |
 | [77769508][229] | [Angular Reactive Form - Validation is not working in formGroup][230] |
 | [77780364][227] | [Angular Custom Validation Control doesn't get form value][228] |
 | [77797038][225] | [Property Undefined but it is Defined Angular][226] |
@@ -486,3 +487,6 @@ npm start
 
 [229]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77769508
 [230]: https://stackoverflow.com/questions/77769508/angular-reactive-form-validation-is-not-working-in-formgroup/77776858#77776858
+
+[231]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77775061
+[232]: https://stackoverflow.com/questions/77775061/angular-api-requests-for-models-with-relationships-to-other-models-on-id/77775654#77775654
