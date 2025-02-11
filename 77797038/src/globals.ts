@@ -1,0 +1,17 @@
+export const canadianCities = [
+  'Calgary',
+  'Edmonton',
+  'Halifax',
+  'Hamilton',
+  'Kitchener',
+  'London',
+  'Montreal',
+  'Oshawa',
+  'Ottawa',
+  'Quebec City',
+  'Toronto',
+  'Vancouver',
+  'Victoria',
+  'Windsor',
+  'Winnipeg',
+];
