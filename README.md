@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77735638][239] | [Angular http.get() returns array with data][240] |
 | [77743152][237] | [Showing items in Form Array][238] |
 | [77743491][235] | [Get value of ng-select on form submit][236] |
 | [77768661][233] | [Angular - ERROR Error: Cannot find control with name: 's..Address'][234] |
@@ -502,3 +503,6 @@ npm start
 
 [237]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77743152
 [238]: https://stackoverflow.com/questions/77743152/showing-items-in-form-array/77743767#77743767
+
+[239]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77735638
+[240]: https://stackoverflow.com/questions/77735638/angular-http-get-returns-array-with-data/77735719#77735719
