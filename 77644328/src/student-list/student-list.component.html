@@ -1,0 +1,7 @@
+<p>student-list works!</p>
+
+<div *ngFor="let student of students">
+  <a [routerLink]="['/students', student.id, student.name]">{{
+    student.name
+  }}</a>
+</div>
