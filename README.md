@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77505484][257] | [Angular using JSON Data from API Call][258] |
 | [77573447][255] | [Angular how to use slicePipe in the new @for loop][256] |
 | [77583447][253] | [Angular Material table not showing data from API call][254] |
 | [77644328][251] | [Change the param name & ID with the next previous buttons][252] |
@@ -538,3 +539,6 @@ npm start
 
 [255]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77573447
 [256]: https://stackoverflow.com/questions/77573447/angular-how-to-use-slicepipe-in-the-new-for-loop/77575201#77575201
+
+[257]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77505484
+[258]: https://stackoverflow.com/questions/77505484/angular-using-json-data-from-api-call/77505573#77505573
