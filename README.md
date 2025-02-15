@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77654368][249] | [How to position these dataLabels to the right of a horizontal bar chart][250] |
 | [77671251][247] | [Unable to edit input fields when using formGroupName][248] |
 | [77673234][245] | [Bootstrap collapsible menu not expanding on click][246] |
 | [77696818][243] | [Input element unable to set with default value in mat-form-field][244] |
@@ -522,3 +523,6 @@ npm start
 
 [247]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77671251
 [248]: https://stackoverflow.com/questions/77671251/unable-to-edit-input-fields-when-using-formgroupname/77671395#77671395
+
+[249]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77671251
+[250]: https://stackoverflow.com/questions/77654368/how-to-position-these-datalabels-to-the-right-of-a-horizontal-bar-chart/77657288#77657288
