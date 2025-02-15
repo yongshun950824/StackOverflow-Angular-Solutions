@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77722004][241] | [Error on creating dynamic form in Angular 17][242] |
 | [77735638][239] | [Angular http.get() returns array with data][240] |
 | [77743152][237] | [Showing items in Form Array][238] |
 | [77743491][235] | [Get value of ng-select on form submit][236] |
@@ -506,3 +507,6 @@ npm start
 
 [239]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77735638
 [240]: https://stackoverflow.com/questions/77735638/angular-http-get-returns-array-with-data/77735719#77735719
+
+[241]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77722004
+[242]: https://stackoverflow.com/questions/77722004/error-on-creating-dynamic-form-in-angular-17/77722108#77722108
