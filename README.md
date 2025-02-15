@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77583447][253] | [Angular Material table not showing data from API call][254] |
 | [77644328][251] | [Change the param name & ID with the next previous buttons][252] |
 | [77654368][249] | [How to position these dataLabels to the right of a horizontal bar chart][250] |
 | [77671251][247] | [Unable to edit input fields when using formGroupName][248] |
@@ -530,3 +531,6 @@ npm start
 
 [251]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77644328
 [252]: https://stackoverflow.com/questions/77644328/change-the-param-name-id-with-the-next-previous-buttons/77644598#77644598
+
+[253]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77583447
+[254]: https://stackoverflow.com/questions/77583447/angular-material-table-not-showing-data-from-api-call/77583585#77583585
