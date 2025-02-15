@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77673234][245] | [Bootstrap collapsible menu not expanding on click][246] |
 | [77696818][243] | [Input element unable to set with default value in mat-form-field][244] |
 | [77722004][241] | [Error on creating dynamic form in Angular 17][242] |
 | [77735638][239] | [Angular http.get() returns array with data][240] |
@@ -514,3 +515,6 @@ npm start
 
 [243]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77696818
 [244]: https://stackoverflow.com/questions/77696818/input-element-unable-to-set-with-default-value-in-mat-form-field/77697086#77697086
+
+[245]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77673234
+[246]: https://stackoverflow.com/questions/77673234/bootstrap-collapsible-menu-not-expanding-on-click/77673574#77673574
