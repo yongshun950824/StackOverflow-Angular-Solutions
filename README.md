@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77696818][243] | [Input element unable to set with default value in mat-form-field][244] |
 | [77722004][241] | [Error on creating dynamic form in Angular 17][242] |
 | [77735638][239] | [Angular http.get() returns array with data][240] |
 | [77743152][237] | [Showing items in Form Array][238] |
@@ -510,3 +511,6 @@ npm start
 
 [241]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77722004
 [242]: https://stackoverflow.com/questions/77722004/error-on-creating-dynamic-form-in-angular-17/77722108#77722108
+
+[243]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77696818
+[244]: https://stackoverflow.com/questions/77696818/input-element-unable-to-set-with-default-value-in-mat-form-field/77697086#77697086
