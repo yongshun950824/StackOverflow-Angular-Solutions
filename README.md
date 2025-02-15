@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77573447][255] | [Angular how to use slicePipe in the new @for loop][256] |
 | [77583447][253] | [Angular Material table not showing data from API call][254] |
 | [77644328][251] | [Change the param name & ID with the next previous buttons][252] |
 | [77654368][249] | [How to position these dataLabels to the right of a horizontal bar chart][250] |
@@ -534,3 +535,6 @@ npm start
 
 [253]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77583447
 [254]: https://stackoverflow.com/questions/77583447/angular-material-table-not-showing-data-from-api-call/77583585#77583585
+
+[255]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77573447
+[256]: https://stackoverflow.com/questions/77573447/angular-how-to-use-slicepipe-in-the-new-for-loop/77575201#77575201
