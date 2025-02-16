@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77357514][283] | [PrimeNG - How to control slider for range][284] |
 | [77365000_1][279]<br />[77365000_2][281] | [Angular - Display a component in index.html][280] |
 | [77366624][277] | [Convert given array to an HTML table in angular][278] |
 | [77382360][275] | [Angular ApexCharts - Bar chart data not coming as expected][276] |
@@ -589,3 +590,6 @@ npm start
 
 [281]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77365000_2
 [282]: https://stackoverflow.com/questions/77365000/angular-display-a-component-in-index-html/77365141#77365141
+
+[283]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77357514
+[284]: https://stackoverflow.com/questions/77357514/primeng-how-to-control-slider-for-range/77357684#77357684
