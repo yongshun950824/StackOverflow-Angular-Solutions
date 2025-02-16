@@ -1,0 +1,17 @@
+{
+  "endPosition": "590",
+  "envelopeTemplates": [
+    {
+      "name": "Template One",
+      "templateId": "39739845739850"
+    },
+    {
+      "name": "Template Two",
+      "templateId": "340982059270"
+    },
+    {
+      "name": "Template Three",
+      "templateId": "478979796768"
+    }
+  ]
+}

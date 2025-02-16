@@ -1,0 +1,21 @@
+{
+  "name": "Hello",
+  "customFields": {
+    "textCustomFields": [
+      {
+        "name": "Account",
+        "value": "3456"
+      },
+      {
+        "name": "Test",
+        "value": "484789"
+      }
+    ],
+    "listCustomFields": [
+      {
+        "name": "Test Two",
+        "value": "test three"
+      }
+    ]
+  }
+}
