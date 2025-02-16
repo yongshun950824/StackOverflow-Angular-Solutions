@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77492471][261] | [How to divide <div>s in HTML into 8 equal parts using Bootstrap][262] |
 | [77497194][259] | [How Do I Edit a Nested Form Array using PatchValue?][260] |
 | [77505484][257] | [Angular using JSON Data from API Call][258] |
 | [77573447][255] | [Angular how to use slicePipe in the new @for loop][256] |
@@ -546,3 +547,6 @@ npm start
 
 [259]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77497194
 [260]: https://stackoverflow.com/questions/77497194/how-do-i-edit-a-nested-form-array-using-patchvalue/77498785#77498785
+
+[261]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77492471
+[262]: https://stackoverflow.com/questions/77492471/how-to-divide-divs-in-html-into-8-equal-parts-using-bootstrap/77492663#77492663
