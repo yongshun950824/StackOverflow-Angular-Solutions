@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77482998][265] | [How to get data from FormArray in Angular][266] |
 | [77484669][263] | [ngClass does not switch value when using object in component][264] |
 | [77492471][261] | [How to divide <div>s in HTML into 8 equal parts using Bootstrap][262] |
 | [77497194][259] | [How Do I Edit a Nested Form Array using PatchValue?][260] |
@@ -554,3 +555,6 @@ npm start
 
 [263]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77484669
 [264]: https://stackoverflow.com/questions/77484669/ngclass-does-not-switch-value-when-using-object-in-component/77484887#77484887
+
+[265]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77482998
+[266]: https://stackoverflow.com/questions/77482998/how-to-get-data-from-formarray-in-angular/77484668#77484668
