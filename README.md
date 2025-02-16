@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77477303][267] | [How to allow for new property in an Interface that has nested array][268] |
 | [77482998][265] | [How to get data from FormArray in Angular][266] |
 | [77484669][263] | [ngClass does not switch value when using object in component][264] |
 | [77492471][261] | [How to divide <div>s in HTML into 8 equal parts using Bootstrap][262] |
@@ -558,3 +559,6 @@ npm start
 
 [265]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77482998
 [266]: https://stackoverflow.com/questions/77482998/how-to-get-data-from-formarray-in-angular/77484668#77484668
+
+[267]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77477303
+[268]: https://stackoverflow.com/questions/77477303/how-to-allow-for-new-property-in-an-interface-that-has-nested-array/77477672#77477672
