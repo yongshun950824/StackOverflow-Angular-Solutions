@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77366624][277] | [Convert given array to an HTML table in angular][278] |
 | [77382360][275] | [Angular ApexCharts - Bar chart data not coming as expected][276] |
 | [77434210][273] | [PrimeNG "p-password" size not working inside a "p-inputgroup"][274] |
 | [77436131][271] | [How to create nested dynamic form elements][272] |
@@ -578,3 +579,6 @@ npm start
 
 [275]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77434210
 [276]: https://stackoverflow.com/questions/77382360/angular-apexcharts-bar-chart-data-not-coming-as-expected/77382471#77382471
+
+[277]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77366624
+[278]: https://stackoverflow.com/questions/77366624/convert-given-array-to-an-html-table-in-angular/77366754#77366754
