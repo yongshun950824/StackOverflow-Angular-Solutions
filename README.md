@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77434210][273] | [PrimeNG "p-password" size not working inside a "p-inputgroup"][274] |
 | [77436131][271] | [How to create nested dynamic form elements][272] |
 | [77439039][269] | [Apex stacked chart bar is not showing in the proper x-axis][270] |
 | [77477303][267] | [How to allow for new property in an Interface that has nested array][268] |
@@ -570,3 +571,6 @@ npm start
 
 [271]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77436131
 [272]: https://stackoverflow.com/questions/77436131/how-to-create-nested-dynamic-form-elements/77436273#77436273
+
+[273]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77434210
+[274]: https://stackoverflow.com/questions/77434210/primeng-p-password-size-not-working-inside-a-p-inputgroup/77435156#77435156
