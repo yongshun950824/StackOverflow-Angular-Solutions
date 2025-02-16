@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77484669][263] | [ngClass does not switch value when using object in component][264] |
 | [77492471][261] | [How to divide <div>s in HTML into 8 equal parts using Bootstrap][262] |
 | [77497194][259] | [How Do I Edit a Nested Form Array using PatchValue?][260] |
 | [77505484][257] | [Angular using JSON Data from API Call][258] |
@@ -550,3 +551,6 @@ npm start
 
 [261]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77492471
 [262]: https://stackoverflow.com/questions/77492471/how-to-divide-divs-in-html-into-8-equal-parts-using-bootstrap/77492663#77492663
+
+[263]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77484669
+[264]: https://stackoverflow.com/questions/77484669/ngclass-does-not-switch-value-when-using-object-in-component/77484887#77484887
