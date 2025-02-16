@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77436131][271] | [How to create nested dynamic form elements][272] |
 | [77439039][269] | [Apex stacked chart bar is not showing in the proper x-axis][270] |
 | [77477303][267] | [How to allow for new property in an Interface that has nested array][268] |
 | [77482998][265] | [How to get data from FormArray in Angular][266] |
@@ -566,3 +567,6 @@ npm start
 
 [269]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77439039
 [270]: https://stackoverflow.com/questions/77439039/apex-stacked-chart-bar-is-not-showing-in-the-proper-x-axis/77446136#77446136
+
+[271]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77436131
+[272]: https://stackoverflow.com/questions/77436131/how-to-create-nested-dynamic-form-elements/77436273#77436273
