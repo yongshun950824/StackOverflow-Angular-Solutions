@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77365000_1][279]<br />[77365000_2][281] | [Angular - Display a component in index.html][280] |
 | [77366624][277] | [Convert given array to an HTML table in angular][278] |
 | [77382360][275] | [Angular ApexCharts - Bar chart data not coming as expected][276] |
 | [77434210][273] | [PrimeNG "p-password" size not working inside a "p-inputgroup"][274] |
@@ -582,3 +583,9 @@ npm start
 
 [277]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77366624
 [278]: https://stackoverflow.com/questions/77366624/convert-given-array-to-an-html-table-in-angular/77366754#77366754
+
+[279]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77365000_1
+[280]: https://stackoverflow.com/questions/77365000/angular-display-a-component-in-index-html/77365141#77365141
+
+[281]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77365000_2
+[282]: https://stackoverflow.com/questions/77365000/angular-display-a-component-in-index-html/77365141#77365141

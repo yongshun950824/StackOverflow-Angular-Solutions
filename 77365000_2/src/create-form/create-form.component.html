@@ -1,0 +1,60 @@
+<!-- Wrapper container -->
+<div class="container py-4 my-4 w-25 border">
+  <!-- Bootstrap 5 starter form -->
+  <form id="birdCreateForm" (ngSubmit)="onSubmit()">
+
+<div class="row">
+    <!-- Name input -->
+    <div class="mb-3">
+      <label class="form-label" for="name">Name</label>
+      <input class="form-control" id="name" type="text" placeholder="Name" />
+    </div>
+</div>
+
+<div class="row">
+  
+    <!-- Sex select input -->
+    <div class="col-4">
+      <div class="mb-3">
+          <select class="form-select" aria-label="Default select example">
+              <option selected>Sex</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+          </select>
+      </div>
+  </div>
+
+    <!-- Status select input -->
+    <div class="col-4">
+      <div class="mb-3">
+          <select class="form-select" aria-label="Default select example">
+              <option selected>Status</option>
+              <option value="1">Alive</option>
+              <option value="2">Deceased</option>
+          </select>
+      </div>
+  </div>
+
+        <!-- Taxa select input -->
+        <div class="col-4">
+          <div class="mb-3">
+              <select class="form-select" aria-label="Default select example">
+                  <option selected>Taxa</option>
+                  <option value="1">North Island Brown</option>
+                  <option value="2">Little Spotted</option>
+                  <option value="3">Great Spotted</option>
+                  <option value="4">Rowi</option>
+                  <option value="5">Tokoeka</option>
+              </select>
+          </div>
+      </div>
+
+</div>
+
+    <!-- Form submit button -->
+    <div class="d-grid">
+      <button class="btn btn-primary btn-lg" type="submit">Create</button>
+    </div>
+
+  </form>
+</div>
