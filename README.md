@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77439039][269] | [Apex stacked chart bar is not showing in the proper x-axis][270] |
 | [77477303][267] | [How to allow for new property in an Interface that has nested array][268] |
 | [77482998][265] | [How to get data from FormArray in Angular][266] |
 | [77484669][263] | [ngClass does not switch value when using object in component][264] |
@@ -562,3 +563,6 @@ npm start
 
 [267]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77477303
 [268]: https://stackoverflow.com/questions/77477303/how-to-allow-for-new-property-in-an-interface-that-has-nested-array/77477672#77477672
+
+[269]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77439039
+[270]: https://stackoverflow.com/questions/77439039/apex-stacked-chart-bar-is-not-showing-in-the-proper-x-axis/77446136#77446136
