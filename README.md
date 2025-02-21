@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77320221][285] | [How to retrieve the current number of rows to the end row count in AG Grid][286] |
 | [77357514][283] | [PrimeNG - How to control slider for range][284] |
 | [77365000_1][279]<br />[77365000_2][281] | [Angular - Display a component in index.html][280] |
 | [77366624][277] | [Convert given array to an HTML table in angular][278] |
@@ -593,3 +594,6 @@ npm start
 
 [283]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77357514
 [284]: https://stackoverflow.com/questions/77357514/primeng-how-to-control-slider-for-range/77357684#77357684
+
+[285]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77320221
+[286]: https://stackoverflow.com/questions/77320221/how-to-retrieve-the-current-number-of-rows-to-the-end-row-count-in-ag-grid/77320964#77320964
