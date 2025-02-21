@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77286049][287] | [Angular unintentionally redirects to localhost:4200/#][288] |
 | [77320221][285] | [How to retrieve the current number of rows to the end row count in AG Grid][286] |
 | [77357514][283] | [PrimeNG - How to control slider for range][284] |
 | [77365000_1][279]<br />[77365000_2][281] | [Angular - Display a component in index.html][280] |
@@ -597,3 +598,6 @@ npm start
 
 [285]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77320221
 [286]: https://stackoverflow.com/questions/77320221/how-to-retrieve-the-current-number-of-rows-to-the-end-row-count-in-ag-grid/77320964#77320964
+
+[287]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77286049
+[288]: https://stackoverflow.com/questions/77286049/angular-unintentionally-redirects-to-localhost4200/77286215#77286215
