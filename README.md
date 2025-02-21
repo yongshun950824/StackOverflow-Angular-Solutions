@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77284088][289] | [Reactive Form with a Maximum of 3 selections][290] |
 | [77286049][287] | [Angular unintentionally redirects to localhost:4200/#][288] |
 | [77320221][285] | [How to retrieve the current number of rows to the end row count in AG Grid][286] |
 | [77357514][283] | [PrimeNG - How to control slider for range][284] |
@@ -601,3 +602,6 @@ npm start
 
 [287]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77286049
 [288]: https://stackoverflow.com/questions/77286049/angular-unintentionally-redirects-to-localhost4200/77286215#77286215
+
+[289]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77284088
+[290]: https://stackoverflow.com/questions/77284088/reactive-form-with-a-maximum-of-3-selections/77284578#77284578
