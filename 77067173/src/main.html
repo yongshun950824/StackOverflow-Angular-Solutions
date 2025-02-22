@@ -1,0 +1,76 @@
+<form [formGroup]="documentForm" (ngSubmit)="submit()">
+  
+  <ng-container formGroupName="envelopeRequest">
+    <button (click)='initDocument()'>Add Document</button>
+    <ng-container formArrayName="documents">
+      <ng-container
+        *ngFor="let control of documents.controls; let comIndex=index"
+      >
+        <ng-container [formGroupName]="comIndex">
+          <div class="row justify-content-start mb-3">
+            <div class="col-md-1">
+              {{comIndex}}
+              <input
+                type="hidden"
+                id="fname"
+                name="fname"
+                formControlName="documentId"
+              />
+              <label for="formFile" class="col-form-label">File:</label>
+            </div>
+            <div class="col-md-6">
+              <input
+                class="form-control"
+                type="file"
+                id="file"
+                name="file"
+                formControlName="name"
+              />
+            </div>
+          </div>
+          <ng-container formArrayName="documentFields">
+            <ng-container
+              *ngFor="let skillIndex of documentFieldsIndexes(comIndex);"
+            >
+              <div class="row mb-3">
+                <label class="col-sm-1 col-form-label">Category:</label>
+                <div class="col-md-2">
+                  <ng-container [formGroupName]="skillIndex">
+                    <select id="" class="form-select" formControlName="value"  (change)="changeCategoryList($event, comIndex)">
+                      <option selected>Select</option>
+                      <option *ngFor="let c of categoryList">
+                        {{c.name}}
+                      </option>
+                    </select>
+                  </ng-container>
+                </div>
+
+                <label class="col-auto col-form-label">Sub-Category:</label>
+                <div class="col-md-2">
+                  <ng-container [formGroupName]="skillIndex + 1">
+                    <select id="" class="form-select" formControlName="value" (change)="changeSubCategoryList($event, comIndex)">
+                      <option selected>Select</option>
+                      <option *ngFor="let s of subCategoryList[comIndex]">{{s.name}}</option>
+                    </select>
+                  </ng-container>
+                </div>
+                <label class="col-auto col-form-label">List:</label>
+                <div class="col-md-2">
+                  <ng-container [formGroupName]="skillIndex + 2">
+                    <select id="" class="form-select" formControlName="value">
+                      <option selected>Select</option>
+                      <option *ngFor="let name of typeList[comIndex]">{{name}}</option>
+                    </select>
+                  </ng-container>
+                </div>
+              </div>
+            </ng-container>
+          </ng-container>
+        </ng-container>
+      </ng-container>
+    </ng-container>
+  </ng-container>
+
+  <button type="submit">Submit</button>
+</form>
+<pre>{{this.documentForm.value | json }}

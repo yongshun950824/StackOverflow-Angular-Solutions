@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77067173][315] | [Same method on dynamic select option in Angular, Is this possible?][316] |
 | [77087252][313] | [Angular - Get errors in reactive form with loop for the FormArray][314] |
 | [77132213][311] | [Angular - Form control invalid error not showing if set the value to form control][312] |
 | [77140704][309] | [Click on all bar chart labels shows only two days][310] |
@@ -653,3 +654,6 @@ npm start
 
 [313]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77087252
 [314]: https://stackoverflow.com/questions/77087252/angular-get-errors-in-reactive-form-with-loop-for-the-formarray/77087538#77087538
+
+[315]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77067173
+[316]: https://stackoverflow.com/questions/77067173/same-method-on-dynamic-select-option-in-angular-is-this-possible/77071156#77071156
