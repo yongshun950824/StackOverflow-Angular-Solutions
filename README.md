@@ -26,7 +26,8 @@ npm start
 
 | Project source | Question |
 |-|-|
-| [77255319][299] | [Angular - how to work with enums and Record][230] |
+| [77247824][301] | [How to make this password match validation work][302] |
+| [77255319][299] | [Angular - how to work with enums and Record][300] |
 | [77261093][297] | [Radio Buttons with other option][298] |
 | [77262865][295] | [Angular - Nested array for file upload][296] |
 | [77270716][293] | [I want to show email id's in dropdown list. I want Person name shown as selected value related to that email after selecting email][294] |
@@ -625,3 +626,6 @@ npm start
 
 [299]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77255319
 [300]: https://stackoverflow.com/questions/77255319/angular-how-to-work-with-enums-and-record/77255915#77255915
+
+[301]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77247824
+[302]: https://stackoverflow.com/questions/77247824/how-to-make-this-password-match-validation-work/77248238#77248238
