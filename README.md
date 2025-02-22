@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77063874][321] | [Set value of a button used as a radio button programmatically][322] |
 | [77065394_1][317]<br />[77065394_2][319] | [Angular Material - Table Pagination in Mat-Tab Group Not working][318] |
 | [77067173][315] | [Same method on dynamic select option in Angular, Is this possible?][316] |
 | [77087252][313] | [Angular - Get errors in reactive form with loop for the FormArray][314] |
@@ -664,3 +665,6 @@ npm start
 
 [319]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77065394_2
 [320]: https://stackoverflow.com/questions/77065394/angular-material-table-pagination-in-mat-tab-group-not-working/77066034#77066034
+
+[321]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77063874
+[322]: https://stackoverflow.com/questions/77063874/set-value-of-a-button-used-as-a-radio-button-programmatically/77064005#77064005
