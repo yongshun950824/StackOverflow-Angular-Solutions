@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77195649][303] | [remove some countries from ngx-intl-tel-input][304] |
 | [77247824][301] | [How to make this password match validation work][302] |
 | [77255319][299] | [Angular - how to work with enums and Record][300] |
 | [77261093][297] | [Radio Buttons with other option][298] |
@@ -629,3 +630,6 @@ npm start
 
 [301]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77247824
 [302]: https://stackoverflow.com/questions/77247824/how-to-make-this-password-match-validation-work/77248238#77248238
+
+[303]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77195649
+[304]: https://stackoverflow.com/questions/77195649/remove-some-countries-from-ngx-intl-tel-input/77195855#77195855
