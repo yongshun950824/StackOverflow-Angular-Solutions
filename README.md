@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77140704][309] | [Click on all bar chart labels shows only two days][310] |
 | [77163168][307] | [Angular - How to implement HighCharts to use gauge chart][308] |
 | [77184052][305] | [angular chart not populating with data from API response][306] |
 | [77195649][303] | [remove some countries from ngx-intl-tel-input][304] |
@@ -641,3 +642,6 @@ npm start
 
 [307]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77163168
 [308]: https://stackoverflow.com/questions/77163168/angular-how-to-implement-highcharts-to-use-gauge-chart/77163409#77163409
+
+[309]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77140704
+[310]: https://stackoverflow.com/questions/77140704/click-on-all-bar-chart-labels-shows-only-two-days/77142826#77142826
