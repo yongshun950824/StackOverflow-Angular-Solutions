@@ -3,13 +3,13 @@
     <label
       class="btn btn-secondary"
       tabindex="0"
-      [ngClass]="{ active: form.get('radioOption').value === 'optionA' }"
+      [ngClass]="{ active: radioOption.value === 'optionA' }"
     >
       <input
         type="radio"
         name="options"
         id="optionA"
-        [formControl]="form.get('radioOption')"
+        formControlName="radioOption"
         autocomplete="off"
         [value]="'optionA'"
       />
@@ -18,13 +18,13 @@
     <label
       class="btn btn-secondary"
       tabindex="0"
-      [ngClass]="{ active: form.get('radioOption').value === 'optionB' }"
+      [ngClass]="{ active: radioOption.value === 'optionB' }"
     >
       <input
         type="radio"
         name="options"
         id="optionB"
-        [formControl]="form.get('radioOption')"
+        formControlName="radioOption"
         autocomplete="off"
         [value]="'optionB'"
       />

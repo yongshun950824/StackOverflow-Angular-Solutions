@@ -5,9 +5,10 @@ import { FormBuilder, FormGroup } from '@angular/forms';
   selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
+  standalone: false
 })
 export class AppComponent implements OnInit {
-  form: FormGroup;
+  form!: FormGroup;
   s: string = 'optionB';
 
   constructor(private fb: FormBuilder) {}
@@ -29,5 +30,9 @@ export class AppComponent implements OnInit {
       selectedFood: 'Peach',
       radioOption: 'optionA',
     });
+  }
+
+  get radioOption() {
+    return this.form.get('radioOption')!;
   }
 }
