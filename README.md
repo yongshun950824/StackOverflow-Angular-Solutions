@@ -26,7 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
-| [77261093][297] | [Angular - Nested array for file upload][298] |
+| [77261093][297] | [Radio Buttons with other option][298] |
 | [77262865][295] | [Angular - Nested array for file upload][296] |
 | [77270716][293] | [I want to show email id's in dropdown list. I want Person name shown as selected value related to that email after selecting email][294] |
 | [77272930][291] | [Angular ApexCharts - Transform data to display as bar chart][292] |
