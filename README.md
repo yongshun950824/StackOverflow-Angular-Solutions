@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77184052][305] | [angular chart not populating with data from API response][306] |
 | [77195649][303] | [remove some countries from ngx-intl-tel-input][304] |
 | [77247824][301] | [How to make this password match validation work][302] |
 | [77255319][299] | [Angular - how to work with enums and Record][300] |
@@ -633,3 +634,6 @@ npm start
 
 [303]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77195649
 [304]: https://stackoverflow.com/questions/77195649/remove-some-countries-from-ngx-intl-tel-input/77195855#77195855
+
+[305]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77184052
+[306]: https://stackoverflow.com/questions/77184052/angular-chart-not-populating-with-data-from-api-response/77185905#77185905
