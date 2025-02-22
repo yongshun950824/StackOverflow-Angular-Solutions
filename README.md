@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77272930][291] | [Angular ApexCharts - Transform data to display as bar chart][292] |
 | [77284088][289] | [Reactive Form with a Maximum of 3 selections][290] |
 | [77286049][287] | [Angular unintentionally redirects to localhost:4200/#][288] |
 | [77320221][285] | [How to retrieve the current number of rows to the end row count in AG Grid][286] |
@@ -605,3 +606,6 @@ npm start
 
 [289]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77284088
 [290]: https://stackoverflow.com/questions/77284088/reactive-form-with-a-maximum-of-3-selections/77284578#77284578
+
+[291]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77272930
+[292]: https://stackoverflow.com/questions/77272930/angular-apexcharts-transform-data-to-display-as-bar-chart/77273238#77273238
