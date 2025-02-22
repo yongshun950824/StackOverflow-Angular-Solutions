@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77087252][313] | [Angular - Get errors in reactive form with loop for the FormArray][314] |
 | [77132213][311] | [Angular - Form control invalid error not showing if set the value to form control][312] |
 | [77140704][309] | [Click on all bar chart labels shows only two days][310] |
 | [77163168][307] | [Angular - How to implement HighCharts to use gauge chart][308] |
@@ -649,3 +650,6 @@ npm start
 
 [311]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77132213
 [312]: https://stackoverflow.com/questions/77132213/angular-form-control-invalid-error-not-showing-if-set-the-value-to-form-contro/77132390#77132390
+
+[313]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77087252
+[314]: https://stackoverflow.com/questions/77087252/angular-get-errors-in-reactive-form-with-loop-for-the-formarray/77087538#77087538
