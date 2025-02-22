@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77270716][293] | [I want to show email id's in dropdown list. I want Person name shown as selected value related to that email after selecting email][294] |
 | [77272930][291] | [Angular ApexCharts - Transform data to display as bar chart][292] |
 | [77284088][289] | [Reactive Form with a Maximum of 3 selections][290] |
 | [77286049][287] | [Angular unintentionally redirects to localhost:4200/#][288] |
@@ -609,3 +610,6 @@ npm start
 
 [291]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77272930
 [292]: https://stackoverflow.com/questions/77272930/angular-apexcharts-transform-data-to-display-as-bar-chart/77273238#77273238
+
+[293]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77270716
+[294]: https://stackoverflow.com/questions/77270716/i-want-to-show-email-ids-in-dropdown-list-i-want-person-name-shown-as-selected/77273032#77273032
