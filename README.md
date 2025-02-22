@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77132213][311] | [Angular - Form control invalid error not showing if set the value to form control][312] |
 | [77140704][309] | [Click on all bar chart labels shows only two days][310] |
 | [77163168][307] | [Angular - How to implement HighCharts to use gauge chart][308] |
 | [77184052][305] | [angular chart not populating with data from API response][306] |
@@ -645,3 +646,6 @@ npm start
 
 [309]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77140704
 [310]: https://stackoverflow.com/questions/77140704/click-on-all-bar-chart-labels-shows-only-two-days/77142826#77142826
+
+[311]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77132213
+[312]: https://stackoverflow.com/questions/77132213/angular-form-control-invalid-error-not-showing-if-set-the-value-to-form-contro/77132390#77132390
