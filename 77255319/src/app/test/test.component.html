@@ -1,0 +1,87 @@
+<table mat-table [dataSource]="dataSource">
+  <ng-container matColumnDef="actionEditCancel">
+    <th mat-header-cell *matHeaderCellDef></th>
+    <td mat-cell *matCellDef="let element">
+      <button
+        *ngIf="element.id !== itemToEdit?.id"
+        mat-button
+        color="primary"
+        matTooltip="Edit"
+        (click)="onEditClick(element)"
+      >
+        <mat-icon>edit_square</mat-icon>
+      </button>
+
+      <button
+        *ngIf="element.id === itemToEdit?.id"
+        mat-button
+        color="primary"
+        matTooltip="Cancel edit"
+        (click)="onCancelEditClick()"
+      >
+        <mat-icon>close</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="id">
+    <th mat-header-cell *matHeaderCellDef>Id</th>
+    <td mat-cell *matCellDef="let element">
+      <span>{{ element.id }}</span>
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef>Name</th>
+    <td mat-cell *matCellDef="let element">
+      <span>{{ element.name }}</span>
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="type">
+    <th mat-header-cell *matHeaderCellDef>Type</th>
+    <td mat-cell *matCellDef="let element">
+      <span>
+        <!-- {{ FileType2LabelMapping[element.type] }} -->
+        {{ getTypeLabel(element.type) }}
+      </span>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+</table>
+
+<ng-container *ngIf="itemToEdit">
+  <div style="margin-top: 20px">
+    <div>
+      <mat-form-field>
+        <input matInput [(ngModel)]="itemToEdit.name" name="name" required />
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field>
+        <mat-select name="type" required [(ngModel)]="itemToEdit.type">
+          <mat-option *ngFor="let item of fileTypes" [value]="item.value">
+            {{ item.name }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div>
+      <p>
+        {{ itemToEdit | json }}
+      </p>
+    </div>
+  </div>
+</ng-container>
+
+<br />
+<!-- <p>Iterate FileType2LabelMapping</p>
+<div
+    *ngFor="let item of FileType2LabelMapping | keyvalue"
+  >
+  {{ item.key }} 
+  {{ item.key == 0 }} // Will give error: This comparison appears to be unintentional because the types 'string' and 'number' have no overlap.
+  {{ item.key == '0' }} // This works correctly
+</div>  -->

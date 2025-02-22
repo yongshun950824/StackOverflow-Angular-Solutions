@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77261093][299] | [Angular - how to work with enums and Record][230] |
 | [77261093][297] | [Radio Buttons with other option][298] |
 | [77262865][295] | [Angular - Nested array for file upload][296] |
 | [77270716][293] | [I want to show email id's in dropdown list. I want Person name shown as selected value related to that email after selecting email][294] |
@@ -621,3 +622,6 @@ npm start
 
 [297]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77261093
 [298]: https://stackoverflow.com/questions/77261093/radio-buttons-with-other-option/77262489#77262489
+
+[299]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77255319
+[300]: https://stackoverflow.com/questions/77255319/angular-how-to-work-with-enums-and-record/77255915#77255915
