@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, FormArray } from '@angular/forms';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
+  standalone: false
 })
 export class AppComponent {
   public demoForm: FormGroup;
@@ -87,6 +88,10 @@ export class AppComponent {
 
   removePhoto(photosRootIndex, photosChildIndex) {
     this.photoCategoryPhotos(photosRootIndex).removeAt(photosRootIndex);
+  }
+
+  onSubmit() {
+    
   }
 }
 
