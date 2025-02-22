@@ -5,9 +5,12 @@ import { bootstrapApplication } from '@angular/platform-browser';
 
 import { HighchartsChartModule } from 'highcharts-angular';
 import * as HighCharts from 'highcharts';
-import HighChartsMore from 'highcharts/highcharts-more';
 
-HighChartsMore(HighCharts);
+// Deprecated
+// import HighChartsMore from 'highcharts/highcharts-more';
+// HighChartsMore(HighCharts);
+
+import 'highcharts/highcharts-more';
 
 @Component({
   selector: 'my-app',
@@ -18,7 +21,7 @@ HighChartsMore(HighCharts);
   <div class="container-fluid">
      <div class="row">
        <div class="col-md-12">
-         <div [id]="'gaugeChart_' + item.roundNumber" style="width: 100%; height: 400px; margin: 0 auto"></div>
+         <div *ngIf="isHighcharts" [id]="'gaugeChart_' + item.roundNumber" style="width: 100%; height: 400px; margin: 0 auto"></div>
        </div>
      </div>
    </div>
@@ -27,6 +30,9 @@ HighChartsMore(HighCharts);
 })
 export class App {
   name = 'Angular';
+
+  isHighcharts = typeof HighCharts === 'object';
+  Highcharts: typeof HighCharts = HighCharts;
 
   comparisonsStatistics = {
     listOfJobPostComparisonStatisticsPerRound: [
@@ -39,7 +45,7 @@ export class App {
   ngAfterViewInit() {
     for (let res of this.comparisonsStatistics
       .listOfJobPostComparisonStatisticsPerRound) {
-      HighCharts.chart('gaugeChart_' + res.roundNumber, {
+        this.isHighcharts && HighCharts.chart('gaugeChart_' + res.roundNumber, {
         chart: {
           type: 'gauge',
           plotBackgroundColor: null,
