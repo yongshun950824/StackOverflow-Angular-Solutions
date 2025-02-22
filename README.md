@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77262865][295] | [Angular - Nested array for file upload][296] |
 | [77270716][293] | [I want to show email id's in dropdown list. I want Person name shown as selected value related to that email after selecting email][294] |
 | [77272930][291] | [Angular ApexCharts - Transform data to display as bar chart][292] |
 | [77284088][289] | [Reactive Form with a Maximum of 3 selections][290] |
@@ -613,3 +614,6 @@ npm start
 
 [293]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77270716
 [294]: https://stackoverflow.com/questions/77270716/i-want-to-show-email-ids-in-dropdown-list-i-want-person-name-shown-as-selected/77273032#77273032
+
+[295]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77262865
+[296]: https://stackoverflow.com/questions/77262865/angular-nested-array-for-file-upload/77263057#77263057
