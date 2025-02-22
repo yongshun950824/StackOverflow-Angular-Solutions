@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77163168][307] | [Angular - How to implement HighCharts to use gauge chart][308] |
 | [77184052][305] | [angular chart not populating with data from API response][306] |
 | [77195649][303] | [remove some countries from ngx-intl-tel-input][304] |
 | [77247824][301] | [How to make this password match validation work][302] |
@@ -637,3 +638,6 @@ npm start
 
 [305]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77184052
 [306]: https://stackoverflow.com/questions/77184052/angular-chart-not-populating-with-data-from-api-response/77185905#77185905
+
+[307]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77163168
+[308]: https://stackoverflow.com/questions/77163168/angular-how-to-implement-highcharts-to-use-gauge-chart/77163409#77163409
