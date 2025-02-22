@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77065394_1][317]<br />[77065394_2][319] | [Angular Material - Table Pagination in Mat-Tab Group Not working][318] |
 | [77067173][315] | [Same method on dynamic select option in Angular, Is this possible?][316] |
 | [77087252][313] | [Angular - Get errors in reactive form with loop for the FormArray][314] |
 | [77132213][311] | [Angular - Form control invalid error not showing if set the value to form control][312] |
@@ -657,3 +658,9 @@ npm start
 
 [315]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77067173
 [316]: https://stackoverflow.com/questions/77067173/same-method-on-dynamic-select-option-in-angular-is-this-possible/77071156#77071156
+
+[317]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77065394_1
+[318]: https://stackoverflow.com/questions/77065394/angular-material-table-pagination-in-mat-tab-group-not-working/77066034#77066034
+
+[319]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77065394_2
+[320]: https://stackoverflow.com/questions/77065394/angular-material-table-pagination-in-mat-tab-group-not-working/77066034#77066034
