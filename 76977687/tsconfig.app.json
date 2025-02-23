@@ -1,9 +1,15 @@
 {
-  "extends": "../tsconfig.json",
+  "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "../out-tsc/app",
-    "types": ["google", "google.charts", "google.visualization"]
+    "types": [
+      /*
+        "google", 
+        "google.charts", 
+        "google.visualization"
+      */
+  ]
   },
-  "files": ["main.ts", "polyfills.ts"],
+  "files": ["src/main.ts", "src/polyfills.ts"],
   "include": ["**/*.d.ts"]
 }
