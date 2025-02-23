@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76980468][329] | [How Do I Add and Delete an Array in a Nested Reactive Form?][330] |
 | [76977687][327] | [How to solve this TypeScript error for Google Chart][328] |
 | [76996633][325] | [PrimeNG table - Apply class to row but background-color is not working][326] |
 | [77025764][323] | [Formgroups and FormArray][324] |
@@ -680,3 +681,6 @@ npm start
 
 [327]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76977687
 [328]: https://stackoverflow.com/questions/76977687/how-to-solve-this-typescript-error-for-google-chart/76981543#76981543
+
+[329]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76980468
+[330]: https://stackoverflow.com/questions/76980468/how-do-i-add-and-delete-an-array-in-a-nested-reactive-form/76981346#76981346
