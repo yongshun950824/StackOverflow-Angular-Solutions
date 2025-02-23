@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76977687][327] | [How to solve this TypeScript error for Google Chart][328] |
 | [76996633][325] | [PrimeNG table - Apply class to row but background-color is not working][326] |
 | [77025764][323] | [Formgroups and FormArray][324] |
 | [77063874][321] | [Set value of a button used as a radio button programmatically][322] |
@@ -676,3 +677,6 @@ npm start
 
 [325]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76996633
 [326]: https://stackoverflow.com/questions/76996633/primeng-table-apply-class-to-row-but-background-color-is-not-working/76997727#76997727
+
+[327]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76977687
+[328]: https://stackoverflow.com/questions/76977687/how-to-solve-this-typescript-error-for-google-chart/76981543#76981543
