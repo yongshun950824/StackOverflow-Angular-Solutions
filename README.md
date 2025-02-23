@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76895492][337] | [Why request is sent twice?][338] |
 | [76916418][335] | [How To Bind Select Option to Input Field][336] |
 | [76926176][333] | [Accordion body dynamic content not working properly - Angular + ngbAccordion][334] |
 | [76926590][331] | [nz-switch is not working correctly due to update with value][332] |
@@ -696,3 +697,6 @@ npm start
 
 [335]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76916418
 [336]: https://stackoverflow.com/questions/76916418/how-to-bind-select-option-to-input-field/76925872#76925872
+
+[337]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76895492
+[338]: https://stackoverflow.com/questions/76895492/why-request-is-sent-twice/76895907#76895907
