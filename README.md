@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76926176][333] | [Accordion body dynamic content not working properly - Angular + ngbAccordion][334] |
 | [76926590][331] | [nz-switch is not working correctly due to update with value][332] |
 | [76980468][329] | [How Do I Add and Delete an Array in a Nested Reactive Form?][330] |
 | [76977687][327] | [How to solve this TypeScript error for Google Chart][328] |
@@ -688,3 +689,6 @@ npm start
 
 [331]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76926590
 [332]: https://stackoverflow.com/questions/76926590/nz-switch-is-not-working-correctly-due-to-update-with-value/76926820#76926820
+
+[333]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76926176
+[334]: https://stackoverflow.com/questions/76926176/accordion-body-dynamic-content-not-working-properly-angular-ngbaccordion/76926222#76926222
