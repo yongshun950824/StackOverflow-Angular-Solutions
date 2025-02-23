@@ -1,0 +1,34 @@
+<div [formGroup]="form">
+  <div>
+    <span>ExtraInformation:</span>
+    <input formControlName="extraInformation" />
+  </div>
+
+  <div formArrayName="cars">
+    <ng-container *ngFor="let controls of cars.controls; let i = index;">
+      <div [formGroupName]="i">
+        <div formGroupName="Period">
+          <div>
+            <span>Start:</span>
+            <input formControlName="Start" />
+          </div>
+
+          <div>
+            <span>End:</span>
+            <input formControlName="End" />
+          </div>
+        </div>
+
+        <div>
+          <span>Rentalstats:</span>
+          <input formControlName="Rentalstats" />
+        </div>
+
+        <div>
+          <span>Reason:</span>
+          <input formControlName="Reason" />
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>
