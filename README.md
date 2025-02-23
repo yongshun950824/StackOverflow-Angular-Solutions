@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76916418][335] | [How To Bind Select Option to Input Field][336] |
 | [76926176][333] | [Accordion body dynamic content not working properly - Angular + ngbAccordion][334] |
 | [76926590][331] | [nz-switch is not working correctly due to update with value][332] |
 | [76980468][329] | [How Do I Add and Delete an Array in a Nested Reactive Form?][330] |
@@ -692,3 +693,6 @@ npm start
 
 [333]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76926176
 [334]: https://stackoverflow.com/questions/76926176/accordion-body-dynamic-content-not-working-properly-angular-ngbaccordion/76926222#76926222
+
+[335]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76916418
+[336]: https://stackoverflow.com/questions/76916418/how-to-bind-select-option-to-input-field/76925872#76925872
