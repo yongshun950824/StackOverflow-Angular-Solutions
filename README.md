@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76996633][325] | [PrimeNG table - Apply class to row but background-color is not working][326] |
 | [77025764][323] | [Formgroups and FormArray][324] |
 | [77063874][321] | [Set value of a button used as a radio button programmatically][322] |
 | [77065394_1][317]<br />[77065394_2][319] | [Angular Material - Table Pagination in Mat-Tab Group Not working][318] |
@@ -672,3 +673,6 @@ npm start
 
 [323]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77025764
 [324]: https://stackoverflow.com/questions/77025764/formgroups-and-formarray/77026301#77026301
+
+[325]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76996633
+[326]: https://stackoverflow.com/questions/76996633/primeng-table-apply-class-to-row-but-background-color-is-not-working/76997727#76997727
