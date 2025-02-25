@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [77597453][339] | [Disable the add icon when there is single row of data in the mat-table Angular][340] |
 | [76895492][337] | [Why request is sent twice?][338] |
 | [76916418][335] | [How To Bind Select Option to Input Field][336] |
 | [76926176][333] | [Accordion body dynamic content not working properly - Angular + ngbAccordion][334] |
@@ -700,3 +701,6 @@ npm start
 
 [337]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76895492
 [338]: https://stackoverflow.com/questions/76895492/why-request-is-sent-twice/76895907#76895907
+
+[339]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77597453
+[340]: https://stackoverflow.com/questions/77597453/disable-the-add-icon-when-there-is-single-row-of-data-in-the-mat-table-angular/77597614#77597614
