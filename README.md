@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76849187][341] | [Angular - Handle HTTP response with DTO][342] |
 | [77597453][339] | [Disable the add icon when there is single row of data in the mat-table Angular][340] |
 | [76895492][337] | [Why request is sent twice?][338] |
 | [76916418][335] | [How To Bind Select Option to Input Field][336] |
@@ -704,3 +705,6 @@ npm start
 
 [339]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77597453
 [340]: https://stackoverflow.com/questions/77597453/disable-the-add-icon-when-there-is-single-row-of-data-in-the-mat-table-angular/77597614#77597614
+
+[341]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76849187
+[342]: https://stackoverflow.com/questions/76849187/angular-handle-http-response-with-dto/76849338#76849338
