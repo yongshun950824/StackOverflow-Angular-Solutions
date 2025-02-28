@@ -1,0 +1,49 @@
+<form [formGroup]="form" (ngSubmit)="submit()">
+  <ng-container formArrayName="documents">
+    <ng-container
+      *ngFor="let control of documents.controls; let comIndex=index"
+    >
+      <ng-container [formGroupName]="comIndex">
+        <ng-container formArrayName="documentFields">
+          <ng-container
+            *ngFor="let skillIndex of documentFieldsIndexes(comIndex);"
+          >
+            <!--<ng-container [formGroupName]="skillIndex">-->
+            <div class="row mb-3">
+              <label class="col-sm-1 col-form-label">Category:</label>
+              <div class="col-md-2">
+                <ng-container [formGroupName]="skillIndex">
+                  <select id="" class="form-select" formControlName="value">
+                    <option selected>Select</option>
+                    <option *ngFor="let c of taxonomyResponse.categoryList">
+                      {{c.name}}
+                    </option>
+                  </select>
+                </ng-container>
+              </div>
+
+              <label class="col-auto col-form-label">Sub-Category:</label>
+              <div class="col-md-2">
+                <ng-container [formGroupName]="skillIndex + 1">
+                  <select id="" class="form-select" formControlName="value">
+                    <option selected>Select</option>
+                  </select>
+                </ng-container>
+              </div>
+            </div>
+            <!--</ng-container>-->
+          </ng-container>
+        </ng-container>
+
+        <br />
+
+        <!--<button type="button" (click)="newDocumentFieldGroup(comIndex)">
+          Add Document fields
+        </button>-->
+        <hr />
+      </ng-container>
+    </ng-container>
+  </ng-container>
+
+  <button type="submit">Submit</button>
+</form>

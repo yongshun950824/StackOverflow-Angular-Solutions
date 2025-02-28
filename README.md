@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76823255][343] | [Is there a way to three formControlName that share the same property name in a Angular Reactive Form?][344] |
 | [76849187][341] | [Angular - Handle HTTP response with DTO][342] |
 | [77597453][339] | [Disable the add icon when there is single row of data in the mat-table Angular][340] |
 | [76895492][337] | [Why request is sent twice?][338] |
@@ -708,3 +709,6 @@ npm start
 
 [341]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76849187
 [342]: https://stackoverflow.com/questions/76849187/angular-handle-http-response-with-dto/76849338#76849338
+
+[343]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76823255
+[344]: https://stackoverflow.com/questions/76823255/is-there-a-way-to-three-formcontrolname-that-share-the-same-property-name-in-a-a/76824559#76824559
