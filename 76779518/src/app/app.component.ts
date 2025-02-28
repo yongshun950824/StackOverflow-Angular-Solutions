@@ -7,6 +7,7 @@ import { BaseChartDirective } from 'ng2-charts';
   selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
+  standalone: false
 })
 export class AppComponent {
   public barChartOptions: any = {
