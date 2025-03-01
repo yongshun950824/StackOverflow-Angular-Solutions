@@ -1,9 +1,13 @@
 import { Component } from '@angular/core';
+import { ChartType } from 'chart.js';
+import Chart from 'chart.js/auto';
+import { BaseChartDirective } from 'ng2-charts';
 
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
+  standalone: false
 })
 export class AppComponent {
   public barChartOptions: any = {
@@ -11,7 +15,7 @@ export class AppComponent {
     scaleShowVerticalLines: false,
     // We use these empty structures as placeholders for dynamic theming.
     scales: {
-      xAxes: [
+      x: 
         {
           stacked: true,
           ticks: {
@@ -20,12 +24,12 @@ export class AppComponent {
             minRotation: 0,
           },
         },
-      ],
-      yAxes: [
+      
+      y: 
         {
           stacked: true,
         },
-      ],
+      
     },
     plugins: {
       datalabels: {
@@ -171,5 +175,22 @@ export class AppComponent {
       },
     ];
     */
+
+   new Chart('baseChart', {
+      type: <ChartType>this.barChartType,
+      options: this.barChartOptions,
+      data: {
+        datasets: this.barChartData,
+        labels: this.barChartLabels,
+      },
+    });
+  }
+
+  chartClicked(event) {
+
+  }
+
+  chartHovered(event) {
+
   }
 }
