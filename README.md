@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76777971][347] | [Angular - Name with title base on case][348] |
 | [76779518][345] | [Angular 9 chart.js Bar chart Click event][346] |
 | [76823255][343] | [Is there a way to three formControlName that share the same property name in a Angular Reactive Form?][344] |
 | [76849187][341] | [Angular - Handle HTTP response with DTO][342] |
@@ -716,3 +717,6 @@ npm start
 
 [345]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76779518
 [346]: https://stackoverflow.com/questions/76779518/angular-9-chart-js-bar-chart-click-event/76781181#76781181
+
+[347]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76777971
+[348]: https://stackoverflow.com/questions/76777971/angular-name-with-title-base-on-case/76778143#76778143
