@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76360417][365] | [How i can display image or images in angular template which is received from Asp.Net Rest Api as a base64 string][366] |
 | [76393746][363] | [Showing sub array content][364] |
 | [76393647][361] | [PrimeNG checkbox group with a reactive form - How to get all checked values][362] |
 | [76444822][359] | [Angular - How to get an element by id inside ngOnInit][360] |
@@ -752,3 +753,6 @@ npm start
 
 [363]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76393746
 [364]: https://stackoverflow.com/questions/76393746/showing-sub-array-content/76394847#76394847
+
+[365]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76360417
+[366]: https://stackoverflow.com/questions/76360417/how-i-can-display-image-or-images-in-angular-template-which-is-received-from-asp/76360961#76360961
