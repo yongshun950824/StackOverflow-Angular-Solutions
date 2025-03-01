@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76733103][349] | [ERROR TypeError: Cannot read properties of null (reading 'controls') in my deep nested reactive form][350] |
 | [76777971][347] | [Angular - Name with title base on case][348] |
 | [76779518][345] | [Angular 9 chart.js Bar chart Click event][346] |
 | [76823255][343] | [Is there a way to three formControlName that share the same property name in a Angular Reactive Form?][344] |
@@ -720,3 +721,6 @@ npm start
 
 [347]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76777971
 [348]: https://stackoverflow.com/questions/76777971/angular-name-with-title-base-on-case/76778143#76778143
+
+[349]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76733103
+[350]: https://stackoverflow.com/questions/76733103/error-typeerror-cannot-read-properties-of-null-reading-controls-in-my-deep/76734762#76734762

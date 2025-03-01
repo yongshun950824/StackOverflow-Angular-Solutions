@@ -1,0 +1,90 @@
+<div [formGroup]="templateForm">
+  <div formGroupName="envelopeRequest">
+    <div formArrayName="compositeTemplates">
+      <div *ngFor="let c of compositeTemplates().controls; let comIndex=index">
+        <div [formGroupName]="comIndex">
+          <input type="hidden" formControlName="compositeTemplateId" />
+          <div formArrayName="serverTemplates">
+            <div
+              *ngFor="let skill of serverTemplates(comIndex).controls; let skillIndex=index"
+            >
+              <div [formGroupName]="skillIndex">
+                <input type="hidden" formControlName="sequence" />
+                <input type="hidden" formControlName="templateId" />
+              </div>
+            </div>
+          </div>
+          <div formArrayName="inlineTemplates">
+            <div
+              *ngFor="let skill of inlineTemplates(comIndex).controls; let skillIndex=index"
+            >
+              <div [formGroupName]="skillIndex">
+                <input type="hidden" formControlName="sequence" />
+                <ng-container formGroupName="recipients">
+                  <div
+                    style="margin-top: 0.3vh; position: absolute; right: 3vw"
+                  >
+                    <fa-icon
+                      [icon]="faPlus"
+                      (click)="addSigner(comIndex, skillIndex)"
+                    ></fa-icon>
+                  </div>
+                  <ng-container formArrayName="signers">
+                    <ng-container
+                      *ngFor="let s of signers(comIndex, skillIndex).controls; let i = index"
+                      [formGroupName]="i"
+                    >
+                      <div
+                        style="
+                          position: absolute;
+                          right: 3vw;
+                          margin-top: 3vh;
+                          color: red;
+                        "
+                      >
+                        <fa-icon
+                          [icon]="faMinus"
+                          *ngIf="i"
+                          (click)="removeSigner(comIndex, skillIndex, i)"
+                        ></fa-icon>
+                      </div>
+                      <div class="row mt-4">
+                        <div class="col-auto">
+                          <label class="col-form-label">Full Name:</label>
+                        </div>
+                        <div class="col-md-5">
+                          <input
+                            type="text"
+                            formControlName="name"
+                            id="{{'name'+i}}"
+                            placeholder="Enter name"
+                            class="form-control"
+                          />
+                          <!-- <div class="alert  alert-danger" *ngIf="signers().controls[i].get('name').hasError('required') && signers().controls[i].get('name').touched">Name is required</div> -->
+                        </div>
+                        <div class="col-auto">
+                          <label class="col-form-label">To:</label>
+                        </div>
+                        <div class="col-md-5">
+                          <input
+                            type="text"
+                            formControlName="email"
+                            id="{{'email'+i}}"
+                            placeholder="Enter email address"
+                            class="form-control"
+                          />
+                        </div>
+                      </div>
+                    </ng-container>
+                  </ng-container>
+                </ng-container>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<button (click)="submit()">Submit</button>
