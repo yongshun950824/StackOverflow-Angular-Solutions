@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76393746][363] | [Showing sub array content][364] |
 | [76393647][361] | [PrimeNG checkbox group with a reactive form - How to get all checked values][362] |
 | [76444822][359] | [Angular - How to get an element by id inside ngOnInit][360] |
 | [76538190][357] | [Angular 9 Chart.js stacked bar chart with multiple bars][358] |
@@ -748,3 +749,6 @@ npm start
 
 [361]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76393647
 [362]: https://stackoverflow.com/questions/76393647/primeng-checkbox-group-with-a-reactive-form-how-to-get-all-checked-values/76395263#76395263
+
+[363]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76393746
+[364]: https://stackoverflow.com/questions/76393746/showing-sub-array-content/76394847#76394847
