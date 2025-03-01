@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76538190][357] | [Angular 9 Chart.js stacked bar chart with multiple bars][358] |
 | [76581257][355] | [Angular Reactive Form with Bootstrap - Custom validation is not working in animation][356] |
 | [76693496][353] | [How to create custom Angular Material mat-menu-items?][354] |
 | [76719997][351] | [How to pass selected table items to function in Angular/PrimeNg][352] |
@@ -736,3 +737,6 @@ npm start
 
 [355]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76581257
 [356]: https://stackoverflow.com/questions/76581257/angular-reactive-form-with-bootstrap-custom-validation-is-not-working-in-anima/76585765#76585765
+
+[357]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76538190
+[358]: https://stackoverflow.com/questions/76538190/angular-9-chart-js-stacked-bar-chart-with-multiple-bars/76538689#76538689
