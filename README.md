@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76581257][355] | [Angular Reactive Form with Bootstrap - Custom validation is not working in animation][356] |
 | [76693496][353] | [How to create custom Angular Material mat-menu-items?][354] |
 | [76719997][351] | [How to pass selected table items to function in Angular/PrimeNg][352] |
 | [76733103][349] | [ERROR TypeError: Cannot read properties of null (reading 'controls') in my deep nested reactive form][350] |
@@ -732,3 +733,6 @@ npm start
 
 [353]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76693496
 [354]: https://stackoverflow.com/questions/76693496/how-to-create-custom-angular-material-mat-menu-items/76694070#76694070
+
+[355]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76581257
+[356]: https://stackoverflow.com/questions/76581257/angular-reactive-form-with-bootstrap-custom-validation-is-not-working-in-anima/76585765#76585765
