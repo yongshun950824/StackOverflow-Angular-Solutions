@@ -1,0 +1,42 @@
+<h5>Basic</h5>
+<form [formGroup]="searchForm">
+  <h5>Multiple</h5>
+  <div class="p-field-checkbox">
+    <p-checkbox
+      name="group1"
+      value="New York"
+      [formControl]="searchForm.get('selectedCities')"
+      inputId="ny"
+    ></p-checkbox>
+    <label for="ny">New York</label>
+  </div>
+  <div class="p-field-checkbox">
+    <p-checkbox
+      name="group1"
+      value="San Francisco"
+      [formControl]="searchForm.get('selectedCities')"
+      inputId="sf"
+    ></p-checkbox>
+    <label for="sf">San Francisco</label>
+  </div>
+  <div class="p-field-checkbox">
+    <p-checkbox
+      name="group1"
+      value="Los Angeles"
+      [formControl]="searchForm.get('selectedCities')"
+      inputId="la"
+    ></p-checkbox>
+    <label for="la">Los Angeles</label>
+  </div>
+  <div class="p-field-checkbox">
+    <p-checkbox
+      name="group1"
+      value="Chicago"
+      [formControl]="searchForm.get('selectedCities')"
+      inputId="ch"
+    ></p-checkbox>
+    <label for="ch">Chicago</label>
+  </div>
+</form>
+
+<p *ngFor="let city of searchForm.get('selectedCities').value">{{ city }}</p>
