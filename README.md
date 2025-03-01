@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76719997][351] | [How to pass selected table items to function in Angular/PrimeNg][352] |
 | [76733103][349] | [ERROR TypeError: Cannot read properties of null (reading 'controls') in my deep nested reactive form][350] |
 | [76777971][347] | [Angular - Name with title base on case][348] |
 | [76779518][345] | [Angular 9 chart.js Bar chart Click event][346] |
@@ -724,3 +725,6 @@ npm start
 
 [349]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76733103
 [350]: https://stackoverflow.com/questions/76733103/error-typeerror-cannot-read-properties-of-null-reading-controls-in-my-deep/76734762#76734762
+
+[351]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76719997
+[352]: https://stackoverflow.com/questions/76719997/how-to-pass-selected-table-items-to-function-in-angular-primeng/76721873#76721873
