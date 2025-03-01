@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76347136][367] | [How to handle Errors while using pipe and mergemap in angular][368] |
 | [76360417][365] | [How i can display image or images in angular template which is received from Asp.Net Rest Api as a base64 string][366] |
 | [76393746][363] | [Showing sub array content][364] |
 | [76393647][361] | [PrimeNG checkbox group with a reactive form - How to get all checked values][362] |
@@ -756,3 +757,6 @@ npm start
 
 [365]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76360417
 [366]: https://stackoverflow.com/questions/76360417/how-i-can-display-image-or-images-in-angular-template-which-is-received-from-asp/76360961#76360961
+
+[367]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76347136
+[368]: https://stackoverflow.com/questions/76347136/how-to-handle-errors-while-using-pipe-and-mergemap-in-angular/76347261#76347261
