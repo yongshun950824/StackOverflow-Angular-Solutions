@@ -742,5 +742,5 @@ npm start
 [357]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76538190
 [358]: https://stackoverflow.com/questions/76538190/angular-9-chart-js-stacked-bar-chart-with-multiple-bars/76538689#76538689
 
-[359]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76538190
+[359]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76444822
 [360]: https://stackoverflow.com/questions/76444822/angular-how-to-get-an-element-by-id-inside-ngoninit/76444843#76444843
