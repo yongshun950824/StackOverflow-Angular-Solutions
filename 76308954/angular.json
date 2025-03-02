@@ -36,7 +36,7 @@
             }
           },
           "options": {
-            "assets": [],
+            "assets": ["src/assets"],
             "index": "src/index.html",
             "main": "src/main.ts",
             "outputPath": "dist/76308954",
