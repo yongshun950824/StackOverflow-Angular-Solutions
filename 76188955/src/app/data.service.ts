@@ -11,10 +11,10 @@ export class DataService {
         subLable: 'Nice',
         count: 9,
       },
-      Application: {
-        subLable: 'ppr',
-        count: 8,
-      },
+      //Application: {
+      //  subLable: 'ppr',
+      //  count: 8,
+      //},
       chanel: {
         subLable: 'ddd',
         count: 3,

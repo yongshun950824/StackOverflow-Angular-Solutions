@@ -2,10 +2,14 @@ import { Component } from '@angular/core';
 
 import { DataService } from './data.service';
 
+import { ChartType } from 'chart.js';
+import Chart from 'chart.js/auto';
+
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
+  standalone: false
 })
 export class AppComponent {
   public barChartOptions: any = {
@@ -25,7 +29,7 @@ export class AppComponent {
     },
   };
 
-  public barChartLabels: string[];
+  public barChartLabels!: string[];
   public barChartType: string = 'bar';
   public barChartLegend: boolean = true;
 
@@ -89,5 +93,22 @@ export class AppComponent {
     this.barChartData = subLabelDatasets;
 
     console.log(this.barChartData);
+
+    new Chart('baseChart', {
+      type: <ChartType>this.barChartType,
+      options: this.barChartOptions,
+      data: {
+        datasets: this.barChartData,
+        labels: this.barChartLabels,
+      },
+    });
+  }
+
+  chartClicked(event: any) {
+
+  }
+
+  chartHovered(event: any) {
+
   }
 }
