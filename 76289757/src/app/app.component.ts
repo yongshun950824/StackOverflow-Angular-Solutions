@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 
-import { Chart, ChartOptions } from 'chart.js';
+import { Chart, ChartOptions, ChartType } from 'chart.js/auto';
+import { fontString } from 'chart.js/helpers';
 
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
+  standalone: false
 })
 export class AppComponent {
   CurrencyAmountchartLabels = [
@@ -59,10 +61,10 @@ export class AppComponent {
       onComplete: function () {
         var chartInstance = this.chart,
           ctx = chartInstance.ctx;
-        ctx.font = Chart.helpers.fontString(
-          Chart.defaults.global.defaultFontSize,
-          Chart.defaults.global.defaultFontStyle,
-          Chart.defaults.global.defaultFontFamily
+        ctx.font = fontString(
+          Chart.defaults.font.size,
+          Chart.defaults.font.style,
+          Chart.defaults.font.family
         );
         ctx.textAlign = 'center';
         ctx.textBaseline = 'bottom';
@@ -96,15 +98,15 @@ export class AppComponent {
       },
     },
     scales: {
-      xAxes: [
+      x: 
         {
           ticks: {
             autoSkip: false,
           },
         },
-      ],
+      
     },
-  };
+  } as any;
 
   chartType: any = 'line';
 
@@ -141,4 +143,19 @@ export class AppComponent {
       borderColor: ['#DD4477'],
     },
   ];
+
+  ngAfterViewInit() {
+    new Chart('baseChart', {
+      type: <ChartType>this.chartType,
+      options: {
+        ...this.OverdueAgeingAmountchartOptions,
+        //color: this.chartColors as any[],
+        legend: true
+      } as any,
+      data: {
+        datasets: this.CurrencyAmountchartDatasets,
+        labels: this.CurrencyAmountchartLabels,
+      },
+    });
+  }
 }
