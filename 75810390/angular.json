@@ -16,9 +16,10 @@
             "outputPath": "dist/75810390",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "assets": [],
+            "assets": ["src/assets"],
             "styles": ["src/global_styles.css"],
-            "scripts": []
+            "scripts": [],
+            "tsConfig": "src/tsconfig.app.json"
           },
           "configurations": {
             "production": {
@@ -64,7 +65,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
-            "styles": ["styles.css"],
+            "styles": ["src/global_styles.css"],
             "scripts": [],
             "assets": ["src/favicon.ico", "src/assets"]
           }
