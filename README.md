@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76117284][383] | [Model is incompatible with FormGroup][384] |
 | [76144691][381] | [call multiple http and return multiple observables][382] |
 | [76188955][379] | [Chart.JS - Implement multi-bar chart][380] |
 | [76215442][377] | [How to use footer with colspan to align total in mat table][378] |
@@ -788,3 +789,6 @@ npm start
 
 [381]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76144691
 [382]: https://stackoverflow.com/questions/76144691/call-multiple-http-and-return-multiple-observables/76144817#76144817
+
+[383]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76117284
+[384]: https://stackoverflow.com/questions/76117284/model-is-incompatible-with-formgroup/76117620#76117620
