@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75963012][391] | [Subscribe to observable returns undefined][392] |
 | [76020329][389] | [NGX-Translate how not to get 404?][390] |
 | [76082567][387] | [How to display error message for a list item in angular][388] |
 | [76096548][385] | [No data is being displayed in table][386] |
@@ -804,3 +805,6 @@ npm start
 
 [389]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76020329
 [390]: https://stackoverflow.com/questions/76020329/ngx-translate-how-not-to-get-404/76020552#76020552
+
+[390]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75963012
+[391]: https://stackoverflow.com/questions/75963012/subscribe-to-observable-returns-undefined/75963052#75963052
