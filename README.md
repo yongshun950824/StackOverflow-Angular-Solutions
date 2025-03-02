@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76020329][389] | [NGX-Translate how not to get 404?][390] |
 | [76082567][387] | [How to display error message for a list item in angular][388] |
 | [76096548][385] | [No data is being displayed in table][386] |
 | [76117284][383] | [Model is incompatible with FormGroup][384] |
@@ -800,3 +801,6 @@ npm start
 
 [387]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76082567
 [388]: https://stackoverflow.com/questions/76082567/how-to-display-error-message-for-a-list-item-in-angular/76083221#76083221
+
+[389]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76020329
+[390]: https://stackoverflow.com/questions/76020329/ngx-translate-how-not-to-get-404/76020552#76020552
