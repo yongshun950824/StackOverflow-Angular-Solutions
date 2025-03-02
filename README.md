@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75810390][395] | [How to I insert ng2-chart into jsPdf document?][396] |
 | [75954846][393] | [error TS2769: No overload matches this call Overload 1 of 5, '(value: string \| FormControlState<string>, opts: FormControlOptions][394] |
 | [75963012][391] | [Subscribe to observable returns undefined][392] |
 | [76020329][389] | [NGX-Translate how not to get 404?][390] |
@@ -812,3 +813,6 @@ npm start
 
 [393]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75954846
 [394]: https://stackoverflow.com/questions/75954846/error-ts2769-no-overload-matches-this-call-overload-1-of-5-value-string-f/75955509#75955509
+
+[395]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75810390
+[396]: https://stackoverflow.com/questions/75810390/how-to-i-insert-ng2-chart-into-jspdf-document/75810900#75810900
