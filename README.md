@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76188955][379] | [Chart.JS - Implement multi-bar chart][380] |
 | [76215442][377] | [How to use footer with colspan to align total in mat table][378] |
 | [76260411][375] | [ng2-charts - Highlighting a series when hovering over the corresponding legend label][376] |
 | [76289757][373] | [Chart.JS Legend custom color change][374] |
@@ -780,3 +781,6 @@ npm start
 
 [377]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76215442
 [378]: https://stackoverflow.com/questions/76215442/how-to-use-footer-with-colspan-to-align-total-in-mat-table/76215727#76215727
+
+[379]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76188955
+[380]: https://stackoverflow.com/questions/76188955/chart-js-implement-multi-bar-chart/76189292#76189292
