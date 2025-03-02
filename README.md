@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76144691][381] | [call multiple http and return multiple observables][382] |
 | [76188955][379] | [Chart.JS - Implement multi-bar chart][380] |
 | [76215442][377] | [How to use footer with colspan to align total in mat table][378] |
 | [76260411][375] | [ng2-charts - Highlighting a series when hovering over the corresponding legend label][376] |
@@ -784,3 +785,6 @@ npm start
 
 [379]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76188955
 [380]: https://stackoverflow.com/questions/76188955/chart-js-implement-multi-bar-chart/76189292#76189292
+
+[381]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76144691
+[382]: https://stackoverflow.com/questions/76144691/call-multiple-http-and-return-multiple-observables/76144817#76144817
