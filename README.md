@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76308954][371] | [Angular Material Table - How to display the nested data][372] |
 | [76320942][369] | [Angular - How to use value from multiple checkboxes][370] |
 | [76347136][367] | [How to handle Errors while using pipe and mergemap in angular][368] |
 | [76360417][365] | [How i can display image or images in angular template which is received from Asp.Net Rest Api as a base64 string][366] |
@@ -764,3 +765,6 @@ npm start
 
 [369]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76320942
 [370]: https://stackoverflow.com/questions/76320942/angular-how-to-use-value-from-multiple-checkboxes/76321100#76321100
+
+[371]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76308954
+[372]: https://stackoverflow.com/questions/76308954/angular-material-table-how-to-display-the-nested-data/76310793#76310793
