@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { MatTableDataSource } from '@angular/material';
+import { MatTableDataSource } from '@angular/material/table';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import { MatIconRegistry } from "@angular/material/icon";
@@ -13,12 +13,13 @@ import {BehaviorSubject} from 'rxjs';
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  styleUrls: [ './app.component.css' ],
+  standalone: false
 })
 
 export class AppComponent implements OnInit  {
 
-  @ViewChild(MatSort) sort: MatSort;
+  @ViewChild(MatSort) sort!: MatSort;
 
   REQUESTS = [
     {type: 'TypeA', name: 'RequestA', amount: 1000, status: 'Draft', dateModified: 1111112211111},
@@ -53,7 +54,7 @@ export class AppComponent implements OnInit  {
   }
 
   // Dynamically set the SVG elements' class to change their color depending on the request status
-  getStateColor(status) {
+  getStateColor(status: string) {
     switch(status) {
       case ('Submitted'):
       case ('Draft'):
@@ -64,10 +65,12 @@ export class AppComponent implements OnInit  {
         return 'gray-svg';
         break;
     }
+
+    return '';
   }
 
   // If a request amount is zero, display "FREE", else display the amount
-  getAmount(amount) {
+  getAmount(amount: number) {
     return (amount === 0 ? 'FREE' : amount+" €");
   }
  getTotal(){

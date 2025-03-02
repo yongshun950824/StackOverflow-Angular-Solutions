@@ -11,7 +11,7 @@ import {MatSortModule} from '@angular/material/sort';
 
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   imports:      [ 
@@ -24,9 +24,10 @@ import { HelloComponent } from './hello.component';
     MatFormFieldModule,
     MatIconModule,
     HttpClientModule,
-    MatSortModule
+    MatSortModule,
+    CommonModule
   ],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

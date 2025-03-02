@@ -1,5 +1,16 @@
-@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+@use '@angular/material' as mat;
+
+$theme: mat.define-theme((
+  color: (
+    theme-type: light,
+    primary: mat.$azure-palette,
+    tertiary: mat.$blue-palette,
+  )
+));
+
+@include mat.core();
+@include mat.color-variants-backwards-compatibility($theme);
+
 
 * {
   font-family: 'Roboto', sans-serif;
