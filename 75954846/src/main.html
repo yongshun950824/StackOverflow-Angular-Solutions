@@ -1,0 +1,6 @@
+<input type="text" name="creditcardnumber" [formControl]="cardControl" />
+<div *ngIf="cardControl.dirty && cardControl.errors?.creditCard" class="error">
+  {{ cardControl.errors?.creditCard }}
+</div>
+<p>Real-time value: {{ cardControl.value }}</p>
+<p>Debounced value: {{ value$ | async }}</p>
