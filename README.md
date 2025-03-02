@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76289757][373] | [Chart.JS Legend custom color change][374] |
 | [76308954][371] | [Angular Material Table - How to display the nested data][372] |
 | [76320942][369] | [Angular - How to use value from multiple checkboxes][370] |
 | [76347136][367] | [How to handle Errors while using pipe and mergemap in angular][368] |
@@ -768,3 +769,6 @@ npm start
 
 [371]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76308954
 [372]: https://stackoverflow.com/questions/76308954/angular-material-table-how-to-display-the-nested-data/76310793#76310793
+
+[373]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76289757
+[374]: https://stackoverflow.com/questions/76289757/chart-js-legend-custom-color-change/76290357#76290357
