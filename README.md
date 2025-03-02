@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76096548][385] | [No data is being displayed in table][386] |
 | [76117284][383] | [Model is incompatible with FormGroup][384] |
 | [76144691][381] | [call multiple http and return multiple observables][382] |
 | [76188955][379] | [Chart.JS - Implement multi-bar chart][380] |
@@ -792,3 +793,6 @@ npm start
 
 [383]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76117284
 [384]: https://stackoverflow.com/questions/76117284/model-is-incompatible-with-formgroup/76117620#76117620
+
+[385]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76096548
+[386]: https://stackoverflow.com/questions/76096548/no-data-is-being-displayed-in-table/76097170#76097170

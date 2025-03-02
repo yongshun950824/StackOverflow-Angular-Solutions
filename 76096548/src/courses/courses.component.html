@@ -1,0 +1,13 @@
+<h2>Course List</h2>
+<table class="table table-bordered">
+    <tr>
+      <th>Name</th>
+      <th>Room Number</th>
+      <th>Teacher</th>
+    </tr>
+    <tr *ngFor="let course of courses | async">
+      <td>{{course.name}}</td>
+      <td>{{course.roomNumber}}</td>
+      <td>{{course.teacher}}</td>
+    </tr> 
+</table>
