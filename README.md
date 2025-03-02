@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76082567][387] | [How to display error message for a list item in angular][388] |
 | [76096548][385] | [No data is being displayed in table][386] |
 | [76117284][383] | [Model is incompatible with FormGroup][384] |
 | [76144691][381] | [call multiple http and return multiple observables][382] |
@@ -796,3 +797,6 @@ npm start
 
 [385]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76096548
 [386]: https://stackoverflow.com/questions/76096548/no-data-is-being-displayed-in-table/76097170#76097170
+
+[387]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76082567
+[388]: https://stackoverflow.com/questions/76082567/how-to-display-error-message-for-a-list-item-in-angular/76083221#76083221
