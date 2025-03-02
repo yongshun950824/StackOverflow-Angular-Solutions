@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [76260411][375] | [ng2-charts - Highlighting a series when hovering over the corresponding legend label][376] |
 | [76289757][373] | [Chart.JS Legend custom color change][374] |
 | [76308954][371] | [Angular Material Table - How to display the nested data][372] |
 | [76320942][369] | [Angular - How to use value from multiple checkboxes][370] |
@@ -772,3 +773,6 @@ npm start
 
 [373]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76289757
 [374]: https://stackoverflow.com/questions/76289757/chart-js-legend-custom-color-change/76290357#76290357
+
+[375]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76260411
+[376]: https://stackoverflow.com/questions/76260411/ng2-charts-highlighting-a-series-when-hovering-over-the-corresponding-legend-l/76264218#76264218
