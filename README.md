@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75306400][417] | [Set Formarray data to an object angular][418] |
 | [75346750][415] | [Angular - ValueChanges not updating parent form (ControlValueAccessor)][416] |
 | [75406559][413] | [Typescript error TS2345: Argument of type 'number' is not assignable to parameter of type 'never'][414] |
 | [75411632][411] | [Angular ngFor - TS2339: Property 'value' does not exist on type 'OptionItem'][412] |
@@ -856,3 +857,6 @@ npm start
 
 [415]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75346750
 [416]: https://stackoverflow.com/questions/75346750/angular-valuechanges-not-updating-parent-form-controlvalueaccessor/75349600#75349600
+
+[417]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75306400
+[418]: https://stackoverflow.com/questions/75306400/set-formarray-data-to-an-object-angular/75306551#75306551
