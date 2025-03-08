@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75406559][413] | [Typescript error TS2345: Argument of type 'number' is not assignable to parameter of type 'never'][414] |
 | [75411632][411] | [Angular ngFor - TS2339: Property 'value' does not exist on type 'OptionItem'][412] |
 | [75418261][409] | [Angular - Extract response which is ProblemDetails type][410] |
 | [75507095][407] | [Display the value that is in an object array][408] |
@@ -848,3 +849,6 @@ npm start
 
 [411]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75411632
 [412]: https://stackoverflow.com/questions/75411632/angular-ngfor-ts2339-property-value-does-not-exist-on-type-optionitem/75412476#75412476
+
+[413]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75406559
+[414]: https://stackoverflow.com/questions/75406559/typescript-error-ts2345-argument-of-type-number-is-not-assignable-to-paramete/75406981#75406981
