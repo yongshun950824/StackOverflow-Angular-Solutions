@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75646667][397] | [Unable to visualize value from the API response][398] |
 | [75810390][395] | [How to I insert ng2-chart into jsPdf document?][396] |
 | [75954846][393] | [error TS2769: No overload matches this call Overload 1 of 5, '(value: string \| FormControlState<string>, opts: FormControlOptions][394] |
 | [75963012][391] | [Subscribe to observable returns undefined][392] |
@@ -816,3 +817,6 @@ npm start
 
 [395]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75810390
 [396]: https://stackoverflow.com/questions/75810390/how-to-i-insert-ng2-chart-into-jspdf-document/75810900#75810900
+
+[397]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75646667
+[398]: https://stackoverflow.com/questions/75646667/unable-to-visualize-value-from-the-api-response/75646776#75646776
