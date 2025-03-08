@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75304364][419] | [Can't get through with async validators][420] |
 | [75306400][417] | [Set Formarray data to an object angular][418] |
 | [75346750][415] | [Angular - ValueChanges not updating parent form (ControlValueAccessor)][416] |
 | [75406559][413] | [Typescript error TS2345: Argument of type 'number' is not assignable to parameter of type 'never'][414] |
@@ -860,3 +861,6 @@ npm start
 
 [417]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75306400
 [418]: https://stackoverflow.com/questions/75306400/set-formarray-data-to-an-object-angular/75306551#75306551
+
+[419]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75304364
+[420]: https://stackoverflow.com/questions/75304364/cant-get-through-with-async-validators/75304849#75304849
