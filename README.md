@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75610883][401] | [Unable to pass formcontrol value to string param][402] |
 | [75633615][399] | [How to change/cast Observable<String> to Observable<String[]>][400] |
 | [75646667][397] | [Unable to visualize value from the API response][398] |
 | [75810390][395] | [How to I insert ng2-chart into jsPdf document?][396] |
@@ -824,3 +825,6 @@ npm start
 
 [399]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75633615
 [400]: https://stackoverflow.com/questions/75633615/how-to-change-cast-observablestring-to-observablestring/75633743#75633743
+
+[401]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75610883
+[402]: https://stackoverflow.com/questions/75610883/unable-to-pass-formcontrol-value-to-string-param/75611002#75611002
