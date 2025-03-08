@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75411632][411] | [Angular ngFor - TS2339: Property 'value' does not exist on type 'OptionItem'][412] |
 | [75418261][409] | [Angular - Extract response which is ProblemDetails type][410] |
 | [75507095][407] | [Display the value that is in an object array][408] |
 | [75530825][405] | [How to correctly use types with FormArray in Angular][406] |
@@ -844,3 +845,6 @@ npm start
 
 [409]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75418261
 [410]: https://stackoverflow.com/questions/75418261/angular-extract-response-which-is-problemdetails-type/75418500#75418500
+
+[411]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75411632
+[412]: https://stackoverflow.com/questions/75411632/angular-ngfor-ts2339-property-value-does-not-exist-on-type-optionitem/75412476#75412476
