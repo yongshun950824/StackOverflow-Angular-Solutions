@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75530825][405] | [How to correctly use types with FormArray in Angular][406] |
 | [75601173][403] | [Angular Push JSON data into Array][404] |
 | [75610883][401] | [Unable to pass formcontrol value to string param][402] |
 | [75633615][399] | [How to change/cast Observable<String> to Observable<String[]>][400] |
@@ -832,3 +833,6 @@ npm start
 
 [403]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75601173
 [404]: https://stackoverflow.com/questions/75601173/angular-push-json-data-into-array/75601268#75601268
+
+[405]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75601173
+[406]: https://stackoverflow.com/questions/75530825/how-to-correctly-use-types-with-formarray-in-angular/75531250#75531250
