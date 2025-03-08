@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75346750][415] | [Angular - ValueChanges not updating parent form (ControlValueAccessor)][416] |
 | [75406559][413] | [Typescript error TS2345: Argument of type 'number' is not assignable to parameter of type 'never'][414] |
 | [75411632][411] | [Angular ngFor - TS2339: Property 'value' does not exist on type 'OptionItem'][412] |
 | [75418261][409] | [Angular - Extract response which is ProblemDetails type][410] |
@@ -852,3 +853,6 @@ npm start
 
 [413]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75406559
 [414]: https://stackoverflow.com/questions/75406559/typescript-error-ts2345-argument-of-type-number-is-not-assignable-to-paramete/75406981#75406981
+
+[415]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75346750
+[416]: https://stackoverflow.com/questions/75346750/angular-valuechanges-not-updating-parent-form-controlvalueaccessor/75349600#75349600
