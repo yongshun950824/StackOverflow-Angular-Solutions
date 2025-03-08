@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75601173][403] | [Angular Push JSON data into Array][404] |
 | [75610883][401] | [Unable to pass formcontrol value to string param][402] |
 | [75633615][399] | [How to change/cast Observable<String> to Observable<String[]>][400] |
 | [75646667][397] | [Unable to visualize value from the API response][398] |
@@ -828,3 +829,6 @@ npm start
 
 [401]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75610883
 [402]: https://stackoverflow.com/questions/75610883/unable-to-pass-formcontrol-value-to-string-param/75611002#75611002
+
+[403]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75601173
+[404]: https://stackoverflow.com/questions/75601173/angular-push-json-data-into-array/75601268#75601268
