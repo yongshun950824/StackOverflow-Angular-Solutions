@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75507095][407] | [Display the value that is in an object array][408] |
 | [75530825][405] | [How to correctly use types with FormArray in Angular][406] |
 | [75601173][403] | [Angular Push JSON data into Array][404] |
 | [75610883][401] | [Unable to pass formcontrol value to string param][402] |
@@ -836,3 +837,6 @@ npm start
 
 [405]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75601173
 [406]: https://stackoverflow.com/questions/75530825/how-to-correctly-use-types-with-formarray-in-angular/75531250#75531250
+
+[407]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75507095
+[408]: https://stackoverflow.com/questions/75507095/display-the-value-that-is-in-an-object-array/75507161#75507161

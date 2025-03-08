@@ -1,0 +1,28 @@
+<div class="container text-center" *ngIf="MET">
+  <h2 class="pt-3 pb-3">HTML Table</h2>
+  <table class="mb-5">
+    <tr>
+      <th>Isin</th>
+      <th>Denomination</th>
+    </tr>
+    <tr *ngFor="let line of MET">
+      <td>{{ line.ISINCODE }}</td>
+      <td>{{ line.LABEL }}</td>
+    </tr>
+  </table>
+  <br />
+  <table class="mb-5">
+    <tr>
+      <th>Code</th>
+    </tr>
+    <ng-container>
+      <tr *ngFor="let l of MET">
+        <td>
+          <ng-container *ngFor="let l of l.RESOLUTION">
+            <span>{{ l.REF }}</span>
+          </ng-container>
+        </td>
+      </tr>
+    </ng-container>
+  </table>
+</div>
