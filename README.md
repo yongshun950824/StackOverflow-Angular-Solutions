@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75633615][399] | [How to change/cast Observable<String> to Observable<String[]>][400] |
 | [75646667][397] | [Unable to visualize value from the API response][398] |
 | [75810390][395] | [How to I insert ng2-chart into jsPdf document?][396] |
 | [75954846][393] | [error TS2769: No overload matches this call Overload 1 of 5, '(value: string \| FormControlState<string>, opts: FormControlOptions][394] |
@@ -820,3 +821,6 @@ npm start
 
 [397]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75646667
 [398]: https://stackoverflow.com/questions/75646667/unable-to-visualize-value-from-the-api-response/75646776#75646776
+
+[399]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75633615
+[400]: https://stackoverflow.com/questions/75633615/how-to-change-cast-observablestring-to-observablestring/75633743#75633743
