@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75171810][431] | [Angular directive selector can't apply icon to the element][432] |
 | [75217652][429] | [Get error: Cannot find a differ supporting object '[object Object]' of type 'object' NgFor only supports binding to Iterables, such as Arrays][430] |
 | [75250740_1][425]<br />[75250740_2][427] | [Angular - Conditional validator is not working][426] |
 | [75257756][423] | [Angular 14: Propagate FormArray with API response to use in select option][424] |
@@ -883,3 +884,6 @@ npm start
 
 [429]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75217652
 [430]: https://stackoverflow.com/questions/75217652/get-error-cannot-find-a-differ-supporting-object-object-object-of-type-obj/75217721#75217721
+
+[431]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75171810
+[432]: https://stackoverflow.com/questions/75171810/angular-directive-selector-cant-apply-icon-to-the-element/75172367#75172367

@@ -1,0 +1,45 @@
+<div class="row mt-3">
+  <div class="col">
+    <h1>Sort & Filter Data Tables in Angular</h1>
+
+    <div class="form-group">
+      <div class="table-responsive">
+        <table class="table table-hover">
+          <thead class="thead-light">
+            <tr>
+              <!-- Apply either
+                1. <th sortable></th>
+                2. <th [attr.sortable]="item.content"></th>
+              -->
+              <th
+                *ngFor="let item of list.table.headings; let i = index"
+                scope="col"
+                sortable="{{ item.content }}"
+                (sort)="onSort($event, i)"
+                [attr.sortable]="item.content"
+              >
+                {{ item.content }}
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- <tr *ngFor="let country of countries | country: filter">
+            <td>
+              {{ country.name }}
+            </td>
+            <td>{{ country.capital }}</td>
+            <td class="text-center">{{ country.alpha3Code }}</td>
+            <td class="text-center">{{ country.population | number }}</td>
+          </tr> -->
+
+            <tr *ngFor="let tr of list.table.rows">
+              <td *ngFor="let td of tr.columns">
+                {{ td.content }}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
