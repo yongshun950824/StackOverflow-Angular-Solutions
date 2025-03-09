@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75257756][423] | [Angular 14: Propagate FormArray with API response to use in select option][424] |
 | [75279555][421] | [Component declared in nested module doesn't have material styles applied][422] |
 | [75304364][419] | [Can't get through with async validators][420] |
 | [75306400][417] | [Set Formarray data to an object angular][418] |
@@ -868,3 +869,6 @@ npm start
 
 [421]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75279555
 [422]: https://stackoverflow.com/questions/75279555/component-declared-in-nested-module-doesnt-have-material-styles-applied/75279772#75279772
+
+[423]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75257756
+[424]: https://stackoverflow.com/questions/75257756/angular-14-propagate-formarray-with-api-response-to-use-in-select-option/75258182#75258182

@@ -1,0 +1,13 @@
+<form [formGroup]="myForm">
+  Name: <input formControlName="name" />
+  <div formArrayName="details">
+    <ng-container *ngFor="let control of detailsArr.controls; let i = index">
+      <ng-container [formGroupName]="i">
+        detailName: <input formControlName="detailName" />
+        <br />
+        detailValue:
+        <input formControlName="detailValue" />
+      </ng-container>
+    </ng-container>
+  </div>
+</form>
