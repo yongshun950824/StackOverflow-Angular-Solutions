@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75250740_1][425]<br />[75250740_2][427] | [Angular - Conditional validator is not working][426] |
 | [75257756][423] | [Angular 14: Propagate FormArray with API response to use in select option][424] |
 | [75279555][421] | [Component declared in nested module doesn't have material styles applied][422] |
 | [75304364][419] | [Can't get through with async validators][420] |
@@ -872,3 +873,9 @@ npm start
 
 [423]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75257756
 [424]: https://stackoverflow.com/questions/75257756/angular-14-propagate-formarray-with-api-response-to-use-in-select-option/75258182#75258182
+
+[425]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75250740_1
+[426]: https://stackoverflow.com/questions/75250740/angular-conditional-validator-is-not-working/75253918#75253918
+
+[427]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75250740_2
+[428]: https://stackoverflow.com/questions/75250740/angular-conditional-validator-is-not-working/75253918#75253918

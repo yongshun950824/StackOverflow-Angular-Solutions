@@ -1,0 +1,22 @@
+<form [formGroup]="partnerInvoiceDetailsForm">
+  <div formGroupName="rebates">
+    <div formGroupName="territories">
+      <label>rebateTier</label>
+      <input formControlName="rebateTier" />
+
+      <span
+        *ngIf="
+          partnerInvoiceDetailsForm.get('rebates.territories.rebateTier').errors
+            ?.required
+        "
+        >Rebate Tier is required!</span
+      >
+      <br />
+      <label>rebateValue</label>
+      <input formControlName="rebateValue" />
+      <br />
+      <label>rebateActive</label>
+      <input type="checkbox" formControlName="rebateActive" />
+    </div>
+  </div>
+</form>
