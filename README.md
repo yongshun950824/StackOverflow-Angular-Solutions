@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75279555][421] | [Component declared in nested module doesn't have material styles applied][422] |
 | [75304364][419] | [Can't get through with async validators][420] |
 | [75306400][417] | [Set Formarray data to an object angular][418] |
 | [75346750][415] | [Angular - ValueChanges not updating parent form (ControlValueAccessor)][416] |
@@ -864,3 +865,6 @@ npm start
 
 [419]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75304364
 [420]: https://stackoverflow.com/questions/75304364/cant-get-through-with-async-validators/75304849#75304849
+
+[421]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75279555
+[422]: https://stackoverflow.com/questions/75279555/component-declared-in-nested-module-doesnt-have-material-styles-applied/75279772#75279772
