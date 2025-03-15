@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74973476][443] | [Number pipe number : '1.2-2' is not working while using by a ternary inside *ngFor directives][444] |
 | [74988226][441] | [Iterate a FormArray of FormGroups][442] |
 | [74999822][439] | [Angular - Send attribute values on click event][440] |
 | [75030190][437] | [Angular - Unable to add form control to field to FormGroup][438] |
@@ -907,3 +908,6 @@ npm start
 
 [441]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74988226
 [442]: https://stackoverflow.com/questions/74988226/iterate-a-formarray-of-formgroups/74988400#74988400
+
+[443]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74973476
+[444]: https://stackoverflow.com/questions/74973476/number-pipe-number-1-2-2-is-not-working-while-using-by-a-ternary-inside-ngf/74973635#74973635
