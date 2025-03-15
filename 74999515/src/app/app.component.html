@@ -1,0 +1,54 @@
+<table>
+  <thead>
+    <tr>
+      <th>partId</th>
+      <th>partName</th>
+      <th>partDesc</th>
+      <th>partTypeCode</th>
+      <th>createdBy</th>
+      <th>updatedBy</th>
+      <th>createdDate</th>
+      <th>updatedDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let part of allParts">
+      <td>
+        <span>{{ part.partId }}</span>
+      </td>
+      <td>
+        <span>{{ part.partName }}</span>
+      </td>
+      <td>
+        <span>{{ part.partDesc }}</span>
+      </td>
+      <td>
+        <span>{{ part.partTypeCode }}</span>
+      </td>
+      <td>
+        <span>{{ part.createdBy.firstName }}</span>
+      </td>
+      <td>
+        <span>{{ part.updatedBy?.firstName }}</span>
+      </td>
+      <!-- Or -->
+      <!-- <td>
+        <ng-container *ngIf="part.updatedBy">
+          <span>{{ part.updatedBy?.firstName }}</span>
+        </ng-container>
+      </td> -->
+      <td>
+        <span>{{ part.createdDate | slice: 0:10 }}</span>
+      </td>
+      <td>
+        <span>{{ part.updatedDate | slice: 0:10 }}</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br />
+
+<ul>
+  <li *ngFor="let part of allParts">{{ part | json }}</li>
+</ul>
