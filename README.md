@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75030190][437] | [Angular - Unable to add form control to field to FormGroup][438] |
 | [75147554][435] | [NG2-Charts - How to change cutout width for doughnut chart][436] |
 | [75162135][433] | [Chart.js - How to parse array of objects as the dataset for Pie Chart][434] |
 | [75171810][431] | [Angular directive selector can't apply icon to the element][432] |
@@ -895,3 +896,6 @@ npm start
 
 [435]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75147554
 [436]: https://stackoverflow.com/questions/75147554/ng2-charts-how-to-change-cutout-width-for-doughnut-chart/75147889#75147889
+
+[437]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75030190
+[438]: https://stackoverflow.com/questions/75030190/angular-unable-to-add-form-control-to-field-to-formgroup/75037840#75037840
