@@ -1,0 +1,19 @@
+<ion-icon (click)="addExercise()" name="add" slot="end"></ion-icon>
+
+<div [formGroup]="$any(workoutFormArray)">
+  <div *ngFor="let group of workoutFormArray.controls; let i = index">
+    <div [formGroupName]="i">
+      <ion-select
+        placeholder="Exercise"
+        formControlName="exercise"
+        (ionChange)="saveWorkout()"
+      >
+        <ion-select-option value="pushups"> Pushups </ion-select-option>
+        <ion-select-option value="squats"> Squats </ion-select-option>
+      </ion-select>
+
+      <ion-input type="text" formControlName="reps"></ion-input>
+    </div>
+    <button type="button" (click)="saveWorkout()">Save</button>
+  </div>
+</div>

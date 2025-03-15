@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74988226][441] | [Iterate a FormArray of FormGroups][442] |
 | [74999822][439] | [Angular - Send attribute values on click event][440] |
 | [75030190][437] | [Angular - Unable to add form control to field to FormGroup][438] |
 | [75147554][435] | [NG2-Charts - How to change cutout width for doughnut chart][436] |
@@ -903,3 +904,6 @@ npm start
 
 [439]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74999822
 [440]: https://stackoverflow.com/questions/74999822/angular-send-attribute-values-on-click-event/75000531#75000531
+
+[441]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74988226
+[442]: https://stackoverflow.com/questions/74988226/iterate-a-formarray-of-formgroups/74988400#74988400
