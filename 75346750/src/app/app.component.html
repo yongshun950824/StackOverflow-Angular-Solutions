@@ -1,0 +1,17 @@
+<div class="container">
+
+    <h1>Sign In</h1>
+
+    <form (ngSubmit)="onSubmit()"
+          [formGroup]="form"
+          novalidate>
+
+      <app-login-form formControlName="login"></app-login-form>
+
+      <button mat-raised-button
+              type="submit"
+              color="primary">Sign In</button>
+
+    </form>
+
+</div>

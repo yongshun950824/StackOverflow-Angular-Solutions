@@ -1,0 +1,14 @@
+<a class="btn btn-primary" [routerLink]="['']">
+  <i class="bi bi-house"></i>
+</a>
+
+<a class="btn btn-primary" (click)="onCreateNew()">
+  <i class="bi bi-plus"></i>
+</a>
+
+<!-- This works too -->
+<a class="btn btn-primary" [routerLink]="['newcard']">
+  <i class="bi bi-plus"></i>
+</a>
+
+<router-outlet></router-outlet>

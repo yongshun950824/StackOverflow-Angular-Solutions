@@ -1,0 +1,24 @@
+<p>Student detail works</p>
+
+<h3>This is Student ID : {{ stdID }}</h3>
+<h3>This is Student NAME : {{ stdNAME }}</h3>
+
+<br />
+
+<button
+  type="button"
+  class="btn btn-outline-success"
+  (click)="previousStudent()"
+  [disabled]="!previousStud"
+>
+  Previous Student
+</button>
+
+<button
+  type="button"
+  class="btn btn-outline-success"
+  (click)="nextStudent()"
+  [disabled]="!nextStud"
+>
+  Next Student
+</button>

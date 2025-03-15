@@ -1,0 +1,67 @@
+<form [formGroup]="passwordForm">
+  <mat-form-field>
+    <input
+      #thePassword
+      matInput
+      [type]="hidePasswordButton ? 'password' : 'text'"
+      [formControl]="password"
+      (input)="onPasswordInput(thePassword.value)"
+    />
+
+    <mat-label>Enter Password</mat-label>
+
+    <mat-error *ngIf="password.hasError('required')">
+      Password is <strong>required</strong>
+    </mat-error>
+
+    <mat-error *ngIf="password.hasError('minlength')">
+      Must have <strong>at least 8 characters.</strong>
+    </mat-error>
+
+    <button
+      mat-icon-button
+      matSuffix
+      (click)="hidePasswordButton = !hidePasswordButton"
+      [attr.aria-label]="'Hide password'"
+      [attr.aria-pressed]="hidePasswordButton"
+    >
+      <mat-icon
+        >{{ hidePasswordButton ? "visibility_off" : "visibility" }}</mat-icon
+      >
+    </button>
+  </mat-form-field>
+
+  <mat-form-field *ngIf="!isInputDisabled()">
+    <input
+      #ConfirmedPassword
+      matInput
+      [type]="hideConfirmedPasswordButton ? 'password' : 'text'"
+      [formControl]="confirmedPassword"
+      (input)="onConfirmedPasswordInput(ConfirmedPassword.value)"
+      [errorStateMatcher]="confirmedPasswordErrorStateMatcher"
+    />
+
+    <mat-label>Confirm Password</mat-label>
+
+    <mat-error *ngIf="passwordForm.errors?.['mismatch']">
+      Passwords <strong>don't match</strong>
+    </mat-error>
+
+    <mat-error *ngIf="confirmedPassword.hasError('required')">
+      <strong>You must confirm your password</strong>
+    </mat-error>
+
+    <button
+      mat-icon-button
+      matSuffix
+      (click)="hideConfirmedPasswordButton = !hideConfirmedPasswordButton"
+      [attr.aria-label]="'Hide password'"
+      [attr.aria-pressed]="hideConfirmedPasswordButton"
+    >
+      <mat-icon
+        >{{ hideConfirmedPasswordButton ? "visibility_off" : "visibility"
+        }}</mat-icon
+      >
+    </button>
+  </mat-form-field>
+</form>

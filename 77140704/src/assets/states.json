@@ -1,0 +1,65 @@
+[
+  {
+    "periodStartTime": "2020-05-01T00:00:00",
+    "keyStats": {
+      "downloadNok": 5,
+      "evtUpdNok": 3,
+      "updDwldStr": 2,
+      "condCheckOk": 4
+    }
+  },
+  {
+    "periodStartTime": "2020-05-02T00:00:00",
+    "keyStats": {
+      "downloadNok": 3,
+      "evtUpdNok": 2,
+      "updDwldStr": 4,
+      "condCheckOk": 1
+    }
+  },
+  {
+    "periodStartTime": "2020-05-03T00:00:00",
+    "keyStats": {
+      "downloadNok": 4,
+      "evtUpdNok": 1,
+      "downloaded": 3,
+      "condCheckOk": 2
+    }
+  },
+  {
+    "periodStartTime": "2020-05-04T00:00:00",
+    "keyStats": {
+      "downloadNok": 4,
+      "evtUpdNok": 1,
+      "updDwldStr": 3,
+      "condCheckOk": 2
+    }
+  },
+  {
+    "periodStartTime": "2020-05-05T00:00:00",
+    "keyStats": {
+      "downloadNok": 4,
+      "evtUpdNok": 1,
+      "updDwldStr": 3,
+      "condCheckOk": 2
+    }
+  },
+  {
+    "periodStartTime": "2020-05-06T00:00:00",
+    "keyStats": {
+      "downloadNok": 4,
+      "evtUpdNok": 1,
+      "updDwldStr": 3,
+      "condCheckOk": 2
+    }
+  },
+  {
+    "periodStartTime": "2020-05-14T00:00:00",
+    "keyStats": {
+      "downloadNok": 2,
+      "evtUpdNok": 3,
+      "updDwldStr": 4,
+      "condCheckOk": 1
+    }
+  }
+]

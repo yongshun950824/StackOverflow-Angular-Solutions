@@ -1,0 +1,77 @@
+<div class="col-12">
+  <div class="btn-group btn-group-toggle mr-3" data-toggle="buttons">
+    <label
+      class="btn btn-secondary"
+      tabindex="0"
+      [ngClass]="{ active: radioOption.value === 'optionA' }"
+    >
+      <input
+        type="radio"
+        name="options"
+        id="optionA"
+        formControlName="radioOption"
+        autocomplete="off"
+        [value]="'optionA'"
+      />
+      Option A
+    </label>
+    <label
+      class="btn btn-secondary"
+      tabindex="0"
+      [ngClass]="{ active: radioOption.value === 'optionB' }"
+    >
+      <input
+        type="radio"
+        name="options"
+        id="optionB"
+        formControlName="radioOption"
+        autocomplete="off"
+        [value]="'optionB'"
+      />
+      Option B
+    </label>
+  </div>
+
+  <fieldset>
+    <div class="radioButtonLabel">What would you like to eat?</div>
+    <form [formGroup]="form">
+      <label class="container-radio copyToClipBoard">
+        Apple
+        <input
+          tabindex="0"
+          type="radio"
+          id="test1"
+          name="selectedFood"
+          [value]="'Apple'"
+          formControlName="selectedFood"
+        />
+        <span class="checkmark"></span>
+      </label>
+      <label class="container-radio">
+        Peach
+        <input
+          tabindex="0"
+          type="radio"
+          id="test2"
+          name="selectedFood"
+          [value]="'Peach'"
+          formControlName="selectedFood"
+        />
+        <span class="checkmark"></span>
+      </label>
+      <label class="container-radio">
+        Orange
+        <input
+          tabindex="0"
+          type="radio"
+          id="test3"
+          name="selectedFood"
+          [value]="'Orange'"
+          formControlName="selectedFood"
+        />
+        <span class="checkmark"></span>
+      </label>
+    </form>
+  </fieldset>
+  <button (click)="setPeachValue()">Set</button>
+</div>

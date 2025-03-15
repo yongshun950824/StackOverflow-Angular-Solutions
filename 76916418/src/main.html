@@ -1,0 +1,24 @@
+<form [formGroup]="selectForm" (ngSubmit)="submit()">
+  <div class="d-grid gap-3">
+    <div class="p-2 bg-light border">
+      <select id="dropdown" class="form-select" #templates (change)="onChange()">
+        <option>Please Select Option</option>
+        <option *ngFor="let t of taxonomyResponse.categoryList">{{t.name}}</option>
+      </select>
+    </div>
+    <div class="p-2 bg-light border">Name: <input type="text" formControlName="name"></div>
+    <div class="p-2 bg-light border">Email: <input type="text" formControlName="email"></div>
+    <div formArrayName="options" class="p-2 bg-light border">
+    <div *ngFor="let option of options.controls; let i=index">
+      <div [formGroupName] = "i">
+     Option: <input type="text" formControlName="selectOptions" />
+    </div>
+    </div>
+    </div>
+    <div class="p-2 bg-light border">
+    <button class="btn btn-primary" type="submit" id="submit">Submit</button>
+    </div>
+  </div>
+</form>
+
+<pre>{{this.selectForm.value | json}}</pre>

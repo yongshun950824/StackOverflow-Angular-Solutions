@@ -1,0 +1,22 @@
+{{ colors | json }}
+
+<mat-grid-tile *ngFor="let color of colors">
+  <mat-card
+    class="example-card"
+    style="
+      width: 95%;
+      border-radius: 15px;
+      box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.15);
+    "
+  >
+    <mat-card-content>
+      <mat-grid-list cols="1" rowHeight="250">
+        <mat-grid-tile class="tile" style="overflow: auto">
+          <div class="wrapper">
+            <p>{{color.name}}</p>
+          </div>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </mat-card-content>
+  </mat-card>
+</mat-grid-tile>

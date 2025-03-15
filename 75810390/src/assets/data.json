@@ -1,0 +1,23 @@
+{
+  "fruits": [
+    { "fruit": "Apple", "size": "Large", "color": "Red", "amountBought": 100 },
+    {
+      "fruit": "Banana",
+      "size": "Small",
+      "color": "Yellow",
+      "amountBought": 76
+    },
+    {
+      "fruit": "Strawberry",
+      "size": "Medium",
+      "color": "Red",
+      "amountBought": 732
+    },
+    {
+      "fruit": "Blueberry",
+      "size": "Small",
+      "color": "Blue",
+      "amountBought": 27
+    }
+  ]
+}

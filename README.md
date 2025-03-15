@@ -26,6 +26,106 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74973476][443] | [Number pipe number : '1.2-2' is not working while using by a ternary inside *ngFor directives][444] |
+| [74988226][441] | [Iterate a FormArray of FormGroups][442] |
+| [74999822][439] | [Angular - Send attribute values on click event][440] |
+| [75030190][437] | [Angular - Unable to add form control to field to FormGroup][438] |
+| [75147554][435] | [NG2-Charts - How to change cutout width for doughnut chart][436] |
+| [75162135][433] | [Chart.js - How to parse array of objects as the dataset for Pie Chart][434] |
+| [75171810][431] | [Angular directive selector can't apply icon to the element][432] |
+| [75217652][429] | [Get error: Cannot find a differ supporting object '[object Object]' of type 'object' NgFor only supports binding to Iterables, such as Arrays][430] |
+| [75250740_1][425]<br />[75250740_2][427] | [Angular - Conditional validator is not working][426] |
+| [75257756][423] | [Angular 14: Propagate FormArray with API response to use in select option][424] |
+| [75279555][421] | [Component declared in nested module doesn't have material styles applied][422] |
+| [75304364][419] | [Can't get through with async validators][420] |
+| [75306400][417] | [Set Formarray data to an object angular][418] |
+| [75346750][415] | [Angular - ValueChanges not updating parent form (ControlValueAccessor)][416] |
+| [75406559][413] | [Typescript error TS2345: Argument of type 'number' is not assignable to parameter of type 'never'][414] |
+| [75411632][411] | [Angular ngFor - TS2339: Property 'value' does not exist on type 'OptionItem'][412] |
+| [75418261][409] | [Angular - Extract response which is ProblemDetails type][410] |
+| [75507095][407] | [Display the value that is in an object array][408] |
+| [75530825][405] | [How to correctly use types with FormArray in Angular][406] |
+| [75601173][403] | [Angular Push JSON data into Array][404] |
+| [75610883][401] | [Unable to pass formcontrol value to string param][402] |
+| [75633615][399] | [How to change/cast Observable<String> to Observable<String[]>][400] |
+| [75646667][397] | [Unable to visualize value from the API response][398] |
+| [75810390][395] | [How to I insert ng2-chart into jsPdf document?][396] |
+| [75954846][393] | [error TS2769: No overload matches this call Overload 1 of 5, '(value: string \| FormControlState<string>, opts: FormControlOptions][394] |
+| [75963012][391] | [Subscribe to observable returns undefined][392] |
+| [76020329][389] | [NGX-Translate how not to get 404?][390] |
+| [76082567][387] | [How to display error message for a list item in angular][388] |
+| [76096548][385] | [No data is being displayed in table][386] |
+| [76117284][383] | [Model is incompatible with FormGroup][384] |
+| [76144691][381] | [call multiple http and return multiple observables][382] |
+| [76188955][379] | [Chart.JS - Implement multi-bar chart][380] |
+| [76215442][377] | [How to use footer with colspan to align total in mat table][378] |
+| [76260411][375] | [ng2-charts - Highlighting a series when hovering over the corresponding legend label][376] |
+| [76289757][373] | [Chart.JS Legend custom color change][374] |
+| [76308954][371] | [Angular Material Table - How to display the nested data][372] |
+| [76320942][369] | [Angular - How to use value from multiple checkboxes][370] |
+| [76347136][367] | [How to handle Errors while using pipe and mergemap in angular][368] |
+| [76360417][365] | [How i can display image or images in angular template which is received from Asp.Net Rest Api as a base64 string][366] |
+| [76393746][363] | [Showing sub array content][364] |
+| [76393647][361] | [PrimeNG checkbox group with a reactive form - How to get all checked values][362] |
+| [76444822][359] | [Angular - How to get an element by id inside ngOnInit][360] |
+| [76538190][357] | [Angular 9 Chart.js stacked bar chart with multiple bars][358] |
+| [76581257][355] | [Angular Reactive Form with Bootstrap - Custom validation is not working in animation][356] |
+| [76693496][353] | [How to create custom Angular Material mat-menu-items?][354] |
+| [76719997][351] | [How to pass selected table items to function in Angular/PrimeNg][352] |
+| [76733103][349] | [ERROR TypeError: Cannot read properties of null (reading 'controls') in my deep nested reactive form][350] |
+| [76777971][347] | [Angular - Name with title base on case][348] |
+| [76779518][345] | [Angular 9 chart.js Bar chart Click event][346] |
+| [76823255][343] | [Is there a way to three formControlName that share the same property name in a Angular Reactive Form?][344] |
+| [76849187][341] | [Angular - Handle HTTP response with DTO][342] |
+| [77597453][339] | [Disable the add icon when there is single row of data in the mat-table Angular][340] |
+| [76895492][337] | [Why request is sent twice?][338] |
+| [76916418][335] | [How To Bind Select Option to Input Field][336] |
+| [76926176][333] | [Accordion body dynamic content not working properly - Angular + ngbAccordion][334] |
+| [76926590][331] | [nz-switch is not working correctly due to update with value][332] |
+| [76980468][329] | [How Do I Add and Delete an Array in a Nested Reactive Form?][330] |
+| [76977687][327] | [How to solve this TypeScript error for Google Chart][328] |
+| [76996633][325] | [PrimeNG table - Apply class to row but background-color is not working][326] |
+| [77025764][323] | [Formgroups and FormArray][324] |
+| [77063874][321] | [Set value of a button used as a radio button programmatically][322] |
+| [77065394_1][317]<br />[77065394_2][319] | [Angular Material - Table Pagination in Mat-Tab Group Not working][318] |
+| [77067173][315] | [Same method on dynamic select option in Angular, Is this possible?][316] |
+| [77087252][313] | [Angular - Get errors in reactive form with loop for the FormArray][314] |
+| [77132213][311] | [Angular - Form control invalid error not showing if set the value to form control][312] |
+| [77140704][309] | [Click on all bar chart labels shows only two days][310] |
+| [77163168][307] | [Angular - How to implement HighCharts to use gauge chart][308] |
+| [77184052][305] | [angular chart not populating with data from API response][306] |
+| [77195649][303] | [remove some countries from ngx-intl-tel-input][304] |
+| [77247824][301] | [How to make this password match validation work][302] |
+| [77255319][299] | [Angular - how to work with enums and Record][300] |
+| [77261093][297] | [Radio Buttons with other option][298] |
+| [77262865][295] | [Angular - Nested array for file upload][296] |
+| [77270716][293] | [I want to show email id's in dropdown list. I want Person name shown as selected value related to that email after selecting email][294] |
+| [77272930][291] | [Angular ApexCharts - Transform data to display as bar chart][292] |
+| [77284088][289] | [Reactive Form with a Maximum of 3 selections][290] |
+| [77286049][287] | [Angular unintentionally redirects to localhost:4200/#][288] |
+| [77320221][285] | [How to retrieve the current number of rows to the end row count in AG Grid][286] |
+| [77357514][283] | [PrimeNG - How to control slider for range][284] |
+| [77365000_1][279]<br />[77365000_2][281] | [Angular - Display a component in index.html][280] |
+| [77366624][277] | [Convert given array to an HTML table in angular][278] |
+| [77382360][275] | [Angular ApexCharts - Bar chart data not coming as expected][276] |
+| [77434210][273] | [PrimeNG "p-password" size not working inside a "p-inputgroup"][274] |
+| [77436131][271] | [How to create nested dynamic form elements][272] |
+| [77439039][269] | [Apex stacked chart bar is not showing in the proper x-axis][270] |
+| [77477303][267] | [How to allow for new property in an Interface that has nested array][268] |
+| [77482998][265] | [How to get data from FormArray in Angular][266] |
+| [77484669][263] | [ngClass does not switch value when using object in component][264] |
+| [77492471][261] | [How to divide \<div\>s in HTML into 8 equal parts using Bootstrap][262] |
+| [77497194][259] | [How Do I Edit a Nested Form Array using PatchValue?][260] |
+| [77505484][257] | [Angular using JSON Data from API Call][258] |
+| [77573447][255] | [Angular how to use slicePipe in the new @for loop][256] |
+| [77583447][253] | [Angular Material table not showing data from API call][254] |
+| [77644328][251] | [Change the param name & ID with the next previous buttons][252] |
+| [77654368][249] | [How to position these dataLabels to the right of a horizontal bar chart][250] |
+| [77671251][247] | [Unable to edit input fields when using formGroupName][248] |
+| [77673234][245] | [Bootstrap collapsible menu not expanding on click][246] |
+| [77696818][243] | [Input element unable to set with default value in mat-form-field][244] |
+| [77722004][241] | [Error on creating dynamic form in Angular 17][242] |
+| [77735638][239] | [Angular http.get() returns array with data][240] |
 | [77743152][237] | [Showing items in Form Array][238] |
 | [77743491][235] | [Get value of ng-select on form submit][236] |
 | [77768661][233] | [Angular - ERROR Error: Cannot find control with name: 's..Address'][234] |
@@ -502,3 +602,312 @@ npm start
 
 [237]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77743152
 [238]: https://stackoverflow.com/questions/77743152/showing-items-in-form-array/77743767#77743767
+
+[239]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77735638
+[240]: https://stackoverflow.com/questions/77735638/angular-http-get-returns-array-with-data/77735719#77735719
+
+[241]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77722004
+[242]: https://stackoverflow.com/questions/77722004/error-on-creating-dynamic-form-in-angular-17/77722108#77722108
+
+[243]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77696818
+[244]: https://stackoverflow.com/questions/77696818/input-element-unable-to-set-with-default-value-in-mat-form-field/77697086#77697086
+
+[245]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77673234
+[246]: https://stackoverflow.com/questions/77673234/bootstrap-collapsible-menu-not-expanding-on-click/77673574#77673574
+
+[247]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77671251
+[248]: https://stackoverflow.com/questions/77671251/unable-to-edit-input-fields-when-using-formgroupname/77671395#77671395
+
+[249]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77671251
+[250]: https://stackoverflow.com/questions/77654368/how-to-position-these-datalabels-to-the-right-of-a-horizontal-bar-chart/77657288#77657288
+
+[251]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77644328
+[252]: https://stackoverflow.com/questions/77644328/change-the-param-name-id-with-the-next-previous-buttons/77644598#77644598
+
+[253]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77583447
+[254]: https://stackoverflow.com/questions/77583447/angular-material-table-not-showing-data-from-api-call/77583585#77583585
+
+[255]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77573447
+[256]: https://stackoverflow.com/questions/77573447/angular-how-to-use-slicepipe-in-the-new-for-loop/77575201#77575201
+
+[257]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77505484
+[258]: https://stackoverflow.com/questions/77505484/angular-using-json-data-from-api-call/77505573#77505573
+
+[259]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77497194
+[260]: https://stackoverflow.com/questions/77497194/how-do-i-edit-a-nested-form-array-using-patchvalue/77498785#77498785
+
+[261]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77492471
+[262]: https://stackoverflow.com/questions/77492471/how-to-divide-divs-in-html-into-8-equal-parts-using-bootstrap/77492663#77492663
+
+[263]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77484669
+[264]: https://stackoverflow.com/questions/77484669/ngclass-does-not-switch-value-when-using-object-in-component/77484887#77484887
+
+[265]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77482998
+[266]: https://stackoverflow.com/questions/77482998/how-to-get-data-from-formarray-in-angular/77484668#77484668
+
+[267]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77477303
+[268]: https://stackoverflow.com/questions/77477303/how-to-allow-for-new-property-in-an-interface-that-has-nested-array/77477672#77477672
+
+[269]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77439039
+[270]: https://stackoverflow.com/questions/77439039/apex-stacked-chart-bar-is-not-showing-in-the-proper-x-axis/77446136#77446136
+
+[271]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77436131
+[272]: https://stackoverflow.com/questions/77436131/how-to-create-nested-dynamic-form-elements/77436273#77436273
+
+[273]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77434210
+[274]: https://stackoverflow.com/questions/77434210/primeng-p-password-size-not-working-inside-a-p-inputgroup/77435156#77435156
+
+[275]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77434210
+[276]: https://stackoverflow.com/questions/77382360/angular-apexcharts-bar-chart-data-not-coming-as-expected/77382471#77382471
+
+[277]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77366624
+[278]: https://stackoverflow.com/questions/77366624/convert-given-array-to-an-html-table-in-angular/77366754#77366754
+
+[279]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77365000_1
+[280]: https://stackoverflow.com/questions/77365000/angular-display-a-component-in-index-html/77365141#77365141
+
+[281]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77365000_2
+[282]: https://stackoverflow.com/questions/77365000/angular-display-a-component-in-index-html/77365141#77365141
+
+[283]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77357514
+[284]: https://stackoverflow.com/questions/77357514/primeng-how-to-control-slider-for-range/77357684#77357684
+
+[285]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77320221
+[286]: https://stackoverflow.com/questions/77320221/how-to-retrieve-the-current-number-of-rows-to-the-end-row-count-in-ag-grid/77320964#77320964
+
+[287]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77286049
+[288]: https://stackoverflow.com/questions/77286049/angular-unintentionally-redirects-to-localhost4200/77286215#77286215
+
+[289]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77284088
+[290]: https://stackoverflow.com/questions/77284088/reactive-form-with-a-maximum-of-3-selections/77284578#77284578
+
+[291]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77272930
+[292]: https://stackoverflow.com/questions/77272930/angular-apexcharts-transform-data-to-display-as-bar-chart/77273238#77273238
+
+[293]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77270716
+[294]: https://stackoverflow.com/questions/77270716/i-want-to-show-email-ids-in-dropdown-list-i-want-person-name-shown-as-selected/77273032#77273032
+
+[295]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77262865
+[296]: https://stackoverflow.com/questions/77262865/angular-nested-array-for-file-upload/77263057#77263057
+
+[297]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77261093
+[298]: https://stackoverflow.com/questions/77261093/radio-buttons-with-other-option/77262489#77262489
+
+[299]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77255319
+[300]: https://stackoverflow.com/questions/77255319/angular-how-to-work-with-enums-and-record/77255915#77255915
+
+[301]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77247824
+[302]: https://stackoverflow.com/questions/77247824/how-to-make-this-password-match-validation-work/77248238#77248238
+
+[303]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77195649
+[304]: https://stackoverflow.com/questions/77195649/remove-some-countries-from-ngx-intl-tel-input/77195855#77195855
+
+[305]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77184052
+[306]: https://stackoverflow.com/questions/77184052/angular-chart-not-populating-with-data-from-api-response/77185905#77185905
+
+[307]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77163168
+[308]: https://stackoverflow.com/questions/77163168/angular-how-to-implement-highcharts-to-use-gauge-chart/77163409#77163409
+
+[309]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77140704
+[310]: https://stackoverflow.com/questions/77140704/click-on-all-bar-chart-labels-shows-only-two-days/77142826#77142826
+
+[311]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77132213
+[312]: https://stackoverflow.com/questions/77132213/angular-form-control-invalid-error-not-showing-if-set-the-value-to-form-contro/77132390#77132390
+
+[313]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77087252
+[314]: https://stackoverflow.com/questions/77087252/angular-get-errors-in-reactive-form-with-loop-for-the-formarray/77087538#77087538
+
+[315]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77067173
+[316]: https://stackoverflow.com/questions/77067173/same-method-on-dynamic-select-option-in-angular-is-this-possible/77071156#77071156
+
+[317]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77065394_1
+[318]: https://stackoverflow.com/questions/77065394/angular-material-table-pagination-in-mat-tab-group-not-working/77066034#77066034
+
+[319]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77065394_2
+[320]: https://stackoverflow.com/questions/77065394/angular-material-table-pagination-in-mat-tab-group-not-working/77066034#77066034
+
+[321]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77063874
+[322]: https://stackoverflow.com/questions/77063874/set-value-of-a-button-used-as-a-radio-button-programmatically/77064005#77064005
+
+[323]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77025764
+[324]: https://stackoverflow.com/questions/77025764/formgroups-and-formarray/77026301#77026301
+
+[325]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76996633
+[326]: https://stackoverflow.com/questions/76996633/primeng-table-apply-class-to-row-but-background-color-is-not-working/76997727#76997727
+
+[327]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76977687
+[328]: https://stackoverflow.com/questions/76977687/how-to-solve-this-typescript-error-for-google-chart/76981543#76981543
+
+[329]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76980468
+[330]: https://stackoverflow.com/questions/76980468/how-do-i-add-and-delete-an-array-in-a-nested-reactive-form/76981346#76981346
+
+[331]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76926590
+[332]: https://stackoverflow.com/questions/76926590/nz-switch-is-not-working-correctly-due-to-update-with-value/76926820#76926820
+
+[333]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76926176
+[334]: https://stackoverflow.com/questions/76926176/accordion-body-dynamic-content-not-working-properly-angular-ngbaccordion/76926222#76926222
+
+[335]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76916418
+[336]: https://stackoverflow.com/questions/76916418/how-to-bind-select-option-to-input-field/76925872#76925872
+
+[337]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76895492
+[338]: https://stackoverflow.com/questions/76895492/why-request-is-sent-twice/76895907#76895907
+
+[339]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77597453
+[340]: https://stackoverflow.com/questions/77597453/disable-the-add-icon-when-there-is-single-row-of-data-in-the-mat-table-angular/77597614#77597614
+
+[341]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76849187
+[342]: https://stackoverflow.com/questions/76849187/angular-handle-http-response-with-dto/76849338#76849338
+
+[343]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76823255
+[344]: https://stackoverflow.com/questions/76823255/is-there-a-way-to-three-formcontrolname-that-share-the-same-property-name-in-a-a/76824559#76824559
+
+[345]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76779518
+[346]: https://stackoverflow.com/questions/76779518/angular-9-chart-js-bar-chart-click-event/76781181#76781181
+
+[347]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76777971
+[348]: https://stackoverflow.com/questions/76777971/angular-name-with-title-base-on-case/76778143#76778143
+
+[349]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76733103
+[350]: https://stackoverflow.com/questions/76733103/error-typeerror-cannot-read-properties-of-null-reading-controls-in-my-deep/76734762#76734762
+
+[351]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76719997
+[352]: https://stackoverflow.com/questions/76719997/how-to-pass-selected-table-items-to-function-in-angular-primeng/76721873#76721873
+
+[353]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76693496
+[354]: https://stackoverflow.com/questions/76693496/how-to-create-custom-angular-material-mat-menu-items/76694070#76694070
+
+[355]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76581257
+[356]: https://stackoverflow.com/questions/76581257/angular-reactive-form-with-bootstrap-custom-validation-is-not-working-in-anima/76585765#76585765
+
+[357]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76538190
+[358]: https://stackoverflow.com/questions/76538190/angular-9-chart-js-stacked-bar-chart-with-multiple-bars/76538689#76538689
+
+[359]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76444822
+[360]: https://stackoverflow.com/questions/76444822/angular-how-to-get-an-element-by-id-inside-ngoninit/76444843#76444843
+
+[361]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76393647
+[362]: https://stackoverflow.com/questions/76393647/primeng-checkbox-group-with-a-reactive-form-how-to-get-all-checked-values/76395263#76395263
+
+[363]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76393746
+[364]: https://stackoverflow.com/questions/76393746/showing-sub-array-content/76394847#76394847
+
+[365]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76360417
+[366]: https://stackoverflow.com/questions/76360417/how-i-can-display-image-or-images-in-angular-template-which-is-received-from-asp/76360961#76360961
+
+[367]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76347136
+[368]: https://stackoverflow.com/questions/76347136/how-to-handle-errors-while-using-pipe-and-mergemap-in-angular/76347261#76347261
+
+[369]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76320942
+[370]: https://stackoverflow.com/questions/76320942/angular-how-to-use-value-from-multiple-checkboxes/76321100#76321100
+
+[371]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76308954
+[372]: https://stackoverflow.com/questions/76308954/angular-material-table-how-to-display-the-nested-data/76310793#76310793
+
+[373]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76289757
+[374]: https://stackoverflow.com/questions/76289757/chart-js-legend-custom-color-change/76290357#76290357
+
+[375]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76260411
+[376]: https://stackoverflow.com/questions/76260411/ng2-charts-highlighting-a-series-when-hovering-over-the-corresponding-legend-l/76264218#76264218
+
+[377]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76215442
+[378]: https://stackoverflow.com/questions/76215442/how-to-use-footer-with-colspan-to-align-total-in-mat-table/76215727#76215727
+
+[379]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76188955
+[380]: https://stackoverflow.com/questions/76188955/chart-js-implement-multi-bar-chart/76189292#76189292
+
+[381]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76144691
+[382]: https://stackoverflow.com/questions/76144691/call-multiple-http-and-return-multiple-observables/76144817#76144817
+
+[383]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76117284
+[384]: https://stackoverflow.com/questions/76117284/model-is-incompatible-with-formgroup/76117620#76117620
+
+[385]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76096548
+[386]: https://stackoverflow.com/questions/76096548/no-data-is-being-displayed-in-table/76097170#76097170
+
+[387]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76082567
+[388]: https://stackoverflow.com/questions/76082567/how-to-display-error-message-for-a-list-item-in-angular/76083221#76083221
+
+[389]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/76020329
+[390]: https://stackoverflow.com/questions/76020329/ngx-translate-how-not-to-get-404/76020552#76020552
+
+[391]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75963012
+[392]: https://stackoverflow.com/questions/75963012/subscribe-to-observable-returns-undefined/75963052#75963052
+
+[393]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75954846
+[394]: https://stackoverflow.com/questions/75954846/error-ts2769-no-overload-matches-this-call-overload-1-of-5-value-string-f/75955509#75955509
+
+[395]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75810390
+[396]: https://stackoverflow.com/questions/75810390/how-to-i-insert-ng2-chart-into-jspdf-document/75810900#75810900
+
+[397]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75646667
+[398]: https://stackoverflow.com/questions/75646667/unable-to-visualize-value-from-the-api-response/75646776#75646776
+
+[399]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75633615
+[400]: https://stackoverflow.com/questions/75633615/how-to-change-cast-observablestring-to-observablestring/75633743#75633743
+
+[401]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75610883
+[402]: https://stackoverflow.com/questions/75610883/unable-to-pass-formcontrol-value-to-string-param/75611002#75611002
+
+[403]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75601173
+[404]: https://stackoverflow.com/questions/75601173/angular-push-json-data-into-array/75601268#75601268
+
+[405]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75601173
+[406]: https://stackoverflow.com/questions/75530825/how-to-correctly-use-types-with-formarray-in-angular/75531250#75531250
+
+[407]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75507095
+[408]: https://stackoverflow.com/questions/75507095/display-the-value-that-is-in-an-object-array/75507161#75507161
+
+[409]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75418261
+[410]: https://stackoverflow.com/questions/75418261/angular-extract-response-which-is-problemdetails-type/75418500#75418500
+
+[411]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75411632
+[412]: https://stackoverflow.com/questions/75411632/angular-ngfor-ts2339-property-value-does-not-exist-on-type-optionitem/75412476#75412476
+
+[413]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75406559
+[414]: https://stackoverflow.com/questions/75406559/typescript-error-ts2345-argument-of-type-number-is-not-assignable-to-paramete/75406981#75406981
+
+[415]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75346750
+[416]: https://stackoverflow.com/questions/75346750/angular-valuechanges-not-updating-parent-form-controlvalueaccessor/75349600#75349600
+
+[417]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75306400
+[418]: https://stackoverflow.com/questions/75306400/set-formarray-data-to-an-object-angular/75306551#75306551
+
+[419]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75304364
+[420]: https://stackoverflow.com/questions/75304364/cant-get-through-with-async-validators/75304849#75304849
+
+[421]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75279555
+[422]: https://stackoverflow.com/questions/75279555/component-declared-in-nested-module-doesnt-have-material-styles-applied/75279772#75279772
+
+[423]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75257756
+[424]: https://stackoverflow.com/questions/75257756/angular-14-propagate-formarray-with-api-response-to-use-in-select-option/75258182#75258182
+
+[425]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75250740_1
+[426]: https://stackoverflow.com/questions/75250740/angular-conditional-validator-is-not-working/75253918#75253918
+
+[427]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75250740_2
+[428]: https://stackoverflow.com/questions/75250740/angular-conditional-validator-is-not-working/75253918#75253918
+
+[429]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75217652
+[430]: https://stackoverflow.com/questions/75217652/get-error-cannot-find-a-differ-supporting-object-object-object-of-type-obj/75217721#75217721
+
+[431]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75171810
+[432]: https://stackoverflow.com/questions/75171810/angular-directive-selector-cant-apply-icon-to-the-element/75172367#75172367
+
+[433]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75162135
+[434]: https://stackoverflow.com/questions/75162135/chart-js-how-to-parse-array-of-objects-as-the-dataset-for-pie-chart/75168574#75168574
+
+[435]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75147554
+[436]: https://stackoverflow.com/questions/75147554/ng2-charts-how-to-change-cutout-width-for-doughnut-chart/75147889#75147889
+
+[437]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75030190
+[438]: https://stackoverflow.com/questions/75030190/angular-unable-to-add-form-control-to-field-to-formgroup/75037840#75037840
+
+[439]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74999822
+[440]: https://stackoverflow.com/questions/74999822/angular-send-attribute-values-on-click-event/75000531#75000531
+
+[441]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74988226
+[442]: https://stackoverflow.com/questions/74988226/iterate-a-formarray-of-formgroups/74988400#74988400
+
+[443]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74973476
+[444]: https://stackoverflow.com/questions/74973476/number-pipe-number-1-2-2-is-not-working-while-using-by-a-ternary-inside-ngf/74973635#74973635

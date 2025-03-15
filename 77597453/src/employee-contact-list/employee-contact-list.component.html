@@ -1,0 +1,122 @@
+<div class="col">
+  <div class="col">
+    <div class="col mb-4">
+      <div class="card">
+        <div class="card-header text-center d-flex">
+          <h2 class="flex-grow-1"><b>Contact Details</b></h2>
+          <a
+            routerLink="/employee/addEmployeeContact"
+            [queryParams]="{ employeeId: employeeDetail.id }"
+            matTooltip="Add Employee Contact Details"
+            [ngClass]="{ disabled: !enableAddEmployeeBtn }"
+            ><img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/fluency/48/add--v1.png"
+              alt="create-new--v6"
+          /></a>
+        </div>
+
+        <div style="overflow: auto">
+          <table matSort mat-table [dataSource]="dataSource">
+            <!--- Note that these columns can be defined in any order.
+                The actual rendered columns are set as a property on the row definition"-->
+
+            <!-- Position Column -->
+
+            <ng-container matColumnDef="workEmailId">
+              <th mat-sort-header mat-header-cell *matHeaderCellDef>
+                Work Email
+              </th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.workEmailId }}
+              </td>
+            </ng-container>
+
+            <ng-container matColumnDef="personalEmailId">
+              <th mat-sort-header mat-header-cell *matHeaderCellDef>
+                Personal Email
+              </th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.personalEmailId }}
+              </td>
+            </ng-container>
+
+            <ng-container matColumnDef="primaryMobileNo">
+              <th mat-sort-header mat-header-cell *matHeaderCellDef>
+                Primary Mobile No.
+              </th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.primaryMobileNo }}
+              </td>
+            </ng-container>
+
+            <ng-container matColumnDef="secondaryMobileNo">
+              <th mat-sort-header mat-header-cell *matHeaderCellDef>
+                Secondary Mobile No.
+              </th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.secondaryMobileNo }}
+              </td>
+            </ng-container>
+
+            <ng-container matColumnDef="workPhoneNo">
+              <th mat-sort-header mat-header-cell *matHeaderCellDef>
+                Work Phone No.
+              </th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.workPhoneNo }}
+              </td>
+            </ng-container>
+
+            <ng-container matColumnDef="extensionNo">
+              <th mat-sort-header mat-header-cell *matHeaderCellDef>
+                Extension No.
+              </th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.extensionNo }}
+              </td>
+            </ng-container>
+
+            <ng-container matColumnDef="status">
+              <th mat-sort-header mat-header-cell *matHeaderCellDef>Status</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.status ? 'Active' : 'Not Active' }}
+              </td>
+            </ng-container>
+
+            <ng-container matColumnDef="action">
+              <th mat-header-cell *matHeaderCellDef class="text-center">
+                Actions
+              </th>
+              <td mat-cell *matCellDef="let element">
+                <div style="display: flex; gap: 10px; justify-content: center">
+                  <mat-icon
+                    routerLink="/employee/updateEmployeeContact"
+                    [queryParams]="{
+                      employeeId: element.employeeId,
+                      employeeContactId: element.id
+                    }"
+                    class="edit-icon"
+                    matTooltip="Update Employee Contact"
+                    >edit</mat-icon
+                  >
+
+                  <mat-icon
+                    (click)="deleteEmployeeContact(element.id)"
+                    class="delete-icon"
+                    matTooltip="Delete Employee Contact"
+                    >delete</mat-icon
+                  >
+                </div>
+              </td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="displayColumn"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayColumn"></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

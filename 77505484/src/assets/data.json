@@ -1,0 +1,14 @@
+[
+  {
+    "id": 10,
+    "name": "My Name1",
+    "age": 25,
+    "jsonData": null
+  },
+  {
+    "id": 15,
+    "name": "My Name2",
+    "age": 25,
+    "jsonData": "{\"Address\":\"My Address 123\",\"City\":\"My City\",\"PostalCode\":\"ABC-123-DEF\",\"Country\":\"My Country\"}"
+  }
+]

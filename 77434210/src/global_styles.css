@@ -1,0 +1,9 @@
+/* Add application styles & imports to this file! */
+/*Uncomment for original stylesheet*/
+.p-inputgroup > p-password > .p-password.p-inputwrapper {
+  width: 100%;
+}
+
+.p-inputgroup > p-password > .p-password.p-inputwrapper > .p-icon-wrapper {
+  z-index: 999;
+}

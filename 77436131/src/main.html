@@ -1,0 +1,39 @@
+<form [formGroup]="propertyFG">
+  <div
+    formArrayName="keyValue"
+    *ngFor="let fg of keyValueArrayFGControls; let i = index"
+  >
+    <div [formGroup]="fg">
+      <div class="col-4">
+        <select formControlName="prof" width="100%" class="form-control">
+          <option *ngFor="let l of professions;" [value]="l._id">
+            {{getProfessionNameByLang(l.name)}}
+          </option>
+        </select>
+      </div>
+
+      <ng-container formArrayName="services">
+        <div
+          *ngFor="let sr of serviceControlsByKeyValueFG(i).controls; let j = index"
+          class="col-4"
+        >
+          <div [formGroupName]="j">
+            <input
+              type="text"
+              formControlName="serv"
+              [id]="'myDiv-' + i+ j"
+              placeholder="Hizmet"
+            />
+
+            <button (click)="removeNewServFG(i, j)">Remove Serv</button>
+          </div>
+        </div>
+      </ng-container>
+
+      <button (click)="removeNewKeyValueFG(i)">Remove</button>
+      <button (click)="addNewServFG(i)">Add Serv</button>
+    </div>
+  </div>
+
+  <button (click)="addNewKeyValueFG()">Add</button>
+</form>

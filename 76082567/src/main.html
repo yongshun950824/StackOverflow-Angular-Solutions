@@ -1,0 +1,36 @@
+<ul
+  *ngIf="attachedFiles && validationErrors"
+  class="title-attached-files__list-with-errors"
+>
+  <li
+    *ngFor="let file of attachedFiles; let i = index"
+    class="c-file-with-errors"
+  >
+    <ng-container *ngIf="validationErrors">
+      <span
+        class="c-title-attached-files__validation-error"
+        *ngFor="let message of validationErrors[i]?.messages"
+      >
+        {{ message }}
+      </span>
+    </ng-container>
+    <mat-icon class="c-file__icon" color="primary">upload_file</mat-icon>
+    <span class="c-file__name">{{file.name}}</span>&nbsp;
+    <!--<span class="c-file__size">{{file.size | fileSize }}</span>-->
+    <span class="c-file__size">{{file.size }}</span>
+    <span *ngFor="let message of validationErrors[i]?.messages">
+      {{ message }}
+    </span>
+    <button
+      *ngIf="!readonly"
+      class="c-file__delete"
+      type="button"
+      (click)="removeFile(i)"
+      mat-icon-button
+      color="primary"
+      aria-label="Delete Added File"
+    >
+      <mat-icon>close</mat-icon>
+    </button>
+  </li>
+</ul>

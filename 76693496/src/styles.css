@@ -1,0 +1,24 @@
+html {
+  /* --mat-menu-item-label-text-font: Roboto, sans-serif; */
+  --mat-menu-item-label-text-size: 16px;
+  --mat-menu-item-label-text-tracking: 0.03125em;
+  --mat-menu-item-label-text-line-height: 24px;
+  --mat-menu-item-label-text-weight: 400;
+}
+
+.mat-menu-item {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-start;
+}
+
+.mat-menu-item .primary_text {
+  -webkit-font-smoothing: antialiased;
+  /* font-family: var(--mat-menu-item-label-text-font); */
+  line-height: var(--mat-menu-item-label-text-line-height);
+  font-size: var(--mat-menu-item-label-text-size);
+  letter-spacing: var(--mat-menu-item-label-text-tracking);
+  font-weight: var(--mat-menu-item-label-text-weight);
+}

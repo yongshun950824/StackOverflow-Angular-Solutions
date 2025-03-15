@@ -1,0 +1,40 @@
+<form [formGroup]="envelopeRequest">
+  <div>
+    <ng-select
+      placeholder="Select Template"
+      #templates
+      (change)="onChange()"
+      formControlName="optionRequest"
+    >
+      <ng-container *ngFor="let t of templateData.envelopeTemplates">
+        <ng-container *ngIf="t.name && t.templateId">
+          <ng-option value="{{t.templateId}}">{{t.name}}</ng-option>
+        </ng-container>
+      </ng-container>
+    </ng-select>
+  </div>
+  <ng-container formGroupName="newRequest">
+    <ng-container formGroupName="customFields">
+      <ng-container formArrayName="textFields">
+        <ng-container
+          *ngFor="let t of this.tempInfo?.customFields?.textCustomFields; let i = index"
+          [formGroupName]="i"
+          ><label id="{{t.name}}">{{t.name}}</label>
+          <!-- <input type="text" value="{{ t.value }}" /> -->
+          <input type="text" formControlName="value" />
+        </ng-container>
+      </ng-container>
+      <ng-container formArrayName="listFields">
+        <ng-container
+          *ngFor="let t of this.tempInfo?.customFields?.listCustomFields; let j = index"
+          [formGroupName]="j"
+          ><label id="{{t.name}}">{{t.name}}</label>
+          <!-- <input type="text" value="{{ t.value }}" /> -->
+          <input type="text" formControlName="value" />
+        </ng-container>
+      </ng-container>
+    </ng-container>
+  </ng-container>
+</form>
+
+<pre>{{ envelopeRequest.value | json }}</pre>

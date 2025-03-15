@@ -1,0 +1,24 @@
+<form [formGroup]="createLoanPaymentsForm" (ngSubmit)="createLoan()">
+  <ng-container formArrayName="payments">
+    <!--// here is
+    the error-->
+    @for ( payment of payments.controls; track payment; let index = $index) {
+    <div [formGroupName]="index">
+      <mat-form-field appearance="fill">
+        <input matInput formControlName="title" placeholder="Lesson title" />
+      </mat-form-field>
+      <!-- <mat-form-field appearance="fill">
+                                      <mat-select
+                                          formControlName="level"
+                                          placeholder="Lesson level">
+                                          <mat-option value="beginner">Beginner</mat-option>
+                                          <mat-option value="intermediate">Intermediate</mat-option>
+                                          <mat-option value="advanced">Advanced</mat-option>
+                                      </mat-select>
+                                  </mat-form-field> -->
+      <p>button to dele</p>
+    </div>
+    }
+    <button mat-mini-fab (click)="addPayment()">Add</button>
+  </ng-container>
+</form>

@@ -1,0 +1,47 @@
+<mat-tab-group (selectedTabChange)="onTabChange($event)">
+  <mat-tab label="Concrete">
+  </mat-tab>
+  <mat-tab label="Cotton">
+  </mat-tab>
+</mat-tab-group>
+
+<div class="aterimal-datatables" style="overflow-x: auto;">
+  <mat-table
+    id="matTable"
+    [dataSource]="dataSource"
+    matSort
+    class="mat-elevation-z8"
+  >
+    <ng-container matColumnDef="id">
+      <mat-header-cell mat-sort-header *matHeaderCellDef>
+        id
+      </mat-header-cell>
+      <mat-cell *matCellDef="let order"> {{ order.id }} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="name">
+      <mat-header-cell mat-sort-header *matHeaderCellDef>
+        Name
+      </mat-header-cell>
+      <mat-cell *matCellDef="let order"> {{ order.name }} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="material">
+      <mat-header-cell mat-sort-header *matHeaderCellDef>
+        Material
+      </mat-header-cell>
+      <mat-cell *matCellDef="let order"> {{ order.material }} </mat-cell>
+    </ng-container>
+
+    <mat-header-row
+      *matHeaderRowDef="displayColumns; sticky: true"
+    ></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayColumns"></mat-row>
+  </mat-table>
+  <mat-paginator
+    #paginator
+    showFirstLastButtons
+    [pageSizeOptions]="pageSizes"
+    [length]="totalData"
+  >
+    <!--(page)="onPaginateChange($event)"-->
+  </mat-paginator>
+</div>

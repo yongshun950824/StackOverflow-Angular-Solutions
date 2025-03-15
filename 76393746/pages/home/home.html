@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content *ngFor="let category of formattedProducts">
+  <ion-card
+    style="
+      padding: 0;
+      margin: 0;
+      border-radius: 0;
+      border-bottom: solid rgb(215, 215, 215) 1px;
+    "
+    *ngFor="let cat of category.data"
+  >
+    <ion-card-content style="padding: 0; margin: 0">
+      <ion-list>
+        <ion-item lines="none" style="color: black">
+          <ion-thumbnail slot="start">
+            <img
+              alt="Silhouette of mountains"
+              src="https://ionicframework.com/docs/img/demos/thumbnail.svg"
+              style="border-radius: 50%"
+            />
+          </ion-thumbnail>
+          <ion-label>
+            <p style="font-weight: 800; color: black">Name: {{cat.name}}</p>
+            <p style="color: black">31/12 às 22hrs</p>
+            <p style="font-style: italic; color: black">Cachaçamba,</p>
+            <p style="color: black">Rio Verde - GO</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<!-- <ion-content padding> </ion-content>  -->

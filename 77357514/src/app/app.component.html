@@ -1,0 +1,25 @@
+<h2>PrimeNG Range Bug</h2>
+
+<div style="margin: 10px 20px" class="mb-8">
+  <p>Case 1: Input control works</p>
+  <input type="number" pInputText [(ngModel)]="value" class="w-full mb-3" />
+  <p-slider [(ngModel)]="value" class="w-full"></p-slider>
+</div>
+<div style="margin: 10px 20px">
+  <p>Case 2: Inputs controls don't work</p>
+  <input
+    type="number"
+    pInputText
+    [(ngModel)]="values[0]"
+    class="w-full mb-3"
+    (input)="updateRange()"
+  /><br />
+  <p-slider [(ngModel)]="values" [range]="true" class="w-full"></p-slider>
+  <input
+    type="number"
+    pInputText
+    [(ngModel)]="values[1]"
+    class="w-full mt-3"
+    (input)="updateRange()"
+  />
+</div>

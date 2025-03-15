@@ -1,0 +1,66 @@
+<form class="question-card" [formGroup]="formGroup">
+  <mat-form-field>
+    <mat-label>Question</mat-label>
+    <input matInput formControlName="question" placeholder="Question" />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Type</mat-label>
+    <mat-select
+      formControlName="questionTypeControl"
+      (selectionChange)="updateQuestionType($event)"
+    >
+      @for (item of questionTypes; track item) {
+      <mat-option [value]="item.id">
+        <mat-icon>{{item.icon}}</mat-icon> {{item.text}}
+      </mat-option>
+      }
+    </mat-select>
+  </mat-form-field>
+
+  <ng-container formArrayName="answers">
+    @for (item of answers.controls; track item; let i = $index) {
+
+    <div [formGroupName]="i">
+      <mat-form-field>
+        <mat-label>Value</mat-label>
+        <input matInput type="text" formControlName="value" />
+      </mat-form-field>
+      <mat-icon class="delete-btn" (click)="deleteAnswer($event)"
+        >delete_forever</mat-icon
+      >
+      <mat-form-field>
+        <mat-label>Text</mat-label>
+        <input matInput type="text" formControlName="text" />
+      </mat-form-field>
+    </div>
+    }
+  </ng-container>
+
+  <!-- Alternate -->
+  <!--
+  <ng-container formArrayName="answers">
+    <ng-container *ngFor="let answer of answers.controls; let i = index">
+      <div [formGroupName]="i"> 
+    
+      <mat-form-field>
+        <mat-label>Value</mat-label>
+        <input matInput type="text" formControlName="value" />
+      </mat-form-field>
+      <mat-icon class="delete-btn" (click)="deleteAnswer($event)"
+        >delete_forever</mat-icon
+      >
+      <mat-form-field>
+        <mat-label>Text</mat-label>
+        <input matInput type="text" formControlName="text" />
+      </mat-form-field>
+    </div>
+    
+    </ng-container>
+  </ng-container>
+-->
+
+  <button mat-mini-fab (click)="addAnswer()">
+    <mat-icon>add</mat-icon>
+  </button>
+  <button type="button" (click)="submit()">Submit</button>
+</form>

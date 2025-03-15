@@ -1,0 +1,8 @@
+{
+  "name": "Name",
+  "details": [
+    { "detailName": "detail 1", "detailValue": 2 },
+    { "detailName": "detail 2", "detailValue": 4 },
+    { "detailName": "detail 3", "detailValue": 5 }
+  ]
+}

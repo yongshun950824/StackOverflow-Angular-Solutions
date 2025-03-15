@@ -1,0 +1,96 @@
+<div class="table-holder">
+  <div class="title-holder">
+    <h1 class="list-title">Requests</h1>
+  </div>
+
+  <table mat-table matSort [dataSource]="dataSource">
+    <ng-container matColumnDef="type">
+      <th class="header type-column" mat-header-cell *matHeaderCellDef>
+        <span>Type</span>
+        <button mat-button mat-sort-header class="float-right btn-icon">
+          <mat-icon class="sort-icon" svgIcon="sortIcon"></mat-icon>
+        </button>
+      </th>
+      <td mat-cell *matCellDef="let request">{{ request.type }}</td>
+      <td mat-footer-cell *matFooterCellDef></td>
+    </ng-container>
+
+    <ng-container matColumnDef="name">
+      <th class="header name-column" mat-header-cell *matHeaderCellDef>
+        <span>Name</span>
+        <button mat-button mat-sort-header class="float-right btn-icon">
+          <mat-icon class="sort-icon" svgIcon="sortIcon"></mat-icon>
+        </button>
+      </th>
+      <td mat-cell *matCellDef="let request">{{ request.name }}</td>
+      <td mat-footer-cell *matFooterCellDef></td>
+    </ng-container>
+
+    <ng-container matColumnDef="amount">
+      <th class="header amount-column" mat-header-cell *matHeaderCellDef>
+        <span>Amount</span>
+        <button mat-button mat-sort-header class="float-right btn-icon">
+          <mat-icon class="sort-icon" svgIcon="sortIcon"></mat-icon>
+        </button>
+      </th>
+      <td mat-cell *matCellDef="let request">
+        {{ getAmount(request.amount) }}
+      </td>
+      <td mat-footer-cell *matFooterCellDef>Total: {{ getTotal() }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="status">
+      <th class="header status-column" mat-header-cell *matHeaderCellDef>
+        <span>Status</span>
+        <button mat-button mat-sort-header class="float-right btn-icon">
+          <mat-icon class="sort-icon" svgIcon="sortIcon"></mat-icon>
+        </button>
+      </th>
+      <td mat-cell *matCellDef="let request">{{ request.status }}</td>
+      <td mat-footer-cell *matFooterCellDef></td>
+    </ng-container>
+
+    <ng-container matColumnDef="dateModified">
+      <th class="header date-column" mat-header-cell *matHeaderCellDef>
+        <span>Date Modified</span>
+        <button mat-button mat-sort-header class="float-right btn-icon">
+          <mat-icon class="sort-icon" svgIcon="sortIcon"></mat-icon>
+        </button>
+      </th>
+      <td mat-cell *matCellDef="let request">
+        {{ request.dateModified | date: 'MM/dd/yyyy HH:mm:ss' }}
+      </td>
+      <td mat-footer-cell *matFooterCellDef></td>
+    </ng-container>
+
+    <ng-container matColumnDef="state">
+      <th class="header state-column" mat-header-cell *matHeaderCellDef>
+        <span>State</span>
+      </th>
+      <!-- <td class="state-cell" mat-cell *matCellDef="let request">{{getStatusColor(request.status)}}</td> -->
+      <td class="state-cell" mat-cell *matCellDef="let request">
+        <svg height="14" width="14">
+          <circle
+            cx="7"
+            cy="7"
+            r="7"
+            [ngClass]="getStateColor(request.status)"
+          />
+        </svg>
+      </td>
+      <td mat-footer-cell *matFooterCellDef></td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
+    <tr mat-row *matRowDef="let request; columns: columnsToDisplay"></tr>
+    <tr mat-footer-row *matFooterRowDef="columnsToDisplay"></tr>
+  </table>
+  <div style="margin-left:710px">
+    Total : {{ getTotal() }}
+    <mat-icon
+      aria-hidden="false"
+      aria-label="Example home icon"
+      fontIcon="home"
+    ></mat-icon>
+  </div>
+</div>

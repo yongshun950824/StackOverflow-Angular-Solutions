@@ -1,0 +1,32 @@
+{
+  "name": "77063874",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@angular/common": "^19.1.7",
+    "@angular/compiler": "^19.1.7",
+    "@angular/core": "^19.1.7",
+    "@angular/forms": "^19.1.7",
+    "@angular/platform-browser": "^19.1.7",
+    "@angular/platform-browser-dynamic": "^19.1.7",
+    "@angular/router": "^19.1.7",
+    "tslib": "^2.5.0",
+    "rxjs": "^7.8.1",
+    "zone.js": "^0.15.0"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "devDependencies": {
+    "@angular/build": "^19.1.7",
+    "@angular-devkit/build-angular": "^19.1.7",
+    "@angular/cli": "^19.1.7",
+    "@angular/compiler-cli": "^19.1.7",
+    "typescript": "~5.6.3"
+  }
+}

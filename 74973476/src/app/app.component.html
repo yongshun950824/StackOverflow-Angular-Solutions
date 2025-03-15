@@ -1,0 +1,11 @@
+<input
+  [readonly]="forViewDetails"
+  id="itemMrp_{{ i }}"
+  type="number"
+  min="0"
+  class="form-control w-100"
+  [value]="forViewDetails ? (item.MRP | number: '1.2-2' | noComma) : item.MRP"
+  (input)="mrpChanged(i, item, $event)"
+  (keyup.enter)="nextInput('mrp', $event)"
+  [ngClass]="{ 'is-invalid': submitted && item.MRP == 0 }"
+/>

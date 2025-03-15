@@ -1,0 +1,24 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "login": "test_1@yt.com",
+      "first_name": "AK",
+      "phone": "967777777777"
+    },
+    {
+      "id": 2,
+      "login": "test_2@yt.com",
+      "first_name": "QR",
+      "phone": "967777777777"
+    },
+    {
+      "id": 3,
+      "login": "test_3@yt.com",
+      "first_name": "JM",
+      "phone": "967777777777"
+    }
+  ],
+  "count": 3,
+  "success": true
+}
