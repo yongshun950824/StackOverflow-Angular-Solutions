@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [75147554][435] | [NG2-Charts - How to change cutout width for doughnut chart][436] |
 | [75162135][433] | [Chart.js - How to parse array of objects as the dataset for Pie Chart][434] |
 | [75171810][431] | [Angular directive selector can't apply icon to the element][432] |
 | [75217652][429] | [Get error: Cannot find a differ supporting object '[object Object]' of type 'object' NgFor only supports binding to Iterables, such as Arrays][430] |
@@ -109,7 +110,7 @@ npm start
 | [77477303][267] | [How to allow for new property in an Interface that has nested array][268] |
 | [77482998][265] | [How to get data from FormArray in Angular][266] |
 | [77484669][263] | [ngClass does not switch value when using object in component][264] |
-| [77492471][261] | [How to divide <div>s in HTML into 8 equal parts using Bootstrap][262] |
+| [77492471][261] | [How to divide \<div\>s in HTML into 8 equal parts using Bootstrap][262] |
 | [77497194][259] | [How Do I Edit a Nested Form Array using PatchValue?][260] |
 | [77505484][257] | [Angular using JSON Data from API Call][258] |
 | [77573447][255] | [Angular how to use slicePipe in the new @for loop][256] |
@@ -891,3 +892,6 @@ npm start
 
 [433]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75162135
 [434]: https://stackoverflow.com/questions/75162135/chart-js-how-to-parse-array-of-objects-as-the-dataset-for-pie-chart/75168574#75168574
+
+[435]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/75147554
+[436]: https://stackoverflow.com/questions/75147554/ng2-charts-how-to-change-cutout-width-for-doughnut-chart/75147889#75147889
