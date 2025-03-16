@@ -1,0 +1,16 @@
+<div style=" margin : auto; border : 1px solid black; width : 70%; ">
+  <div style="display : flex;  justify-content : space-around; flex-wrap:wrap;">
+    <div *ngFor="let breed of breeds$ | async" style="flex : 33%">
+      <div *ngFor="let item of breed | keyvalue">
+        <div *ngIf="item.key === 'weight'">
+          <div *ngFor="let data of item.value | keyvalue">
+            <span>{{ data.key }}</span
+            >: <span>{{ data.value }}</span>
+          </div>
+        </div>
+        <b>{{ item.key }}</b
+        >{{ item.value }}
+      </div>
+    </div>
+  </div>
+</div>
