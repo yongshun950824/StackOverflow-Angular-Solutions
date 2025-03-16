@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74918065][449] | [ngFor isn't working on <tr> element of my angular project][450] |
 | [74923501][447] | [ionic 4 - How to wait for two observables to be subscribed before getting data][448] |
 | [74929794][445] | [Angular Reactive Form - Render control in form array for a string array][446] |
 | [74973476][443] | [Number pipe number : '1.2-2' is not working while using by a ternary inside *ngFor directives][444] |
@@ -919,3 +920,6 @@ npm start
 
 [447]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74923501
 [448]: https://stackoverflow.com/questions/74923501/ionic-4-how-to-wait-for-two-observables-to-be-subscribed-before-getting-data/74925729#74925729
+
+[449]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74918065
+[450]: https://stackoverflow.com/questions/74918065/ngfor-isnt-working-on-tr-element-of-my-angular-project/74918115#74918115
