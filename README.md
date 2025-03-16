@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74895985][453] | [Angular Reactive Form - How to validate radio buttons and show error message when form is submitted][454] |
 | [74905107][451] | [How can I get every property from the JSON I'm receiving? error TS2339: Property '' does not exist on type ''][452] |
 | [74918065][449] | [ngFor isn't working on <tr> element of my angular project][450] |
 | [74923501][447] | [ionic 4 - How to wait for two observables to be subscribed before getting data][448] |
@@ -927,3 +928,6 @@ npm start
 
 [451]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74905107
 [452]: https://stackoverflow.com/questions/74905107/how-can-i-get-every-property-from-the-json-im-receiving-error-ts2339-property/74905172#74905172
+
+[453]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74895985
+[454]: https://stackoverflow.com/questions/74895985/angular-reactive-form-how-to-validate-radio-buttons-and-show-error-message-whe/74896462#74896462

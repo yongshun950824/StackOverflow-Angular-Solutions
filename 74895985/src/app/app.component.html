@@ -1,0 +1,15 @@
+<form [formGroup]="form" (submit)="isSubmitted = true">
+  <div class="mat-radio-group">
+    <label class="label-mat-radio-group margin-space">Channel visibility</label>
+    <mat-radio-group formControlName="visibility" aria-label="Select an option">
+      <mat-radio-button value="public">Public</mat-radio-button>
+      <mat-radio-button value="private">Private</mat-radio-button>
+      <!-- fix: touched is not working -->
+      <mat-error *ngIf="isSubmitted && form.get('visibility').invalid"
+        >Please select channel visibility.</mat-error
+      >
+    </mat-radio-group>
+  </div>
+
+  <button type="submit">Submit</button>
+</form>
