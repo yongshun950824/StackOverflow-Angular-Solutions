@@ -1,0 +1,13 @@
+<form [formGroup]="myform">
+  <div class="row mt-4" formArrayName="emails">
+    <div
+      class="col"
+      *ngFor="
+        let email of myform.get('emails')['controls'];
+        let emailIndex = index
+      "
+    >
+      <input type="text" placeholder="" [formControlName]="emailIndex" />
+    </div>
+  </div>
+</form>
