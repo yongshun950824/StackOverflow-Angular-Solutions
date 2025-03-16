@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74905107][451] | [How can I get every property from the JSON I'm receiving? error TS2339: Property '' does not exist on type ''][452] |
 | [74918065][449] | [ngFor isn't working on <tr> element of my angular project][450] |
 | [74923501][447] | [ionic 4 - How to wait for two observables to be subscribed before getting data][448] |
 | [74929794][445] | [Angular Reactive Form - Render control in form array for a string array][446] |
@@ -923,3 +924,6 @@ npm start
 
 [449]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74918065
 [450]: https://stackoverflow.com/questions/74918065/ngfor-isnt-working-on-tr-element-of-my-angular-project/74918115#74918115
+
+[451]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74905107
+[452]: https://stackoverflow.com/questions/74905107/how-can-i-get-every-property-from-the-json-im-receiving-error-ts2339-property/74905172#74905172
