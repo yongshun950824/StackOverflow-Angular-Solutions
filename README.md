@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74883219][457] | [Compilation error when trying to add "?" operator][458] |
 | [74895724][455] | [Angular Keyvalue pipe for nested object][456] |
 | [74895985][453] | [Angular Reactive Form - How to validate radio buttons and show error message when form is submitted][454] |
 | [74905107][451] | [How can I get every property from the JSON I'm receiving? error TS2339: Property '' does not exist on type ''][452] |
@@ -935,3 +936,6 @@ npm start
 
 [455]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74895724
 [456]: https://stackoverflow.com/questions/74895724/angular-keyvalue-pipe-for-nested-object/74895794#74895794
+
+[457]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74883219
+[458]: https://stackoverflow.com/questions/74883219/compilation-error-when-trying-to-add-operator/74883428#74883428
