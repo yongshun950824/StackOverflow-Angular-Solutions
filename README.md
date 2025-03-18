@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74838993][465] | [How to search for elements inside JSON array of objects][466] |
 | [74846774][463] | [Regex value returns false when detect symbols within quotes][464] |
 | [74863071][461] | [How to disable a particular FormControl of a FormArray][462] |
 | [74881481][459] | [How to update reactive form field value when other field value changes][460] |
@@ -951,3 +952,6 @@ npm start
 
 [463]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74846774
 [464]: https://stackoverflow.com/questions/74846774/regex-value-returns-false-when-detect-symbols-within-quotes/74846840#74846840
+
+[465]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74838993
+[466]: https://stackoverflow.com/questions/74838993/how-to-search-for-elements-inside-json-array-of-objects/74839070#74839070
