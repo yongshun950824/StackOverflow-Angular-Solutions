@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74795940][471] | [Angular - How to iterate through an object and render children if they are present][472] |
 | [74821511][469] | [How to use FormArray in Angular 14][470] |
 | [74831394][467] | [How to use JSON data obtained with interface][468] |
 | [74838993][465] | [How to search for elements inside JSON array of objects][466] |
@@ -963,3 +964,6 @@ npm start
 
 [469]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74821511
 [470]: https://stackoverflow.com/questions/74821511/how-to-use-formarray-in-angular-14/74821692#74821692
+
+[471]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74795940
+[472]: https://stackoverflow.com/questions/74795940/angular-how-to-iterate-through-an-object-and-render-children-if-they-are-prese/74796291#74796291

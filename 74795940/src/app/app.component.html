@@ -1,0 +1,24 @@
+<ng-container
+  [ngTemplateOutlet]="keywordTemp"
+  [ngTemplateOutletContext]="{ keywords: keywords }"
+>
+</ng-container>
+
+<ng-template #keywordTemp let-keywords="keywords">
+  <mat-accordion multi>
+    <mat-expansion-panel *ngFor="let keyword of keywords">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{ keyword.name }}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+
+      <ng-container
+        *ngIf="(keyword.children?.length ?? 0) > 0"
+        [ngTemplateOutlet]="keywordTemp"
+        [ngTemplateOutletContext]="{ keywords: keyword.children }"
+      >
+      </ng-container>
+    </mat-expansion-panel>
+  </mat-accordion>
+</ng-template>
