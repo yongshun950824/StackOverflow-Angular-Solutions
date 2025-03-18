@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74846774][463] | [Regex value returns false when detect symbols within quotes][464] |
 | [74863071][461] | [How to disable a particular FormControl of a FormArray][462] |
 | [74881481][459] | [How to update reactive form field value when other field value changes][460] |
 | [74883219][457] | [Compilation error when trying to add "?" operator][458] |
@@ -947,3 +948,6 @@ npm start
 
 [461]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74863071
 [462]: https://stackoverflow.com/questions/74863071/how-to-disable-a-particular-formcontrol-of-a-formarray/74863380#74863380
+
+[463]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74846774
+[464]: https://stackoverflow.com/questions/74846774/regex-value-returns-false-when-detect-symbols-within-quotes/74846840#74846840
