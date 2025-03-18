@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74863071][461] | [How to disable a particular FormControl of a FormArray][462] |
 | [74881481][459] | [How to update reactive form field value when other field value changes][460] |
 | [74883219][457] | [Compilation error when trying to add "?" operator][458] |
 | [74895724][455] | [Angular Keyvalue pipe for nested object][456] |
@@ -943,3 +944,6 @@ npm start
 
 [459]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74881481
 [460]: https://stackoverflow.com/questions/74881481/how-to-update-reactive-form-field-value-when-other-field-value-changes/74883326#74883326
+
+[461]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74863071
+[462]: https://stackoverflow.com/questions/74863071/how-to-disable-a-particular-formcontrol-of-a-formarray/74863380#74863380
