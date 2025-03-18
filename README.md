@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74831394][467] | [How to use JSON data obtained with interface][468] |
 | [74838993][465] | [How to search for elements inside JSON array of objects][466] |
 | [74846774][463] | [Regex value returns false when detect symbols within quotes][464] |
 | [74863071][461] | [How to disable a particular FormControl of a FormArray][462] |
@@ -955,3 +956,6 @@ npm start
 
 [465]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74838993
 [466]: https://stackoverflow.com/questions/74838993/how-to-search-for-elements-inside-json-array-of-objects/74839070#74839070
+
+[467]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74831394
+[468]: https://stackoverflow.com/questions/74831394/how-to-use-json-data-obtained-with-interface/74831465#74831465
