@@ -1,0 +1,111 @@
+<div class="">
+  <div
+    class="
+      grid grid-cols-6
+      gap-x-16
+      py-5
+      px-4
+      text-sm text-gray-700
+      border-b border-gray-200
+      dark:border-gray-700
+    "
+  >
+    <div class="text-gray-500 dark:text-gray-400"></div>
+    <div class="text-gray-500 dark:text-gray-400"></div>
+    <div class="text-gray-500 dark:text-gray-400"></div>
+    <div class="text-gray-500 dark:text-gray-400"></div>
+
+    <div>
+      <button
+        type="button"
+        (click)="addRow()"
+        class="
+          text-white
+          block
+          w-full
+          bg-blue-600
+          hover:bg-blue-700
+          focus:ring-4 focus:ring-blue-200
+          font-medium
+          rounded-lg
+          text-sm
+          px-4
+          py-2.5
+          text-center
+          dark:focus:ring-blue-900
+        "
+      >
+        Add
+      </button>
+    </div>
+    <div>
+      <button
+        type="button"
+        (click)="removeRow()"
+        class="
+          text-white
+          block
+          w-full
+          bg-blue-600
+          hover:bg-blue-700
+          focus:ring-4 focus:ring-blue-200
+          font-medium
+          rounded-lg
+          text-sm
+          px-4
+          py-2.5
+          text-center
+          dark:focus:ring-blue-900
+        "
+      >
+        Remove
+      </button>
+    </div>
+  </div>
+
+  <form [formGroup]="MRGForm" (ngSubmit)="submitMRGForm()">
+    <app-mrgform
+      *ngFor="let MRGChildForm of dataArray.controls"
+      [MRGChildForm]="childFormToFormGroup(MRGChildForm)"
+    ></app-mrgform>
+    <div
+      class="
+        grid grid-cols-6
+        gap-x-16
+        py-5
+        px-4
+        text-sm text-gray-700
+        border-b border-gray-200
+        dark:border-gray-700
+      "
+    >
+      <div class="text-gray-500 dark:text-gray-400"></div>
+      <div class="text-gray-500 dark:text-gray-400"></div>
+      <div class="text-gray-500 dark:text-gray-400"></div>
+      <div class="text-gray-500 dark:text-gray-400"></div>
+      <div class="text-gray-500 dark:text-gray-400"></div>
+      <div>
+        <button
+          type="submit"
+          class="
+            text-white
+            block
+            w-full
+            bg-blue-600
+            hover:bg-blue-700
+            focus:ring-4 focus:ring-blue-200
+            font-medium
+            rounded-lg
+            text-sm
+            px-4
+            py-2.5
+            text-center
+            dark:focus:ring-blue-900
+          "
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
