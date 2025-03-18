@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74821511][469] | [How to use FormArray in Angular 14][470] |
 | [74831394][467] | [How to use JSON data obtained with interface][468] |
 | [74838993][465] | [How to search for elements inside JSON array of objects][466] |
 | [74846774][463] | [Regex value returns false when detect symbols within quotes][464] |
@@ -959,3 +960,6 @@ npm start
 
 [467]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74831394
 [468]: https://stackoverflow.com/questions/74831394/how-to-use-json-data-obtained-with-interface/74831465#74831465
+
+[469]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74821511
+[470]: https://stackoverflow.com/questions/74821511/how-to-use-formarray-in-angular-14/74821692#74821692
