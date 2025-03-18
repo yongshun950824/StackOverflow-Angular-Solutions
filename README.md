@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74759410][475] | [Angular Reactive Form - How to enable all form controls at once][476] |
 | [74791806][473] | [AbstractControl<any> is missing the following properties from type FormGroup<any>: controls, registerControl][474] |
 | [74795940][471] | [Angular - How to iterate through an object and render children if they are present][472] |
 | [74821511][469] | [How to use FormArray in Angular 14][470] |
@@ -971,3 +972,6 @@ npm start
 
 [473]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74791806
 [474]: https://stackoverflow.com/questions/74791806/abstractcontrolany-is-missing-the-following-properties-from-type-formgroupany/74792021#74792021
+
+[475]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74759410
+[476]: https://stackoverflow.com/questions/74759410/angular-reactive-form-how-to-enable-all-form-controls-at-once/74759515#74759515
