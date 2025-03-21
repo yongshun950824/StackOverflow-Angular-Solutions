@@ -1,0 +1,26 @@
+<div *ngIf="live.length > 0; else noPartite">
+  <h1 style="color: red;">Live ScoreBoard</h1>
+  <div *ngFor="let data of live">
+    <div class="title-box">
+      <p id="elapsed">{{ data.fixture.status.elapsed }}'</p>
+    </div>
+    <div class="title-box">
+      <div class="team">
+        <img id="homeLogo" src="{{ data.teams.home.logo }}" />
+        <p id="homeName">{{ data.teams.home.name }}</p>
+      </div>
+      <p id="goals">{{ data.goals.home }} - {{ data.goals.away }}</p>
+      <div class="team">
+        <img id="awayLogo" src="{{ data.teams.away.logo }}" />
+        <p id="homeName">{{ data.teams.away.name }}</p>
+      </div>
+    </div>
+    <hr />
+  </div>
+</div>
+<ng-template #noPartite>
+  <p>
+    No matches are scheduled today, however you can check the results of past
+    matches <a routerLink="/matchday">here</a>and the standings here.
+  </p>
+</ng-template>

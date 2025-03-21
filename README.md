@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74724142][477] | [Property 'x' does not exist on type 'y' in Angular ngIf][478] |
 | [74759410][475] | [Angular Reactive Form - How to enable all form controls at once][476] |
 | [74791806][473] | [AbstractControl<any> is missing the following properties from type FormGroup<any>: controls, registerControl][474] |
 | [74795940][471] | [Angular - How to iterate through an object and render children if they are present][472] |
@@ -975,3 +976,6 @@ npm start
 
 [475]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74759410
 [476]: https://stackoverflow.com/questions/74759410/angular-reactive-form-how-to-enable-all-form-controls-at-once/74759515#74759515
+
+[477]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74724142
+[478]: https://stackoverflow.com/questions/74724142/property-x-does-not-exist-on-type-y-in-angular-ngif/74724445#74724445
