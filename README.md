@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74396938][491] | [Angular -How to get radio button values from user input form?][492] |
 | [74594221][489] | [Custom Validator on Angular Reactive Form not firing][490] |
 | [74637736][487] | [Trigger error or complete from a subscribe][488] |
 | [74660375][485] | [setvalidator on a FormControl does not make the form invalid][486] |
@@ -1003,3 +1004,6 @@ npm start
 
 [489]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74594221
 [490]: https://stackoverflow.com/questions/74594221/custom-validator-on-angular-reactive-form-not-firing/74598431#74598431
+
+[491]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74396938
+[492]: https://stackoverflow.com/questions/74396938/angular-how-to-get-radio-button-values-from-user-input-form/74396997#74396997
