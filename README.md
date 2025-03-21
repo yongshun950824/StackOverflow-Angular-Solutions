@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74697419][479] | [Angular Reactive Form - Error message for form control in array][480] |
 | [74724142][477] | [Property 'x' does not exist on type 'y' in Angular ngIf][478] |
 | [74759410][475] | [Angular Reactive Form - How to enable all form controls at once][476] |
 | [74791806][473] | [AbstractControl<any> is missing the following properties from type FormGroup<any>: controls, registerControl][474] |
@@ -979,3 +980,6 @@ npm start
 
 [477]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74724142
 [478]: https://stackoverflow.com/questions/74724142/property-x-does-not-exist-on-type-y-in-angular-ngif/74724445#74724445
+
+[479]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74697419
+[480]: https://stackoverflow.com/questions/74697419/angular-reactive-form-error-message-for-form-control-in-array/74697623#74697623
