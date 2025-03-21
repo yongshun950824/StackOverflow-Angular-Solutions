@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74228771][495] | [Property 'artist' does not exist on type 'ArtistItemsComponent'][496] |
 | [74244260][493] | [Angular Reactive Form - How to target form control nested in array and object][494] |
 | [74396938][491] | [Angular -How to get radio button values from user input form?][492] |
 | [74594221][489] | [Custom Validator on Angular Reactive Form not firing][490] |
@@ -1011,3 +1012,6 @@ npm start
 
 [493]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74244260
 [494]: https://stackoverflow.com/questions/74244260/angular-reactive-form-how-to-target-form-control-nested-in-array-and-object/74246245#74246245
+
+[495]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74228771
+[496]: https://stackoverflow.com/questions/74228771/property-artist-does-not-exist-on-type-artistitemscomponent/74230457#74230457
