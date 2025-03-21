@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74667007][481] | [How to Data bind to deep nested arrays? Angular Forms][482] |
 | [74697419][479] | [Angular Reactive Form - Error message for form control in array][480] |
 | [74724142][477] | [Property 'x' does not exist on type 'y' in Angular ngIf][478] |
 | [74759410][475] | [Angular Reactive Form - How to enable all form controls at once][476] |
@@ -983,3 +984,6 @@ npm start
 
 [479]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74697419
 [480]: https://stackoverflow.com/questions/74697419/angular-reactive-form-error-message-for-form-control-in-array/74697623#74697623
+
+[481]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74667007
+[482]: https://stackoverflow.com/questions/74667007/how-to-data-bind-to-deep-nested-arrays-angular-forms/74667541#74667541
