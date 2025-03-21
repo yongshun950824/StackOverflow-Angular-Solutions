@@ -28,7 +28,7 @@
     <br />
     <input type="email" [formControlName]="i" />&nbsp;&nbsp;
     <button (click)="removeMail(i)">Remove</button>
-    <div *ngIf="altMail.get(i))?.touched">
+    <div *ngIf="altMail.get(i)?.touched">
       <div *ngIf="altMail.get(i)?.hasError('required')">
         required
       </div>
