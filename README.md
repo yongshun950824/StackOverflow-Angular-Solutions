@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74660375][485] | [setvalidator on a FormControl does not make the form invalid][486] |
 | [74664227][483] | [How to data bind to a Form Group within a Form Array? Angular][484] |
 | [74667007][481] | [How to Data bind to deep nested arrays? Angular Forms][482] |
 | [74697419][479] | [Angular Reactive Form - Error message for form control in array][480] |
@@ -991,3 +992,6 @@ npm start
 
 [483]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74664227
 [484]: https://stackoverflow.com/questions/74664227/how-to-data-bind-to-a-form-group-within-a-form-array-angular/74664322#74664322
+
+[485]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74660375
+[486]: https://stackoverflow.com/questions/74660375/setvalidator-on-a-formcontrol-does-not-make-the-form-invalid/74663542#74663542
