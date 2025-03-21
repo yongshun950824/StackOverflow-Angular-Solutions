@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74594221][489] | [Custom Validator on Angular Reactive Form not firing][490] |
 | [74637736][487] | [Trigger error or complete from a subscribe][488] |
 | [74660375][485] | [setvalidator on a FormControl does not make the form invalid][486] |
 | [74664227][483] | [How to data bind to a Form Group within a Form Array? Angular][484] |
@@ -999,3 +1000,6 @@ npm start
 
 [487]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74637736
 [488]: https://stackoverflow.com/questions/74637736/trigger-error-or-complete-from-a-subscribe/74637913#74637913
+
+[489]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74594221
+[490]: https://stackoverflow.com/questions/74594221/custom-validator-on-angular-reactive-form-not-firing/74598431#74598431
