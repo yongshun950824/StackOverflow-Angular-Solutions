@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74244260][493] | [Angular Reactive Form - How to target form control nested in array and object][494] |
 | [74396938][491] | [Angular -How to get radio button values from user input form?][492] |
 | [74594221][489] | [Custom Validator on Angular Reactive Form not firing][490] |
 | [74637736][487] | [Trigger error or complete from a subscribe][488] |
@@ -1007,3 +1008,6 @@ npm start
 
 [491]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74396938
 [492]: https://stackoverflow.com/questions/74396938/angular-how-to-get-radio-button-values-from-user-input-form/74396997#74396997
+
+[493]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74244260
+[494]: https://stackoverflow.com/questions/74244260/angular-reactive-form-how-to-target-form-control-nested-in-array-and-object/74246245#74246245
