@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73874226][505] | [Angular Reactive Form - How to use FormArray with FormGroup(s)][506] |
 | [73942197][503] | [Pass input value from one component to another in Angular][504] |
 | [74034935_1][499]<br />[74034935_2][501] | [Set the MatCellDef iterator for a specific JSON such that the matsort and matsearch work in a matTable][500] |
 | [74038449][497] | [How to set default value for mat-select with reactive form is used][498] |
@@ -1030,3 +1031,6 @@ npm start
 
 [503]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73942197
 [504]: https://stackoverflow.com/questions/73942197/pass-input-value-from-one-component-to-another-in-angular/73943029#73943029
+
+[505]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73874226
+[506]: https://stackoverflow.com/questions/73874226/angular-reactive-form-how-to-use-formarray-with-formgroups/73875238#73875238
