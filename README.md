@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74038449][497] | [How to set default value for mat-select with reactive form is used][498] |
 | [74228771][495] | [Property 'artist' does not exist on type 'ArtistItemsComponent'][496] |
 | [74244260][493] | [Angular Reactive Form - How to target form control nested in array and object][494] |
 | [74396938][491] | [Angular -How to get radio button values from user input form?][492] |
@@ -1015,3 +1016,6 @@ npm start
 
 [495]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74228771
 [496]: https://stackoverflow.com/questions/74228771/property-artist-does-not-exist-on-type-artistitemscomponent/74230457#74230457
+
+[497]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74038449
+[498]: https://stackoverflow.com/questions/74038449/how-to-set-default-value-for-mat-select-with-reactive-form-is-used/74038802#74038802
