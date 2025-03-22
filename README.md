@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73802359][511] | [Nested object with *ngFor][512] |
 | [73841559][509] | [Get error: Cannot find control with path: 'excludedPeriods -> 0 -> dateTo'][510] |
 | [73839076][507] | [Add dynamic fields to the form][508] |
 | [73874226][505] | [Angular Reactive Form - How to use FormArray with FormGroup(s)][506] |
@@ -1042,3 +1043,6 @@ npm start
 
 [509]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73841559
 [510]: https://stackoverflow.com/questions/73841559/get-error-cannot-find-control-with-path-excludedperiods-0-dateto/73841722#73841722
+
+[511]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73802359
+[512]: https://stackoverflow.com/questions/73802359/nested-object-with-ngfor/73802791#73802791

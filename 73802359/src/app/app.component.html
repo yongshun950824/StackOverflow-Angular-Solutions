@@ -1,0 +1,49 @@
+<h2>Solution 1</h2>
+
+<mat-list>
+  <ng-container *ngFor="let item of jsonData | keyvalue">
+    <mat-list-item>
+      <h3 matLine>{{ item.key }}</h3>
+
+      <mat-icon>close</mat-icon>
+      <div class="parent-mat-divider">
+        <mat-divider></mat-divider>
+      </div>
+    </mat-list-item>
+
+    <ng-container *ngFor="let child of $any(item.value)">
+      <ng-container *ngFor="let subChild of child | keyvalue">
+        <ng-container *ngFor="let value of $any(subChild.value)">
+          <mat-list-item>
+            {{ value }}
+            <mat-icon>close</mat-icon>
+          </mat-list-item>
+        </ng-container>
+      </ng-container>
+    </ng-container>
+  </ng-container>
+</mat-list>
+
+<hr />
+
+<h2>Solution 2</h2>
+
+<mat-list>
+  <ng-container *ngFor="let item of formattedJsonData | keyvalue">
+    <mat-list-item>
+      <h3 matLine>{{ item.key }}</h3>
+
+      <mat-icon>close</mat-icon>
+      <div class="parent-mat-divider">
+        <mat-divider></mat-divider>
+      </div>
+    </mat-list-item>
+
+    <ng-container *ngFor="let child of item.value">
+      <mat-list-item>
+        {{ child }}
+        <mat-icon>close</mat-icon>
+      </mat-list-item>
+    </ng-container>
+  </ng-container>
+</mat-list>
