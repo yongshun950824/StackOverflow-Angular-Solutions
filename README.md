@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73839076][507] | [Add dynamic fields to the form][508] |
 | [73874226][505] | [Angular Reactive Form - How to use FormArray with FormGroup(s)][506] |
 | [73942197][503] | [Pass input value from one component to another in Angular][504] |
 | [74034935_1][499]<br />[74034935_2][501] | [Set the MatCellDef iterator for a specific JSON such that the matsort and matsearch work in a matTable][500] |
@@ -1034,3 +1035,6 @@ npm start
 
 [505]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73874226
 [506]: https://stackoverflow.com/questions/73874226/angular-reactive-form-how-to-use-formarray-with-formgroups/73875238#73875238
+
+[507]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73839076
+[508]: https://stackoverflow.com/questions/73839076/add-dynamic-fields-to-the-form/73841918#73841918
