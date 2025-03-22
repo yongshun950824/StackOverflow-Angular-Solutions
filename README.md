@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73663914][517] | [Not allow an input field to contain only whitespace and special characters][518] |
 | [73663914][515] | [userForm value not in range][516] |
 | [73753211][513] | [Remove value from FormControl based on value][514] |
 | [73802359][511] | [Nested object with *ngFor][512] |
@@ -1054,3 +1055,6 @@ npm start
 
 [515]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73663914
 [516]: https://stackoverflow.com/questions/73663914/userform-value-not-in-range/73677616#73677616
+
+[517]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73676672
+[518]: https://stackoverflow.com/questions/73676672/not-allow-an-input-field-to-contain-only-whitespace-and-special-characters/73676755#73676755
