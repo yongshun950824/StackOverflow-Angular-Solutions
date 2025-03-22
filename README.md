@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73841559][509] | [Get error: Cannot find control with path: 'excludedPeriods -> 0 -> dateTo'][510] |
 | [73839076][507] | [Add dynamic fields to the form][508] |
 | [73874226][505] | [Angular Reactive Form - How to use FormArray with FormGroup(s)][506] |
 | [73942197][503] | [Pass input value from one component to another in Angular][504] |
@@ -1038,3 +1039,6 @@ npm start
 
 [507]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73839076
 [508]: https://stackoverflow.com/questions/73839076/add-dynamic-fields-to-the-form/73841918#73841918
+
+[509]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73841559
+[510]: https://stackoverflow.com/questions/73841559/get-error-cannot-find-control-with-path-excludedperiods-0-dateto/73841722#73841722
