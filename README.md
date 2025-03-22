@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73753211][513] | [Remove value from FormControl based on value][514] |
 | [73802359][511] | [Nested object with *ngFor][512] |
 | [73841559][509] | [Get error: Cannot find control with path: 'excludedPeriods -> 0 -> dateTo'][510] |
 | [73839076][507] | [Add dynamic fields to the form][508] |
@@ -1046,3 +1047,6 @@ npm start
 
 [511]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73802359
 [512]: https://stackoverflow.com/questions/73802359/nested-object-with-ngfor/73802791#73802791
+
+[513]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73753211
+[514]: https://stackoverflow.com/questions/73753211/remove-value-from-formcontrol-based-on-value/73753398#73753398
