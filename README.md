@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [74034935_1][499]<br />[74034935_2][501] | [Set the MatCellDef iterator for a specific JSON such that the matsort and matsearch work in a matTable][500] |
 | [74038449][497] | [How to set default value for mat-select with reactive form is used][498] |
 | [74228771][495] | [Property 'artist' does not exist on type 'ArtistItemsComponent'][496] |
 | [74244260][493] | [Angular Reactive Form - How to target form control nested in array and object][494] |
@@ -1019,3 +1020,9 @@ npm start
 
 [497]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74038449
 [498]: https://stackoverflow.com/questions/74038449/how-to-set-default-value-for-mat-select-with-reactive-form-is-used/74038802#74038802
+
+[499]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74034935_1
+[500]: https://stackoverflow.com/questions/74034935/set-the-matcelldef-iterator-for-a-specific-json-such-that-the-matsort-and-matsea/74035905#74035905
+
+[501]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74034935_2
+[502]: https://stackoverflow.com/questions/74034935/set-the-matcelldef-iterator-for-a-specific-json-such-that-the-matsort-and-matsea/74035905#74035905
