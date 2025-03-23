@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73384175][529] | [Angular Reactive Form - Validate form on button click][530] |
 | [73411468][527] | [Mat Table does not work with Mat Sort and Service Api][528] |
 | [73425336][525] | [ngx-emoji mart - Type 'string' is not assignable error][526] |
 | [73470872][523] | [Display table row on some condition angular][524] |
@@ -1078,3 +1079,6 @@ npm start
 
 [527]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73411468
 [528]: https://stackoverflow.com/questions/73411468/mat-table-does-not-work-with-mat-sort-and-service-api/73411868#73411868
+
+[529]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73384175
+[530]: https://stackoverflow.com/questions/73384175/angular-reactive-form-validate-form-on-button-click/73384276#73384276

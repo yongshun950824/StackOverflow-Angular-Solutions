@@ -1,0 +1,19 @@
+<form [formGroup]="loginForm" (ngSubmit)="submitted = true">
+  <input
+    id="user-name"
+    name="userName"
+    placeholder="Enter Username"
+    formControlName="username"
+    class="form-control"
+  />
+  <label class="form-label" for="user-name">Username</label>
+
+  <div
+    class="text-danger"
+    *ngIf="submitted && loginForm.controls['username'].errors?.['required']"
+  >
+    Please enter the username
+  </div>
+
+  <button>Submit</button>
+</form>
