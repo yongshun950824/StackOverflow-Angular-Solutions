@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73425336][525] | [ngx-emoji mart - Type 'string' is not assignable error][526] |
 | [73470872][523] | [Display table row on some condition angular][524] |
 | [73515331][521] | [How to pass data to template parameter via *ngIf?][522] |
 | [73516562][519] | [Angular - ngModel is not updating the value to the component][520] |
@@ -1070,3 +1071,6 @@ npm start
 
 [523]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73470872
 [524]: https://stackoverflow.com/questions/73470872/display-table-row-on-some-condition-angular/73471009#73471009
+
+[525]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73425336
+[526]: https://stackoverflow.com/questions/73425336/ngx-emoji-mart-type-string-is-not-assignable-error/73425681#73425681

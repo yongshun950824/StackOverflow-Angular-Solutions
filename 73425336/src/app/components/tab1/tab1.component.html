@@ -1,0 +1,7 @@
+<div class="tab-1">
+  <button (click)="openDialog()">Open Dialog</button>
+  <div style="display:flex" *ngFor="let test of arr">
+    <span>{{ test.emoji }}</span>
+    <p>{{ test.name }}</p>
+  </div>
+</div>

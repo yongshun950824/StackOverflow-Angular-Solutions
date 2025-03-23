@@ -1,0 +1,30 @@
+<div style="display:flex; justify-content:end">
+  <button
+    mat-button
+    mat-dialog-close
+    style="background: #ffffff; border:none; cursor:pointer"
+  >
+    <mat-icon>clear</mat-icon>
+  </button>
+</div>
+<div>
+  <label>Name *</label>
+  <input [(ngModel)]="name" placeholder="Ex.Computer Science" />
+</div>
+<div class="colinput">
+  <input [(ngModel)]="message" />
+  <button (click)="toggleEmojiPicker()">
+    <mat-icon>arrow_drop_down</mat-icon></button
+  ><br />
+  <emoji-mart
+    class="emoji-mart"
+    [set]="set"
+    *ngIf="showEmojiPicker"
+    (emojiSelect)="addEmoji($event)"
+    title="Pick your emoji…"
+  ></emoji-mart>
+</div>
+<div>
+  <button (click)="save()">Submit</button>
+</div>
+Here is the inout for name ->{{ name }}
