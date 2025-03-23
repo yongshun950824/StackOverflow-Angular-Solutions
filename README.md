@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73516562][519] | [Angular - ngModel is not updating the value to the component][520] |
 | [73663914][517] | [Not allow an input field to contain only whitespace and special characters][518] |
 | [73663914][515] | [userForm value not in range][516] |
 | [73753211][513] | [Remove value from FormControl based on value][514] |
@@ -1058,3 +1059,6 @@ npm start
 
 [517]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73676672
 [518]: https://stackoverflow.com/questions/73676672/not-allow-an-input-field-to-contain-only-whitespace-and-special-characters/73676755#73676755
+
+[519]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/7367673516562672
+[520]: https://stackoverflow.com/questions/73516562/angular-ngmodel-is-not-updating-the-value-to-the-component/73516603#73516603
