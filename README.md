@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73411468][527] | [Mat Table does not work with Mat Sort and Service Api][528] |
 | [73425336][525] | [ngx-emoji mart - Type 'string' is not assignable error][526] |
 | [73470872][523] | [Display table row on some condition angular][524] |
 | [73515331][521] | [How to pass data to template parameter via *ngIf?][522] |
@@ -1074,3 +1075,6 @@ npm start
 
 [525]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73425336
 [526]: https://stackoverflow.com/questions/73425336/ngx-emoji-mart-type-string-is-not-assignable-error/73425681#73425681
+
+[527]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73411468
+[528]: https://stackoverflow.com/questions/73411468/mat-table-does-not-work-with-mat-sort-and-service-api/73411868#73411868
