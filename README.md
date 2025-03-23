@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73470872][523] | [Display table row on some condition angular][524] |
 | [73515331][521] | [How to pass data to template parameter via *ngIf?][522] |
 | [73516562][519] | [Angular - ngModel is not updating the value to the component][520] |
 | [73663914][517] | [Not allow an input field to contain only whitespace and special characters][518] |
@@ -1066,3 +1067,6 @@ npm start
 
 [521]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73515331
 [522]: https://stackoverflow.com/questions/73515331/how-to-pass-data-to-template-parameter-via-ngif/73515384#73515384
+
+[523]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73470872
+[524]: https://stackoverflow.com/questions/73470872/display-table-row-on-some-condition-angular/73471009#73471009
