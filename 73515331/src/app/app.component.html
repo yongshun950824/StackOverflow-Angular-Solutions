@@ -1,0 +1,46 @@
+<!-- <div
+  *ngIf="
+    true;
+    then A;
+    context: { $implicit: [1, 2, 3] };
+    else: B;
+    context: { $implicit: [4, 5, 6] }
+  "
+></div> -->
+
+<!-- Solution 1-->
+
+<h3>Solution 1</h3>
+
+<div [ngSwitch]="true">
+  <ng-container
+    *ngSwitchCase="true"
+    [ngTemplateOutlet]="A"
+    [ngTemplateOutletContext]="{ $implicit: [1, 2, 3] }"
+  >
+  </ng-container>
+
+  <ng-container
+    *ngSwitchDefault
+    [ngTemplateOutlet]="B"
+    [ngTemplateOutletContext]="{ $implicit: [4, 5, 6] }"
+  >
+  </ng-container>
+</div>
+
+<hr />
+
+<!-- Solution 2 -->
+
+<h3>Solution 2</h3>
+
+<div>
+  <ng-container
+    [ngTemplateOutlet]="true ? A : B"
+    [ngTemplateOutletContext]="{ $implicit: true ? [1, 2, 3] : [4, 5, 6] }"
+  >
+  </ng-container>
+</div>
+
+<ng-template #A let-p>p: {{ p }}</ng-template>
+<ng-template #B let-q>q: {{ q }}</ng-template>
