@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73104434][543] | [toggle ngbAccordion from typscript File][544] |
 | [73104108][541] | [Dropdown (select option) not getting data - Angular 11][542] |
 | [73180287][539] | [Name Duplication Validation][540] |
 | [73219758][537] | [Angular 7 - How to bind the value to the radio button][538] |
@@ -1106,3 +1107,6 @@ npm start
 
 [541]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73104108
 [542]: https://stackoverflow.com/questions/73104108/dropdown-select-option-not-getting-data-angular-11/73105506#73105506
+
+[543]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73104434
+[544]: https://stackoverflow.com/questions/73104434/toggle-ngbaccordion-from-typscript-file/73104727#73104727
