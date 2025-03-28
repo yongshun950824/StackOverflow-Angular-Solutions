@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73180287][539] | [Name Duplication Validation][540] |
 | [73219758][537] | [Angular 7 - How to bind the value to the radio button][538] |
 | [73235515][535] | [Angular - Validate numeric input field in the reactive form for specific range][536] |
 | [73248610][533] | [Angular - Form Validator is unable to show the error message][534] |
@@ -1098,3 +1099,6 @@ npm start
 
 [537]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73219758
 [538]: https://stackoverflow.com/questions/73219758/angular-7-how-to-bind-the-value-to-the-radio-button/73219978#73219978
+
+[539]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73180287
+[540]: https://stackoverflow.com/questions/73180287/name-duplication-validation/73180868#73180868
