@@ -1,0 +1,9 @@
+<form [formGroup]="form">
+  <input type="password" placeholder="Password" formControlName="password" />
+
+  <div *ngIf="password.errors?.['minlength']">Minimum characters</div>
+
+  <div *ngIf="password.errors?.['maxlength']">Maximum characters</div>
+
+  <button>Login</button>
+</form>

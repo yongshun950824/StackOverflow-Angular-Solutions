@@ -26,7 +26,8 @@ npm start
 
 | Project source | Question |
 |-|-|
-| [73367706][531] | [Get error: Type 'string[] | null' is not assignable to type 'string[]' while using an Observable and async pipe][532] |
+| [73248610][533] | [Angular - Form Validator is unable to show the error message][534] |
+| [73367706][531] | [Get error: Type 'string[] | null' is not assignable to type 'string\[\]' while using an Observable and async pipe][532] |
 | [73384175][529] | [Angular Reactive Form - Validate form on button click][530] |
 | [73411468][527] | [Mat Table does not work with Mat Sort and Service Api][528] |
 | [73425336][525] | [ngx-emoji mart - Type 'string' is not assignable error][526] |
@@ -1086,3 +1087,6 @@ npm start
 
 [531]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73367706
 [532]: https://stackoverflow.com/questions/73367706/get-error-type-string-null-is-not-assignable-to-type-string-while-usi/73367751#73367751
+
+[533]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73248610
+[534]: https://stackoverflow.com/questions/73248610/angular-form-validator-is-unable-to-show-the-error-message/73248780#73248780
