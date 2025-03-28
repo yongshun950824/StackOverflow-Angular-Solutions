@@ -1,0 +1,6 @@
+/* Add application styles & imports to this file! */
+@use '@angular/material' as mat;
+
+$my-palette: mat.$indigo-palette;
+
+@include mat.core();

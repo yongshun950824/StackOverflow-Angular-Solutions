@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73235515][535] | [Angular - Validate numeric input field in the reactive form for specific range][536] |
 | [73248610][533] | [Angular - Form Validator is unable to show the error message][534] |
 | [73367706][531] | [Get error: Type 'string[] | null' is not assignable to type 'string\[\]' while using an Observable and async pipe][532] |
 | [73384175][529] | [Angular Reactive Form - Validate form on button click][530] |
@@ -1090,3 +1091,6 @@ npm start
 
 [533]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73248610
 [534]: https://stackoverflow.com/questions/73248610/angular-form-validator-is-unable-to-show-the-error-message/73248780#73248780
+
+[535]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73235515
+[536]: https://stackoverflow.com/questions/73235515/angular-validate-numeric-input-field-in-the-reactive-form-for-specific-range/73235756#73235756
