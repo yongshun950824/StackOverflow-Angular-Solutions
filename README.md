@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [72883139][569] | [Angular Reactive Form - Nested objects within form][570] |
 | [72904614][567] | [Angular - Using interpolation with ternary operator in Input property binding][568] |
 | [72925885][565] | [Custom input validator does not display an error as expected][566] |
 | [72928327][563] | [Subscription is not assignable to NgIterable][564] |
@@ -1156,3 +1157,6 @@ npm start
 
 [567]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72904614
 [568]: https://stackoverflow.com/questions/72904614/angular-using-interpolation-with-ternary-operator-in-input-property-binding/72905710#72905710
+
+[569]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72883139
+[570]: https://stackoverflow.com/questions/72883139/angular-reactive-form-nested-objects-within-form/72884202#72884202

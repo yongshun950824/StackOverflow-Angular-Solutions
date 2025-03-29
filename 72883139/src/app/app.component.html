@@ -1,0 +1,16 @@
+<form [formGroup]="form">
+  <div>Name: <input type="text" formControlName="name" /></div>
+  <div>Age: <input type="number" formControlName="age" /></div>
+
+  <div
+    *ngFor="let controls of addresses.controls; let i = index"
+    formArrayName="address"
+  >
+    <div [formGroupName]="i">
+      <div>City: <input type="text" formControlName="city" /></div>
+      <div>Street: <input type="text" formControlName="street" /></div>
+    </div>
+
+    <hr />
+  </div>
+</form>
