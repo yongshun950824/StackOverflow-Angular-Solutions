@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73009962][557] | [Type 'Promise<string>' is not assignable to type 'string'][558] |
 | [73016878_1][553]<br />[73016878_2][555] | [Angular - How to not use ngModel in FormArray][554] |
 | [73019676][551] | [Angular - Validation for pattern][552] |
 | [73021935][549] | [How to add title attribute on HTML element with TypeScript][550] |
@@ -1133,3 +1134,6 @@ npm start
 
 [555]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73016878_2
 [556]: https://stackoverflow.com/questions/73016878/angular-how-to-not-use-ngmodel-in-formarray/73017132#73017132
+
+[557]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73009962
+[558]: https://stackoverflow.com/questions/73009962/type-promisestring-is-not-assignable-to-type-string/73010018#73010018
