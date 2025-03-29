@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73021935][549] | [How to add title attribute on HTML element with TypeScript][550] |
 | [73048508][547] | [Angular - How to populate the empty input field when the dropdrown is selected][548] |
 | [73073308][545] | [Angular - How to get objects in a nested array of objects][546] |
 | [73104434][543] | [toggle ngbAccordion from typscript File][544] |
@@ -1118,3 +1119,6 @@ npm start
 
 [547]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73048508
 [548]: https://stackoverflow.com/questions/73048508/angular-how-to-populate-the-empty-input-field-when-the-dropdrown-is-selected/73048932#73048932
+
+[549]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73021935
+[550]: https://stackoverflow.com/questions/73021935/how-to-add-title-attribute-on-html-element-with-typescript/73022353#73022353
