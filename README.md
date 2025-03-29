@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [72904614][567] | [Angular - Using interpolation with ternary operator in Input property binding][568] |
 | [72925885][565] | [Custom input validator does not display an error as expected][566] |
 | [72928327][563] | [Subscription is not assignable to NgIterable][564] |
 | [72999353_1][559]<br/>[72999353_2][561] | [PrimeNG - How to position a label above the input text field][560] |
@@ -1152,3 +1153,6 @@ npm start
 
 [565]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72925885
 [566]: https://stackoverflow.com/questions/72925885/custom-input-validator-does-not-display-an-error-as-expected/72925916#72925916
+
+[567]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72904614
+[568]: https://stackoverflow.com/questions/72904614/angular-using-interpolation-with-ternary-operator-in-input-property-binding/72905710#72905710

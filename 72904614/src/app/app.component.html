@@ -1,0 +1,15 @@
+<!-- Solution 1 -->
+<div
+  [class]="
+    item.isSelected
+      ? 'element-face-' + item.faceColor + '-filled'
+      : 'element-face-' + item.faceColor
+  "
+>
+  Context
+</div>
+
+<!-- Solution 2 -->
+<div [class]="getIconStyle(item.isSelected, item.faceColor)">Context 2</div>
+
+Tick: <input type="checkbox" [(ngModel)]="item.isSelected" />
