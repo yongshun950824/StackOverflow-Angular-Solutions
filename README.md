@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73073308][545] | [Angular - How to get objects in a nested array of objects][546] |
 | [73104434][543] | [toggle ngbAccordion from typscript File][544] |
 | [73104108][541] | [Dropdown (select option) not getting data - Angular 11][542] |
 | [73180287][539] | [Name Duplication Validation][540] |
@@ -1110,3 +1111,6 @@ npm start
 
 [543]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73104434
 [544]: https://stackoverflow.com/questions/73104434/toggle-ngbaccordion-from-typscript-file/73104727#73104727
+
+[545]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73073308
+[546]: https://stackoverflow.com/questions/73073308/angular-how-to-get-objects-in-a-nested-array-of-objects/73073935#73073935
