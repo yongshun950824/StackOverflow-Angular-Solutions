@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [72999353_1][559]<br/>[72999353_2][561] | [PrimeNG - How to position a label above the input text field][560] |
 | [73009962][557] | [Type 'Promise<string>' is not assignable to type 'string'][558] |
 | [73016878_1][553]<br />[73016878_2][555] | [Angular - How to not use ngModel in FormArray][554] |
 | [73019676][551] | [Angular - Validation for pattern][552] |
@@ -38,7 +39,7 @@ npm start
 | [73219758][537] | [Angular 7 - How to bind the value to the radio button][538] |
 | [73235515][535] | [Angular - Validate numeric input field in the reactive form for specific range][536] |
 | [73248610][533] | [Angular - Form Validator is unable to show the error message][534] |
-| [73367706][531] | [Get error: Type 'string[] | null' is not assignable to type 'string\[\]' while using an Observable and async pipe][532] |
+| [73367706][531] | [Get error: Type 'string\[\] | null' is not assignable to type 'string\[\]' while using an Observable and async pipe][532] |
 | [73384175][529] | [Angular Reactive Form - Validate form on button click][530] |
 | [73411468][527] | [Mat Table does not work with Mat Sort and Service Api][528] |
 | [73425336][525] | [ngx-emoji mart - Type 'string' is not assignable error][526] |
@@ -1137,3 +1138,9 @@ npm start
 
 [557]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73009962
 [558]: https://stackoverflow.com/questions/73009962/type-promisestring-is-not-assignable-to-type-string/73010018#73010018
+
+[559]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72999353_1
+[560]: https://stackoverflow.com/questions/72999353/primeng-how-to-position-a-label-above-the-input-text-field/73002953#73002953
+
+[561]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72999353_2
+[562]: https://stackoverflow.com/questions/72999353/primeng-how-to-position-a-label-above-the-input-text-field/73002953#73002953
