@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73019676][551] | [Angular - Validation for pattern][552] |
 | [73021935][549] | [How to add title attribute on HTML element with TypeScript][550] |
 | [73048508][547] | [Angular - How to populate the empty input field when the dropdrown is selected][548] |
 | [73073308][545] | [Angular - How to get objects in a nested array of objects][546] |
@@ -1122,3 +1123,6 @@ npm start
 
 [549]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73021935
 [550]: https://stackoverflow.com/questions/73021935/how-to-add-title-attribute-on-html-element-with-typescript/73022353#73022353
+
+[551]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73019676
+[552]: https://stackoverflow.com/questions/73019676/angular-validation-for-pattern/73019815#73019815
