@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [72757691][571] | [how to make add button updates the total][572] |
 | [72883139][569] | [Angular Reactive Form - Nested objects within form][570] |
 | [72904614][567] | [Angular - Using interpolation with ternary operator in Input property binding][568] |
 | [72925885][565] | [Custom input validator does not display an error as expected][566] |
@@ -1160,3 +1161,6 @@ npm start
 
 [569]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72883139
 [570]: https://stackoverflow.com/questions/72883139/angular-reactive-form-nested-objects-within-form/72884202#72884202
+
+[571]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72757691
+[572]: https://stackoverflow.com/questions/72757691/how-to-make-add-button-updates-the-total/72758760#72758760
