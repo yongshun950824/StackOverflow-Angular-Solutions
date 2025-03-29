@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73048508][547] | [Angular - How to populate the empty input field when the dropdrown is selected][548] |
 | [73073308][545] | [Angular - How to get objects in a nested array of objects][546] |
 | [73104434][543] | [toggle ngbAccordion from typscript File][544] |
 | [73104108][541] | [Dropdown (select option) not getting data - Angular 11][542] |
@@ -1114,3 +1115,6 @@ npm start
 
 [545]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73073308
 [546]: https://stackoverflow.com/questions/73073308/angular-how-to-get-objects-in-a-nested-array-of-objects/73073935#73073935
+
+[547]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73048508
+[548]: https://stackoverflow.com/questions/73048508/angular-how-to-populate-the-empty-input-field-when-the-dropdrown-is-selected/73048932#73048932
