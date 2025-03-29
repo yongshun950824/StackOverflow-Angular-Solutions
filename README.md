@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [72925885][565] | [Custom input validator does not display an error as expected][566] |
 | [72928327][563] | [Subscription is not assignable to NgIterable][564] |
 | [72999353_1][559]<br/>[72999353_2][561] | [PrimeNG - How to position a label above the input text field][560] |
 | [73009962][557] | [Type 'Promise<string>' is not assignable to type 'string'][558] |
@@ -1148,3 +1149,6 @@ npm start
 
 [563]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72928327
 [564]: https://stackoverflow.com/questions/72928327/subscription-is-not-assignable-to-ngiterable/72928525#72928525
+
+[565]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72925885
+[566]: https://stackoverflow.com/questions/72925885/custom-input-validator-does-not-display-an-error-as-expected/72925916#72925916
