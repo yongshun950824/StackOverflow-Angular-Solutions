@@ -25,11 +25,13 @@ export interface Element {
   templateUrl: 'app.component.html',
 })
 export class AppComponent implements OnInit {
+  ELEMENT_DATA: Element[] = [{ name: 'Arnold', item: 'Laptop' }];
+
   version = VERSION;
   value = '';
   fg: FormGroup;
-  dataSource = new MatTableDataSource<Element>(ELEMENT_DATA);
-  items = ELEMENT_DATA;
+  dataSource = new MatTableDataSource<Element>(this.ELEMENT_DATA);
+  items = this.ELEMENT_DATA;
 
   constructor(
     private dialog: MatDialog,
@@ -51,4 +53,4 @@ export class AppComponent implements OnInit {
     if (selectedItem) this.fg.controls.item.patchValue(selectedItem.item);
   }
 }
-const ELEMENT_DATA: Element[] = [{ name: 'Arnold', item: 'Laptop' }];
+
