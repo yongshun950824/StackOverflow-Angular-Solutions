@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [73016878_1][553]<br />[73016878_2][555] | [Angular - How to not use ngModel in FormArray][554] |
 | [73019676][551] | [Angular - Validation for pattern][552] |
 | [73021935][549] | [How to add title attribute on HTML element with TypeScript][550] |
 | [73048508][547] | [Angular - How to populate the empty input field when the dropdrown is selected][548] |
@@ -1126,3 +1127,9 @@ npm start
 
 [551]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73019676
 [552]: https://stackoverflow.com/questions/73019676/angular-validation-for-pattern/73019815#73019815
+
+[553]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73016878_1
+[554]: https://stackoverflow.com/questions/73016878/angular-how-to-not-use-ngmodel-in-formarray/73017132#73017132
+
+[555]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73016878_2
+[556]: https://stackoverflow.com/questions/73016878/angular-how-to-not-use-ngmodel-in-formarray/73017132#73017132
