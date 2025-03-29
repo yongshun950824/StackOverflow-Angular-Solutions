@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [72928327][563] | [Subscription is not assignable to NgIterable][564] |
 | [72999353_1][559]<br/>[72999353_2][561] | [PrimeNG - How to position a label above the input text field][560] |
 | [73009962][557] | [Type 'Promise<string>' is not assignable to type 'string'][558] |
 | [73016878_1][553]<br />[73016878_2][555] | [Angular - How to not use ngModel in FormArray][554] |
@@ -1144,3 +1145,6 @@ npm start
 
 [561]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72999353_2
 [562]: https://stackoverflow.com/questions/72999353/primeng-how-to-position-a-label-above-the-input-text-field/73002953#73002953
+
+[563]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72928327
+[564]: https://stackoverflow.com/questions/72928327/subscription-is-not-assignable-to-ngiterable/72928525#72928525
