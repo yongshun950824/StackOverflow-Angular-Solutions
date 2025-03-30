@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [72470896_1][587]<br/>[72470896_2][589] | [Angular - Img src attribute doesn't render SVG][588] |
 | [72473269][585] | [Angular - Validation message display after success for two functions][586] |
 | [72513981][583] | [Angular PrimeNG tag component value cannot bind object][584] |
 | [72517024][581] | [Angular ngFor - Change CSS of the selected row instead of all rows][582] |
@@ -1192,3 +1193,9 @@ npm start
 
 [585]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72473269
 [586]: https://stackoverflow.com/questions/72473269/angular-validation-message-display-after-success-for-two-functions/72474430#72474430
+
+[587]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72470896_1
+[588]: https://stackoverflow.com/questions/72470896/angular-img-src-attribute-doesnt-render-svg/72471321#72471321
+
+[589]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72470896_2
+[590]: https://stackoverflow.com/questions/72470896/angular-img-src-attribute-doesnt-render-svg/72471321#72471321
