@@ -1,0 +1,11 @@
+<h3>Login</h3>
+
+<button (click)="submit()">Submit (Prompt error)</button>
+
+<div>
+  <app-error
+    *ngIf="isError == true"
+    [ErrorTitle]="title"
+    [ErrorMessage]="message"
+  ></app-error>
+</div>

@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [72419259][591] | [Pass variable from parent component to child component][592] |
 | [72470896_1][587]<br/>[72470896_2][589] | [Angular - Img src attribute doesn't render SVG][588] |
 | [72473269][585] | [Angular - Validation message display after success for two functions][586] |
 | [72513981][583] | [Angular PrimeNG tag component value cannot bind object][584] |
@@ -1199,3 +1200,6 @@ npm start
 
 [589]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72470896_2
 [590]: https://stackoverflow.com/questions/72470896/angular-img-src-attribute-doesnt-render-svg/72471321#72471321
+
+[591]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72419259
+[592]: https://stackoverflow.com/questions/72419259/pass-variable-from-parent-component-to-child-component/72420731#72420731
