@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [72051506][595] | [Passing variable into [icon] for Font Awesome not working][596] |
 | [72413860][593] | [Angular Material - How to customise style of selected option][594] |
 | [72419259][591] | [Pass variable from parent component to child component][592] |
 | [72470896_1][587]<br/>[72470896_2][589] | [Angular - Img src attribute doesn't render SVG][588] |
@@ -1207,3 +1208,6 @@ npm start
 
 [593]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72413860
 [594]: https://stackoverflow.com/questions/72413860/angular-material-how-to-customise-style-of-selected-option/72416114#72416114
+
+[595]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72051506
+[596]: https://stackoverflow.com/questions/72051506/passing-variable-into-icon-for-font-awesome-not-working/72051727#72051727
