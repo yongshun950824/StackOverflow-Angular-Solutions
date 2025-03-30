@@ -26,7 +26,8 @@ npm start
 
 | Project source | Question |
 |-|-|
-| [72051506][595] | [Passing variable into [icon] for Font Awesome not working][596] |
+| [71886456][597] | [Angular display own datas for each dynamic arrayForm][598] |
+| [72051506][595] | [Passing variable into \[icon\] for Font Awesome not working][596] |
 | [72413860][593] | [Angular Material - How to customise style of selected option][594] |
 | [72419259][591] | [Pass variable from parent component to child component][592] |
 | [72470896_1][587]<br/>[72470896_2][589] | [Angular - Img src attribute doesn't render SVG][588] |
@@ -1211,3 +1212,6 @@ npm start
 
 [595]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72051506
 [596]: https://stackoverflow.com/questions/72051506/passing-variable-into-icon-for-font-awesome-not-working/72051727#72051727
+
+[597]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71886456
+[598]: https://stackoverflow.com/questions/71886456/angular-display-own-datas-for-each-dynamic-arrayform/71890354#71890354
