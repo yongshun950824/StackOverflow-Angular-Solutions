@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [72526170][579] | [ngStyle for specific condition][580] |
 | [72555777][577] | [Chart.js bar chart with nested array][578] |
 | [72589386][575] | [Angular - How to pass back value from submit button to call a function?][576] |
 | [72673720][573] | [Angular directive that doesn't match mailto][574] |

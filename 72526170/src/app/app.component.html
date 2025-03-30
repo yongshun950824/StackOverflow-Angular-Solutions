@@ -1,0 +1,6 @@
+<h4
+  *ngFor="let x of textAddedList; let i = index"
+  [ngStyle]="{ backgroundColor: i > 1 ? 'grey' : 'transparent' }"
+>
+  {{ x }}
+</h4>
