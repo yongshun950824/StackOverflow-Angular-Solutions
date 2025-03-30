@@ -1,0 +1,42 @@
+<p-table [value]="orders">
+  <ng-template pTemplate="header">
+    <tr>
+      <th pSortableColumn="dateOrdered">
+        Date Ordered <p-sortIcon field="dateOrdered"></p-sortIcon>
+      </th>
+      <th pSortableColumn="status">
+        Status <p-sortIcon field="status"></p-sortIcon>
+      </th>
+      <th></th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-order>
+    <tr>
+      <td>{{ order.dateOrdered | date: 'short' }}</td>
+      <td>
+        <!-- Solution 1 -->
+
+        <p-tag
+          [value]="getOrderStatus(order.status).status"
+          [severity]="getOrderStatus(order.status).color"
+        ></p-tag>
+
+        <!-- Solution 2 -->
+        <ng-container
+          [ngTemplateOutlet]="orderStatuscontainer"
+          [ngTemplateOutletContext]="{
+            $implicit: getOrderStatus(order.status)
+          }"
+        >
+        </ng-container>
+
+        <ng-template #orderStatuscontainer let-orderStatus>
+          <p-tag
+            [value]="orderStatus.status"
+            [severity]="orderStatus.color"
+          ></p-tag>
+        </ng-template>
+      </td>
+    </tr>
+  </ng-template>
+</p-table>

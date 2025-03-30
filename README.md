@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [72513981][583] | [Angular PrimeNG tag component value cannot bind object][584] |
 | [72517024][581] | [Angular ngFor - Change CSS of the selected row instead of all rows][582] |
 | [72526170][579] | [ngStyle for specific condition][580] |
 | [72555777][577] | [Chart.js bar chart with nested array][578] |
@@ -1184,3 +1185,6 @@ npm start
 
 [581]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72517024
 [582]: https://stackoverflow.com/questions/72517024/angular-ngfor-change-css-of-the-selected-row-instead-of-all-rows/72517434#72517434
+
+[583]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72513981
+[584]: https://stackoverflow.com/questions/72513981/angular-primeng-tag-component-value-cannot-bind-object/72514685#72514685
