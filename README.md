@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [72673720][573] | [Angular directive that doesn't match mailto][574] |
 | [72757691][571] | [how to make add button updates the total][572] |
 | [72883139][569] | [Angular Reactive Form - Nested objects within form][570] |
 | [72904614][567] | [Angular - Using interpolation with ternary operator in Input property binding][568] |
@@ -1164,3 +1165,6 @@ npm start
 
 [571]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72757691
 [572]: https://stackoverflow.com/questions/72757691/how-to-make-add-button-updates-the-total/72758760#72758760
+
+[573]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72673720
+[574]: https://stackoverflow.com/questions/72673720/angular-directive-that-doesnt-match-mailto/72674194#72674194
