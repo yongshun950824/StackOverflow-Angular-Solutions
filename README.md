@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [71888073][599] | [Angular Reactive Forms with nested formGroups inside a formArray][600] |
 | [71886456][597] | [Angular display own datas for each dynamic arrayForm][598] |
 | [72051506][595] | [Passing variable into \[icon\] for Font Awesome not working][596] |
 | [72413860][593] | [Angular Material - How to customise style of selected option][594] |
@@ -1215,3 +1216,6 @@ npm start
 
 [597]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71886456
 [598]: https://stackoverflow.com/questions/71886456/angular-display-own-datas-for-each-dynamic-arrayform/71890354#71890354
+
+[599]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71888073
+[600]: https://stackoverflow.com/questions/71888073/angular-reactive-forms-with-nested-formgroups-inside-a-formarray/71889989#71889989

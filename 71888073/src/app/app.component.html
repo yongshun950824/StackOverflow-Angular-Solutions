@@ -1,0 +1,32 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+
+<div [formGroup]="componentForm">
+  <input type="text" formControlName="name" />
+
+  <div style="padding-left:10px" formGroupName="definition">
+    <input type="text" formControlName="name" />
+
+    <div>Components</div>
+    <div formArrayName="components">
+      <div
+        *ngFor="
+          let component of components().controls;
+          let componentIndex = index
+        "
+      >
+        <div style="padding-left:10px" [formGroupName]="componentIndex">
+          <input type="text" formControlName="name" />
+
+          <!-- 1st attempt to get to get name out of info formGroup 
+          ERROR: Property 'info' does not exist on type 'AppComponent'-->
+          <div formGroupName="info">
+            <input type="text" formControlName="name" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<pre>{{ componentForm.value | json }}</pre>
