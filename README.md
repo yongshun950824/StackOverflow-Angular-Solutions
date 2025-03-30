@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [72473269][585] | [Angular - Validation message display after success for two functions][586] |
 | [72513981][583] | [Angular PrimeNG tag component value cannot bind object][584] |
 | [72517024][581] | [Angular ngFor - Change CSS of the selected row instead of all rows][582] |
 | [72526170][579] | [ngStyle for specific condition][580] |
@@ -1188,3 +1189,6 @@ npm start
 
 [583]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72513981
 [584]: https://stackoverflow.com/questions/72513981/angular-primeng-tag-component-value-cannot-bind-object/72514685#72514685
+
+[585]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72473269
+[586]: https://stackoverflow.com/questions/72473269/angular-validation-message-display-after-success-for-two-functions/72474430#72474430
