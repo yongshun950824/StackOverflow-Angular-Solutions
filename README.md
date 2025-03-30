@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [72413860][593] | [Angular Material - How to customise style of selected option][594] |
 | [72419259][591] | [Pass variable from parent component to child component][592] |
 | [72470896_1][587]<br/>[72470896_2][589] | [Angular - Img src attribute doesn't render SVG][588] |
 | [72473269][585] | [Angular - Validation message display after success for two functions][586] |
@@ -1203,3 +1204,6 @@ npm start
 
 [591]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72419259
 [592]: https://stackoverflow.com/questions/72419259/pass-variable-from-parent-component-to-child-component/72420731#72420731
+
+[593]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72413860
+[594]: https://stackoverflow.com/questions/72413860/angular-material-how-to-customise-style-of-selected-option/72416114#72416114
