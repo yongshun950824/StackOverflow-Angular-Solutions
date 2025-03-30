@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [72589386][575] | [Angular - How to pass back value from submit button to call a function?][576] |
 | [72673720][573] | [Angular directive that doesn't match mailto][574] |
 | [72757691][571] | [how to make add button updates the total][572] |
 | [72883139][569] | [Angular Reactive Form - Nested objects within form][570] |
@@ -1168,3 +1169,6 @@ npm start
 
 [573]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72673720
 [574]: https://stackoverflow.com/questions/72673720/angular-directive-that-doesnt-match-mailto/72674194#72674194
+
+[575]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72589386
+[576]: https://stackoverflow.com/questions/72589386/angular-how-to-pass-back-value-from-submit-button-to-call-a-function/72589425#72589425

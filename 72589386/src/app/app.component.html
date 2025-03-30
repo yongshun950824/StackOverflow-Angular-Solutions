@@ -1,0 +1,9 @@
+<select [(ngModel)]='selectedOption'>
+  <option *ngFor="let t of items" [value]="t">
+      {{ t }}
+    </option>
+</select>
+
+<button type="button" (click)="selectedValue()" class="btn btn-info btn-sm">
+  Submit
+</button>
