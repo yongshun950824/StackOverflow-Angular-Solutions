@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [72517024][581] | [Angular ngFor - Change CSS of the selected row instead of all rows][582] |
 | [72526170][579] | [ngStyle for specific condition][580] |
 | [72555777][577] | [Chart.js bar chart with nested array][578] |
 | [72589386][575] | [Angular - How to pass back value from submit button to call a function?][576] |
@@ -1177,3 +1178,9 @@ npm start
 
 [577]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72555777
 [578]: https://stackoverflow.com/questions/72555777/chart-js-bar-chart-with-nested-array/72556022#72556022
+
+[579]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72526170
+[580]: https://stackoverflow.com/questions/72526170/ngstyle-for-specific-condition/72526228#72526228
+
+[581]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72517024
+[582]: https://stackoverflow.com/questions/72517024/angular-ngfor-change-css-of-the-selected-row-instead-of-all-rows/72517434#72517434
