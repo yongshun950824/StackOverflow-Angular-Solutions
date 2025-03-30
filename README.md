@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [71777924][599] | [Angular: Setting a date field by dropdown menu's selection][600] |
 | [71888073][599] | [Angular Reactive Forms with nested formGroups inside a formArray][600] |
 | [71886456][597] | [Angular display own datas for each dynamic arrayForm][598] |
 | [72051506][595] | [Passing variable into \[icon\] for Font Awesome not working][596] |
@@ -1219,3 +1220,6 @@ npm start
 
 [599]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71888073
 [600]: https://stackoverflow.com/questions/71888073/angular-reactive-forms-with-nested-formgroups-inside-a-formarray/71889989#71889989
+
+[601]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71777924
+[602]: https://stackoverflow.com/questions/71777924/angular-setting-a-date-field-by-dropdown-menus-selection/71778405#71778405
