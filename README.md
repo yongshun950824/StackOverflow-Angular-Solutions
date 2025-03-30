@@ -26,7 +26,8 @@ npm start
 
 | Project source | Question |
 |-|-|
-| [71777924][599] | [Angular: Setting a date field by dropdown menu's selection][600] |
+| [71750250_1][603]<br />[71750250_2][605] | [Angular - Display *ngFor in Row and Column][604] |
+| [71777924][601] | [Angular: Setting a date field by dropdown menu's selection][602] |
 | [71888073][599] | [Angular Reactive Forms with nested formGroups inside a formArray][600] |
 | [71886456][597] | [Angular display own datas for each dynamic arrayForm][598] |
 | [72051506][595] | [Passing variable into \[icon\] for Font Awesome not working][596] |
@@ -1223,3 +1224,9 @@ npm start
 
 [601]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71777924
 [602]: https://stackoverflow.com/questions/71777924/angular-setting-a-date-field-by-dropdown-menus-selection/71778405#71778405
+
+[603]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71750250_1
+[604]: https://stackoverflow.com/questions/71750250/angular-display-ngfor-in-row-and-column/71750593#71750593
+
+[605]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71750250_2
+[606]: https://stackoverflow.com/questions/71750250/angular-display-ngfor-in-row-and-column/71750593#71750593
