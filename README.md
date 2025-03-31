@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [71092060][629] | [parsing complicated json with Angular][630] |
 | [71108691][627] | [Nested Reactive Form to count from main Object][628] |
 | [71135777][625] | [PrimeNg AutoComplete][626] |
 | [71167259][623] | [ngModel returns empty result to CreateComponent][624] |
@@ -1274,3 +1275,6 @@ npm start
 
 [627]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71108691
 [628]: https://stackoverflow.com/questions/71108691/nested-reactive-form-to-count-from-main-object/71109236#71109236
+
+[629]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71092060
+[630]: https://stackoverflow.com/questions/71092060/parsing-complicated-json-with-angular/71097700#71097700
