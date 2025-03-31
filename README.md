@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [71389510][609] | [Angular - Populate the HTML page with the JSON data][610] |
 | [71446155][607] | [Angular FormControl values not being displayed on inputs][608] |
 | [71750250_1][603]<br />[71750250_2][605] | [Angular - Display *ngFor in Row and Column][604] |
 | [71777924][601] | [Angular: Setting a date field by dropdown menu's selection][602] |
@@ -1234,3 +1235,6 @@ npm start
 
 [607]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71446155
 [608]: https://stackoverflow.com/questions/71446155/angular-formcontrol-values-not-being-displayed-on-inputs/71446622#71446622
+
+[609]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71389510
+[610]: https://stackoverflow.com/questions/71389510/angular-populate-the-html-page-with-the-json-data/71389787#71389787
