@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [71446155][607] | [Angular FormControl values not being displayed on inputs][608] |
 | [71750250_1][603]<br />[71750250_2][605] | [Angular - Display *ngFor in Row and Column][604] |
 | [71777924][601] | [Angular: Setting a date field by dropdown menu's selection][602] |
 | [71888073][599] | [Angular Reactive Forms with nested formGroups inside a formArray][600] |
@@ -59,7 +60,7 @@ npm start
 | [73219758][537] | [Angular 7 - How to bind the value to the radio button][538] |
 | [73235515][535] | [Angular - Validate numeric input field in the reactive form for specific range][536] |
 | [73248610][533] | [Angular - Form Validator is unable to show the error message][534] |
-| [73367706][531] | [Get error: Type 'string\[\] | null' is not assignable to type 'string\[\]' while using an Observable and async pipe][532] |
+| [73367706][531] | [Get error: Type 'string\[\] \| null' is not assignable to type 'string\[\]' while using an Observable and async pipe][532] |
 | [73384175][529] | [Angular Reactive Form - Validate form on button click][530] |
 | [73411468][527] | [Mat Table does not work with Mat Sort and Service Api][528] |
 | [73425336][525] | [ngx-emoji mart - Type 'string' is not assignable error][526] |
@@ -1230,3 +1231,6 @@ npm start
 
 [605]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71750250_2
 [606]: https://stackoverflow.com/questions/71750250/angular-display-ngfor-in-row-and-column/71750593#71750593
+
+[607]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71446155
+[608]: https://stackoverflow.com/questions/71446155/angular-formcontrol-values-not-being-displayed-on-inputs/71446622#71446622
