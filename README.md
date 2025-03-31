@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [71108691][627] | [Nested Reactive Form to count from main Object][628] |
 | [71135777][625] | [PrimeNg AutoComplete][626] |
 | [71167259][623] | [ngModel returns empty result to CreateComponent][624] |
 | [71202416][621] | [Angular Material- Getting id from clicked row element][622] |
@@ -1270,3 +1271,6 @@ npm start
 
 [625]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71135777
 [626]: https://stackoverflow.com/questions/71135777/primeng-autocomplete/71135995#71135995
+
+[627]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71108691
+[628]: https://stackoverflow.com/questions/71108691/nested-reactive-form-to-count-from-main-object/71109236#71109236
