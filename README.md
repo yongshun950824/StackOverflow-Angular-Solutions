@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [71135777][625] | [PrimeNg AutoComplete][626] |
 | [71167259][623] | [ngModel returns empty result to CreateComponent][624] |
 | [71202416][621] | [Angular Material- Getting id from clicked row element][622] |
 | [71247424][619] | [mat-select customize display label for selected option][620] |
@@ -1266,3 +1267,6 @@ npm start
 
 [623]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71167259
 [624]: https://stackoverflow.com/questions/71167259/ngmodel-returns-empty-result-to-createcomponent/71167317#71167317
+
+[625]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71135777
+[626]: https://stackoverflow.com/questions/71135777/primeng-autocomplete/71135995#71135995
