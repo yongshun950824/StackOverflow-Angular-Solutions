@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [71202416][621] | [Angular Material- Getting id from clicked row element][622] |
 | [71247424][619] | [mat-select customize display label for selected option][620] |
 | [71210239][617] | [Front-end Display Message "This email is already registered" PrimeNG & scss][618] |
 | [71294680][615] | [Angular - app initializer not being called][616] |
@@ -1258,3 +1259,6 @@ npm start
 
 [619]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71247424
 [620]: https://stackoverflow.com/questions/71247424/mat-select-customize-display-label-for-selected-option/71247584#71247584
+
+[621]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71202416
+[622]: https://stackoverflow.com/questions/71202416/angular-material-getting-id-from-clicked-row-element/71202812#71202812

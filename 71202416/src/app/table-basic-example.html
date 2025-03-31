@@ -1,0 +1,50 @@
+<!-- Copyright 2022 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at https://angular.io/license -->
+
+<table mat-table [dataSource]="dataSource" matSort matTableResponsive>
+  <!-- ID Column -->
+  <ng-container matColumnDef="id">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>ID</th>
+    <td mat-cell *matCellDef="let row let i=index;">{{ i+1}}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="amount">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Amount</th>
+    <td mat-cell *matCellDef="let row">{{row.amount}}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="discount">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Discount</th>
+    <td mat-cell *matCellDef="let row">{{row.discount}}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="total">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Total</th>
+    <td mat-cell *matCellDef="let row">{{row.total}}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="orderStatus">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Change Status</th>
+    <td mat-cell *matCellDef="let row">
+      <button mat-button color="accent" [matMenuTriggerFor]="menustatus">
+        {{row.orderProcess?.orderStatus}}
+        orderStatus
+      </button>
+
+      <mat-menu #menustatus="matMenu">
+        <button
+          (click)="changestatus($event,row)"
+          mat-menu-item
+          [value]="os.id"
+          *ngFor="let os of orderprocessing"
+        >
+          {{os.name}}
+        </button>
+      </mat-menu>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
