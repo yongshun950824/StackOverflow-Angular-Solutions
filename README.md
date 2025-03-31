@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [71210239][617] | [Front-end Display Message "This email is already registered" PrimeNG & scss][618] |
 | [71294680][615] | [Angular - app initializer not being called][616] |
 | [71343882][613] | [ERROR Error: Cannot find control with path: 'emails -> 0 -> email'][614] |
 | [71368270][611] | [Angular - Display data from 2 JSON in HTML][612] |
@@ -1250,3 +1251,6 @@ npm start
 
 [615]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71294680
 [616]: https://stackoverflow.com/questions/71294680/angular-app-initializer-not-being-called/71295266#71295266
+
+[617]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71210239
+[618]: https://stackoverflow.com/questions/71210239/front-end-display-message-this-email-is-already-registered-primeng-scss/71266636#71266636
