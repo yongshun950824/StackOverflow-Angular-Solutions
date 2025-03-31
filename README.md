@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [71247424][619] | [mat-select customize display label for selected option][620] |
 | [71210239][617] | [Front-end Display Message "This email is already registered" PrimeNG & scss][618] |
 | [71294680][615] | [Angular - app initializer not being called][616] |
 | [71343882][613] | [ERROR Error: Cannot find control with path: 'emails -> 0 -> email'][614] |
@@ -1254,3 +1255,6 @@ npm start
 
 [617]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71210239
 [618]: https://stackoverflow.com/questions/71210239/front-end-display-message-this-email-is-already-registered-primeng-scss/71266636#71266636
+
+[619]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71247424
+[620]: https://stackoverflow.com/questions/71247424/mat-select-customize-display-label-for-selected-option/71247584#71247584

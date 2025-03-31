@@ -1,0 +1,30 @@
+<ng-container [formGroup]="DialCode">
+  <mat-form-field appearance="outline" class="mb-0 mt-3 country-code px-1">
+    <mat-select class="w-100" formControlName="countryCode">
+      <mat-select-trigger>
+        {{ DialCode.controls['countryCode'].value }}
+      </mat-select-trigger>
+      <input
+        type="text"
+        aria-label="Number"
+        class="py-1 search"
+        formControlName="countryCodeInput"
+        matInput
+        name="phoneCode"
+        placeholder="search country code"
+      />
+      <mat-option
+        *ngFor="let country of filteredCountries | async"
+        [value]="country.dialCode"
+      >
+        {{ country.dialCode }} {{ country.name }}
+        <img
+          width="20"
+          height="20"
+          [src]="'assets/images/flags/' + parse(country.code) + '.svg'"
+          alt="img"
+        />
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</ng-container>
