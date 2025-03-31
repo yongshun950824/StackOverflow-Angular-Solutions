@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [71294680][615] | [Angular - app initializer not being called][616] |
 | [71343882][613] | [ERROR Error: Cannot find control with path: 'emails -> 0 -> email'][614] |
 | [71368270][611] | [Angular - Display data from 2 JSON in HTML][612] |
 | [71389510][609] | [Angular - Populate the HTML page with the JSON data][610] |
@@ -1246,3 +1247,6 @@ npm start
 
 [613]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71343882
 [614]: https://stackoverflow.com/questions/71343882/error-error-cannot-find-control-with-path-emails-0-email/71345401#71345401
+
+[615]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71294680
+[616]: https://stackoverflow.com/questions/71294680/angular-app-initializer-not-being-called/71295266#71295266
