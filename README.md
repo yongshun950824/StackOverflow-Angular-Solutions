@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [70994810][635] | [Why is Mapping not working after flattening an array of arrays][636] |
 | [71012296][633] | [Angular: Click button to redirect to another page not working][634] |
 | [71026883][631] | [Never\[\] is missing some properties][632] |
 | [71092060][629] | [parsing complicated json with Angular][630] |
@@ -1286,3 +1287,6 @@ npm start
 
 [633]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71012296
 [634]: https://stackoverflow.com/questions/71012296/angular-click-button-to-redirect-to-another-page-not-working/71012595#71012595
+
+[635]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70994810
+[636]: https://stackoverflow.com/questions/70994810/why-is-mapping-not-working-after-flattening-an-array-of-arrays/70994889#70994889
