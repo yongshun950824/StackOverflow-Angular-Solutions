@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [70952813][637] | [Angular - Unable to print information from API][638] |
 | [70994810][635] | [Why is Mapping not working after flattening an array of arrays][636] |
 | [71012296][633] | [Angular: Click button to redirect to another page not working][634] |
 | [71026883][631] | [Never\[\] is missing some properties][632] |
@@ -1290,3 +1291,6 @@ npm start
 
 [635]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70994810
 [636]: https://stackoverflow.com/questions/70994810/why-is-mapping-not-working-after-flattening-an-array-of-arrays/70994889#70994889
+
+[637]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70952813
+[638]: https://stackoverflow.com/questions/70952813/angular-unable-to-print-information-from-api/70953022#70953022
