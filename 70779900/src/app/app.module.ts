@@ -7,7 +7,7 @@ import { HelloComponent } from './hello.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
-import { MatCardModule } from '@angular/material/card/';
+import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { ProjectDetailsComponent } from './project-details/project-details.component';
 

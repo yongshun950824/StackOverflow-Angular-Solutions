@@ -9,7 +9,6 @@
     <mat-card-content>
       <span>Access Code: {{ currentProject?.accessCode }}</span>
       <div *ngFor="let sprint of currentProject?.sprints">
-        <---- THIS IS WERE THE ERROR HAPPENS
         <span>{{ sprint | json }}</span>
       </div>
     </mat-card-content>
