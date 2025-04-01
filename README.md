@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [70796247][649] | [What is the reason for the following error: Error: Cannot find control with path: 'resources -> 0 -> name'][650] |
 | [70779900][647] | [Angular - Property does not exist on type 'Object'][648] |
 | [70872195][645] | [Argument of type 'string' is not assignable to parameter of type '"A" \| "B"' when trying to assign possible values to a string][646] |
 | [70850391][643] | [PrimeNG Calendar - Date displayed incorrectly][644] |
@@ -1314,3 +1315,6 @@ npm start
 
 [647]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70779900
 [648]: https://stackoverflow.com/questions/70779900/angular-property-does-not-exist-on-type-object/70819031#70819031
+
+[649]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70796247
+[650]: https://stackoverflow.com/questions/70796247/what-is-the-reason-for-the-following-error-error-cannot-find-control-with-path/70796502#70796502

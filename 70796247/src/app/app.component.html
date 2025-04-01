@@ -1,0 +1,18 @@
+<form [formGroup]="form">
+  <ng-container formArrayName="resources">
+    <div *ngFor="let resource of resources.controls; let i = index">
+      <ng-container [formGroupName]="i">
+        <div class="field">
+          <input pInputText formControlName="title" class="p-inputtext w-full" />
+        </div>
+        <div class="field">
+          <textarea
+            pInputTextarea
+            formControlName="description"
+            class="p-inputtext w-full"
+          ></textarea>
+        </div>
+      </ng-container>
+    </div>
+  </ng-container>
+</form>
