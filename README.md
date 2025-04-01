@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [70872195][645] | [Argument of type 'string' is not assignable to parameter of type '"A" \| "B"' when trying to assign possible values to a string][646] |
 | [70850391][643] | [PrimeNG Calendar - Date displayed incorrectly][644] |
 | [70935577][641] | [multi-select object not working with arrays of arrays][642] |
 | [70952203][639] | [Angular *ngFor: Display only unique property "category" value and lowest price in each "category"][640] |
@@ -1306,3 +1307,6 @@ npm start
 
 [643]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70850391
 [644]: https://stackoverflow.com/questions/70850391/primeng-calendar-date-displayed-incorrectly/70874089#70874089
+
+[645]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70872195
+[646]: https://stackoverflow.com/questions/70872195/argument-of-type-string-is-not-assignable-to-parameter-of-type-a-b-whe/70872574#70872574
