@@ -1,0 +1,17 @@
+<mat-toolbar>
+  <span>{{ currentProject?.title }}</span>
+</mat-toolbar>
+<div class="data-panel">
+  <mat-card>
+    <mat-toolbar style="border-radius: 4px 4px 0px 0px;">
+      <span>Development</span>
+    </mat-toolbar>
+    <mat-card-content>
+      <span>Access Code: {{ currentProject?.accessCode }}</span>
+      <div *ngFor="let sprint of currentProject?.sprints">
+        <---- THIS IS WERE THE ERROR HAPPENS
+        <span>{{ sprint | json }}</span>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>

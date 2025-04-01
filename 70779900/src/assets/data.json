@@ -1,0 +1,31 @@
+{
+  "id": 1,
+  "title": "App Komputer",
+  "description": "Website dedicated to computer related products",
+  "accessCode": "5128",
+  "createdAt": "2022-01-13T21:19:11.000Z",
+  "updatedAt": "2022-01-13T21:19:16.000Z",
+  "sprints": [
+    {
+      "id": 1,
+      "title": "Sprint 1",
+      "releaseDate": "2022-01-20T21:37:13.000Z",
+      "description": "Specs up to 01/22/2022",
+      "createdAt": "2022-01-13T21:37:58.000Z",
+      "updatedAt": "2021-12-13T01:46:36.000Z",
+      "projectId": 1,
+      "specifications": [
+        {
+          "id": 1,
+          "title": "Add product button",
+          "description": "New product button HTML",
+          "duration": 10,
+          "status": 1,
+          "createdAt": "2021-12-23T01:46:36.000Z",
+          "updatedAt": "2021-12-23T01:46:36.000Z",
+          "sprintId": 1
+        }
+      ]
+    }
+  ]
+}
