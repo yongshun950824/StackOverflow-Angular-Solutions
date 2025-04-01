@@ -1,0 +1,26 @@
+{
+  "id": 1,
+  "title": "Ligretto",
+  "releasedate": 2000,
+  "producer": [
+    {
+      "company": "Schmidt",
+      "url": "https://example.org"
+    }
+  ],
+  "pdffile": "https://example.org",
+  "discription": "Das ist die Beschreibung zum Spiel",
+  "images": [
+    {
+      "position": 0,
+      "imagefile": "https://example.org"
+    },
+    {
+      "position": 1,
+      "imagefile": "https://example.org"
+    }
+  ],
+  "youtubelink": "https://example.org",
+  "adddate": "2021-12-22 22:22:44",
+  "changedate": "2022-01-11 11:11:20"
+}
