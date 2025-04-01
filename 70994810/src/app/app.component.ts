@@ -9,7 +9,7 @@ import { IDropdownSettings } from 'ng-multiselect-dropdown';
 export class AppComponent {
   name = 'Angular ' + VERSION.major;
 
-  selectedInstitutions: any[];
+  selectedInstitutions!: any[];
 
   institutions = [
     [{ displayValue: 'ABC', id: 781 }],
