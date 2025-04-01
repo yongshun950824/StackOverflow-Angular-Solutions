@@ -8,12 +8,12 @@ import { Component, VERSION } from '@angular/core';
 export class AppComponent {
   name = 'Angular ' + VERSION.major;
 
-  server: SERVERS_VALUE;
+  server!: SERVERS_VALUE;
 
   private origin: typeof SERVERS.SERVER_A | typeof SERVERS.SERVER_B =
     SERVERS.SERVER_A;
 
-  onChange(e) {
+  onChange(e: any) {
     this.server = e.value;
     this.setServer(this.server); // Argument of type 'string' is not assignable to parameter of type '"A" | "B"'.
   }
