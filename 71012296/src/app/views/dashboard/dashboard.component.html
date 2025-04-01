@@ -1,0 +1,41 @@
+<div class="sidebar">
+    <div class="logo-details">
+        <span class="logo_name"> </span>
+    </div>
+    <ul class="nav-links" *ngFor="let menu of menus; let i = index">
+        <li [ngClass]="{ selected: selectedTab === menu.route }">
+            <a routerLink="{{ menu.route }}" routerLinkActive="active" (click)="toggleMenu(i); selectedTab = menu.route">
+                <i class="{{ menu.class }}"></i>
+                <span class="links_name"> {{ menu.item }} </span>
+                <i class="{{ menu.arrowDown }} iconArrow" *ngIf="selectedTab !== menu.route || !showSubmenu[i]"></i>
+                <i class="{{ menu.arrowUp }} iconArrow " *ngIf="selectedTab === menu.route && showSubmenu[i]"></i>
+            </a>
+        </li>
+
+        <ng-container *ngFor="let submenu of menu.submenus; let j = index">
+            <li *ngIf="showSubmenu[i]">
+                <a routerLink="{{ submenu.route }}">
+                    <i class="{{ submenu.class }}"></i>
+                    <span class="links_name"> {{ submenu.item }} </span>
+                </a>
+            </li>
+        </ng-container>
+
+
+    </ul>
+</div>
+<section class="home-section">
+    <nav>
+        <div class="sidebar-button">
+            <div class="menu-container">
+                <i class="bx bx-menu sidebarBtn"></i>
+                <span class="dashboard">Dashboard</span>
+            </div>
+            <div class="menu-summary-container">
+                <span class="user">Utilisateur: </span>
+
+            </div>
+        </div>
+    </nav>
+    <router-outlet></router-outlet>
+</section>

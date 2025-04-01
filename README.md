@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [71012296][633] | [Angular: Click button to redirect to another page not working][634] |
 | [71026883][631] | [Never\[\] is missing some properties][632] |
 | [71092060][629] | [parsing complicated json with Angular][630] |
 | [71108691][627] | [Nested Reactive Form to count from main Object][628] |
@@ -1282,3 +1283,6 @@ npm start
 
 [631]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71026883
 [632]: https://stackoverflow.com/questions/71026883/never-is-missing-some-properties/71027290#71027290
+
+[633]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71012296
+[634]: https://stackoverflow.com/questions/71012296/angular-click-button-to-redirect-to-another-page-not-working/71012595#71012595
