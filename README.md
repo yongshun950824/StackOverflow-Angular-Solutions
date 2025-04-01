@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [70952203][639] | [Angular *ngFor: Display only unique property "category" value and lowest price in each "category"][640] |
 | [70952813][637] | [Angular - Unable to print information from API][638] |
 | [70994810][635] | [Why is Mapping not working after flattening an array of arrays][636] |
 | [71012296][633] | [Angular: Click button to redirect to another page not working][634] |
@@ -1294,3 +1295,6 @@ npm start
 
 [637]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70952813
 [638]: https://stackoverflow.com/questions/70952813/angular-unable-to-print-information-from-api/70953022#70953022
+
+[639]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70952203
+[640]: https://stackoverflow.com/questions/70952203/angular-ngfor-display-only-unique-property-category-value-and-lowest-price-i/70952782#70952782
