@@ -124,7 +124,7 @@ npm start
 | [74895724][455] | [Angular Keyvalue pipe for nested object][456] |
 | [74895985][453] | [Angular Reactive Form - How to validate radio buttons and show error message when form is submitted][454] |
 | [74905107][451] | [How can I get every property from the JSON I'm receiving? error TS2339: Property '' does not exist on type ''][452] |
-| [74918065][449] | [ngFor isn't working on <tr> element of my angular project][450] |
+| [74918065][449] | [ngFor isn't working on \<tr\> element of my angular project][450] |
 | [74923501][447] | [ionic 4 - How to wait for two observables to be subscribed before getting data][448] |
 | [74929794][445] | [Angular Reactive Form - Render control in form array for a string array][446] |
 | [74973476][443] | [Number pipe number : '1.2-2' is not working while using by a ternary inside *ngFor directives][444] |
