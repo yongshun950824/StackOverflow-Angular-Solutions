@@ -1,0 +1,24 @@
+<form [formGroup]="form">
+  <div *ngIf="subCategoriesParams$ | async as subCategoryParams">
+    <ng-container
+      *ngFor="let params of subCategoryParams.params; let i = index"
+      formArrayName="data"
+    >
+      <div formGroupName="{{ i }}">
+        <div class="form-group required">
+          <label class="control-label">
+            {{ params.paramsName }}
+          </label>
+          <input
+            type="text"
+            class="form-control"
+            formControlName="value"
+            (change)="onChangeEvent(params)"
+          />
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</form>
+
+<button class="btn btn-outline-primary" (click)="save()">Save</button>

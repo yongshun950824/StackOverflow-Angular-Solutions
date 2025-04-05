@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [70661310][653] | [Cannot find control with path: 'data -> 1 -> value'][654] |
 | [70727908][651] | [Angular - Get Error: Error trying to diff '[object Object]'. Only arrays and iterables are allowed][652] |
 | [70796247][649] | [What is the reason for the following error: Error: Cannot find control with path: 'resources -> 0 -> name'][650] |
 | [70779900][647] | [Angular - Property does not exist on type 'Object'][648] |
@@ -1322,3 +1323,6 @@ npm start
 
 [651]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70727908
 [652]: https://stackoverflow.com/questions/70727908/angular-get-error-error-trying-to-diff-object-object-only-arrays-and-ite/70727981#70727981
+
+[653]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70661310
+[654]: https://stackoverflow.com/questions/70661310/cannot-find-control-with-path-data-1-value/70661905#70661905
