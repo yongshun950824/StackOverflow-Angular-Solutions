@@ -1,0 +1,23 @@
+<mat-toolbar color="primary"> Angular Material 2 App </mat-toolbar>
+<div class="basic-container" [formGroup]="fg">
+  <!--{{ ELEMENT_DATA | json }}-->
+  <mat-select
+    (selectionChange)="selectedType($event)"
+    formControlName="name"
+    style="width:200px"
+  >
+    <mat-option *ngFor="let item of items" [value]="item.name">
+      {{ item.name }}
+    </mat-option>
+  </mat-select>
+
+  <input type="" formControlName="item" />
+
+  <span class="version-info">Current build: {{ version.full }}</span>
+</div>
+<!--
+Copyright Google LLC All Rights Reserved.
+
+Use of this source code is governed by an MIT-style license that can be
+found in the LICENSE file at https://angular.io/license
+-->

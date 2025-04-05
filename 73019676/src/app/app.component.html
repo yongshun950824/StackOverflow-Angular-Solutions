@@ -1,0 +1,12 @@
+<form [formGroup]="showForm">
+  <label>IMDB-ID</label>
+  <input type="text" formControlName="imdb" placeholder="imdb id (required)" />
+  <span class="invalid-feedback">
+    <span *ngIf="showForm.get('imdb').errors?.required">
+      you must enter the imdb id
+    </span>
+    <span *ngIf="showForm.get('imdb').errors?.pattern">
+      please enter a valid imdb-id
+    </span>
+  </span>
+</form>

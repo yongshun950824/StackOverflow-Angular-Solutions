@@ -1,0 +1,6 @@
+<div *ngFor="let parent of groupedSampleList">
+  <strong>{{ parent.parent }}</strong>
+  <div *ngFor="let child of parent.children">
+    {{ child.product }} - {{ child.name }}
+  </div>
+</div>

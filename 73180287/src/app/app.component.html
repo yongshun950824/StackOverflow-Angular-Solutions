@@ -1,0 +1,11 @@
+<form [formGroup]="form">
+  <div>
+    <mat-form-field>
+      <input matInput type="text" formControlName="name" required />
+      <mat-error *ngIf="name.hasError('required')"> It's required </mat-error>
+      <mat-error *ngIf="name.hasError('validateName')">
+        the name already exists
+      </mat-error>
+    </mat-form-field>
+  </div>
+</form>

@@ -1,0 +1,27 @@
+<div fxLayout="column">
+  <div>
+    <h1>Buscador de Héroes</h1>
+    <p-divider></p-divider>
+  </div>
+  <div>
+    Solution 1 for Issue 2
+    <p-autoComplete
+      [(ngModel)]="selectedHero"
+      [suggestions]="cambiar()"
+      (completeMethod)="filterHeros($event)"
+      field="superhero"
+      [minLength]="1"
+    ></p-autoComplete>
+  </div>
+
+  <div>
+    Solution 2 for Issue 2
+    <p-autoComplete
+      [(ngModel)]="selectedHero"
+      [suggestions]="filteredHeros"
+      (completeMethod)="filterHeros($event)"
+      field="superhero"
+      [minLength]="1"
+    ></p-autoComplete>
+  </div>
+</div>

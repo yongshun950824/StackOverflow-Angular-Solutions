@@ -1,0 +1,39 @@
+<form [formGroup]="shippingLocationDetailsUpdateForm">
+  <div formArrayName="customDetails">
+    <div
+      *ngFor="
+        let customDetails of customDetailsFormArray.controls;
+        let i = index
+      "
+    >
+      <div [formGroupName]="i">
+        <label>customRegNumber: </label>
+        <input formControlName="customRegNumber" />
+        <br />
+
+        <label>customCode: </label>
+        <input formControlName="customCode" />
+        <br />
+
+        <label>customRegistrationtype: </label>
+        <input formControlName="customRegistrationtype" />
+        <br />
+
+        <label>customRegStartDate: </label>
+        <input formControlName="customRegStartDate" />
+        <button (click)="disableCustomRegStartDateControl(i)">Disable customRegStartDate control</button>
+        <br />
+
+        <label>customRegEndDate: </label>
+        <input formControlName="customRegEndDate" />
+        <br />
+      </div>
+
+      <hr />
+    </div>
+  </div>
+
+  <button (click)="addCustomDetailsForm()">Add Custom Details</button>
+
+  <button (click)="disableAllCustomRegStartDateControl()">Disable all Custom Details' customRegStartDate controls</button>
+</form>

@@ -1,0 +1,19 @@
+<tr
+  *ngFor="let user of users; let i = index"
+  [ngClass]="isSelectedRow(i) ? 'selRow' : ''"
+>
+  <td class="checkbox-field">
+    <input type="checkbox" (change)="toggleSelectedRows(i)" />
+  </td>
+  <td class="user-field">
+    <img [src]="user.userPicture" alt="" /> {{ user.firstName }}
+    {{ user.lastName }}
+  </td>
+  <!--
+  <td class="company-field">{{ getCompany(user.companyId) }}</td>
+  <td class="email-field">{{ user.email }}</td>
+  <td class="roles-field">{{ user.permissionRoles }}</td>
+  <td class="edit-field">Edit</td>
+      -->
+  <td class="delete-field"><i class="fas fa-trash-alt"></i></td>
+</tr>

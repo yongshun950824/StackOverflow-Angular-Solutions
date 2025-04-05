@@ -1,0 +1,38 @@
+<div [formGroup]="productForm">
+  <div nz-row nzGutter="10" formArrayName="excludedPeriods">
+    <ng-container
+      *ngFor="let period of excludedPeriodsList().controls; let i = index"
+    >
+      <div [formGroupName]="i">
+        <div nz-row nzGutter="10">
+          <div nz-col nzSpan>
+            <nz-form-item>
+              <nz-form-label nzSpan="24">Exclude From</nz-form-label>
+              <nz-form-control>
+                <nz-date-picker
+                  nzShowTime
+                  nzFormat="dd/MM/yyyy HH:mm"
+                  formControlName="dateFrom"
+                  [style.width]="'100%'"
+                ></nz-date-picker>
+              </nz-form-control>
+            </nz-form-item>
+          </div>
+          <div nz-col nzSpan>
+            <nz-form-item>
+              <nz-form-label nzSpan="24">Exclude To</nz-form-label>
+              <nz-form-control>
+                <nz-date-picker
+                  nzShowTime
+                  nzFormat="dd/MM/yyyy HH:mm"
+                  formControlName="dateTo"
+                  [style.width]="'100%'"
+                ></nz-date-picker>
+              </nz-form-control>
+            </nz-form-item>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

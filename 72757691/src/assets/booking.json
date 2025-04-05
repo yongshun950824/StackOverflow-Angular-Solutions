@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Jet ski",
+    "price": [600, 250]
+  },
+  {
+    "name": "Banana boat",
+    "price": [330, 330]
+  },
+  {
+    "name": "Dount",
+    "price": [330, 330]
+  }
+]

@@ -1,0 +1,46 @@
+<div [formGroup]="form">
+  <div>
+    <label>ID: </label>
+    <input formControlName="id" />
+  </div>
+
+  <div>
+    <label>Status: </label>
+    <input formControlName="Status" />
+  </div>
+
+  <hr />
+  <div>
+    <label>Array</label>
+    <ng-container
+      formArrayName="array"
+      *ngFor="let row of array.controls; let i = index"
+    >
+      <div [formGroupName]="i">
+        <div>
+          <label>ID: </label>
+          <input formControlName="id" />
+        </div>
+
+        <div>
+          <label>QtyDelivered: </label>
+          <input formControlName="QtyDelivered" (input)="Calculate(i)" />
+        </div>
+
+        <div>
+          <label>QtyRejected: </label>
+          <input formControlName="QtyRejected" (input)="Calculate(i)" />
+        </div>
+
+        <div>
+          <label>QtyReceived: </label>
+          <input formControlName="QtyReceived" />
+        </div>
+      </div>
+
+      <hr />
+    </ng-container>
+
+    <button type="button" (click)="add()">Add</button>
+  </div>
+</div>

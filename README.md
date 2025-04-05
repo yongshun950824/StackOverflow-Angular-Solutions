@@ -26,6 +26,107 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [70630385][655] | [Angular - Got type mismatch error while using for-in loop][656] |
+| [70661310][653] | [Cannot find control with path: 'data -> 1 -> value'][654] |
+| [70727908][651] | [Angular - Get Error: Error trying to diff '[object Object]'. Only arrays and iterables are allowed][652] |
+| [70796247][649] | [What is the reason for the following error: Error: Cannot find control with path: 'resources -> 0 -> name'][650] |
+| [70779900][647] | [Angular - Property does not exist on type 'Object'][648] |
+| [70872195][645] | [Argument of type 'string' is not assignable to parameter of type '"A" \| "B"' when trying to assign possible values to a string][646] |
+| [70850391][643] | [PrimeNG Calendar - Date displayed incorrectly][644] |
+| [70935577][641] | [multi-select object not working with arrays of arrays][642] |
+| [70952203][639] | [Angular *ngFor: Display only unique property "category" value and lowest price in each "category"][640] |
+| [70952813][637] | [Angular - Unable to print information from API][638] |
+| [70994810][635] | [Why is Mapping not working after flattening an array of arrays][636] |
+| [71012296][633] | [Angular: Click button to redirect to another page not working][634] |
+| [71026883][631] | [Never\[\] is missing some properties][632] |
+| [71092060][629] | [parsing complicated json with Angular][630] |
+| [71108691][627] | [Nested Reactive Form to count from main Object][628] |
+| [71135777][625] | [PrimeNg AutoComplete][626] |
+| [71167259][623] | [ngModel returns empty result to CreateComponent][624] |
+| [71202416][621] | [Angular Material- Getting id from clicked row element][622] |
+| [71247424][619] | [mat-select customize display label for selected option][620] |
+| [71210239][617] | [Front-end Display Message "This email is already registered" PrimeNG & scss][618] |
+| [71294680][615] | [Angular - app initializer not being called][616] |
+| [71343882][613] | [ERROR Error: Cannot find control with path: 'emails -> 0 -> email'][614] |
+| [71368270][611] | [Angular - Display data from 2 JSON in HTML][612] |
+| [71389510][609] | [Angular - Populate the HTML page with the JSON data][610] |
+| [71446155][607] | [Angular FormControl values not being displayed on inputs][608] |
+| [71750250_1][603]<br />[71750250_2][605] | [Angular - Display *ngFor in Row and Column][604] |
+| [71777924][601] | [Angular: Setting a date field by dropdown menu's selection][602] |
+| [71888073][599] | [Angular Reactive Forms with nested formGroups inside a formArray][600] |
+| [71886456][597] | [Angular display own datas for each dynamic arrayForm][598] |
+| [72051506][595] | [Passing variable into \[icon\] for Font Awesome not working][596] |
+| [72413860][593] | [Angular Material - How to customise style of selected option][594] |
+| [72419259][591] | [Pass variable from parent component to child component][592] |
+| [72470896_1][587]<br/>[72470896_2][589] | [Angular - Img src attribute doesn't render SVG][588] |
+| [72473269][585] | [Angular - Validation message display after success for two functions][586] |
+| [72513981][583] | [Angular PrimeNG tag component value cannot bind object][584] |
+| [72517024][581] | [Angular ngFor - Change CSS of the selected row instead of all rows][582] |
+| [72526170][579] | [ngStyle for specific condition][580] |
+| [72555777][577] | [Chart.js bar chart with nested array][578] |
+| [72589386][575] | [Angular - How to pass back value from submit button to call a function?][576] |
+| [72673720][573] | [Angular directive that doesn't match mailto][574] |
+| [72757691][571] | [how to make add button updates the total][572] |
+| [72883139][569] | [Angular Reactive Form - Nested objects within form][570] |
+| [72904614][567] | [Angular - Using interpolation with ternary operator in Input property binding][568] |
+| [72925885][565] | [Custom input validator does not display an error as expected][566] |
+| [72928327][563] | [Subscription is not assignable to NgIterable][564] |
+| [72999353_1][559]<br/>[72999353_2][561] | [PrimeNG - How to position a label above the input text field][560] |
+| [73009962][557] | [Type 'Promise<string>' is not assignable to type 'string'][558] |
+| [73016878_1][553]<br />[73016878_2][555] | [Angular - How to not use ngModel in FormArray][554] |
+| [73019676][551] | [Angular - Validation for pattern][552] |
+| [73021935][549] | [How to add title attribute on HTML element with TypeScript][550] |
+| [73048508][547] | [Angular - How to populate the empty input field when the dropdrown is selected][548] |
+| [73073308][545] | [Angular - How to get objects in a nested array of objects][546] |
+| [73104434][543] | [toggle ngbAccordion from typscript File][544] |
+| [73104108][541] | [Dropdown (select option) not getting data - Angular 11][542] |
+| [73180287][539] | [Name Duplication Validation][540] |
+| [73219758][537] | [Angular 7 - How to bind the value to the radio button][538] |
+| [73235515][535] | [Angular - Validate numeric input field in the reactive form for specific range][536] |
+| [73248610][533] | [Angular - Form Validator is unable to show the error message][534] |
+| [73367706][531] | [Get error: Type 'string\[\] \| null' is not assignable to type 'string\[\]' while using an Observable and async pipe][532] |
+| [73384175][529] | [Angular Reactive Form - Validate form on button click][530] |
+| [73411468][527] | [Mat Table does not work with Mat Sort and Service Api][528] |
+| [73425336][525] | [ngx-emoji mart - Type 'string' is not assignable error][526] |
+| [73470872][523] | [Display table row on some condition angular][524] |
+| [73515331][521] | [How to pass data to template parameter via *ngIf?][522] |
+| [73516562][519] | [Angular - ngModel is not updating the value to the component][520] |
+| [73663914][517] | [Not allow an input field to contain only whitespace and special characters][518] |
+| [73663914][515] | [userForm value not in range][516] |
+| [73753211][513] | [Remove value from FormControl based on value][514] |
+| [73802359][511] | [Nested object with *ngFor][512] |
+| [73841559][509] | [Get error: Cannot find control with path: 'excludedPeriods -> 0 -> dateTo'][510] |
+| [73839076][507] | [Add dynamic fields to the form][508] |
+| [73874226][505] | [Angular Reactive Form - How to use FormArray with FormGroup(s)][506] |
+| [73942197][503] | [Pass input value from one component to another in Angular][504] |
+| [74034935_1][499]<br />[74034935_2][501] | [Set the MatCellDef iterator for a specific JSON such that the matsort and matsearch work in a matTable][500] |
+| [74038449][497] | [How to set default value for mat-select with reactive form is used][498] |
+| [74228771][495] | [Property 'artist' does not exist on type 'ArtistItemsComponent'][496] |
+| [74244260][493] | [Angular Reactive Form - How to target form control nested in array and object][494] |
+| [74396938][491] | [Angular -How to get radio button values from user input form?][492] |
+| [74594221][489] | [Custom Validator on Angular Reactive Form not firing][490] |
+| [74637736][487] | [Trigger error or complete from a subscribe][488] |
+| [74660375][485] | [setvalidator on a FormControl does not make the form invalid][486] |
+| [74664227][483] | [How to data bind to a Form Group within a Form Array? Angular][484] |
+| [74667007][481] | [How to Data bind to deep nested arrays? Angular Forms][482] |
+| [74697419][479] | [Angular Reactive Form - Error message for form control in array][480] |
+| [74724142][477] | [Property 'x' does not exist on type 'y' in Angular ngIf][478] |
+| [74759410][475] | [Angular Reactive Form - How to enable all form controls at once][476] |
+| [74791806][473] | [AbstractControl<any> is missing the following properties from type FormGroup<any>: controls, registerControl][474] |
+| [74795940][471] | [Angular - How to iterate through an object and render children if they are present][472] |
+| [74821511][469] | [How to use FormArray in Angular 14][470] |
+| [74831394][467] | [How to use JSON data obtained with interface][468] |
+| [74838993][465] | [How to search for elements inside JSON array of objects][466] |
+| [74846774][463] | [Regex value returns false when detect symbols within quotes][464] |
+| [74863071][461] | [How to disable a particular FormControl of a FormArray][462] |
+| [74881481][459] | [How to update reactive form field value when other field value changes][460] |
+| [74883219][457] | [Compilation error when trying to add "?" operator][458] |
+| [74895724][455] | [Angular Keyvalue pipe for nested object][456] |
+| [74895985][453] | [Angular Reactive Form - How to validate radio buttons and show error message when form is submitted][454] |
+| [74905107][451] | [How can I get every property from the JSON I'm receiving? error TS2339: Property '' does not exist on type ''][452] |
+| [74918065][449] | [ngFor isn't working on \<tr\> element of my angular project][450] |
+| [74923501][447] | [ionic 4 - How to wait for two observables to be subscribed before getting data][448] |
+| [74929794][445] | [Angular Reactive Form - Render control in form array for a string array][446] |
 | [74973476][443] | [Number pipe number : '1.2-2' is not working while using by a ternary inside *ngFor directives][444] |
 | [74988226][441] | [Iterate a FormArray of FormGroups][442] |
 | [74999822][439] | [Angular - Send attribute values on click event][440] |
@@ -911,3 +1012,321 @@ npm start
 
 [443]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74973476
 [444]: https://stackoverflow.com/questions/74973476/number-pipe-number-1-2-2-is-not-working-while-using-by-a-ternary-inside-ngf/74973635#74973635
+
+[445]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74929794
+[446]: https://stackoverflow.com/questions/74929794/angular-reactive-form-render-control-in-form-array-for-a-string-array/74929979#74929979
+
+[447]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74923501
+[448]: https://stackoverflow.com/questions/74923501/ionic-4-how-to-wait-for-two-observables-to-be-subscribed-before-getting-data/74925729#74925729
+
+[449]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74918065
+[450]: https://stackoverflow.com/questions/74918065/ngfor-isnt-working-on-tr-element-of-my-angular-project/74918115#74918115
+
+[451]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74905107
+[452]: https://stackoverflow.com/questions/74905107/how-can-i-get-every-property-from-the-json-im-receiving-error-ts2339-property/74905172#74905172
+
+[453]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74895985
+[454]: https://stackoverflow.com/questions/74895985/angular-reactive-form-how-to-validate-radio-buttons-and-show-error-message-whe/74896462#74896462
+
+[455]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74895724
+[456]: https://stackoverflow.com/questions/74895724/angular-keyvalue-pipe-for-nested-object/74895794#74895794
+
+[457]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74883219
+[458]: https://stackoverflow.com/questions/74883219/compilation-error-when-trying-to-add-operator/74883428#74883428
+
+[459]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74881481
+[460]: https://stackoverflow.com/questions/74881481/how-to-update-reactive-form-field-value-when-other-field-value-changes/74883326#74883326
+
+[461]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74863071
+[462]: https://stackoverflow.com/questions/74863071/how-to-disable-a-particular-formcontrol-of-a-formarray/74863380#74863380
+
+[463]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74846774
+[464]: https://stackoverflow.com/questions/74846774/regex-value-returns-false-when-detect-symbols-within-quotes/74846840#74846840
+
+[465]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74838993
+[466]: https://stackoverflow.com/questions/74838993/how-to-search-for-elements-inside-json-array-of-objects/74839070#74839070
+
+[467]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74831394
+[468]: https://stackoverflow.com/questions/74831394/how-to-use-json-data-obtained-with-interface/74831465#74831465
+
+[469]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74821511
+[470]: https://stackoverflow.com/questions/74821511/how-to-use-formarray-in-angular-14/74821692#74821692
+
+[471]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74795940
+[472]: https://stackoverflow.com/questions/74795940/angular-how-to-iterate-through-an-object-and-render-children-if-they-are-prese/74796291#74796291
+
+[473]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74791806
+[474]: https://stackoverflow.com/questions/74791806/abstractcontrolany-is-missing-the-following-properties-from-type-formgroupany/74792021#74792021
+
+[475]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74759410
+[476]: https://stackoverflow.com/questions/74759410/angular-reactive-form-how-to-enable-all-form-controls-at-once/74759515#74759515
+
+[477]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74724142
+[478]: https://stackoverflow.com/questions/74724142/property-x-does-not-exist-on-type-y-in-angular-ngif/74724445#74724445
+
+[479]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74697419
+[480]: https://stackoverflow.com/questions/74697419/angular-reactive-form-error-message-for-form-control-in-array/74697623#74697623
+
+[481]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74667007
+[482]: https://stackoverflow.com/questions/74667007/how-to-data-bind-to-deep-nested-arrays-angular-forms/74667541#74667541
+
+[483]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74664227
+[484]: https://stackoverflow.com/questions/74664227/how-to-data-bind-to-a-form-group-within-a-form-array-angular/74664322#74664322
+
+[485]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74660375
+[486]: https://stackoverflow.com/questions/74660375/setvalidator-on-a-formcontrol-does-not-make-the-form-invalid/74663542#74663542
+
+[487]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74637736
+[488]: https://stackoverflow.com/questions/74637736/trigger-error-or-complete-from-a-subscribe/74637913#74637913
+
+[489]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74594221
+[490]: https://stackoverflow.com/questions/74594221/custom-validator-on-angular-reactive-form-not-firing/74598431#74598431
+
+[491]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74396938
+[492]: https://stackoverflow.com/questions/74396938/angular-how-to-get-radio-button-values-from-user-input-form/74396997#74396997
+
+[493]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74244260
+[494]: https://stackoverflow.com/questions/74244260/angular-reactive-form-how-to-target-form-control-nested-in-array-and-object/74246245#74246245
+
+[495]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74228771
+[496]: https://stackoverflow.com/questions/74228771/property-artist-does-not-exist-on-type-artistitemscomponent/74230457#74230457
+
+[497]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74038449
+[498]: https://stackoverflow.com/questions/74038449/how-to-set-default-value-for-mat-select-with-reactive-form-is-used/74038802#74038802
+
+[499]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74034935_1
+[500]: https://stackoverflow.com/questions/74034935/set-the-matcelldef-iterator-for-a-specific-json-such-that-the-matsort-and-matsea/74035905#74035905
+
+[501]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/74034935_2
+[502]: https://stackoverflow.com/questions/74034935/set-the-matcelldef-iterator-for-a-specific-json-such-that-the-matsort-and-matsea/74035905#74035905
+
+[503]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73942197
+[504]: https://stackoverflow.com/questions/73942197/pass-input-value-from-one-component-to-another-in-angular/73943029#73943029
+
+[505]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73874226
+[506]: https://stackoverflow.com/questions/73874226/angular-reactive-form-how-to-use-formarray-with-formgroups/73875238#73875238
+
+[507]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73839076
+[508]: https://stackoverflow.com/questions/73839076/add-dynamic-fields-to-the-form/73841918#73841918
+
+[509]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73841559
+[510]: https://stackoverflow.com/questions/73841559/get-error-cannot-find-control-with-path-excludedperiods-0-dateto/73841722#73841722
+
+[511]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73802359
+[512]: https://stackoverflow.com/questions/73802359/nested-object-with-ngfor/73802791#73802791
+
+[513]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73753211
+[514]: https://stackoverflow.com/questions/73753211/remove-value-from-formcontrol-based-on-value/73753398#73753398
+
+[515]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73663914
+[516]: https://stackoverflow.com/questions/73663914/userform-value-not-in-range/73677616#73677616
+
+[517]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73676672
+[518]: https://stackoverflow.com/questions/73676672/not-allow-an-input-field-to-contain-only-whitespace-and-special-characters/73676755#73676755
+
+[519]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73516562
+[520]: https://stackoverflow.com/questions/73516562/angular-ngmodel-is-not-updating-the-value-to-the-component/73516603#73516603
+
+[521]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73515331
+[522]: https://stackoverflow.com/questions/73515331/how-to-pass-data-to-template-parameter-via-ngif/73515384#73515384
+
+[523]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73470872
+[524]: https://stackoverflow.com/questions/73470872/display-table-row-on-some-condition-angular/73471009#73471009
+
+[525]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73425336
+[526]: https://stackoverflow.com/questions/73425336/ngx-emoji-mart-type-string-is-not-assignable-error/73425681#73425681
+
+[527]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73411468
+[528]: https://stackoverflow.com/questions/73411468/mat-table-does-not-work-with-mat-sort-and-service-api/73411868#73411868
+
+[529]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73384175
+[530]: https://stackoverflow.com/questions/73384175/angular-reactive-form-validate-form-on-button-click/73384276#73384276
+
+[531]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73367706
+[532]: https://stackoverflow.com/questions/73367706/get-error-type-string-null-is-not-assignable-to-type-string-while-usi/73367751#73367751
+
+[533]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73248610
+[534]: https://stackoverflow.com/questions/73248610/angular-form-validator-is-unable-to-show-the-error-message/73248780#73248780
+
+[535]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73235515
+[536]: https://stackoverflow.com/questions/73235515/angular-validate-numeric-input-field-in-the-reactive-form-for-specific-range/73235756#73235756
+
+[537]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73219758
+[538]: https://stackoverflow.com/questions/73219758/angular-7-how-to-bind-the-value-to-the-radio-button/73219978#73219978
+
+[539]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73180287
+[540]: https://stackoverflow.com/questions/73180287/name-duplication-validation/73180868#73180868
+
+[541]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73104108
+[542]: https://stackoverflow.com/questions/73104108/dropdown-select-option-not-getting-data-angular-11/73105506#73105506
+
+[543]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73104434
+[544]: https://stackoverflow.com/questions/73104434/toggle-ngbaccordion-from-typscript-file/73104727#73104727
+
+[545]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73073308
+[546]: https://stackoverflow.com/questions/73073308/angular-how-to-get-objects-in-a-nested-array-of-objects/73073935#73073935
+
+[547]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73048508
+[548]: https://stackoverflow.com/questions/73048508/angular-how-to-populate-the-empty-input-field-when-the-dropdrown-is-selected/73048932#73048932
+
+[549]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73021935
+[550]: https://stackoverflow.com/questions/73021935/how-to-add-title-attribute-on-html-element-with-typescript/73022353#73022353
+
+[551]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73019676
+[552]: https://stackoverflow.com/questions/73019676/angular-validation-for-pattern/73019815#73019815
+
+[553]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73016878_1
+[554]: https://stackoverflow.com/questions/73016878/angular-how-to-not-use-ngmodel-in-formarray/73017132#73017132
+
+[555]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73016878_2
+[556]: https://stackoverflow.com/questions/73016878/angular-how-to-not-use-ngmodel-in-formarray/73017132#73017132
+
+[557]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/73009962
+[558]: https://stackoverflow.com/questions/73009962/type-promisestring-is-not-assignable-to-type-string/73010018#73010018
+
+[559]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72999353_1
+[560]: https://stackoverflow.com/questions/72999353/primeng-how-to-position-a-label-above-the-input-text-field/73002953#73002953
+
+[561]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72999353_2
+[562]: https://stackoverflow.com/questions/72999353/primeng-how-to-position-a-label-above-the-input-text-field/73002953#73002953
+
+[563]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72928327
+[564]: https://stackoverflow.com/questions/72928327/subscription-is-not-assignable-to-ngiterable/72928525#72928525
+
+[565]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72925885
+[566]: https://stackoverflow.com/questions/72925885/custom-input-validator-does-not-display-an-error-as-expected/72925916#72925916
+
+[567]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72904614
+[568]: https://stackoverflow.com/questions/72904614/angular-using-interpolation-with-ternary-operator-in-input-property-binding/72905710#72905710
+
+[569]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72883139
+[570]: https://stackoverflow.com/questions/72883139/angular-reactive-form-nested-objects-within-form/72884202#72884202
+
+[571]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72757691
+[572]: https://stackoverflow.com/questions/72757691/how-to-make-add-button-updates-the-total/72758760#72758760
+
+[573]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72673720
+[574]: https://stackoverflow.com/questions/72673720/angular-directive-that-doesnt-match-mailto/72674194#72674194
+
+[575]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72589386
+[576]: https://stackoverflow.com/questions/72589386/angular-how-to-pass-back-value-from-submit-button-to-call-a-function/72589425#72589425
+
+[577]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72555777
+[578]: https://stackoverflow.com/questions/72555777/chart-js-bar-chart-with-nested-array/72556022#72556022
+
+[579]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72526170
+[580]: https://stackoverflow.com/questions/72526170/ngstyle-for-specific-condition/72526228#72526228
+
+[581]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72517024
+[582]: https://stackoverflow.com/questions/72517024/angular-ngfor-change-css-of-the-selected-row-instead-of-all-rows/72517434#72517434
+
+[583]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72513981
+[584]: https://stackoverflow.com/questions/72513981/angular-primeng-tag-component-value-cannot-bind-object/72514685#72514685
+
+[585]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72473269
+[586]: https://stackoverflow.com/questions/72473269/angular-validation-message-display-after-success-for-two-functions/72474430#72474430
+
+[587]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72470896_1
+[588]: https://stackoverflow.com/questions/72470896/angular-img-src-attribute-doesnt-render-svg/72471321#72471321
+
+[589]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72470896_2
+[590]: https://stackoverflow.com/questions/72470896/angular-img-src-attribute-doesnt-render-svg/72471321#72471321
+
+[591]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72419259
+[592]: https://stackoverflow.com/questions/72419259/pass-variable-from-parent-component-to-child-component/72420731#72420731
+
+[593]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72413860
+[594]: https://stackoverflow.com/questions/72413860/angular-material-how-to-customise-style-of-selected-option/72416114#72416114
+
+[595]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/72051506
+[596]: https://stackoverflow.com/questions/72051506/passing-variable-into-icon-for-font-awesome-not-working/72051727#72051727
+
+[597]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71886456
+[598]: https://stackoverflow.com/questions/71886456/angular-display-own-datas-for-each-dynamic-arrayform/71890354#71890354
+
+[599]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71888073
+[600]: https://stackoverflow.com/questions/71888073/angular-reactive-forms-with-nested-formgroups-inside-a-formarray/71889989#71889989
+
+[601]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71777924
+[602]: https://stackoverflow.com/questions/71777924/angular-setting-a-date-field-by-dropdown-menus-selection/71778405#71778405
+
+[603]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71750250_1
+[604]: https://stackoverflow.com/questions/71750250/angular-display-ngfor-in-row-and-column/71750593#71750593
+
+[605]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71750250_2
+[606]: https://stackoverflow.com/questions/71750250/angular-display-ngfor-in-row-and-column/71750593#71750593
+
+[607]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71446155
+[608]: https://stackoverflow.com/questions/71446155/angular-formcontrol-values-not-being-displayed-on-inputs/71446622#71446622
+
+[609]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71389510
+[610]: https://stackoverflow.com/questions/71389510/angular-populate-the-html-page-with-the-json-data/71389787#71389787
+
+[611]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71368270
+[612]: https://stackoverflow.com/questions/71368270/angular-display-data-from-2-json-in-html/71368342#71368342
+
+[613]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71343882
+[614]: https://stackoverflow.com/questions/71343882/error-error-cannot-find-control-with-path-emails-0-email/71345401#71345401
+
+[615]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71294680
+[616]: https://stackoverflow.com/questions/71294680/angular-app-initializer-not-being-called/71295266#71295266
+
+[617]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71210239
+[618]: https://stackoverflow.com/questions/71210239/front-end-display-message-this-email-is-already-registered-primeng-scss/71266636#71266636
+
+[619]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71247424
+[620]: https://stackoverflow.com/questions/71247424/mat-select-customize-display-label-for-selected-option/71247584#71247584
+
+[621]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71202416
+[622]: https://stackoverflow.com/questions/71202416/angular-material-getting-id-from-clicked-row-element/71202812#71202812
+
+[623]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71167259
+[624]: https://stackoverflow.com/questions/71167259/ngmodel-returns-empty-result-to-createcomponent/71167317#71167317
+
+[625]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71135777
+[626]: https://stackoverflow.com/questions/71135777/primeng-autocomplete/71135995#71135995
+
+[627]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71108691
+[628]: https://stackoverflow.com/questions/71108691/nested-reactive-form-to-count-from-main-object/71109236#71109236
+
+[629]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71092060
+[630]: https://stackoverflow.com/questions/71092060/parsing-complicated-json-with-angular/71097700#71097700
+
+[631]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71026883
+[632]: https://stackoverflow.com/questions/71026883/never-is-missing-some-properties/71027290#71027290
+
+[633]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/71012296
+[634]: https://stackoverflow.com/questions/71012296/angular-click-button-to-redirect-to-another-page-not-working/71012595#71012595
+
+[635]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70994810
+[636]: https://stackoverflow.com/questions/70994810/why-is-mapping-not-working-after-flattening-an-array-of-arrays/70994889#70994889
+
+[637]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70952813
+[638]: https://stackoverflow.com/questions/70952813/angular-unable-to-print-information-from-api/70953022#70953022
+
+[639]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70952203
+[640]: https://stackoverflow.com/questions/70952203/angular-ngfor-display-only-unique-property-category-value-and-lowest-price-i/70952782#70952782
+
+[641]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70935577
+[642]: https://stackoverflow.com/questions/70935577/multi-select-object-not-working-with-arrays-of-arrays/70935725#70935725
+
+[643]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70850391
+[644]: https://stackoverflow.com/questions/70850391/primeng-calendar-date-displayed-incorrectly/70874089#70874089
+
+[645]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70872195
+[646]: https://stackoverflow.com/questions/70872195/argument-of-type-string-is-not-assignable-to-parameter-of-type-a-b-whe/70872574#70872574
+
+[647]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70779900
+[648]: https://stackoverflow.com/questions/70779900/angular-property-does-not-exist-on-type-object/70819031#70819031
+
+[649]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70796247
+[650]: https://stackoverflow.com/questions/70796247/what-is-the-reason-for-the-following-error-error-cannot-find-control-with-path/70796502#70796502
+
+[651]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70727908
+[652]: https://stackoverflow.com/questions/70727908/angular-get-error-error-trying-to-diff-object-object-only-arrays-and-ite/70727981#70727981
+
+[653]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70661310
+[654]: https://stackoverflow.com/questions/70661310/cannot-find-control-with-path-data-1-value/70661905#70661905
+
+[655]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70630385
+[656]: https://stackoverflow.com/questions/70630385/angular-got-type-mismatch-error-while-using-for-in-loop/70630496#70630496

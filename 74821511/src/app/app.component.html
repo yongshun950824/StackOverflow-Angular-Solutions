@@ -1,0 +1,7 @@
+<div [formGroup]="myDetailsForm">
+  <div formArrayName="skills">
+    <div *ngFor="let skill of skills['controls']; let i = index">
+      <input type="text" [formControlName]="i" />
+    </div>
+  </div>
+</div>

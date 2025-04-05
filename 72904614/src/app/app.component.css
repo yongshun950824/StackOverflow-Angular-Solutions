@@ -1,0 +1,12 @@
+p {
+  font-family: Lato;
+}
+
+.element-face-red-filled {
+  background-color: red;
+  border: 1px solid black;
+}
+
+.element-face-red {
+  border: 1px solid red;
+}

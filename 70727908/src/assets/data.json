@@ -1,0 +1,64 @@
+{
+  "status": "success",
+  "results": 7,
+  "data": {
+    "data": [
+      {
+        "_id": "61c4827a69a96679469adac2",
+        "name": "Botswana",
+        "icon": "Safari iCON",
+        "imageFlag": "Botswana Flag",
+        "__v": 0,
+        "id": "61c4827a69a96679469adac2"
+      },
+      {
+        "_id": "61c482ab69a96679469adac4",
+        "name": "South Africa",
+        "icon": "Safari iCON",
+        "imageFlag": "South Africa Flag",
+        "__v": 0,
+        "id": "61c482ab69a96679469adac4"
+      },
+      {
+        "_id": "61c482c369a96679469adac6",
+        "name": "Namibia",
+        "icon": "Safari iCON",
+        "imageFlag": "Namibia Flag",
+        "__v": 0,
+        "id": "61c482c369a96679469adac6"
+      },
+      {
+        "_id": "61c482f569a96679469adac8",
+        "name": "Mozambique",
+        "icon": "Safari iCON",
+        "imageFlag": "Mozambique Flag",
+        "__v": 0,
+        "id": "61c482f569a96679469adac8"
+      },
+      {
+        "_id": "61c4831769a96679469adaca",
+        "name": "Zimbabwe",
+        "icon": "Safari iCON",
+        "imageFlag": "Zimbabwe Flag",
+        "__v": 0,
+        "id": "61c4831769a96679469adaca"
+      },
+      {
+        "_id": "61c4832f69a96679469adacc",
+        "name": "Zambia",
+        "icon": "Safari iCON",
+        "imageFlag": "Zambia Flag",
+        "__v": 0,
+        "id": "61c4832f69a96679469adacc"
+      },
+      {
+        "_id": "61c4836369a96679469adace",
+        "name": "Tanzania",
+        "icon": "Safari iCON",
+        "imageFlag": "Tanzania Flag",
+        "__v": 0,
+        "id": "61c4836369a96679469adace"
+      }
+    ]
+  }
+}

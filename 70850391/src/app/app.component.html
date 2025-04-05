@@ -1,0 +1,39 @@
+With 4'y's
+
+<form [formGroup]="formGroup">
+  <p-calendar
+    id="tempoAdeguamento"
+    aria-describedby="tempoAdeguamentoHelp"
+    formControlName="tempoAdeguamento"
+    [showIcon]="true"
+    class="esiti col-md-12 pl0 pr0"
+    dateFormat="dd/mm/yyyy"
+    [minDate]="minDate"
+    [monthNavigator]="true"
+    [yearNavigator]="true"
+    [yearRange]="yearRange"
+    (onSelect)="setDate($event, 'tempoAdeguamento')"
+  >
+  </p-calendar>
+</form>
+
+With 2'y's
+
+<form [formGroup]="formGroup">
+  <p-calendar
+    id="tempoAdeguamento"
+    aria-describedby="tempoAdeguamentoHelp"
+    formControlName="tempoAdeguamento"
+    [showIcon]="true"
+    class="esiti col-md-12 pl0 pr0"
+    dateFormat="dd/mm/yy"
+    [minDate]="minDate"
+    [monthNavigator]="true"
+    [yearNavigator]="true"
+    [yearRange]="yearRange"
+    (onSelect)="setDate($event, 'tempoAdeguamento')"
+  >
+  </p-calendar>
+</form>
+
+<!--    [readonly]="isReadyOnlyForm()" -->

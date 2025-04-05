@@ -1,0 +1,27 @@
+<div [formGroup]="form">
+  <div
+    formArrayName="messaging"
+    *ngFor="let control of messaging.controls; let i = index"
+  >
+    <ng-container [formGroupName]="i">
+      <div formGroupName="email">
+        ...
+        <div
+          [ngClass]="
+            form.get(['messaging', i, 'email', 'fromName'])!.errors &&
+            (form.get(['messaging', i, 'email', 'fromName'])!.dirty ||
+              form.get(['messaging', i, 'email', 'fromName'])!.touched)
+              ? 'red'
+              : 'green'
+          "
+        >
+          <input formControlName="fromName" />
+        </div>
+        <div>
+          <!-- fromAddress -->
+          <input formControlName="fromAddress" />
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

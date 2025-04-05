@@ -1,0 +1,20 @@
+<ng-container
+  [formGroup]="$any(productForm)"
+  *ngFor="let control of productForm.controls; let i = index"
+>
+  <div [formGroupName]="i">
+    <div>
+      <label>Id</label>
+      <input formControlName="id" />
+    </div>
+
+    <div>
+      <label>Product Desc</label>
+      <input formControlName="productDesc" />
+    </div>
+  </div>
+</ng-container>
+
+<button (click)="removeProduct()">
+  Remove form with Description: "Ticket stock"
+</button>

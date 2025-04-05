@@ -1,0 +1,7 @@
+.selRow {
+  background-color: lightblue !important;
+}
+
+.selRow .delete-field {
+  color: red !important;
+}

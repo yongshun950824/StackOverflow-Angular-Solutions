@@ -1,0 +1,107 @@
+[
+  {
+      "id": 1,
+      "date": "2022-01-13T00:00:00.000+00:00",
+      "time": "2022-01-13T21:21:21.000+00:00",
+      "office": {
+          "id": 2,
+          "description": "Office2",
+          "phone": "123456789",
+          "enabled": 1
+      },
+      "officeDescr": "Office2",
+      "reason": 2,
+      "reasonDescr": "Studies",
+      "file": "1.pdf",
+      "status": 0,
+      "userIn": {
+          "username": "name",
+          "password": "'$2a$04$DR/f..s1siWJc8Xg3eJgpeB28a4V6kYpnkMPeOuq4rLQ42mJUYFGC",
+          "enabled": 1,
+          "firstname": "fname",
+          "lastname": "lanme",
+          "asm": 123,
+          "office": 2,
+          "authorities": [
+              {
+                  "authority": "ROLE_POLITIS"
+              }
+          ]
+      },
+      "commentIn": null,
+      "userValid": null,
+      "commentValid": null,
+      "userApproved": null,
+      "commentApproved": null
+  },
+  {
+      "id": 2,
+      "date": "2022-01-13T00:00:00.000+00:00",
+      "time": "2022-01-13T22:22:22.000+00:00",
+      "office": {
+          "id": 2,
+          "description": "Office2",
+          "phone": "123456789",
+          "enabled": 1
+      },
+      "officeDescr": "Office2",
+      "reason": 3,
+      "reasonDescr": "Health",
+      "file": "2.pdf",
+      "status": 0,
+      "userIn": {
+          "username": "somename",
+          "password": "'$2a$04$DR/f..s1siWJc8Xg3eJgpeB28a4V6kYpnkMPeOuq4rLQ42mJUYFGC",
+          "enabled": 1,
+          "firstname": "somename",
+          "lastname": "saomelastname",
+          "asm": 456,
+          "office": 2,
+          "authorities": [
+              {
+                  "authority": "ROLE_POLITIS"
+              }
+          ]
+      },
+      "commentIn": null,
+      "userValid": null,
+      "commentValid": null,
+      "userApproved": null,
+      "commentApproved": null
+  },
+  {
+      "id": 3,
+      "date": "2022-01-13T00:00:00.000+00:00",
+      "time": "2022-01-13T23:23:23.000+00:00",
+      "office": {
+          "id": 3,
+          "description": "Office3",
+          "phone": "777777777",
+          "enabled": 1
+      },
+      "officeDescr": "Office3",
+      "reason": 3,
+      "reasonDescr": "Health",
+      "file": "3.pdf",
+      "status": 0,
+      "userIn": {
+          "username": "politis3",
+          "password": "'$2a$04$DR/f..s1siWJc8Xg3eJgpeB28a4V6kYpnkMPeOuq4rLQ42mJUYFGC",
+          "enabled": 1,
+          "firstname": "Politis3",
+          "lastname": "PolitisOffice3",
+          "asm": 789,
+          "office": 3,
+          "authorities": [
+              {
+                  "authority": "ROLE_POLITIS"
+              }
+          ]
+      },
+      "commentIn": null,
+      "userValid": null,
+      "commentValid": null,
+      "userApproved": null,
+      "commentApproved": null
+  }
+]

@@ -1,0 +1,38 @@
+<form [formGroup]="menuForm">
+  <!-- Addons Array -->
+
+  <ng-container type="form" formArrayName="addons">
+    <h4>Add Addons</h4>
+    <ng-container *ngFor="let addOnForm of addons.controls; let x = index">
+      <div [formGroupName]="x" class="addons-form-row">
+        <mat-form-field appearance="fill">
+          <input matInput placeholder="Addon" formControlName="addonname" />
+        </mat-form-field>
+
+        <button type="button" (click)="deleteAddOn(x)">Delete Addon</button>
+        <button type="button" (click)="addAddonOption(x)">
+          add addon option
+        </button>
+
+        <ng-container formArrayName="addonoptions">
+          <ng-container
+            *ngFor="let addonoption of addonoptions(x).controls; let k = index"
+          >
+            <div [formGroupName]="k" class="imbeded-addon-options">
+              <mat-form-field appearance="fill">
+                <input
+                  matInput
+                  type="text"
+                  placeholder="Add On Option"
+                  formControlName="option"
+                />
+              </mat-form-field>
+            </div> </ng-container
+        ></ng-container>
+      </div>
+    </ng-container>
+  </ng-container>
+  <div>
+    <button type="button" (click)="addAddon()">Add Addon</button>
+  </div>
+</form>

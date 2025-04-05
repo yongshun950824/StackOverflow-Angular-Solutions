@@ -1,0 +1,50 @@
+<p>form-comp works!</p>
+<div class="form-container">
+  <form (ngSubmit)="submit()" [formGroup]="myForm">
+    <h1>User Registration</h1>
+    <div class="form-group">
+      <label for="firstname"></label>`
+      <input type="text" placeholder="First Name" formControlName="name" />
+      <input type="text" placeholder="Surname" formControlName="email" />
+      <br />
+      <div formArrayName="list">
+        <ng-container *ngFor="let myList of listArray.controls; index as i">
+          <div [formGroupName]="i">
+            <input
+              type="text"
+              name="firstname"
+              placeholder="List Title"
+              formControlName="name"
+              formControlName="list_title"
+            />
+            <br />
+
+            <!-- // map items here -->
+            <ng-container formArrayName="list_items">
+              <ng-container
+                *ngFor="
+                  let listItem of getListItemArrayFromList(i).controls;
+                  index as j
+                "
+              >
+                <app-products [childForm]="asListItemFormGroup(listItem)"></app-products>
+              </ng-container>
+            </ng-container>
+
+            <button (click)="addListItem(i)">Add List Item</button>
+          </div>
+        </ng-container>
+
+        <button (click)="addList()">Add List</button>
+      </div>
+      <button type="submit">Submit</button>
+    </div>
+
+    <br />
+    <div class="form-check">
+      {{ myForm.value | json }}
+      <br />
+      {{ myForm.valid | json }}
+    </div>
+  </form>
+</div>

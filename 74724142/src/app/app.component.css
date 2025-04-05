@@ -1,0 +1,9 @@
+p {
+  font-family: Lato;
+}
+
+#homeLogo,
+#awayLogo {
+  height: 100px;
+  background-size: inherit;
+}

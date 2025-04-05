@@ -1,0 +1,14 @@
+<div
+  class="alert alert-danger"
+  role="alert"
+  *ngIf="
+    formulario &&
+    formulario.get('email') &&
+    formulario.get('email').errors &&
+    formulario.get('email').errors['required']
+  "
+>
+  Please inform the email
+</div>
+
+<!-- *ngIf="formulario.get('email')?.errors?.['required']" -->

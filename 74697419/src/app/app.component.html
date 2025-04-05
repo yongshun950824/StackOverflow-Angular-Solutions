@@ -1,0 +1,51 @@
+<form [formGroup]="regForm" (ngSubmit)="regDataSubmit()">
+  <label for="fname">Firstname: </label>
+  <input
+    type="text"
+    name="fname"
+    id="fname"
+    formControlName="fname"
+  /><br /><br />
+  <div *ngIf="regForm.get('fname')?.touched">
+    <div *ngIf="regForm.get('fname')?.hasError('required')">required</div>
+    <div *ngIf="regForm.get('fname')?.hasError('maxlength')">maxlength 4</div>
+  </div>
+
+  <label for="mail">Email: </label>
+  <input
+    type="email"
+    name="mail"
+    id="mail"
+    formControlName="mail"
+  /><br /><br />
+
+  <button (click)="addNewMail()">Add new Email</button><br /><br />
+
+  <div
+    formArrayName="altMail"
+    *ngFor="let input of altMail.controls; let i = index"
+  >
+    <br />
+    <input type="email" [formControlName]="i" />&nbsp;&nbsp;
+    <button (click)="removeMail(i)">Remove</button>
+    <div *ngIf="altMail.get(i)?.touched">
+      <div *ngIf="altMail.get(i)?.hasError('required')">
+        required
+      </div>
+      <div *ngIf="altMail.get(i)?.hasError('minlength')">
+        minlength 5
+      </div>
+    </div>
+  </div>
+  <br /><br />
+
+  <label for="pwd">Password: </label>
+  <input
+    type="password"
+    name="pwd"
+    id="pwd"
+    formControlName="pwd"
+  /><br /><br />
+
+  <input type="submit" value="Register" />
+</form>

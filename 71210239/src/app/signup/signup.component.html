@@ -1,0 +1,23 @@
+<form [formGroup]="signupFormGroup">
+  <div class="col-12">
+    <div class="p-inputgroup">
+      <span class="p-inputgroup-addon"><i class="pi pi-id-card"></i></span>
+      <input
+        type="text"
+        formControlName="email"
+        pInputText
+        placeholder="Email"
+      />
+    </div>
+    <small *ngIf="isignupForm.email.invalid && isSubmitted" class="p-error"
+      ><span *ngIf="isignupForm.email.errors.required">Email is required</span>
+      <span *ngIf="isignupForm.email.errors.email">Email is Invalid</span>
+      <span *ngIf="isignupForm.email.errors.EmailInUse"
+        >Email is already registered to another user. Try another email
+        account</span
+      >
+    </small>
+  </div>
+
+  <button type="submit" (click)="onSubmit()">Submit</button>
+</form>

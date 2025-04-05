@@ -1,0 +1,33 @@
+<form [formGroup]="profileForm" (ngSubmit)="submit()">
+  <div>
+    <label>firstName</label>
+    <input type="text" formControlName="firstName" />
+  </div>
+
+  <div>
+    <label>lastName</label>
+    <input formControlName="lastName" type="text" />
+  </div>
+
+  <div formGroupName="address">
+    <label>Adresse</label>
+    <label>street</label><input formControlName="street" type="text" />
+    <label>city</label><input formControlName="city" type="text" />
+    <label>state</label><input formControlName="state" type="text" />
+  </div>
+
+  <div formArrayName="emails">
+    <h2>Aliases</h2>
+    <button type="button" (click)="addEmail()">+ Add another alias</button>
+
+    <div [formGroupName]="i" *ngFor="let e of emails.controls; let i = index">
+      <div>
+        <label>email:</label>
+        <input type="text" formControlName="email" />
+        <input type="checkbox" formControlName="send" />
+      </div>
+    </div>
+  </div>
+
+  <button type="submit" [disabled]="!profileForm.valid">Submit</button>
+</form>

@@ -1,0 +1,13 @@
+<form [formGroup]="myReactiveForm">
+  <label>Email: </label>
+  <input formControlName="email" />
+  <br />
+  <label>Contact: </label>
+  <input formControlName="contact" />
+  <br />
+
+  <label>First Name: </label>
+  <input formControlName="firstname" />
+</form>
+
+<button (click)="allowFormUpdate()">Edit</button>

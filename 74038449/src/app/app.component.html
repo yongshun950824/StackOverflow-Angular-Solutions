@@ -1,0 +1,19 @@
+<form [formGroup]="filterForm" (ngSubmit)="onSubmit()">
+<div class="to-create" formArrayName="filters">
+    <div class="sub-items" *ngFor="let child of filters().controls; let i = index" [formGroupName]="i">
+.
+.
+.
+        <mat-form-field class="form-field column-select" appearance="outline">
+            <mat-select formControlName="columnName">
+                <mat-option *ngFor="let column of columnList" [value]="column">
+                    {{column}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+.
+.
+.
+    </div>
+</div>
+</form>

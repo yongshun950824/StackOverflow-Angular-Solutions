@@ -1,0 +1,27 @@
+<label>Studies Type: </label>
+<ng-select
+  bindLabel="name"
+  bindValue="name"
+  [items]="studiesType"
+  [(ngModel)]="selectedStudiesType"
+  (change)="searchStudies(selectedStudiesType)"
+>
+</ng-select>
+
+<br />
+
+<div style="height: 50px"></div>
+
+<table>
+  <tr *ngFor="let item of educationalDetails; let i = index">
+    <td>
+      {{ item.year }}
+    </td>
+    <td>
+      {{ item.course }}
+    </td>
+    <td>
+      {{ item.awards }}
+    </td>
+  </tr>
+</table>

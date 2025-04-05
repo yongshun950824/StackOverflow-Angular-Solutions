@@ -1,0 +1,14 @@
+[
+  {
+    "shortname": "Tom",
+    "name": "Tom Cruise",
+    "highlight": true,
+    "reknown": "Hollywood"
+  },
+  {
+    "shortname": "The Rock",
+    "name": "Dwyane Johnson",
+    "highlight": true,
+    "reknown": "WWE"
+  }
+]

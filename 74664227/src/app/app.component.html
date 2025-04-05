@@ -1,0 +1,39 @@
+<div class="form-container">
+  <form (ngSubmit)="submit()" [formGroup]="myForm">
+    <h1>User Registration</h1>
+    <div class="form-group">
+      <label for="firstname"></label>
+      <input type="text" name="firstname" formControlName="name" />
+      <input type="text" name="firstname" formControlName="email" />
+      <div formArrayName="skills">
+        <ng-container *ngFor="let skill of skillsArray.controls; index as i">
+          <div [formGroupName]="i">
+            <input
+              type="text"
+              name="firstname"
+              placeholder="my skill"
+              formControlName="name"
+              formControlName="first_skill"
+            />
+            <input
+              type="text"
+              name="firstname"
+              placeholder="my skill"
+              formControlName="name"
+              formControlName="second_skill"
+            />
+          </div>
+          <button (click)="addSkills()">Add Skills</button>
+        </ng-container>
+      </div>
+      <button type="submit">Submit</button>
+    </div>
+
+    <br />
+    <div class="form-check">
+      {{ myForm.value | json }}
+      <br />
+      {{ myForm.valid | json }}
+    </div>
+  </form>
+</div>

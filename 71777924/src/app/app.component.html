@@ -1,0 +1,28 @@
+<form [formGroup]="form">
+  <div class="flex">
+    <div class="col-3">
+      <div class="flex flex-row align-items-center">
+        <label class="col-6">Status</label>
+        <p-dropdown
+          [options]="workStatus"
+          [showClear]="true"
+          formControlName="workingStatus"
+          (onChange)="onDropdownChange($event.value)"
+          class="col-6"
+        >
+        </p-dropdown>
+      </div>
+      <div class="flex flex-row align-items-center">
+        <label class="col-6">Date</label>
+        <p-calendar
+          formControlName="getWorkDate"
+          dateFormat="dd-mm-yy"
+          dataType="localdate"
+          appendTo="body"
+          class="col-6"
+        >
+        </p-calendar>
+      </div>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,20 @@
+<ul class="navbar-nav">
+  <li class="navbar-nav-item" *ngFor="let data of navbarData">
+    <a class="navbar-nav-link">
+      <!-- [routerLink]="[data.routeLink]" -->
+      //works
+      <fa-icon [icon]="['fas', 'star']"></fa-icon>
+      <br />
+
+      //Error: Type 'string' is not assignable to type 'IconProp'.
+      <fa-icon [icon]="data.iconfull"></fa-icon>
+      <br />
+
+      // Type 'string' is not assignable to type 'IconProp'.
+      <fa-icon [icon]="[data.iconfirst, data.iconsecond]"></fa-icon>
+      <br />
+
+      <span class="navbar-link-text" *ngIf="expanded">{{ data.label }}</span>
+    </a>
+  </li>
+</ul>

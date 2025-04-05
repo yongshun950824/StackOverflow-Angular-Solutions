@@ -1,0 +1,60 @@
+<div class="tab-content">
+  <div
+    class="tab-pane active"
+    id="home"
+    role="tabpanel"
+    aria-labelledby="home-tab"
+  >
+    <form [formGroup]="eKotlarnica" id="eKotlarnica" (ngSubmit)="onSubmit()">
+      <div class="container-fluid">
+        <div class="row dark bg-warning">
+          <div class="col">
+            <select class="lozac" formControlName="lozac">
+              <option selected disabled>--Изаберите ложача--</option>
+              <option value="Пера">Пера</option>
+              <option value="Мика">Мика</option>
+              <option value="Жика">Жика</option>
+            </select>
+          </div>
+          <div class="col">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-warning">
+                <input
+                  type="radio"
+                  id="option1"
+                  value="Једна лопата"
+                  formControlName="broj"
+                />
+                <img
+                  src="/assets/images/1 lopata.png"
+                  alt="Option 1"
+                  width="50"
+                  height="50"
+                />
+              </label>
+              <label class="btn btn-warning">
+                <input
+                  type="radio"
+                  id="option2"
+                  value="Две лопате"
+                  formControlName="broj"
+                />
+                <img
+                  src="/assets/images/2 lopate.png"
+                  alt="Option 2"
+                  width="50"
+                  height="50"
+                />
+              </label>
+            </div>
+          </div>
+          <div class="col">
+            <label for="vremeLozenja">Унесите време ложења</label>
+            <input type="time" id="vremeLozenja" formControlName="vreme" />
+          </div>
+          <button class="btn btn-warning" type="submit">Додај</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+<form [formGroup]="bottleFormGroup">
+  <ng-container formArrayName="bottles">
+    <div class="productContainer">
+      <ng-container *ngFor="let bottle of getBottles.controls; let i = index">
+        <div [formGroupName]="i" style="display: flex">
+          <label>Produit:</label>
+          <ng-select
+            id="productInput"
+            (change)="selectTest($event, i)"
+            [items]="test[0] | keyvalue"
+            bindLabel="value.name"
+            bindValue="value.quantity"
+            formControlName="product"
+          ></ng-select>
+          <label>Quantité en bouteilles: </label>
+          <input
+            style="height: 26px"
+            id="bottleQuantity"
+            type="bottleQuantity"
+            formControlName="bottleQuantity"
+          />
+          <div style="color: green">
+            (Qty: {{ itemsSelected[i]?.quantity }})
+          </div>
+
+          <!-- Or this -->
+          <!--
+          <div style="color: green" *ngIf="itemsSelected[i]">
+          (Qty: {{ itemsSelected[i].quantity }})
+        </div>
+        --></div>
+      </ng-container>
+      <button
+        class="material-icons"
+        style="cursor:pointer; color: green"
+        (click)="addBottlesInput()"
+      >
+        ADD
+      </button>
+    </div>
+  </ng-container>
+</form>

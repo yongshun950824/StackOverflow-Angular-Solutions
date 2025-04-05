@@ -1,0 +1,11 @@
+<form #ConfigForm="ngForm" [formGroup]="sampleform" (ngSubmit)="onSendHandler()">
+  <mat-form-field class="mat-form-field" appearance="outline">
+  <input matInput formControlName="numValue"/>
+  <mat-error *ngIf="sampleform.get('numValue').hasError('pattern')">Numbers Only ! 
+  </mat-error>
+  <mat-error *ngIf="sampleform.get('numValue').hasError('min')">Min Value is 
+  3</mat-error>
+  <mat-error *ngIf="sampleform.get('numValue').hasError('max')">Max Value is 
+  10</mat-error>
+ </mat-form-field>
+</form>

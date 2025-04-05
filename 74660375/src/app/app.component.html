@@ -1,0 +1,22 @@
+<ng-container [formGroup]="addNewRequestFormForIndividual">
+  <div>
+    <label for="">No additional information flag:</label>
+    <!-- <rca-checkbox formControlName="noAdditionalInfoCheckbox"  (checkboxChecked)="onCheckboxChecked($event)"></rca-checkbox> -->
+
+    <input
+      type="checkbox"
+      formControlName="noAdditionalInfoCheckbox"
+      (change)="onCheckboxChecked($event)"
+    />
+  </div>
+  <div>
+    <label>No additional information reasons:</label>
+    <textarea
+      formControlName="noAdditionalInformationReasons"
+      id=""
+      class="form-control"
+    ></textarea>
+  </div>
+
+  {{ addNewRequestFormForIndividual.valid }}
+</ng-container>

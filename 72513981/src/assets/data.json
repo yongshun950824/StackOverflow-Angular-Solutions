@@ -1,0 +1,18 @@
+[
+  {
+    "orderItems": ["62932e65bec8a90c4cb11167", "62932e65bec8a90c4cb11168"],
+    "status": "Pending",
+    "_id": "62932e65bec8a90c4cb11169",
+    "shippingAddress1": "Street 45",
+    "shippingAddress2": "1-B",
+    "city": "Prague",
+    "user": {
+      "_id": "6293027ccf70a63e689dd8eb",
+      "name": "mehedi",
+      "id": "6293027ccf70a63e689dd8eb"
+    },
+    "dateOrdered": "2022-05-29T08:27:17.618Z",
+    "__v": 0,
+    "id": "62932e65bec8a90c4cb11169"
+  }
+]

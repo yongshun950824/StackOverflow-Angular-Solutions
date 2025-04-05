@@ -1,0 +1,51 @@
+import { Component, VERSION } from '@angular/core';
+import { Tile } from './tile';
+import { TileService } from './tile.service';
+
+@Component({
+  selector: 'my-app',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'],
+})
+export class AppComponent {
+  name = 'Angular ' + VERSION.major;
+
+  constructor(private tileService: TileService) {}
+
+  tileData!: Tile[];
+
+  ngOnInit() {
+    this.getTileData();
+  }
+
+  getTileData() {
+    this.tileService.showTile().subscribe((data: any) => {
+      this.tileData = data;
+
+      for (let title of this.tileData) {
+        for (let child of title.children) {
+        }
+      }
+      //LOGIC FOR FILTER
+      let searchValue = 'second';
+      let filteredTiles = this.tileData
+        .filter((value) => {
+          return (
+            value.name.toLowerCase().indexOf(searchValue) > -1 ||
+            value.children.some(
+              (c) => c.name.toLowerCase().indexOf(searchValue) > -1
+            )
+          );
+        })
+        .map((x) => {
+          return {
+            ...x,
+            children: x.children.filter(
+              (c) => c.name.toLowerCase().indexOf(searchValue) > -1
+            ),
+          };
+        });
+      console.log('FilteredTiles is', filteredTiles);
+    });
+  }
+}

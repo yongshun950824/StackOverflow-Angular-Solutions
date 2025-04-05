@@ -1,0 +1,14 @@
+<mat-select
+  [formControl]="selectedOption"
+  (selectionChange)="onSelectOption($event)"
+>
+  <mat-select-trigger>
+    <span class="red" *ngIf="selectedOptionObj">
+      {{ selectedOptionObj.name }}
+    </span>
+  </mat-select-trigger>
+  <mat-option *ngFor="let option of options" [value]="option.value">
+    <span> {{ option.name }} </span>
+    <span class="colorful-badge-class"> {{ option.label }} </span>
+  </mat-option>
+</mat-select>

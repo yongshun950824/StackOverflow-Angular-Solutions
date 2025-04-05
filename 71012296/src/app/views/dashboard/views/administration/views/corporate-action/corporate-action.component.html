@@ -1,0 +1,70 @@
+<div class="home-content container ">
+    <h1 class="text-center pt-5 pb-3">Corporate Action</h1>
+    <div class="row pt-3 container">
+        <div class="card" style="width: 100%;">
+            <div class="card-body">
+                <table class="table table-striped table-hover">
+                    <thead class="thead-light">
+                        <tr class="text-center">
+                            <th scope="col">Compte</th>
+                            <th scope="col">Intitulé du compte</th>
+                            <th scope="col">Type</th>
+                            <th scope="col">Libellé</th>
+                            <th scope="col">Quantité</th>
+                            <th scope="col">Date limité</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let corporateData of corporateDatas">
+                            <td scope="row" class="text-center">{{corporateData.compte}}</td>
+                            <td scope="row" class="text-center">{{corporateData.intitule}}</td>
+                            <td scope="row" class="text-start"> {{ corporateData.type }} </td>
+                            <td scope="row" class="text-center"> {{ corporateData.libelle }} </td>
+                            <td class="text-end"> {{ corporateData.quantite | formatNum:'1.2-2' }} </td>
+                            <td class="text-center">{{corporateData.startDate | formatDatePipe:'dd/MM/yyyy' }}</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!---
+        <div class="pt-3"></div>
+        <div class="card" style="width: 100%;">
+            <div class="card-body">
+                <table class="table table-bordered">
+                    <thead class="thead-light">
+                        <tr class="text-center">
+                            <th scope="col">Indice</th>
+                            <th scope="col">Place</th>
+                            <th scope="col">Cours</th>
+                            <th scope="col">Variation</th>
+                            <th scope="col">Date et heure</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="text-center">AED / EUR</th>
+                            <td>Euronext Amsterdam</td>
+                            <td class="text-end">1 134,65 </td>
+                            <td class="text-end">0,31 %</td>
+                            <td class="text-center">08/11 - 10:04</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center">ARS / EUR</th>
+                            <td>Euronext Amsterdam</td>
+                            <td class="text-end">1 134,65 </td>
+                            <td class="text-end">0,31 %</td>
+                            <td class="text-center">08/11 - 10:04</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center">ATS / EUR</th>
+                            <td>Euronext Amsterdam</td>
+                            <td class="text-end">1 081,24 </td>
+                            <td class="text-end">0,59 %</td>
+                            <td class="text-center">08/11 - 10:04</td>
+                        </tr>
+                    </tbody>
+                </table>-->
+    </div>
+</div>

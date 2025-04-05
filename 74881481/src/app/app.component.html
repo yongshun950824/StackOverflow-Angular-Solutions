@@ -1,0 +1,251 @@
+<div class="">
+  <form [formGroup]="FeedBack" (ngSubmit)="onSubmit()">
+    <div
+      class="
+        grid grid-cols-6
+        gap-x-16
+        py-5
+        px-4
+        text-sm text-gray-700
+        border-b border-gray-200
+        dark:border-gray-700
+      "
+    >
+      <div class="text-gray-500 dark:text-gray-400 flex">
+        Number of Cases
+        <input
+          formControlName="caseCount"
+          type="text"
+          id="case-count"
+          class="
+            bg-gray-50
+            border border-gray-300
+            text-gray-900 text-sm
+            rounded-lg
+            focus:ring-blue-500 focus:border-blue-500
+            block
+            w-full
+            p-2.5
+            dark:bg-gray-700
+            dark:border-gray-600
+            dark:placeholder-gray-400
+            dark:text-white
+            dark:focus:ring-blue-500
+            dark:focus:border-blue-500
+          "
+        />
+      </div>
+      <div class="text-gray-500 dark:text-gray-400"></div>
+      <div class="text-gray-500 dark:text-gray-400"></div>
+      <div class="text-gray-500 dark:text-gray-400"></div>
+      <div class="text-gray-500 dark:text-gray-400"></div>
+
+      <div>
+        <button
+          type="button"
+          (click)="addNewRow()"
+          class="
+            text-white
+            block
+            w-full
+            bg-blue-600
+            hover:bg-blue-700
+            focus:ring-4 focus:ring-blue-200
+            font-medium
+            rounded-lg
+            text-sm
+            px-4
+            py-2.5
+            text-center
+            dark:focus:ring-blue-900
+          "
+        >
+          Add
+        </button>
+      </div>
+    </div>
+
+    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+      <thead
+        class="
+          text-xs text-gray-700
+          uppercase
+          bg-gray-50
+          dark:bg-gray-700 dark:text-gray-400
+        "
+      >
+        <tr>
+          <th scope="col" class="py-3 px-6">Property</th>
+          <th scope="col" class="py-3 px-6">Group</th>
+          <th scope="col" class="py-3 px-6">Variable Name</th>
+          <th scope="col" class="py-3 px-6">Min Value</th>
+          <th scope="col" class="py-3 px-6">Max Value</th>
+          <th scope="col" class="py-3 px-6"></th>
+        </tr>
+      </thead>
+      <tbody formArrayName="Rows">
+        <tr
+          *ngFor="let obj of formArr.controls; let i = index; let l = last"
+          [formGroupName]="i"
+          class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+        >
+          <td class="py-4 px-6">
+            <select
+              formControlName="property"
+              (change)="selectPropertyOrGroupChangeHandler(i)"
+            >
+              <option
+                *ngFor="let property of propertyList"
+                value="{{ property.id }}"
+              >
+                {{ property.pname }}
+              </option>
+            </select>
+          </td>
+          <td class="py-4 px-6">
+            <select
+              formControlName="group"
+              (change)="selectPropertyOrGroupChangeHandler(i)"
+            >
+              <option *ngFor="let group of groupList" value="{{ group.id }}">
+                {{ group.gname }}
+              </option>
+            </select>
+          </td>
+          <td class="py-4 px-6">
+            <input
+              formControlName="variableName"
+              type="text"
+              readonly
+              id="variable-name"
+              class="
+                bg-gray-50
+                border border-gray-300
+                text-gray-900 text-sm
+                rounded-lg
+                focus:ring-blue-500 focus:border-blue-500
+                block
+                w-full
+                p-2.5
+                dark:bg-gray-700
+                dark:border-gray-600
+                dark:placeholder-gray-400
+                dark:text-white
+                dark:focus:ring-blue-500
+                dark:focus:border-blue-500
+              "
+            />
+          </td>
+          <td class="py-4 px-6">
+            <input
+              formControlName="minValue"
+              type="text"
+              id="min-input"
+              class="
+                bg-gray-50
+                border border-gray-300
+                text-gray-900 text-sm
+                rounded-lg
+                focus:ring-blue-500 focus:border-blue-500
+                block
+                w-full
+                p-2.5
+                dark:bg-gray-700
+                dark:border-gray-600
+                dark:placeholder-gray-400
+                dark:text-white
+                dark:focus:ring-blue-500
+                dark:focus:border-blue-500
+              "
+            />
+          </td>
+          <td class="py-4 px-6">
+            <input
+              formControlName="maxValue"
+              type="text"
+              id="max-input"
+              class="
+                bg-gray-50
+                border border-gray-300
+                text-gray-900 text-sm
+                rounded-lg
+                focus:ring-blue-500 focus:border-blue-500
+                block
+                w-full
+                p-2.5
+                dark:bg-gray-700
+                dark:border-gray-600
+                dark:placeholder-gray-400
+                dark:text-white
+                dark:focus:ring-blue-500
+                dark:focus:border-blue-500
+              "
+            />
+          </td>
+          <td class="py-4 px-6">
+            <button
+              type="button"
+              (click)="deleteRow(i)"
+              *ngIf="FeedBack.value.Rows.length > 1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div
+      class="
+        grid grid-cols-5
+        gap-x-16
+        py-5
+        px-4
+        text-sm text-gray-700
+        border-b border-gray-200
+        dark:border-gray-700
+      "
+    >
+      <div class="text-gray-500 dark:text-gray-400"></div>
+      <div class="text-gray-500 dark:text-gray-400"></div>
+      <div class="text-gray-500 dark:text-gray-400"></div>
+      <div class="text-gray-500 dark:text-gray-400"></div>
+      <div>
+        <button
+          type="submit"
+          class="
+            text-white
+            block
+            w-full
+            bg-blue-600
+            hover:bg-blue-700
+            focus:ring-4 focus:ring-blue-200
+            font-medium
+            rounded-lg
+            text-sm
+            px-4
+            py-2.5
+            text-center
+            dark:focus:ring-blue-900
+          "
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+    <pre>{{ FeedBack.value | json }}</pre>
+  </form>
+</div>
