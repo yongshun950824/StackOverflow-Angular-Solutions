@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [70630385][655] | [Angular - Got type mismatch error while using for-in loop][656] |
 | [70661310][653] | [Cannot find control with path: 'data -> 1 -> value'][654] |
 | [70727908][651] | [Angular - Get Error: Error trying to diff '[object Object]'. Only arrays and iterables are allowed][652] |
 | [70796247][649] | [What is the reason for the following error: Error: Cannot find control with path: 'resources -> 0 -> name'][650] |
@@ -1326,3 +1327,6 @@ npm start
 
 [653]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70661310
 [654]: https://stackoverflow.com/questions/70661310/cannot-find-control-with-path-data-1-value/70661905#70661905
+
+[655]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70630385
+[656]: https://stackoverflow.com/questions/70630385/angular-got-type-mismatch-error-while-using-for-in-loop/70630496#70630496
