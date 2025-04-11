@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [70519777][657] | [Angular - Get this ERROR Error: Error trying to diff '[object Object]'. Only arrays and iterables are allowed][658] |
 | [70630385][655] | [Angular - Got type mismatch error while using for-in loop][656] |
 | [70661310][653] | [Cannot find control with path: 'data -> 1 -> value'][654] |
 | [70727908][651] | [Angular - Get Error: Error trying to diff '[object Object]'. Only arrays and iterables are allowed][652] |
@@ -1330,3 +1331,6 @@ npm start
 
 [655]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70630385
 [656]: https://stackoverflow.com/questions/70630385/angular-got-type-mismatch-error-while-using-for-in-loop/70630496#70630496
+
+[657]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70519777
+[658]: https://stackoverflow.com/questions/70519777/angular-get-this-error-error-error-trying-to-diff-object-object-only-arr/70527012#70527012
