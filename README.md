@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [70460308][661] | [Angular - Argument of type 'OperatorFunction\<IUser, void\>' is not assignable to parameter of type 'OperatorFunction\<Object, void\>'][662] |
 | [70503429][659] | [Parse value from object in Angular template][660] |
 | [70519777][657] | [Angular - Get this ERROR Error: Error trying to diff '[object Object]'. Only arrays and iterables are allowed][658] |
 | [70630385][655] | [Angular - Got type mismatch error while using for-in loop][656] |
@@ -1338,3 +1339,6 @@ npm start
 
 [659]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70503429
 [660]: https://stackoverflow.com/questions/70503429/parse-value-from-object-in-angular-template/70503565#70503565
+
+[661]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70460308
+[662]: https://stackoverflow.com/questions/70460308/angular-argument-of-type-operatorfunctioniuser-void-is-not-assignable-to/70460381#70460381
