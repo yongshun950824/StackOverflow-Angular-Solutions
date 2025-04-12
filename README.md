@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69748221][689] | [PrimeNG Dropdown - How to set two value in one optionLabel][690] |
 | [69750235][687] | [Angular Material mat-select - Showing count number along with the first selected value in multiple selection][688] |
 | [69777737][685] | [Displaying Error message under the button Login, when condition is wrong (static username and password) in Angular?][686] |
 | [69792573][683] | [Mat Autocomplete shows \[object object\] in the dropdown before the selection][684] |
@@ -1393,3 +1394,6 @@ npm start
 
 [687]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69750235
 [688]: https://stackoverflow.com/questions/69750235/angular-material-mat-select-showing-count-number-along-with-the-first-selected/69762572#69762572
+
+[689]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69748221
+[690]: https://stackoverflow.com/questions/69748221/primeng-dropdown-how-to-set-two-value-in-one-optionlabel/69751383#69751383
