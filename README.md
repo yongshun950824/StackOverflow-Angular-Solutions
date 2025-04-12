@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69807641][681] | [Getting duplicate data in Angular HTML table (PrimeNG)][682] |
 | [69842396][679] | [Angular Material custom form field doesn't show mat-error][680] |
 | [69908423_1][675]<br />[69908423_2][677] | [How do I iterate an array of JSON data to always get the first JSON object][676] |
 | [70001872][673] | [Angular template: grouping rows on month][674] |
@@ -1377,3 +1378,6 @@ npm start
 
 [679]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69842396
 [680]: https://stackoverflow.com/questions/69842396/angular-material-custom-form-field-doesnt-show-mat-error/69848833#69848833
+
+[681]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69807641
+[682]: https://stackoverflow.com/questions/69807641/getting-duplicate-data-in-angular-html-table-primeng/69807817#69807817
