@@ -1,0 +1,7 @@
+<div *ngFor="let month of eventsByMonth">
+  <div class="month-row">{{ month.date | date: 'MMMM YY' }}</div>
+  <div *ngFor="let event of month.events">
+    <div class="name">{{ event.name }}</div>
+  </div>
+  <hr />
+</div>

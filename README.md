@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [70001872][673] | [Angular template: grouping rows on month][674] |
 | [70163265][671] | [Angular - Filter list object to other list][672] |
 | [70372162][669] | ["Type 'ValidatorFn \| null' is not assignable to type 'ValidatorFn'." contact-form component in angular][670] |
 | [70378355][667] | [How not to display an error message if the field was not touched?][668] |
@@ -1362,3 +1363,6 @@ npm start
 
 [671]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70163265
 [672]: https://stackoverflow.com/questions/70163265/angular-filter-list-object-to-other-list/70163408#70163408
+
+[673]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70001872
+[674]: https://stackoverflow.com/questions/70001872/angular-template-grouping-rows-on-month/70002242#70002242
