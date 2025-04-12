@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69792573][683] | [Mat Autocomplete shows \[object object\] in the dropdown before the selection][684] |
 | [69807641][681] | [Getting duplicate data in Angular HTML table (PrimeNG)][682] |
 | [69842396][679] | [Angular Material custom form field doesn't show mat-error][680] |
 | [69908423_1][675]<br />[69908423_2][677] | [How do I iterate an array of JSON data to always get the first JSON object][676] |
@@ -1381,3 +1382,6 @@ npm start
 
 [681]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69807641
 [682]: https://stackoverflow.com/questions/69807641/getting-duplicate-data-in-angular-html-table-primeng/69807817#69807817
+
+[683]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69792573
+[684]: https://stackoverflow.com/questions/69792573/mat-autocomplete-shows-object-object-in-the-dropdown-before-the-selection/69796233#69796233
