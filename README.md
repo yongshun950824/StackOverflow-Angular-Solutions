@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [70163265][671] | [Angular - Filter list object to other list][672] |
 | [70372162][669] | ["Type 'ValidatorFn \| null' is not assignable to type 'ValidatorFn'." contact-form component in angular][670] |
 | [70378355][667] | [How not to display an error message if the field was not touched?][668] |
 | [70387568][665] | [Angular FormGroup touched not working for checkbox][666] |
@@ -1358,3 +1359,6 @@ npm start
 
 [669]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70372162
 [670]: https://stackoverflow.com/questions/70372162/type-validatorfn-null-is-not-assignable-to-type-validatorfn-contact-for/70372241#70372241
+
+[671]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70163265
+[672]: https://stackoverflow.com/questions/70163265/angular-filter-list-object-to-other-list/70163408#70163408
