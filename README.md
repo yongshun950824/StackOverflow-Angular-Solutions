@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69777737][685] | [Displaying Error message under the button Login, when condition is wrong (static username and password) in Angular?][686] |
 | [69792573][683] | [Mat Autocomplete shows \[object object\] in the dropdown before the selection][684] |
 | [69807641][681] | [Getting duplicate data in Angular HTML table (PrimeNG)][682] |
 | [69842396][679] | [Angular Material custom form field doesn't show mat-error][680] |
@@ -1385,3 +1386,6 @@ npm start
 
 [683]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69792573
 [684]: https://stackoverflow.com/questions/69792573/mat-autocomplete-shows-object-object-in-the-dropdown-before-the-selection/69796233#69796233
+
+[685]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69777737
+[686]: https://stackoverflow.com/questions/69777737/displaying-error-message-under-the-button-login-when-condition-is-wrong-static/69777871#69777871

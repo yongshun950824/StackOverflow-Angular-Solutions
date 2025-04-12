@@ -1,0 +1,64 @@
+<!-- Page Content -->
+<div id="wrapper">
+  <body>
+    <div class="card card-container">
+      <img
+        id="profile-img"
+        src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
+        class="profile-img-card"
+      />
+      <div class="row">
+        <div class="col-lg-12 text-center" style="padding-top: 20px;">
+          <div
+            class="container box"
+            style="margin-top: 10px; padding-left: 0px; padding-right: 0px;"
+          >
+            <div class="row">
+              <div class="col-12" style="text-align: center;">
+                <form
+                  [formGroup]="formData"
+                  (ngSubmit)="doLogin(formData.value)"
+                  class="form-signin"
+                >
+                  <h2 class="form-signin-heading">Prijava</h2>
+                  <label for="inputEmail" class="sr-only">Username</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    id="username"
+                    class="form-control"
+                    formControlName="username"
+                    placeholder="Username"
+                    required
+                    autofocus
+                  />
+                  <label for="inputPassword" class="sr-only">Password</label>
+                  <input
+                    type="password"
+                    id="inputPassword"
+                    class="form-control"
+                    formControlName="password"
+                    placeholder="Password"
+                    required
+                  />
+                  <div *ngIf="false">
+                    Password must be at least 6 characters
+                  </div>
+                  <button
+                    class="btn btn-lg btn-primary btn-block"
+                    type="submit"
+                  >
+                    Login
+                  </button>
+                  <div *ngIf="formData.errors?.unauthenticated">
+                    Username or Password incorrect!
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</div>
