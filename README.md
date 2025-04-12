@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69908423_1][675]<br />[69908423_2][677] | [How do I iterate an array of JSON data to always get the first JSON object][676] |
 | [70001872][673] | [Angular template: grouping rows on month][674] |
 | [70163265][671] | [Angular - Filter list object to other list][672] |
 | [70372162][669] | ["Type 'ValidatorFn \| null' is not assignable to type 'ValidatorFn'." contact-form component in angular][670] |
@@ -1366,3 +1367,9 @@ npm start
 
 [673]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70001872
 [674]: https://stackoverflow.com/questions/70001872/angular-template-grouping-rows-on-month/70002242#70002242
+
+[675]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69908423_1
+[676]: https://stackoverflow.com/questions/69908423/how-do-i-iterate-an-array-of-json-data-to-always-get-the-first-json-object/69908500#69908500
+
+[677]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69908423_2
+[678]: https://stackoverflow.com/questions/69908423/how-do-i-iterate-an-array-of-json-data-to-always-get-the-first-json-object/69908500#69908500
