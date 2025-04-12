@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [70387568][665] | [Angular FormGroup touched not working for checkbox][666] |
 | [70459684][663] | [Angular - Argument of type null is not assignable to parameter of type IUser][664] |
 | [70460308][661] | [Angular - Argument of type 'OperatorFunction\<IUser, void\>' is not assignable to parameter of type 'OperatorFunction\<Object, void\>'][662] |
 | [70503429][659] | [Parse value from object in Angular template][660] |
@@ -1346,3 +1347,6 @@ npm start
 
 [663]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70459684
 [664]: https://stackoverflow.com/questions/70459684/angular-argument-of-type-null-is-not-assignable-to-parameter-of-type-iuser/70459888#70459888
+
+[665]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70387568
+[666]: https://stackoverflow.com/questions/70387568/angular-formgroup-touched-not-working-for-checkbox/70387627#70387627

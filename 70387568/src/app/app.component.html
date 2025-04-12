@@ -1,0 +1,31 @@
+<form [formGroup]="newDeviceGroup" (ngSubmit)="onSubmit()">
+  <div class="row">
+    <div class="col">
+      <label class="chk-container" for="isNewDevice"
+        ><span class="chk-label">Device is work</span>
+
+        <input
+          type="checkbox"
+          id="isNewDevice"
+          name="isNewDevice"
+          class="isNewDevice"
+          [value]="isDeviceWork"
+          [checked]="isDeviceWork == true"
+          (change)="onCheckChange($event)"
+        />
+        <span class="checkmark"></span>
+      </label>
+    </div>
+  </div>
+  <button
+    type="submit"
+    class="btn btn-primary"
+    id="btnSubmit"
+    [disabled]="!newDeviceGroup.touched"
+  >Submit</button>
+</form>
+
+<hr />
+Form Valid: {{ newDeviceGroup?.valid }}
+<br />
+Touched: {{ newDeviceGroup.touched }}
