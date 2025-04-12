@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69750235][687] | [Angular Material mat-select - Showing count number along with the first selected value in multiple selection][688] |
 | [69777737][685] | [Displaying Error message under the button Login, when condition is wrong (static username and password) in Angular?][686] |
 | [69792573][683] | [Mat Autocomplete shows \[object object\] in the dropdown before the selection][684] |
 | [69807641][681] | [Getting duplicate data in Angular HTML table (PrimeNG)][682] |
@@ -1389,3 +1390,6 @@ npm start
 
 [685]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69777737
 [686]: https://stackoverflow.com/questions/69777737/displaying-error-message-under-the-button-login-when-condition-is-wrong-static/69777871#69777871
+
+[687]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69750235
+[688]: https://stackoverflow.com/questions/69750235/angular-material-mat-select-showing-count-number-along-with-the-first-selected/69762572#69762572
