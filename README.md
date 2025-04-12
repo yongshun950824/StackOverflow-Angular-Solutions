@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [70372162][669] | ["Type 'ValidatorFn \| null' is not assignable to type 'ValidatorFn'." contact-form component in angular][670] |
 | [70378355][667] | [How not to display an error message if the field was not touched?][668] |
 | [70387568][665] | [Angular FormGroup touched not working for checkbox][666] |
 | [70459684][663] | [Angular - Argument of type null is not assignable to parameter of type IUser][664] |
@@ -1354,3 +1355,6 @@ npm start
 
 [667]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70378355
 [668]: https://stackoverflow.com/questions/70378355/how-not-to-display-an-error-message-if-the-field-was-not-touched/70378453#70378453
+
+[669]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70372162
+[670]: https://stackoverflow.com/questions/70372162/type-validatorfn-null-is-not-assignable-to-type-validatorfn-contact-for/70372241#70372241
