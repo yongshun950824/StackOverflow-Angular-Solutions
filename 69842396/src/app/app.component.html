@@ -1,0 +1,5 @@
+<form [formGroup]="form">
+  <app-ref-urlcheck [maxLen]="20" formControlName="url"></app-ref-urlcheck>
+</form>
+
+Valid: {{ form.valid }}

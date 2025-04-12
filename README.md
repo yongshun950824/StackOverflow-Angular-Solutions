@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69842396][679] | [Angular Material custom form field doesn't show mat-error][680] |
 | [69908423_1][675]<br />[69908423_2][677] | [How do I iterate an array of JSON data to always get the first JSON object][676] |
 | [70001872][673] | [Angular template: grouping rows on month][674] |
 | [70163265][671] | [Angular - Filter list object to other list][672] |
@@ -1373,3 +1374,6 @@ npm start
 
 [677]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69908423_2
 [678]: https://stackoverflow.com/questions/69908423/how-do-i-iterate-an-array-of-json-data-to-always-get-the-first-json-object/69908500#69908500
+
+[679]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69842396
+[680]: https://stackoverflow.com/questions/69842396/angular-material-custom-form-field-doesnt-show-mat-error/69848833#69848833
