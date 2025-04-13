@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69659005][695] | [Mat-form-field must contain a MatFormFieldControl Error, Using *ngIf][696] |
 | [69687735][693] | [Angular Reactive form validation and data formation issue][694] |
 | [69694034][691] | [Cannot set properties of undefined in Subscription callback][692] |
 | [69748221][689] | [PrimeNG Dropdown - How to set two value in one optionLabel][690] |
@@ -1405,3 +1406,6 @@ npm start
 
 [693]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69687735
 [694]: https://stackoverflow.com/questions/69687735/angular-reactive-form-validation-and-data-formation-issue/69693480#69693480
+
+[695]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69659005
+[696]: https://stackoverflow.com/questions/69659005/mat-form-field-must-contain-a-matformfieldcontrol-error-using-ngif/69659296#69659296

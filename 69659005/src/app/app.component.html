@@ -1,0 +1,12 @@
+<mat-form-field appearance="legacy">
+  <mat-label>LOCATION</mat-label>
+  <mat-select
+    [(value)]="exampleObject.innerObject && exampleObject.innerObject.id"
+  >
+    <ng-container *ngFor="let innerObject of arrays">
+      <mat-option [value]="innerObject.id">{{
+        innerObject.location
+      }}</mat-option>
+    </ng-container>
+  </mat-select>
+</mat-form-field>
