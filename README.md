@@ -1413,3 +1413,6 @@ npm start
 
 [697]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69658092
 [698]: https://stackoverflow.com/questions/69658092/angular-formarray-setvalue-with-data-from-service/69658989#69658989
+
+[699]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69654691
+[700]: https://stackoverflow.com/questions/69654691/push-or-splice-onto-array-of-objects-at-a-certain-index-typescript-angular-9/69654766#69654766
