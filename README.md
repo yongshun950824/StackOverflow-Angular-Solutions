@@ -26,7 +26,9 @@ npm start
 
 | Project source | Question |
 |-|-|
-| [69658092][697] | [Mat-form-field must contain a MatFormFieldControl Error, Using *ngIf][698] |
+| [69498214][701] | [PrimeNG - Use trueValue/falseValue on p-checkbox][702] |
+| [69654691][699] | [Push or Splice onto array of objects at a certain index typescript / angular 9?][700] |
+| [69658092][697] | [Angular FormArray setValue with data from Service][698] |
 | [69659005][695] | [Mat-form-field must contain a MatFormFieldControl Error, Using *ngIf][696] |
 | [69687735][693] | [Angular Reactive form validation and data formation issue][694] |
 | [69694034][691] | [Cannot set properties of undefined in Subscription callback][692] |
@@ -1416,3 +1418,6 @@ npm start
 
 [699]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69654691
 [700]: https://stackoverflow.com/questions/69654691/push-or-splice-onto-array-of-objects-at-a-certain-index-typescript-angular-9/69654766#69654766
+
+[701]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69498214
+[702]: https://stackoverflow.com/questions/69498214/primeng-use-truevalue-falsevalue-on-p-checkbox/69549187#69549187
