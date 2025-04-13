@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69487827][705] | [Error: formGroup expects a FormGroup instance. Please pass one in., core.js:6479 ERROR TypeError: Cannot read properties of undefined (reading 'get')][706] |
 | [69532285][703] | [Cannot iterate over "dataList" returned from service call to java backend in angular 9 application][704] |
 | [69498214][701] | [PrimeNG - Use trueValue/falseValue on p-checkbox][702] |
 | [69654691][699] | [Push or Splice onto array of objects at a certain index typescript / angular 9?][700] |
@@ -1425,3 +1426,6 @@ npm start
 
 [703]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69532285
 [704]: https://stackoverflow.com/questions/69532285/cannot-iterate-over-datalist-returned-from-service-call-to-java-backend-in-ang/69548279#69548279
+
+[705]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69487827
+[706]: https://stackoverflow.com/questions/69487827/error-formgroup-expects-a-formgroup-instance-please-pass-one-in-core-js6479/69490041#69490041
