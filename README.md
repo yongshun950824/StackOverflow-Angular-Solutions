@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69658092][697] | [Mat-form-field must contain a MatFormFieldControl Error, Using *ngIf][698] |
 | [69659005][695] | [Mat-form-field must contain a MatFormFieldControl Error, Using *ngIf][696] |
 | [69687735][693] | [Angular Reactive form validation and data formation issue][694] |
 | [69694034][691] | [Cannot set properties of undefined in Subscription callback][692] |
@@ -1409,3 +1410,6 @@ npm start
 
 [695]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69659005
 [696]: https://stackoverflow.com/questions/69659005/mat-form-field-must-contain-a-matformfieldcontrol-error-using-ngif/69659296#69659296
+
+[697]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69658092
+[698]: https://stackoverflow.com/questions/69658092/angular-formarray-setvalue-with-data-from-service/69658989#69658989
