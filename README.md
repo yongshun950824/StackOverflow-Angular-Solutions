@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69687735][693] | [Angular Reactive form validation and data formation issue][694] |
 | [69694034][691] | [Cannot set properties of undefined in Subscription callback][692] |
 | [69748221][689] | [PrimeNG Dropdown - How to set two value in one optionLabel][690] |
 | [69750235][687] | [Angular Material mat-select - Showing count number along with the first selected value in multiple selection][688] |
@@ -1401,3 +1402,6 @@ npm start
 
 [691]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69694034
 [692]: https://stackoverflow.com/questions/69694034/cannot-set-properties-of-undefined-in-subscription-callback/69694073#69694073
+
+[693]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69687735
+[694]: https://stackoverflow.com/questions/69687735/angular-reactive-form-validation-and-data-formation-issue/69693480#69693480
