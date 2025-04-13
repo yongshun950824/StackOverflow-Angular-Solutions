@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69694034][691] | [Cannot set properties of undefined in Subscription callback][692] |
 | [69748221][689] | [PrimeNG Dropdown - How to set two value in one optionLabel][690] |
 | [69750235][687] | [Angular Material mat-select - Showing count number along with the first selected value in multiple selection][688] |
 | [69777737][685] | [Displaying Error message under the button Login, when condition is wrong (static username and password) in Angular?][686] |
@@ -1397,3 +1398,6 @@ npm start
 
 [689]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69748221
 [690]: https://stackoverflow.com/questions/69748221/primeng-dropdown-how-to-set-two-value-in-one-optionlabel/69751383#69751383
+
+[691]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69694034
+[692]: https://stackoverflow.com/questions/69694034/cannot-set-properties-of-undefined-in-subscription-callback/69694073#69694073
