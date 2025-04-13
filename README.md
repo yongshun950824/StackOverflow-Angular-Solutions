@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69532285][703] | [Cannot iterate over "dataList" returned from service call to java backend in angular 9 application][704] |
 | [69498214][701] | [PrimeNG - Use trueValue/falseValue on p-checkbox][702] |
 | [69654691][699] | [Push or Splice onto array of objects at a certain index typescript / angular 9?][700] |
 | [69658092][697] | [Angular FormArray setValue with data from Service][698] |
@@ -1421,3 +1422,6 @@ npm start
 
 [701]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69498214
 [702]: https://stackoverflow.com/questions/69498214/primeng-use-truevalue-falsevalue-on-p-checkbox/69549187#69549187
+
+[703]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69532285
+[704]: https://stackoverflow.com/questions/69532285/cannot-iterate-over-datalist-returned-from-service-call-to-java-backend-in-ang/69548279#69548279
