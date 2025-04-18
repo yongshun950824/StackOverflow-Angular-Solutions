@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69370690][707] | [Angular12 get API making table data not showing][708] |
 | [69487827][705] | [Error: formGroup expects a FormGroup instance. Please pass one in., core.js:6479 ERROR TypeError: Cannot read properties of undefined (reading 'get')][706] |
 | [69532285][703] | [Cannot iterate over "dataList" returned from service call to java backend in angular 9 application][704] |
 | [69498214][701] | [PrimeNG - Use trueValue/falseValue on p-checkbox][702] |
@@ -1429,3 +1430,6 @@ npm start
 
 [705]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69487827
 [706]: https://stackoverflow.com/questions/69487827/error-formgroup-expects-a-formgroup-instance-please-pass-one-in-core-js6479/69490041#69490041
+
+[707]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69370690
+[708]: https://stackoverflow.com/questions/69370690/angular12-get-api-making-table-data-not-showing/69370762#69370762
