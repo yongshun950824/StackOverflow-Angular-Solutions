@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69345600][711] | [Angular mat-date-picker format inside calendar][712] |
 | [69364297][709] | [Angular 12: Cannot find a differ supporting object '\[object Object\]' of type 'object'][710] |
 | [69370690][707] | [Angular12 get API making table data not showing][708] |
 | [69487827][705] | [Error: formGroup expects a FormGroup instance. Please pass one in., core.js:6479 ERROR TypeError: Cannot read properties of undefined (reading 'get')][706] |
@@ -1437,3 +1438,6 @@ npm start
 
 [709]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69364297
 [710]: https://stackoverflow.com/questions/69364297/angular-12-cannot-find-a-differ-supporting-object-object-object-of-type-ob/69370147#69370147
+
+[711]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69345600
+[712]: https://stackoverflow.com/questions/69345600/angular-mat-date-picker-format-inside-calendar/69354764#69354764
