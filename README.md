@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69364297][709] | [Angular 12: Cannot find a differ supporting object '\[object Object\]' of type 'object'][710] |
 | [69370690][707] | [Angular12 get API making table data not showing][708] |
 | [69487827][705] | [Error: formGroup expects a FormGroup instance. Please pass one in., core.js:6479 ERROR TypeError: Cannot read properties of undefined (reading 'get')][706] |
 | [69532285][703] | [Cannot iterate over "dataList" returned from service call to java backend in angular 9 application][704] |
@@ -1433,3 +1434,6 @@ npm start
 
 [707]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69370690
 [708]: https://stackoverflow.com/questions/69370690/angular12-get-api-making-table-data-not-showing/69370762#69370762
+
+[709]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69364297
+[710]: https://stackoverflow.com/questions/69364297/angular-12-cannot-find-a-differ-supporting-object-object-object-of-type-ob/69370147#69370147
