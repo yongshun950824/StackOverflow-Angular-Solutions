@@ -20,6 +20,7 @@ export class AppComponent {
 
   public SearchCountryField = SearchCountryField;
   public CountryISO = CountryISO;
+
   preferredCountries = [];
 
   phonetypes = [
@@ -142,5 +143,9 @@ export class AppComponent {
         };
       }
     );
+  }
+
+  removeOrClearContact(i: number) {
+
   }
 }
