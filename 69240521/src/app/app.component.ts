@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, VERSION } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
-import { map } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'my-app',
