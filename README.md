@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69257743][725] | [Angular: Cannot read properties of null (reading 'cannotContainSpace')][726] |
 | [69235584][723] | [Angular Material - How to set value to the Mat Date Range Picker][724] |
 | [69255137][721] | [Angular Material - Hide disabled select option][722] |
 | [69275784][719] | [NullInjectorError while testing][720] |
@@ -1465,3 +1466,6 @@ npm start
 
 [723]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69235584
 [724]: https://stackoverflow.com/questions/69235584/angular-material-how-to-set-value-to-the-mat-date-range-picker/69262237#69262237
+
+[725]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69257743
+[726]: https://stackoverflow.com/questions/69257743/angular-cannot-read-properties-of-null-reading-cannotcontainspace/69262077#69262077
