@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69239715][731] | [Angular Material - How to add a button on each row of a table?][732] |
 | [69240521][729] | [Angular - ngValue is not binding][730] |
 | [69248074][727] | [Bind JSON Array to a Nested Form Group][728] |
 | [69257743][725] | [Angular: Cannot read properties of null (reading 'cannotContainSpace')][726] |
@@ -1477,3 +1478,6 @@ npm start
 
 [729]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69240521
 [730]: https://stackoverflow.com/questions/69240521/angular-ngvalue-is-not-binding/69240571#69240571
+
+[731]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69239715
+[732]: https://stackoverflow.com/questions/69239715/angular-material-how-to-add-a-button-on-each-row-of-a-table/69240243#69240243
