@@ -1,0 +1,10 @@
+<div class="material-input">
+  <mat-form-field class="form-group-select">
+    <mat-label>User name</mat-label>
+    <mat-select class="select" placholder="User names" formControlName="user">
+      <mat-option *ngFor="let user of users" [value]="user.id">
+        {{ user.name }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>

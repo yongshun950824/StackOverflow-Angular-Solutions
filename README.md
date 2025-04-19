@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69255137][721] | [Angular Material - Hide disabled select option][722] |
 | [69275784][719] | [NullInjectorError while testing][720] |
 | [69293834][717] | [Angular - FormArray with Material Table and data row was incorrect][718] |
 | [69294961][715] | [Angular - Dynamic input form array fails to update][716] |
@@ -1457,3 +1458,6 @@ npm start
 
 [719]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69275784
 [720]: https://stackoverflow.com/questions/69275784/nullinjectorerror-while-testing/69278146#69278146
+
+[721]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69255137
+[722]: https://stackoverflow.com/questions/69255137/angular-material-hide-disabled-select-option/69262596#69262596
