@@ -27,7 +27,7 @@ export class JalaliMomentDateAdapter extends DateAdapter<jMoment.Moment> {
     return 'hi' as any;
   }
 
-  toIso8601(date) {
+  toIso8601(date: any) {
     return 'hi';
   }
 
@@ -140,11 +140,11 @@ export class JalaliMomentDateAdapter extends DateAdapter<jMoment.Moment> {
   /**
    * returns Number of Days In Month in jalali calendar system.
    */
-  getNumDaysInMonth(date: jMoment.Moment, fa?): number {
-    if (date['_d']) {
+  getNumDaysInMonth(date: jMoment.Moment, fa?: any): number {
+    if ((date as any)['_d']) {
       return minmin.jDaysInMonth(
-        this.getYear(date['_d']),
-        this.getMonth(date['_d'])
+        this.getYear((date as any)['_d']),
+        this.getMonth((date as any)['_d'])
       );
     }
     return minmin.jDaysInMonth(this.getYear(date), this.getMonth(date));

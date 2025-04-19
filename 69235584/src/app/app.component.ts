@@ -34,8 +34,8 @@ export class AppComponent implements OnInit {
 
   constructor(
     private formBuilder: FormBuilder,
-    @Inject(MAT_DATE_LOCALE) private locale,
-    @Inject(DateAdapter) private dateAdapter
+    @Inject(MAT_DATE_LOCALE) private locale: any,
+    @Inject(DateAdapter) private dateAdapter: any
   ) {}
 
   ngOnInit() {
