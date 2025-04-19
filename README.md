@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69294961][715] | [Angular - Dynamic input form array fails to update][716] |
 | [69324455][713] | [Angular 11 - text-decoration: line-through does not work properly with class binding][714] |
 | [69345600][711] | [Angular mat-date-picker format inside calendar][712] |
 | [69364297][709] | [Angular 12: Cannot find a differ supporting object '\[object Object\]' of type 'object'][710] |
@@ -1444,4 +1445,7 @@ npm start
 [712]: https://stackoverflow.com/questions/69345600/angular-mat-date-picker-format-inside-calendar/69354764#69354764
 
 [713]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69324455
-[714]: https://stackoverflow.com/questions/69324455/angular-11-text-decoration-line-through-does-not-work-properly-with-class-bin/69324687#69324687
+[714]: https://stackoverflow.com/questions/69324455/angular-11-text-decoration-line-through-does-not-work-properly-with-class-bin/69324687#
+
+[715]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69294961
+[716]: https://stackoverflow.com/questions/69294961/angular-dynamic-input-form-array-fails-to-update/69297167#69297167
