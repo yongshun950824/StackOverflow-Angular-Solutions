@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69275784][719] | [NullInjectorError while testing][720] |
 | [69293834][717] | [Angular - FormArray with Material Table and data row was incorrect][718] |
 | [69294961][715] | [Angular - Dynamic input form array fails to update][716] |
 | [69324455][713] | [Angular 11 - text-decoration: line-through does not work properly with class binding][714] |
@@ -1453,3 +1454,6 @@ npm start
 
 [717]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69293834
 [718]: https://stackoverflow.com/questions/69293834/angular-formarray-with-material-table-and-data-row-was-incorrect/69294372#69294372
+
+[719]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69275784
+[720]: https://stackoverflow.com/questions/69275784/nullinjectorerror-while-testing/69278146#69278146
