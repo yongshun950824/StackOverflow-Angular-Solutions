@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69240521][729] | [Angular - ngValue is not binding][730] |
 | [69248074][727] | [Bind JSON Array to a Nested Form Group][728] |
 | [69257743][725] | [Angular: Cannot read properties of null (reading 'cannotContainSpace')][726] |
 | [69235584][723] | [Angular Material - How to set value to the Mat Date Range Picker][724] |
@@ -1473,3 +1474,6 @@ npm start
 
 [727]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69248074
 [728]: https://stackoverflow.com/questions/69248074/bind-json-array-to-a-nested-form-group/69248228#69248228
+
+[729]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69240521
+[730]: https://stackoverflow.com/questions/69240521/angular-ngvalue-is-not-binding/69240571#69240571
