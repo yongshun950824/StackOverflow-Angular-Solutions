@@ -1,0 +1,84 @@
+<form [formGroup]="contactInfoForm">
+  <div class="row">
+    <div class="col-12 col-md-12">
+      <div class="form-group">
+        <label for="current_residential_address">Current Residential Address:<span style="color:red;">*</span></label>
+        <textarea rows="2" formControlName="current_residential_address" name="description" type="text" placeholder="22, Alexander Close ..." class="form-control mb-3" required>
+                            </textarea>
+      </div>
+      <div *ngIf="fc.current_residential_address.touched && fc.current_residential_address.invalid">
+        <div *ngIf="fc.current_residential_address.hasError('required')">
+          <div class="text-danger">
+            Current Residential Address is required!
+          </div>
+        </div>
+        <div *ngIf="fc.current_residential_address.hasError('minlength')">
+          <div class="text-danger">
+            Current Residential Address cannot be less than 2 characters!
+          </div>
+        </div>
+        <div *ngIf="fc.current_residential_address.hasError('maxlength')">
+          <div class="text-danger">
+            Current Residential Address cannot be more than 500 characters!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div formArrayName="contacts" class="col-md-12" *ngFor="let contact of contacts.controls; let i = index">
+      <div [formGroupName]="i" class="row">
+        <div class="col-12 col-md-4">
+          <div class="form-group">
+            <label for="phone_number">Phone Number:<span style="color:red;">*</span></label>
+            <div class="input-group mb-4">
+              <input type="text" formControlName="phone_number">
+            </div>
+          </div>
+          <div *ngIf="getFormGroup(i)?.get('phone_number')?.touched && getFormGroup(i)?.get('phone_number')?.invalid">
+            <div *ngIf="getFormGroup(i)?.get('phone_number')?.hasError('required')">
+              <div class="text-danger">
+                Phone Number is required!
+              </div>
+            </div>
+            <div *ngIf="getFormGroup(i)?.get('phone_number')?.hasError('validatePhoneNumber')">
+              <div class="text-danger">
+                Invalid Phone Number!
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="form-group">
+            <label for="phone_type_id">Phone Type:<span style="color:red;">*</span></label>
+            <input type="text" formControlName="phone_type_id">
+
+          </div>
+          <div *ngIf="getFormGroup(i)?.get('phone_type_id')?.touched && getFormGroup(i)?.get('phone_type_id')?.invalid">
+            <div *ngIf="getFormGroup(i)?.get('phone_type_id')?.hasError('required')">
+              <div class="text-danger">
+                Phone Type is required!
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="form-group">
+            <label for="is_primary_contact_number">Is Primary Line?:</label><br>
+            <input type="checkbox" class="form-check-input" id="exampleCheck2" formControlName="is_primary_contact_number" (change)="onIsPrimaryContactChecked(i)">
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="form-group">
+            <button type="button" class="btn btn-danger float-right"><i class="fas fa-minus"></i> Remove</button>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary float-right" (click)="addContactButtonClick()" matTooltip="Add"><i class="fas fa-plus"></i> Add item</button>
+    </div>
+  </div>
+  <div>
+    <input type="submit" value="Submit" (click)="submit()" />
+  </div>
+  {{ "Is Form Valid : "+contactInfoForm.valid}}
+</form>
