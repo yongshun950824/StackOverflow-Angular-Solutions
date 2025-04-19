@@ -72,7 +72,7 @@
                     <ng-container [ngTemplateOutlet]="tCurrency"></ng-container>
                   </mat-form-field> -->
 
-                  <mat-form-field *ngSwitchDefault [style.width.%]="inherit">
+                  <mat-form-field *ngSwitchDefault [style.width.%]="'inherit'">
                     <mat-label>{{ column.label }}</mat-label>
                     <input matInput [formControlName]="column.property"
                     style="width: inherit !important">
