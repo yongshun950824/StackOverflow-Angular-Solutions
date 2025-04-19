@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69293834][717] | [Angular - FormArray with Material Table and data row was incorrect][718] |
 | [69294961][715] | [Angular - Dynamic input form array fails to update][716] |
 | [69324455][713] | [Angular 11 - text-decoration: line-through does not work properly with class binding][714] |
 | [69345600][711] | [Angular mat-date-picker format inside calendar][712] |
@@ -1449,3 +1450,6 @@ npm start
 
 [715]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69294961
 [716]: https://stackoverflow.com/questions/69294961/angular-dynamic-input-form-array-fails-to-update/69297167#69297167
+
+[717]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69293834
+[718]: https://stackoverflow.com/questions/69293834/angular-formarray-with-material-table-and-data-row-was-incorrect/69294372#69294372
