@@ -1,0 +1,47 @@
+<form [formGroup]="form">
+  <mat-form-field
+    appearance="outline"
+    class="date-picker"
+    style="margin-right: auto;"
+  >
+    <mat-label>یک بازه زمانی انتخاب کنید</mat-label>
+    <mat-date-range-input [rangePicker]="rangePicker">
+      <input
+        matInput
+        #dateRangeStart
+        matStartDate
+        placeholder="تاریخ شروع"
+        formControlName="fromDate"
+      />
+      <input
+        matInput
+        #dateRangeEnd
+        matEndDate
+        placeholder="تاریخ پایان"
+        formControlName="toDate"
+      />
+    </mat-date-range-input>
+    <mat-datepicker-toggle
+      matSuffix
+      [for]="rangePicker"
+    ></mat-datepicker-toggle>
+    <mat-date-range-picker #rangePicker>
+      <mat-date-range-picker-actions>
+        <button mat-button matDateRangePickerCancel>کنسل</button>
+        <button
+          mat-raised-button
+          color="primary"
+          matDateRangePickerApply
+          (click)="onFormSubmit()"
+        >
+          تایید
+        </button>
+      </mat-date-range-picker-actions>
+    </mat-date-range-picker>
+  </mat-form-field>
+</form>
+
+<div>
+  {{ form.controls['fromDate'].value }}
+  {{ form.controls['toDate'].value }}
+</div>
