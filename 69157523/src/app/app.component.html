@@ -1,0 +1,19 @@
+<div style="display: block;">
+  <canvas baseChart #visitSaleChart 
+    [chartType]="'bar'" 
+    *ngIf="visitSaleChartData" 
+    [datasets]="visitSaleChartData" 
+    [labels]="visitSaleChartLabels" 
+    [options]="visitSaleChartOptions" 
+    [colors]="visitSaleChartColors" 
+    ></canvas>
+</div>
+
+  <!-- <canvas baseChart 
+    [datasets]="barChartData"
+    [labels]="barChartLabels"
+    [options]="barChartOptions"
+    [plugins]="barChartPlugins"
+    [legend]="barChartLegend"
+    [chartType]="barChartType">
+  </canvas> -->

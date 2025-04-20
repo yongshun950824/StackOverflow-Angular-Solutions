@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69157523][739] | [Ng2-Chart - Assign JSON Data To DataSet][740] |
 | [69160897][737] | [How to use angular ngx-translate pipe in ngx-charts?][738] |
 | [69161446][735] | [Reactive Forms Not Working with ControlValueAccessor][736] |
 | [69165576][733] | [Angular - How to allow only one checkbox to be selected in dynamic FormArray][734] |
@@ -1493,3 +1494,6 @@ npm start
 
 [737]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69160897
 [738]: https://stackoverflow.com/questions/69160897/how-to-use-angular-ngx-translate-pipe-in-ngx-charts/69161323#69161323
+
+[739]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69157523
+[740]: https://stackoverflow.com/questions/69157523/ng2-chart-assign-json-data-to-dataset/69158849#69158849
