@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69160897][737] | [How to use angular ngx-translate pipe in ngx-charts?][738] |
 | [69161446][735] | [Reactive Forms Not Working with ControlValueAccessor][736] |
 | [69165576][733] | [Angular - How to allow only one checkbox to be selected in dynamic FormArray][734] |
 | [69239715][731] | [Angular Material - How to add a button on each row of a table?][732] |
@@ -1489,3 +1490,6 @@ npm start
 
 [735]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69161446
 [736]: https://stackoverflow.com/questions/69161446/reactive-forms-not-working-with-controlvalueaccessor/69161673#69161673
+
+[737]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69160897
+[738]: https://stackoverflow.com/questions/69160897/how-to-use-angular-ngx-translate-pipe-in-ngx-charts/69161323#69161323
