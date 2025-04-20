@@ -14,12 +14,12 @@ export class AppComponent  {
   }
 
   name = 'Angular';
-  view: any[];
+
   width: number = 700;
   height: number = 300;
   fitContainer: boolean = false;
 
-    view: any[] = [600, 400];
+  view: any[] = [600, 400];
   // options for the chart
   showXAxis = true;
   showYAxis = true;
