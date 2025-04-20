@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69161446][735] | [Reactive Forms Not Working with ControlValueAccessor][736] |
 | [69165576][733] | [Angular - How to allow only one checkbox to be selected in dynamic FormArray][734] |
 | [69239715][731] | [Angular Material - How to add a button on each row of a table?][732] |
 | [69240521][729] | [Angular - ngValue is not binding][730] |
@@ -1485,3 +1486,6 @@ npm start
 
 [733]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69165576
 [734]: https://stackoverflow.com/questions/69165576/angular-how-to-allow-only-one-checkbox-to-be-selected-in-dynamic-formarray/69170416#69170416
+
+[735]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69161446
+[736]: https://stackoverflow.com/questions/69161446/reactive-forms-not-working-with-controlvalueaccessor/69161673#69161673
