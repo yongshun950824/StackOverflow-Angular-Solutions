@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69094908][745] | [Display Data in Angular Material Table][746] |
 | [69115504][743] | [How to get value from Observable][744] |
 | [69121458][741] | [ngx-bootstrap 7: BsDropdownModule error TS2554: Expected 0 arguments, but got 1][742] |
 | [69157523][739] | [Ng2-Chart - Assign JSON Data To DataSet][740] |
@@ -1505,3 +1506,6 @@ npm start
 
 [743]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69115504
 [744]: https://stackoverflow.com/questions/69115504/how-to-get-value-from-observable/69115778#69115778
+
+[745]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69094908
+[746]: https://stackoverflow.com/questions/69094908/display-data-in-angular-material-table/69111182#69111182
