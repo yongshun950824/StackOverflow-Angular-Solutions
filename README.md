@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69096767_1][749]<br />[69096767_2][751] | [Sorting array got error like cannot read properties of undefined (reading 'sort')][750] |
 | [69100370][747] | [display the data of an array of one object in another object][748] |
 | [69094908][745] | [Display Data in Angular Material Table][746] |
 | [69115504][743] | [How to get value from Observable][744] |
@@ -1513,3 +1514,9 @@ npm start
 
 [747]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69100370
 [748]: https://stackoverflow.com/questions/69100370/display-the-data-of-an-array-of-one-object-in-another-object/69110937#69110937
+
+[749]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69096767_1
+[750]: https://stackoverflow.com/questions/69096767/sorting-array-got-error-like-cannot-read-properties-of-undefined-reading-sort/69097210#69097210
+
+[751]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69096767_2
+[752]: https://stackoverflow.com/questions/69096767/sorting-array-got-error-like-cannot-read-properties-of-undefined-reading-sort/69097210#69097210
