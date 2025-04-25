@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69115504][743] | [How to get value from Observable][744] |
 | [69121458][741] | [ngx-bootstrap 7: BsDropdownModule error TS2554: Expected 0 arguments, but got 1][742] |
 | [69157523][739] | [Ng2-Chart - Assign JSON Data To DataSet][740] |
 | [69160897][737] | [How to use angular ngx-translate pipe in ngx-charts?][738] |
@@ -1501,3 +1502,6 @@ npm start
 
 [741]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69121458
 [742]: https://stackoverflow.com/questions/69121458/ngx-bootstrap-7-bsdropdownmodule-error-ts2554-expected-0-arguments-but-got-1/69126086#69126086
+
+[743]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69115504
+[744]: https://stackoverflow.com/questions/69115504/how-to-get-value-from-observable/69115778#69115778
