@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import moment = require('moment');
+import * as moment from 'moment';
 import { visionCompacteDTOs } from '../models/model';
 import { ReportingService } from '../services/reporting.service';
 
