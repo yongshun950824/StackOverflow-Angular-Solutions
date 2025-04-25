@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69100370][747] | [display the data of an array of one object in another object][748] |
 | [69094908][745] | [Display Data in Angular Material Table][746] |
 | [69115504][743] | [How to get value from Observable][744] |
 | [69121458][741] | [ngx-bootstrap 7: BsDropdownModule error TS2554: Expected 0 arguments, but got 1][742] |
@@ -1509,3 +1510,6 @@ npm start
 
 [745]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69094908
 [746]: https://stackoverflow.com/questions/69094908/display-data-in-angular-material-table/69111182#69111182
+
+[747]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69100370
+[748]: https://stackoverflow.com/questions/69100370/display-the-data-of-an-array-of-one-object-in-another-object/69110937#69110937
