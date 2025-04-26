@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69072431][761] | [Array in object with mat-Table in Angular][762] |
 | [69067385][759] | [Angular - How to have multiple patchvalues for data retrieval][760] |
 | [69081925][757] | [Angular - Implement NgxMatSelectSearch in mat-select][758] |
 | [69058368_1][753]<br />[69058368_2][755] | [Angular - How to call and activate a function from another component][754] |
@@ -1535,3 +1536,6 @@ npm start
 
 [759]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69067385
 [760]: https://stackoverflow.com/questions/69067385/angular-how-to-have-multiple-patchvalues-for-data-retrieval/69081384#69081384
+
+[761]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69072431
+[762]: https://stackoverflow.com/questions/69072431/array-in-object-with-mat-table-in-angular/69073982#69073982

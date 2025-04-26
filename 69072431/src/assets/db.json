@@ -1,0 +1,37 @@
+{
+  "visionCompacteDTO": [
+      {
+          "collaborator": "Jean",
+          "cetCP": 0,
+          "cetRTT": 0,
+          "perteRTT": 3.56,
+          "perteCP": 4,
+          "mnth": [
+              {
+               "month": "July",
+               "solde": 14.52
+              },
+              {
+               "month": "August",
+               "solde": 15.52
+              },
+              {
+               "month": "September",
+               "solde": 16.52
+              },
+              {
+                  "month": "October",
+                  "solde": 18.52
+              },
+              {
+                  "month": "November",
+                  "solde": 19.52
+              },
+              {
+                  "month": "December",
+                  "solde": 20.52
+              }
+          ]
+      }
+  ]
+}
