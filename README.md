@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69046447][765] | [Angular 12 Set Validators Component][766] |
 | [69068665][763] | [Need Help Disabling Year/month combobox in mat-calendar Angular Material Component][764] |
 | [69072431][761] | [Array in object with mat-Table in Angular][762] |
 | [69067385][759] | [Angular - How to have multiple patchvalues for data retrieval][760] |
@@ -1543,3 +1544,6 @@ npm start
 
 [763]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69068665
 [764]: https://stackoverflow.com/questions/69068665/need-help-disabling-year-month-combobox-in-mat-calendar-angular-material-compone/69068873#69068873
+
+[765]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69046447
+[766]: https://stackoverflow.com/questions/69046447/angular-12-set-validators-component/69053885#69053885

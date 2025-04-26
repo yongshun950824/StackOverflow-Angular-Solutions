@@ -1,0 +1,27 @@
+<form [formGroup]="form">
+  <app-text-input type="text" label="Name" formControlName="name" class="form-group"></app-text-input>
+
+  <app-text-input type="text" label="Age" formControlName="age" class="form-group"></app-text-input>
+
+  <div class="form-group">
+    <label class="form-label">Job (Not Text Input)</label>
+    <input formControlName="job"
+      class="form-control" />
+    <div *ngIf="form.controls.job.errors">
+      <div class="error" *ngIf="form.controls.job.errors?.required">
+        Job is required.
+      </div>
+    </div>
+  </div>
+
+</form>
+
+
+<hr />
+
+<div>
+  Form Value: {{ form.value | json }}
+</div>
+<div>
+  Form Valid: {{ form.valid }}
+</div>
