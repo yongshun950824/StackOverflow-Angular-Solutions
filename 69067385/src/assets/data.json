@@ -1,0 +1,19 @@
+{
+  "message": "Employee Detail.",
+  "error": false,
+  "code": 200,
+  "results": {
+    "employee": {
+      "id": 8,
+      "first_name": "JONAH",
+      "last_name": "YAKUBU",
+      "other_name": "STANLEY",
+      "licences": [
+        {
+          "id": 1,
+          "licence_number": "dsdsdsd"
+        }
+      ]
+    }
+  }
+}
