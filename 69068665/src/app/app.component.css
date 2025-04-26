@@ -1,0 +1,7 @@
+p {
+  font-family: Lato;
+}
+
+:host ::ng-deep .mat-calendar-period-button {
+  display: none;
+}
