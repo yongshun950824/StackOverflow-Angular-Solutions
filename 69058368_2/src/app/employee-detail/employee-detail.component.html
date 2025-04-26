@@ -1,0 +1,18 @@
+<h2>
+  Employee Detail
+</h2>
+
+<div class="card-body">
+  <div id="external-events">
+    <button (click)="profileFunction()" type="button" class="btn btn-block btn-primary">Profile</button>
+    <button (click)="contactFunction()" type="button" class="btn btn-block btn-success">Contact</button>
+  </div>
+</div>
+
+<div *ngIf="profileTemplate" class="card card-default color-palette-box">
+  Profile Template!
+</div>
+
+<div *ngIf="contactTemplate" class="card card-default color-palette-box">
+  Contact Template!
+</div>
