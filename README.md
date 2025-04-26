@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69013823][767] | [How to set columnMode/... of a ngx-datatable without binding to ViewModel?][768] |
 | [69046447][765] | [Angular 12 Set Validators Component][766] |
 | [69068665][763] | [Need Help Disabling Year/month combobox in mat-calendar Angular Material Component][764] |
 | [69072431][761] | [Array in object with mat-Table in Angular][762] |
@@ -1547,3 +1548,6 @@ npm start
 
 [765]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69046447
 [766]: https://stackoverflow.com/questions/69046447/angular-12-set-validators-component/69053885#69053885
+
+[767]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69013823
+[768]: https://stackoverflow.com/questions/69013823/how-to-set-columnmode-of-a-ngx-datatable-without-binding-to-viewmodel/69045123#69045123
