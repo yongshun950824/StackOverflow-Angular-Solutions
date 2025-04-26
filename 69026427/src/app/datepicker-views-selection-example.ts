@@ -21,9 +21,9 @@ import { MatDatepicker } from '@angular/material/datepicker';
 // the `default as` syntax.
 import * as _moment from 'moment';
 // tslint:disable-next-line:no-duplicate-imports
-import { default as _rollupMoment, Moment } from 'moment';
+import { Moment } from 'moment';
 
-const moment = _rollupMoment || _moment;
+const moment = _moment;
 
 // See the Moment.js docs for the meaning of these formats:
 // https://momentjs.com/docs/#/displaying/format/
