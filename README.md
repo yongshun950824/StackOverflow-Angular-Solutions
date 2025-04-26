@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [69081925][757] | [Angular - Implement NgxMatSelectSearch in mat-select][758] |
 | [69058368_1][753]<br />[69058368_2][755] | [Angular - How to call and activate a function from another component][754] |
 | [69096767_1][749]<br />[69096767_2][751] | [Sorting array got error like cannot read properties of undefined (reading 'sort')][750] |
 | [69100370][747] | [display the data of an array of one object in another object][748] |
@@ -1527,3 +1528,6 @@ npm start
 
 [755]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69058368_2
 [756]: https://stackoverflow.com/questions/69058368/angular-how-to-call-and-activate-a-function-from-another-component/69082827#69082827
+
+[757]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69081925
+[758]: https://stackoverflow.com/questions/69081925/angular-implement-ngxmatselectsearch-in-mat-select/69082112#69082112
