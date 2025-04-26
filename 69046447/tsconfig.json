@@ -18,11 +18,10 @@
       "es2020",
       "dom"
     ],
-    "type": "module",
     "strict": true
   },
   "angularCompilerOptions": {
-    "enableIvy": true,
+    "enableIvy": false,
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true,
     "strictTemplates": true
