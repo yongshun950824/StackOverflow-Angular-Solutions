@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68946569_1][793]<br />[68946569_2][795] | [Angular: async \| keyvalue --> Property 'X' does not exist on type 'X'][794] |
 | [68950773][791] | [Add alternating rowcolor to Angular Material Table with expandable rows][792] |
 | [68952309][789] | [Bootstrap 5 dropdown is not working on Angular 12][790] |
 | [68962562_1][785]<br />[68962562_2][787] | [Angular - error TS2769: No overload matches this call. Overload 1 of 5, '(next: null \| undefined, error: (error: any)][786] |
@@ -1596,3 +1597,9 @@ npm start
 
 [791]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68950773
 [792]: https://stackoverflow.com/questions/68950773/add-alternating-rowcolor-to-angular-material-table-with-expandable-rows/68951227#68951227
+
+[793]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68946569_1
+[794]: https://stackoverflow.com/questions/68946569/angular-async-keyvalue-property-x-does-not-exist-on-type-x/68946732#68946732
+
+[795]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68946569_2
+[796]: https://stackoverflow.com/questions/68946569/angular-async-keyvalue-property-x-does-not-exist-on-type-x/68946732#68946732
