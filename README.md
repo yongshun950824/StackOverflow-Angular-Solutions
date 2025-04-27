@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68962562_1][785]<br />[68962562_2][787] | [Angular - error TS2769: No overload matches this call. Overload 1 of 5, '(next: null \| undefined, error: (error: any)][786] |
 | [68962776_1][781]<br />[68962776_2][783] | [Angular Material - Type 'string' is not assignable to type 'MatSnackBarHorizontalPosition'][782] |
 | [68991623][779] | [Angular subscribe data to show in Form UI][780] |
 | [68982169][777] | [Why centering children of "ion-content" doesn't work but centering children of a "div" does?][778] |
@@ -1581,3 +1582,9 @@ npm start
 
 [783]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68962776_2
 [784]: https://stackoverflow.com/questions/68962776/angular-material-type-string-is-not-assignable-to-type-matsnackbarhorizonta/68963032#68963032
+
+[785]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68962562_1
+[786]: https://stackoverflow.com/questions/68962562/angular-error-ts2769-no-overload-matches-this-call-overload-1-of-5-next/68962890#68962890
+
+[787]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68962562_2
+[788]: https://stackoverflow.com/questions/68962562/angular-error-ts2769-no-overload-matches-this-call-overload-1-of-5-next/68962890#68962890
