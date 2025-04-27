@@ -7,7 +7,7 @@ import { DataCollectorService } from '../services/data-collector.service';
 @Component({
   selector: 'app-posts',
   templateUrl: './posts.component.html',
-  styleUrls: ['./posts.component.scss']
+  styleUrls: ['./posts.component.css']
 })
 export class PostsComponent implements OnInit {
   analysisType: string = 'Posts';
