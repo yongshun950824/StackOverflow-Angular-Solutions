@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68952309][789] | [Bootstrap 5 dropdown is not working on Angular 12][790] |
 | [68962562_1][785]<br />[68962562_2][787] | [Angular - error TS2769: No overload matches this call. Overload 1 of 5, '(next: null \| undefined, error: (error: any)][786] |
 | [68962776_1][781]<br />[68962776_2][783] | [Angular Material - Type 'string' is not assignable to type 'MatSnackBarHorizontalPosition'][782] |
 | [68991623][779] | [Angular subscribe data to show in Form UI][780] |
@@ -1588,3 +1589,6 @@ npm start
 
 [787]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68962562_2
 [788]: https://stackoverflow.com/questions/68962562/angular-error-ts2769-no-overload-matches-this-call-overload-1-of-5-next/68962890#68962890
+
+[789]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68952309
+[790]: https://stackoverflow.com/questions/68952309/bootstrap-5-dropdown-is-not-working-on-angular-12/68953199#68953199
