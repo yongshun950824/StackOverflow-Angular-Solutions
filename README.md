@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68962776_1][781]<br />[68962776_2][783] | [Angular Material - Type 'string' is not assignable to type 'MatSnackBarHorizontalPosition'][782] |
 | [68991623][779] | [Angular subscribe data to show in Form UI][780] |
 | [68982169][777] | [Why centering children of "ion-content" doesn't work but centering children of a "div" does?][778] |
 | [69005090_1][773]<br />[69005090_2][775] | [Angular - Get undefined from service][774] |
@@ -1574,3 +1575,9 @@ npm start
 
 [779]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68991623
 [780]: https://stackoverflow.com/questions/68991623/angular-subscribe-data-to-show-in-form-ui/68991860#68991860
+
+[781]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68962776_1
+[782]: https://stackoverflow.com/questions/68962776/angular-material-type-string-is-not-assignable-to-type-matsnackbarhorizonta/68963032#68963032
+
+[783]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68962776_2
+[784]: https://stackoverflow.com/questions/68962776/angular-material-type-string-is-not-assignable-to-type-matsnackbarhorizonta/68963032#68963032
