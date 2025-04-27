@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68982169][777] | [Why centering children of "ion-content" doesn't work but centering children of a "div" does?][778] |
 | [69005090_1][773]<br />[69005090_2][775] | [Angular - Get undefined from service][774] |
 | [69024360][771] | [mat-input still remains invalid after successful validation - Angular 12][772] |
 | [69026427][769] | [Angular Material disable Month][770] |
@@ -1566,3 +1567,6 @@ npm start
 
 [775]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69005090_2
 [776]: https://stackoverflow.com/questions/69005090/angular-get-undefined-from-service/69006623#69006623
+
+[777]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68982169
+[778]: https://stackoverflow.com/questions/68982169/why-centering-children-of-ion-content-doesnt-work-but-centering-children-of-a/68992373#68992373
