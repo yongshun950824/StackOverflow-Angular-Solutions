@@ -1,0 +1,14 @@
+[
+  {
+    "Message": "Message 01",
+    "Logtype": "Log 01"
+  },
+  {
+    "Message": "Message 02",
+    "Logtype": "Log 02"
+  },
+  {
+    "Message": "Message 03",
+    "Logtype": "Log 03"
+  }
+]

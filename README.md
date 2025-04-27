@@ -26,7 +26,8 @@ npm start
 
 | Project source | Question |
 |-|-|
-| [69024360][771] | [Angular Material disable Month][772] |
+| [69005090_1][773]<br />[69005090_2][775] | [Angular - Get undefined from service][774] |
+| [69024360][771] | [mat-input still remains invalid after successful validation - Angular 12][772] |
 | [69026427][769] | [Angular Material disable Month][770] |
 | [69013823][767] | [How to set columnMode/... of a ngx-datatable without binding to ViewModel?][768] |
 | [69046447][765] | [Angular 12 Set Validators Component][766] |
@@ -1559,3 +1560,9 @@ npm start
 
 [771]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69024360
 [772]: https://stackoverflow.com/questions/69024360/mat-input-still-remains-invalid-after-successful-validation-angular-12/69024706#69024706
+
+[773]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69005090_1
+[774]: https://stackoverflow.com/questions/69005090/angular-get-undefined-from-service/69006623#69006623
+
+[775]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69005090_2
+[776]: https://stackoverflow.com/questions/69005090/angular-get-undefined-from-service/69006623#69006623
