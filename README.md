@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68923503_1][799]<br />[68923503_2][801] | [PrimeNG TabView - Open Tab based on URL][800] |
 | [68862373][797] | [PrimeNG TabView - Open Tab based on URL][798] |
 | [68946569_1][793]<br />[68946569_2][795] | [Angular: async \| keyvalue --> Property 'X' does not exist on type 'X'][794] |
 | [68950773][791] | [Add alternating rowcolor to Angular Material Table with expandable rows][792] |
@@ -1607,3 +1608,9 @@ npm start
 
 [797]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68862373
 [798]: https://stackoverflow.com/questions/68862373/primeng-tabview-open-tab-based-on-url/68932956#68932956
+
+[799]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68923503_1
+[800]: https://stackoverflow.com/questions/68923503/angular-primeng-p-dialog-with-tabs/68931533#68931533
+
+[801]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68923503_2
+[802]: https://stackoverflow.com/questions/68923503/angular-primeng-p-dialog-with-tabs/68931533#68931533
