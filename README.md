@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68862373][797] | [PrimeNG TabView - Open Tab based on URL][798] |
 | [68946569_1][793]<br />[68946569_2][795] | [Angular: async \| keyvalue --> Property 'X' does not exist on type 'X'][794] |
 | [68950773][791] | [Add alternating rowcolor to Angular Material Table with expandable rows][792] |
 | [68952309][789] | [Bootstrap 5 dropdown is not working on Angular 12][790] |
@@ -1603,3 +1604,6 @@ npm start
 
 [795]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68946569_2
 [796]: https://stackoverflow.com/questions/68946569/angular-async-keyvalue-property-x-does-not-exist-on-type-x/68946732#68946732
+
+[797]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68862373
+[798]: https://stackoverflow.com/questions/68862373/primeng-tabview-open-tab-based-on-url/68932956#68932956

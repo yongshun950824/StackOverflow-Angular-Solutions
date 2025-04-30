@@ -1,0 +1,19 @@
+<ul>
+  <li>
+    <a [routerLink]="['/main']">Home (without Query Params)</a>
+  </li>
+  <li>
+    <a [routerLink]="['/main']" [queryParams]="{ tab: 'home' }">Home</a>
+  </li>
+  <li>
+    <a [routerLink]="['/main']" [queryParams]="{ tab: 'appointments' }">Appointments</a>
+  </li>
+  <li>
+    <a [routerLink]="['/main']" [queryParams]="{ tab: 'orders' }">Orders</a>
+  </li>
+  <li>
+    <a [routerLink]="['/main']" [queryParams]="{ tab: 'invalid' }">Invalid tab (Expect redirect to Home)</a>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>

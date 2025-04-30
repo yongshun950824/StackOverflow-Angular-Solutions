@@ -1,0 +1,15 @@
+<p-tabView #tabView (onChange)="onChange($event)" [(activeIndex)]="selectedTabIndex">
+  <p-tabPanel header="Home">
+    Summary
+  </p-tabPanel>
+  <p-tabPanel header="Appointments">
+    <ng-template pTemplate="content">
+      Table with Appointments - links take to Appointment details page.
+    </ng-template>
+  </p-tabPanel>
+  <p-tabPanel header="Orders">
+    <ng-template pTemplate="content">
+      Table with Appointments - links take to Order details page.
+    </ng-template>
+  </p-tabPanel>
+</p-tabView>
