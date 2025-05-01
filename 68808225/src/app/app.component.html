@@ -1,0 +1,26 @@
+Please fork this stackblitz to reproduce your issue.
+
+<br>
+<br>
+
+请 <strong style="color:red;">Fork</strong> 这个链接来重现你碰到的问题。
+
+<br>
+<br>
+
+<button nz-button nzType="primary"><i nz-icon nzType="trophy"></i>NG-ZORRO-ANTD Playgroud</button>
+
+
+
+<div>
+  <nz-input-group nzAddOnBefore="Status" [nzSuffix]="downIcon">
+    <input #inpu nz-input [(ngModel)]="selectedOption" [nzAutocomplete]="auto">
+  </nz-input-group>
+  <nz-autocomplete [compareWith]="cmFn" #auto>
+    <nz-auto-option *ngFor="let op of options" [nzValue]="op" [nzLabel]="op.name" nzTooltipTitle="[op]" nz-tooltip>{{op.name}}</nz-auto-option>
+  </nz-autocomplete>
+  <nz-select [style.display]="'none'"></nz-select>
+  <ng-template #downIcon>
+    <i nz-icon nzType="down" nzTheme="outline" style="cursor: pointer" (click)="toggle($event)"></i>
+  </ng-template>
+</div>

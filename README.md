@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68808225][829] | [how to set default initial value on nz-autocomplete][830] |
 | [68826288][827] | [Angular - How to pass object dynamically to div element using \[ngstyle\]][828] |
 | [68829959_1][823]<br />[68829959_2][825] | [Angular Ionic - Data not displaying because ctx.data is undefined][824] |
 | [68871553][821] | [ngtsc(2345) - Argument of type 'Event' is not assignable to parameter of type 'SortEvent'][822] |
@@ -1663,3 +1664,6 @@ npm start
 
 [827]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68826288
 [828]: https://stackoverflow.com/questions/68826288/angular-how-to-pass-object-dynamically-to-div-element-using-ngstyle/68826372#68826372
+
+[829]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68808225
+[830]: https://stackoverflow.com/questions/68808225/how-to-set-default-initial-value-on-nz-autocomplete/68812494#68812494
