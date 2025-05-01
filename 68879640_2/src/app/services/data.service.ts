@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
-import { map, Observable, of } from 'rxjs';
-import moment from 'moment';
+import { Observable, of } from 'rxjs';
+import { map } from 'rxjs/operators';
+import * as moment from 'moment';
 
 @Injectable({
   providedIn: 'root'
