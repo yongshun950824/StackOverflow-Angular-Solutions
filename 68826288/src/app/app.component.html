@@ -1,0 +1,5 @@
+<div class="grid-container">
+  <div *ngFor="let element of elements" class="grid-item" [ngStyle]="styleObject(element.row, element.column)">
+    {{element['name']}}
+  </div>
+</div>

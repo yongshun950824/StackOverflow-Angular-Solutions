@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68826288][827] | [Angular - How to pass object dynamically to div element using \[ngstyle\]][828] |
 | [68829959_1][823]<br />[68829959_2][825] | [Angular Ionic - Data not displaying because ctx.data is undefined][824] |
 | [68871553][821] | [ngtsc(2345) - Argument of type 'Event' is not assignable to parameter of type 'SortEvent'][822] |
 | [68875813][819] | [Angular - Why the "[selected]" works in a case but not in another?][820] |
@@ -1659,3 +1660,7 @@ npm start
 
 [825]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68829959_2
 [826]: https://stackoverflow.com/questions/68829959/angular-ionic-data-not-displaying-because-ctx-data-is-undefined/68831206#68831206
+
+[827]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/[828]: https://stackoverflow.com/questions/68826288/angular-how-to-pass-object-dynamically-to-div-element-using-ngstyle/68826372#68826372
+
+[828]: https://stackoverflow.com/questions/68826288/angular-how-to-pass-object-dynamically-to-div-element-using-ngstyle/68826372#68826372
