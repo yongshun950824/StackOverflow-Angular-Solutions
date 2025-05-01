@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68899513][803] | [Angular - Select dropdown list is blank][804] |
 | [68915846][803] | [How to fix ERROR Uncaught (in promise): Error: Cannot match any routes when clicking on row with navigation in Material Angular table?][804] |
 | [68923503_1][799]<br />[68923503_2][801] | [PrimeNG TabView - Open Tab based on URL][800] |
 | [68862373][797] | [PrimeNG TabView - Open Tab based on URL][798] |
@@ -1618,3 +1619,6 @@ npm start
 
 [803]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68915846
 [804]: https://stackoverflow.com/questions/68915846/how-to-fix-error-uncaught-in-promise-error-cannot-match-any-routes-when-clic/68916321#68916321
+
+[805]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68899513
+[806]: https://stackoverflow.com/questions/68899513/angular-select-dropdown-list-is-blank/68902895#68902895

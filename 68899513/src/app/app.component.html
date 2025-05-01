@@ -1,0 +1,17 @@
+<form [formGroup]="form">
+<ng-select [items]="vehicles"
+     [selectOnTab]="true"
+     [searchable]="true"
+     bindValue="id"
+     bindLabel="name"
+     placeholder="Select Vehicle Make"
+     [multiple]="false"
+     [clearable]="true"
+     required
+     formControlName="make_id">
+  </ng-select>
+</form>
+
+<hr />
+
+Selected ID: {{form.get('make_id').value}}
