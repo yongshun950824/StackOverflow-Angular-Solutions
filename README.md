@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68915846][803] | [How to fix ERROR Uncaught (in promise): Error: Cannot match any routes when clicking on row with navigation in Material Angular table?][804] |
 | [68923503_1][799]<br />[68923503_2][801] | [PrimeNG TabView - Open Tab based on URL][800] |
 | [68862373][797] | [PrimeNG TabView - Open Tab based on URL][798] |
 | [68946569_1][793]<br />[68946569_2][795] | [Angular: async \| keyvalue --> Property 'X' does not exist on type 'X'][794] |
@@ -1614,3 +1615,6 @@ npm start
 
 [801]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68923503_2
 [802]: https://stackoverflow.com/questions/68923503/angular-primeng-p-dialog-with-tabs/68931533#68931533
+
+[803]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68915846
+[804]: https://stackoverflow.com/questions/68915846/how-to-fix-error-uncaught-in-promise-error-cannot-match-any-routes-when-clic/68916321#68916321
