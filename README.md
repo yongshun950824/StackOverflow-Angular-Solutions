@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68871553][821] | [ngtsc(2345) - Argument of type 'Event' is not assignable to parameter of type 'SortEvent'][822] |
 | [68875813][819] | [Angular - Why the "[selected]" works in a case but not in another?][820] |
 | [68879640_1][815]<br />[68879640_2][817] | [Angular: Converting SQL 24 hour time format to 12 hour time format][816] |
 | [68889415][813] | [ng-select - Data not loading correctly according to JSON][814] |
@@ -1648,3 +1649,6 @@ npm start
 
 [819]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68875813
 [820]: https://stackoverflow.com/questions/68875813/angular-why-the-selected-works-in-a-case-but-not-in-another/68877873#68877873
+
+[821]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68871553
+[822]: https://stackoverflow.com/questions/68871553/ngtsc2345-argument-of-type-event-is-not-assignable-to-parameter-of-type-s/68877767#68877767
