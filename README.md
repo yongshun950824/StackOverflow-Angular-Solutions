@@ -26,7 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
-| [68879640_2][819] | [Angular - Why the "[selected]" works in a case but not in another?][820] |
+| [68875813][819] | [Angular - Why the "[selected]" works in a case but not in another?][820] |
 | [68879640_1][815]<br />[68879640_2][817] | [Angular: Converting SQL 24 hour time format to 12 hour time format][816] |
 | [68889415][813] | [ng-select - Data not loading correctly according to JSON][814] |
 | [68900230_1][809]<br />[68900230_2][811] | [ngFor Property 'id' does not exist on type 'Object'][810] |
