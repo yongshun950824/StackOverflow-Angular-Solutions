@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68879640_1][815]<br />[68879640_2][817] | [Angular: Converting SQL 24 hour time format to 12 hour time format][816] |
 | [68889415][813] | [ng-select - Data not loading correctly according to JSON][814] |
 | [68900230_1][809]<br />[68900230_2][811] | [ngFor Property 'id' does not exist on type 'Object'][810] |
 | [68901471][807] | [Angular Dropdown not Rendering][808] |
@@ -1637,3 +1638,9 @@ npm start
 
 [813]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68889415
 [814]: https://stackoverflow.com/questions/68889415/ng-select-data-not-loading-correctly-according-to-json/68890074#68890074
+
+[815]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68879640_1
+[816]: https://stackoverflow.com/questions/68879640/angular-converting-sql-24-hour-time-format-to-12-hour-time-format/68879825#68879825
+
+[817]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68879640_2
+[818]: https://stackoverflow.com/questions/68879640/angular-converting-sql-24-hour-time-format-to-12-hour-time-format/68879825#68879825
