@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68810020][831] | [Angular tusharghoshbd-ngx-datatable - ERROR TypeError: arr.forEach is not a function][832] |
 | [68808225][829] | [how to set default initial value on nz-autocomplete][830] |
 | [68826288][827] | [Angular - How to pass object dynamically to div element using \[ngstyle\]][828] |
 | [68829959_1][823]<br />[68829959_2][825] | [Angular Ionic - Data not displaying because ctx.data is undefined][824] |
@@ -1667,3 +1668,6 @@ npm start
 
 [829]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68808225
 [830]: https://stackoverflow.com/questions/68808225/how-to-set-default-initial-value-on-nz-autocomplete/68812494#68812494
+
+[831]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68810020
+[832]: https://stackoverflow.com/questions/68810020/angular-tusharghoshbd-ngx-datatable-error-typeerror-arr-foreach-is-not-a-func/68810272#68810272
