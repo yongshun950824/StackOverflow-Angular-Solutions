@@ -1,0 +1,49 @@
+[
+  {
+      "id": 10017,
+      "firstName": "Alexa",
+      "lastName": "Rimura",
+      "roleDisplay": "COVP,DVP Real Estate",
+      "companyName": "MS",
+      "title": "COO",
+      "memberId": 1,
+      "roleDto": [
+          {
+              "id": 6,
+              "name": "COVP", 
+              "isShow": true,
+              "transactionRoleId": 9
+          },
+          {
+              "id": 7,
+              "name": "DVP Real Estate",
+              "isShow": true,
+              "transactionRoleId": 6
+          }
+      ],
+      "transactionRoleList": "Architect, Construction Project Director"
+  },
+  {
+      "id": 10018,
+      "firstName": "Briana",
+      "lastName": "Christoval",
+      "roleDisplay": "Architect,Construction Project Director",
+      "companyName": null,
+      "title": null,
+      "memberId": 2,
+      "roleDto": [
+          {
+              "id": 8,
+              "name": "Architect",
+              "isShow": true,
+              "transactionRoleId": 12
+          },
+          {
+              "id": 9,
+              "name": "Construction Project Director",
+              "isShow": true,
+              "transactionRoleId": 11
+          }
+      ]
+  }
+]
