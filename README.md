@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68900230_1][809]<br />[68900230_2][811] | [ngFor Property 'id' does not exist on type 'Object'][810] |
 | [68901471][807] | [Angular Dropdown not Rendering][808] |
 | [68899513][805] | [Angular - Select dropdown list is blank][806] |
 | [68915846][803] | [How to fix ERROR Uncaught (in promise): Error: Cannot match any routes when clicking on row with navigation in Material Angular table?][804] |
@@ -1626,3 +1627,9 @@ npm start
 
 [807]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68901471
 [808]: https://stackoverflow.com/questions/68901471/angular-dropdown-not-rendering/68901796#68901796
+
+[809]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68900230_1
+[810]: https://stackoverflow.com/questions/68900230/ngfor-property-id-does-not-exist-on-type-object/68900320#68900320
+
+[811]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68900230_2
+[812]: https://stackoverflow.com/questions/68900230/ngfor-property-id-does-not-exist-on-type-object/68900320#68900320
