@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68889415][813] | [ng-select - Data not loading correctly according to JSON][814] |
 | [68900230_1][809]<br />[68900230_2][811] | [ngFor Property 'id' does not exist on type 'Object'][810] |
 | [68901471][807] | [Angular Dropdown not Rendering][808] |
 | [68899513][805] | [Angular - Select dropdown list is blank][806] |
@@ -1633,3 +1634,6 @@ npm start
 
 [811]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68900230_2
 [812]: https://stackoverflow.com/questions/68900230/ngfor-property-id-does-not-exist-on-type-object/68900320#68900320
+
+[813]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68889415
+[814]: https://stackoverflow.com/questions/68889415/ng-select-data-not-loading-correctly-according-to-json/68890074#68890074
