@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68786386][837] | [Dropdown filter is not working in with Row Group table in PrimeNG controls][838] |
 | [68767098][835] | [Angular Material - Sort the data for mat-table][836] |
 | [68796129][833] | [Manipulating array of objects][834] |
 | [68810020][831] | [Angular tusharghoshbd-ngx-datatable - ERROR TypeError: arr.forEach is not a function][832] |
@@ -1679,3 +1680,6 @@ npm start
 
 [835]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68767098
 [836]: https://stackoverflow.com/questions/68767098/angular-material-sort-the-data-for-mat-table/68789061#68789061
+
+[837]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68786386
+[838]: https://stackoverflow.com/questions/68786386/dropdown-filter-is-not-working-in-with-row-group-table-in-primeng-controls/68788559#68788559
