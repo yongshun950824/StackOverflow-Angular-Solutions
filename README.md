@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68767098][835] | [Angular Material - Sort the data for mat-table][836] |
 | [68796129][833] | [Manipulating array of objects][834] |
 | [68810020][831] | [Angular tusharghoshbd-ngx-datatable - ERROR TypeError: arr.forEach is not a function][832] |
 | [68808225][829] | [how to set default initial value on nz-autocomplete][830] |
@@ -1675,3 +1676,6 @@ npm start
 
 [833]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68796129
 [834]: https://stackoverflow.com/questions/68796129/manipulating-array-of-objects/68796257#68796257
+
+[835]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68767098
+[836]: https://stackoverflow.com/questions/68767098/angular-material-sort-the-data-for-mat-table/68789061#68789061
