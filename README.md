@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68676863][851] | [Handling Error in HTTPClient get method not working][852] |
 | [68681370][849] | [ngb-rating is not working without bootstrap cdn links][850] |
 | [68703758][847] | [Angular 12 - leaflet : leaflet routing maching problem - Property 'Routing' does not exist on type 'typeof import][848] |
 | [68709892][845] | [amcharts in Angular: ColumnSeries 'stroke' and 'fill' not a function][846] |
@@ -1707,3 +1708,6 @@ npm start
 
 [849]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68681370
 [850]: https://stackoverflow.com/questions/68681370/ngb-rating-is-not-working-without-bootstrap-cdn-links/68688780#68688780
+
+[851]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68676863
+[852]: https://stackoverflow.com/questions/68676863/handling-error-in-httpclient-get-method-not-working/68677170#68677170
