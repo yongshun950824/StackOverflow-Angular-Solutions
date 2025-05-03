@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68709892][845] | [amcharts in Angular: ColumnSeries 'stroke' and 'fill' not a function][846] |
 | [68708595][843] | [Import statement for MAT_DATE_LOCALE in Angular 11][844] |
 | [68779927][841] | [How to define nested object model in Angular?][842] |
 | [68781375][839] | [Compile time error after using PrimeNG table for filtering data in textbox][840] |
@@ -1695,3 +1696,6 @@ npm start
 
 [843]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68708595
 [844]: https://stackoverflow.com/questions/68708595/import-statement-for-mat-date-locale-in-angular-11/68750392#68750392
+
+[845]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68709892
+[846]: https://stackoverflow.com/questions/68709892/amcharts-in-angular-columnseries-stroke-and-fill-not-a-function/68711314#68711314
