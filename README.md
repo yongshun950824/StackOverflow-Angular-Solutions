@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68615677][863] | [Error: Unexpected value 'CookieService' imported by the module 'DynamicTestModule'. Please add an @NgModule annotation][864] |
 | [68629455_1][859]<br />[68629455_2][861] | [Angular 8 - How to format date in saturn-datepicker][860] |
 | [67212529][857] | [How to fix the nzType isn't a known property of 'i' in antd v11.4.0][858] |
 | [68592830][855] | [ng-zorro - Linear ProgressBar is not showing][856] |
@@ -1730,3 +1731,6 @@ npm start
 
 [861]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68629455_2
 [862]: https://stackoverflow.com/questions/68629455/angular-8-how-to-format-date-in-saturn-datepicker/68629678#68629678
+
+[863]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68615677
+[864]: https://stackoverflow.com/questions/68615677/error-unexpected-value-cookieservice-imported-by-the-module-dynamictestmodul/68615818#68615818
