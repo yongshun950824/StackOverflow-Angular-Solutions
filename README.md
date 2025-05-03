@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [67212529][857] | [How to fix the nzType isn't a known property of 'i' in antd v11.4.0][858] |
 | [68592830][855] | [ng-zorro - Linear ProgressBar is not showing][856] |
 | [68662984][853] | [Primeng password template suggestions not coming up][854] |
 | [68676863][851] | [Handling Error in HTTPClient get method not working][852] |
@@ -1719,3 +1720,6 @@ npm start
 
 [855]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68592830
 [856]: https://stackoverflow.com/questions/68592830/ng-zorro-linear-progressbar-is-not-showing/68659654#68659654
+
+[857]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67212529
+[858]: https://stackoverflow.com/questions/67212529/how-to-fix-the-nztype-isnt-a-known-property-of-i-in-antd-v11-4-0/68646965#68646965
