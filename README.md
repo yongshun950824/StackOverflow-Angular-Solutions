@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68681370][849] | [ngb-rating is not working without bootstrap cdn links][850] |
 | [68703758][847] | [Angular 12 - leaflet : leaflet routing maching problem - Property 'Routing' does not exist on type 'typeof import][848] |
 | [68709892][845] | [amcharts in Angular: ColumnSeries 'stroke' and 'fill' not a function][846] |
 | [68708595][843] | [Import statement for MAT_DATE_LOCALE in Angular 11][844] |
@@ -1703,3 +1704,6 @@ npm start
 
 [847]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68703758
 [848]: https://stackoverflow.com/questions/68703758/angular-12-leaflet-leaflet-routing-maching-problem-property-routing-does/68706207#68706207
+
+[849]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68681370
+[850]: https://stackoverflow.com/questions/68681370/ngb-rating-is-not-working-without-bootstrap-cdn-links/68688780#68688780
