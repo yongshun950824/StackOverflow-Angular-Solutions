@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68592830][855] | [ng-zorro - Linear ProgressBar is not showing][856] |
 | [68662984][853] | [Primeng password template suggestions not coming up][854] |
 | [68676863][851] | [Handling Error in HTTPClient get method not working][852] |
 | [68681370][849] | [ngb-rating is not working without bootstrap cdn links][850] |
@@ -1715,3 +1716,6 @@ npm start
 
 [853]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68662984
 [854]: https://stackoverflow.com/questions/68662984/primeng-password-template-suggestions-not-coming-up/68663678#68663678
+
+[855]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68592830
+[856]: https://stackoverflow.com/questions/68592830/ng-zorro-linear-progressbar-is-not-showing/68659654#68659654
