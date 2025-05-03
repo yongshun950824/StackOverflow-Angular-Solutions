@@ -115,7 +115,8 @@ export class AppComponent {
 
   private createColumnSeries(
     name: string,
-    seriesData: am4charts.GanttChartPoint[]
+    //seriesData: am4charts.GanttChartPoint[]
+    seriesData: any[]
   ): am4charts.ColumnSeries {
     const series = new am4charts.ColumnSeries();
 
