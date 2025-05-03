@@ -31,7 +31,7 @@
         </p-columnFilter>
 
         <p-columnFilter *ngSwitchCase="'quantity'" type="text" field="quantity" matchMode="equals"
-          (input)="dt2.filter($event.target.value1)">
+          (input)="dt2.filter($event.target.value1, 'quantity', 'equals')">
         </p-columnFilter>
       </th>
     </tr>

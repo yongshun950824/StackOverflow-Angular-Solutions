@@ -10,6 +10,7 @@ import { RowGroupGridComponent } from './row-group-grid/row-group-grid.component
 import { DropdownModule } from 'primeng/dropdown';
 import { MultiSelectModule } from 'primeng/multiselect';
 import { ButtonModule } from 'primeng/button';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   imports: [
@@ -19,7 +20,8 @@ import { ButtonModule } from 'primeng/button';
     TableModule,
     DropdownModule,
     MultiSelectModule,
-    ButtonModule
+    ButtonModule,
+    CommonModule
   ],
   declarations: [AppComponent, DynamicGridComponent, RowGroupGridComponent],
   bootstrap: [AppComponent]
