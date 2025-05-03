@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68629455_1][859]<br />[68629455_2][861] | [Angular 8 - How to format date in saturn-datepicker][860] |
 | [67212529][857] | [How to fix the nzType isn't a known property of 'i' in antd v11.4.0][858] |
 | [68592830][855] | [ng-zorro - Linear ProgressBar is not showing][856] |
 | [68662984][853] | [Primeng password template suggestions not coming up][854] |
@@ -1723,3 +1724,9 @@ npm start
 
 [857]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67212529
 [858]: https://stackoverflow.com/questions/67212529/how-to-fix-the-nztype-isnt-a-known-property-of-i-in-antd-v11-4-0/68646965#68646965
+
+[859]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68629455_1
+[860]: https://stackoverflow.com/questions/68629455/angular-8-how-to-format-date-in-saturn-datepicker/68629678#68629678
+
+[861]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68629455_2
+[862]: https://stackoverflow.com/questions/68629455/angular-8-how-to-format-date-in-saturn-datepicker/68629678#68629678
