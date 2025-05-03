@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68708595][843] | [Import statement for MAT_DATE_LOCALE in Angular 11][844] |
 | [68779927][841] | [How to define nested object model in Angular?][842] |
 | [68781375][839] | [Compile time error after using PrimeNG table for filtering data in textbox][840] |
 | [68786386][837] | [Dropdown filter is not working in with Row Group table in PrimeNG controls][838] |
@@ -1691,3 +1692,6 @@ npm start
 
 [841]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68779927
 [842]: https://stackoverflow.com/questions/68779927/how-to-define-nested-object-model-in-angular/68780564#68780564
+
+[843]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68708595
+[844]: https://stackoverflow.com/questions/68708595/import-statement-for-mat-date-locale-in-angular-11/68750392#68750392
