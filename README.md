@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68781375][839] | [Compile time error after using PrimeNG table for filtering data in textbox][840] |
 | [68786386][837] | [Dropdown filter is not working in with Row Group table in PrimeNG controls][838] |
 | [68767098][835] | [Angular Material - Sort the data for mat-table][836] |
 | [68796129][833] | [Manipulating array of objects][834] |
@@ -1683,3 +1684,6 @@ npm start
 
 [837]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68786386
 [838]: https://stackoverflow.com/questions/68786386/dropdown-filter-is-not-working-in-with-row-group-table-in-primeng-controls/68788559#68788559
+
+[839]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68781375
+[840]: https://stackoverflow.com/questions/68781375/compile-time-error-after-using-primeng-table-for-filtering-data-in-textbox/68782040#68782040
