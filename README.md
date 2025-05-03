@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68703758][847] | [Angular 12 - leaflet : leaflet routing maching problem - Property 'Routing' does not exist on type 'typeof import][848] |
 | [68709892][845] | [amcharts in Angular: ColumnSeries 'stroke' and 'fill' not a function][846] |
 | [68708595][843] | [Import statement for MAT_DATE_LOCALE in Angular 11][844] |
 | [68779927][841] | [How to define nested object model in Angular?][842] |
@@ -1699,3 +1700,6 @@ npm start
 
 [845]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68709892
 [846]: https://stackoverflow.com/questions/68709892/amcharts-in-angular-columnseries-stroke-and-fill-not-a-function/68711314#68711314
+
+[847]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68703758
+[848]: https://stackoverflow.com/questions/68703758/angular-12-leaflet-leaflet-routing-maching-problem-property-routing-does/68706207#68706207
