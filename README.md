@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68600393][867] | [Angular async validator error is not showing][868] |
 | [68253773][865] | [Angular - How to format Material Datepicker before submit][866] |
 | [68615677][863] | [Error: Unexpected value 'CookieService' imported by the module 'DynamicTestModule'. Please add an @NgModule annotation][864] |
 | [68629455_1][859]<br />[68629455_2][861] | [Angular 8 - How to format date in saturn-datepicker][860] |
@@ -1738,3 +1739,6 @@ npm start
 
 [865]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68253773
 [866]: https://stackoverflow.com/questions/68253773/angular-how-to-format-material-datepicker-before-submit/68607483#68607483
+
+[867]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68600393
+[868]: https://stackoverflow.com/questions/68600393/angular-async-validator-error-is-not-showing/68600563#68600563
