@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68497263][887] | [Angular - How to validate maxlength in ngx-intl-tel-input][888] |
 | [68519161][885] | [Can't render some NG-ZORRO icon][886] |
 | [68525279][883] | ['AbstractControl' is missing the following properties from type 'FormControl'][884] |
 | [68369290][881] | [Angular - How to display related fields in @tusharghoshbd ngx-datatable][882] |
@@ -1777,3 +1778,6 @@ npm start
 
 [885]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68519161
 [886]: https://stackoverflow.com/questions/68519161/cant-render-some-ng-zorro-icon/68523502#68523502
+
+[887]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68497263
+[888]: https://stackoverflow.com/questions/68497263/angular-how-to-validate-maxlength-in-ngx-intl-tel-input/68498479#68498479
