@@ -1,0 +1,61 @@
+<form [formGroup]="companyInfoForm">
+  <div class="col-12 col-md-4">
+    <div class="form-group">
+      <label for="dateEstablished">Date Registered:<span style="color:red;">*</span></label>
+      <mat-form-field>
+        <input matInput [matDatepicker]="picker" formControlName="dateEstablished"
+    readonly required>
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+    </div>
+    <div *ngIf="fc.dateEstablished.touched && fc.dateEstablished.invalid">
+      <div *ngIf="fc.dateEstablished.hasError('required')">
+        <div class="text-danger">
+          Date Registered is required!
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+<form [formGroup]="userInfoForm">
+  <div class="col-12 col-md-8">
+    <div class="form-group">
+      <label for="name">First Name:<span style="color:red;">*</span></label>
+      <input type="text" formControlName="firstName" placeholder="First Name" class="form-control" required/>
+    </div>
+    <div *ngIf="fu.firstName.touched && fu.firstName.invalid">
+      <div *ngIf="fu.firstName.hasError('required')">
+        <div class="text-danger">
+          First Name is required!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-md-8">
+    <div class="form-group">
+      <label for="name">Last Name:<span style="color:red;">*</span></label>
+      <input type="text" formControlName="lastName" placeholder="Last Name" class="form-control" required/>
+    </div>
+    <div *ngIf="fu.lastName.touched && fu.lastName.invalid">
+      <div *ngIf="fu.lastName.hasError('required')">
+        <div class="text-danger">
+          Last Name is required!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-md-8">
+    <div class="form-group">
+      <label for="name">Other Name:</label>
+      <input type="text" formControlName="otherName" placeholder="Other Name" class="form-control"/>
+    </div>
+  </div>
+</form>
+
+<div>
+  <button mat-raised-button color="primary" [disabled]="!(companyInfoForm.valid && userInfoForm.valid)" (click)="onSubmit()">Submit</button>
+</div>
