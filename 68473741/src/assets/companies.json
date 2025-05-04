@@ -1,0 +1,10 @@
+{
+  "results": {
+    "company": {
+      "id": 6, 
+      "name": "ABC Company", 
+      "website": "https://mycompany.com", 
+      "company_logo": null
+    }
+  }
+}

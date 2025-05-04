@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68473741][889] | [Angular - Ng-Bootstrap Modal Edit not loading Any data][890] |
 | [68497263][887] | [Angular - How to validate maxlength in ngx-intl-tel-input][888] |
 | [68519161][885] | [Can't render some NG-ZORRO icon][886] |
 | [68525279][883] | ['AbstractControl' is missing the following properties from type 'FormControl'][884] |
@@ -1781,3 +1782,6 @@ npm start
 
 [887]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68497263
 [888]: https://stackoverflow.com/questions/68497263/angular-how-to-validate-maxlength-in-ngx-intl-tel-input/68498479#68498479
+
+[889]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68473741
+[890]: https://stackoverflow.com/questions/68473741/angular-ng-bootstrap-modal-edit-not-loading-any-data/68492595#68492595
