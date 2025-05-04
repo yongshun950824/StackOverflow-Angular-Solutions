@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68554202][875] | [Angular - How to customize id as autoincrement in @tusharghoshbd ngx-datatable][876] |
 | [68566431][873] | [Angular - How to customize color for boolean in @tusharghoshbd ngx-datatable][874] |
 | [68568726_1][869]<br />[68568726_2][871] | [Error: NG0301: Export of name 'ngModel' not found][870] |
 | [68600393][867] | [Angular async validator error is not showing][868] |
@@ -1753,3 +1754,6 @@ npm start
 
 [873]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68566431
 [874]: https://stackoverflow.com/questions/68566431/angular-how-to-customize-color-for-boolean-in-tusharghoshbd-ngx-datatable/68568672#68568672
+
+[875]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68554202
+[876]: https://stackoverflow.com/questions/68554202/angular-how-to-customize-id-as-autoincrement-in-tusharghoshbd-ngx-datatable/68554606#68554606
