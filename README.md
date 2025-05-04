@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68468512][891] | [Angular routing (link) is not working in HTML][892] |
 | [68473741][889] | [Angular - Ng-Bootstrap Modal Edit not loading Any data][890] |
 | [68497263][887] | [Angular - How to validate maxlength in ngx-intl-tel-input][888] |
 | [68519161][885] | [Can't render some NG-ZORRO icon][886] |
@@ -1785,3 +1786,6 @@ npm start
 
 [889]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68473741
 [890]: https://stackoverflow.com/questions/68473741/angular-ng-bootstrap-modal-edit-not-loading-any-data/68492595#68492595
+
+[891]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68468512
+[892]: https://stackoverflow.com/questions/68468512/angular-routing-link-is-not-working-in-html/68468617#68468617
