@@ -1,0 +1,42 @@
+<ngx-datatable tableClass="table table-striped table-bordered table-hover" [data]="userInfoList" [columns]="columns"
+  [options]="options">
+  <ngx-caption>
+    <div class="row">
+      <div class="col-sm-6 col-xs-6 col-6 ">
+        <b>
+                  <i class="fa fa-table" aria-hidden="true"></i>
+                  Site Info. List
+              </b>
+      </div>
+    </div>
+  </ngx-caption>
+
+  <ng-template #addressTpl let-row let-rowIndex="rowIndex" let-columnValue="columnValue">
+
+  </ng-template>
+  <ng-template #actionTpl let-row let-rowIndex="rowIndex" let-columnValue="columnValue">
+
+  </ng-template>
+
+  <ng-template #activeTpl let-row let-rowIndex="rowIndex" let-columnValue="columnValue">
+    <!-- Solution 1 -->
+    <span class="badge" [ngClass]="(columnValue == '1') ? 'bg-success' : 'bg-danger'">{{columnValue | toBoolean}}</span>
+
+    <!-- Solution 2 works too! -->
+    <!--
+    <span class="badge" [ngClass]="{'bg-success': columnValue == '1', 'bg-danger': (columnValue == '0')}">{{columnValue | toBoolean}}</span>
+    -->
+  </ng-template>
+
+  <ng-template #departmentTpl let-row let-rowIndex="rowIndex" let-columnValue="columnValue">
+    {{columnValue.name}}
+  </ng-template>
+
+  <ng-template #rolesTpl let-row let-rowIndex="rowIndex" let-columnValue="columnValue">
+    <ng-template ngFor let-obj [ngForOf]="columnValue">
+      {{ obj.name }}
+      <br />
+    </ng-template>
+  </ng-template>
+
+</ngx-datatable>
