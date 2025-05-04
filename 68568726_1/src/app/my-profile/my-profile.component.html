@@ -1,0 +1,11 @@
+<form>
+
+  <div class="form-group">
+    <label>Nickname</label>
+    <input type="text" class="form-control"
+ id="nickname" [(ngModel)]="People.selfnickname" name="nickname" #nickname="ngModel"
+ required>
+
+    <div [hidden]="nickname.valid" class="alert alert-danger">Nickname is required.</div>
+  </div>
+</form>

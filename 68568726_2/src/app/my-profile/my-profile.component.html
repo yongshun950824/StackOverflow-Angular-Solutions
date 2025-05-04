@@ -1,0 +1,13 @@
+<form [formGroup]="MyProfileForm">
+
+  <div class="form-group">
+    <label>Nickname</label>
+
+    <input type="text" class="form-control"
+ id="nickname" formControlName="nickname"
+ name="nickname">
+
+
+    <div [hidden]="MyProfileForm.controls['nickname'].valid" class="alert alert-danger">Nickname is required.</div>
+  </div>
+</form>
