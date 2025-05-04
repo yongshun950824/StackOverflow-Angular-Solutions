@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68550158][879] | [@tusharghoshbd ngx-datatable not displaying related data][880] |
 | [68554098][877] | [Angular - How to format created_at in @tusharghoshbd ngx-datatable][878] |
 | [68554202][875] | [Angular - How to customize id as autoincrement in @tusharghoshbd ngx-datatable][876] |
 | [68566431][873] | [Angular - How to customize color for boolean in @tusharghoshbd ngx-datatable][874] |
@@ -1761,3 +1762,6 @@ npm start
 
 [877]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68554098
 [878]: https://stackoverflow.com/questions/68554098/angular-how-to-format-created-at-in-tusharghoshbd-ngx-datatable/68554489#68554489
+
+[879]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68550158
+[880]: https://stackoverflow.com/questions/68550158/tusharghoshbd-ngx-datatable-not-displaying-related-data/68553391#68553391
