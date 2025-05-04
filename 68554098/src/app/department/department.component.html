@@ -1,0 +1,25 @@
+<ngx-datatable tableClass="table table-striped table-bordered table-hover" [data]="departmentList" [columns]="columns"
+  [options]="options">
+  <ngx-caption>
+    <div class="row">
+      <div class="col-sm-6 col-xs-6 col-6 ">
+        <b>
+                  <i class="fa fa-table" aria-hidden="true"></i>
+                  Site Info. List
+              </b>
+      </div>
+    </div>
+  </ngx-caption>
+
+  <ng-template #addressTpl let-row let-rowIndex="rowIndex" let-columnValue="columnValue">
+
+  </ng-template>
+  <ng-template #actionTpl let-row let-rowIndex="rowIndex" let-columnValue="columnValue">
+
+  </ng-template>
+
+  <ng-template #createdAtTpl let-row let-rowIndex="rowIndex" let-columnValue="columnValue">
+    {{ columnValue | date: 'yyyy-MM-dd' }}
+  </ng-template>
+
+</ngx-datatable>
