@@ -5,7 +5,7 @@ import {
   CountryISO,
   PhoneNumberFormat
 } from 'ngx-intl-tel-input';
-import { first } from 'rxjs/dist/types';
+import { first } from 'rxjs/operators';
 
 @Component({
   selector: 'app-signup-company',

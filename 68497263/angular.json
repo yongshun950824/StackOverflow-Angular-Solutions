@@ -21,7 +21,11 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "./node_modules/intl-tel-input/build/css/intlTelInput.css"
+              {
+                "glob": "*",
+                "input": "node_modules/intl-tel-input/build/css",
+                "output": "assets/css/"
+              }
             ],
             "styles": [
               "src/styles.css"
