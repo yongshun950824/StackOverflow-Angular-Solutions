@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68369290][881] | [Angular - How to display related fields in @tusharghoshbd ngx-datatable][882] |
 | [68550158][879] | [@tusharghoshbd ngx-datatable not displaying related data][880] |
 | [68554098][877] | [Angular - How to format created_at in @tusharghoshbd ngx-datatable][878] |
 | [68554202][875] | [Angular - How to customize id as autoincrement in @tusharghoshbd ngx-datatable][876] |
@@ -1765,3 +1766,6 @@ npm start
 
 [879]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68550158
 [880]: https://stackoverflow.com/questions/68550158/tusharghoshbd-ngx-datatable-not-displaying-related-data/68553391#68553391
+
+[881]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68369290
+[882]: https://stackoverflow.com/questions/68369290/angular-how-to-display-related-fields-in-tusharghoshbd-ngx-datatable/68553383#68553383
