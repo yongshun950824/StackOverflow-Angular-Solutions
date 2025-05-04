@@ -1,0 +1,6 @@
+<form [formGroup]="cardForm">
+  <input type="text" formControlName="name" />
+</form>
+
+<!--Type 'AbstractControl' is missing the following properties from type 'FormControl': registerOnChange, registerOnDisabledChange, _applyFormState  -->
+<app-input [control]="cardFormNameControl"></app-input>

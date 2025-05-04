@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68525279][883] | ['AbstractControl' is missing the following properties from type 'FormControl'][884] |
 | [68369290][881] | [Angular - How to display related fields in @tusharghoshbd ngx-datatable][882] |
 | [68550158][879] | [@tusharghoshbd ngx-datatable not displaying related data][880] |
 | [68554098][877] | [Angular - How to format created_at in @tusharghoshbd ngx-datatable][878] |
@@ -1769,3 +1770,6 @@ npm start
 
 [881]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68369290
 [882]: https://stackoverflow.com/questions/68369290/angular-how-to-display-related-fields-in-tusharghoshbd-ngx-datatable/68553383#68553383
+
+[883]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68525279
+[884]: https://stackoverflow.com/questions/68525279/abstractcontrol-is-missing-the-following-properties-from-type-formcontrol/68525416#68525416
