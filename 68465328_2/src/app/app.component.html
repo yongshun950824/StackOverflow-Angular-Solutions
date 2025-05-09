@@ -1,18 +1,13 @@
-<hello name="{{ name }}"></hello>
-<p>
-	Start editing to see some magic happen :)
-</p>
-
 <ngx-datatable 
-[rows]="rows" 
-class="material" 
-[loadingIndicator]="loadingIndicator"
-[columnMode]="'force'" 
-[headerHeight]="50" 
-[footerHeight]="50" 
-[rowHeight]="'auto'"
-[columns]="columns" 
-[reorderable]="reorderable">
+	[rows]="rows" 
+	class="material" 
+	[loadingIndicator]="loadingIndicator"
+	[columnMode]="'force'" 
+	[headerHeight]="50" 
+	[footerHeight]="50" 
+	[rowHeight]="'auto'"
+	[columns]="columns" 
+	[reorderable]="reorderable">
 
 	<ngx-datatable-column name="Name" prop="name"></ngx-datatable-column>
 

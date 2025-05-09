@@ -8,6 +8,7 @@ import {
 
 @Component({
   selector: 'my-app',
+  standalone: false,
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss', './material.scss']
 })
@@ -17,8 +18,8 @@ export class AppComponent implements OnInit {
   reorderable: boolean = true;
   loadingIndicator: boolean = true;
 
-  @ViewChild('batterTemplate') batterTemplate!: TemplateRef<any>;
-  @ViewChild('toppingTemplate') toppingTemplate!: TemplateRef<any>;
+  @ViewChild('batterTemplate', { static: true }) batterTemplate!: TemplateRef<any>;
+  @ViewChild('toppingTemplate', { static: true }) toppingTemplate!: TemplateRef<any>;
 
   rows = [
     {
