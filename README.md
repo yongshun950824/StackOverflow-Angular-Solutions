@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68465328_1][893]<br />[68465328_2][895] | [How to display nested array objects in ngx datatable?][894] |
 | [68468512][891] | [Angular routing (link) is not working in HTML][892] |
 | [68473741][889] | [Angular - Ng-Bootstrap Modal Edit not loading Any data][890] |
 | [68497263][887] | [Angular - How to validate maxlength in ngx-intl-tel-input][888] |
@@ -1789,3 +1790,9 @@ npm start
 
 [891]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68468512
 [892]: https://stackoverflow.com/questions/68468512/angular-routing-link-is-not-working-in-html/68468617#68468617
+
+[893]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68465328_1
+[894]: https://stackoverflow.com/questions/68465328/how-to-display-nested-array-objects-in-ngx-datatable/68466239#68466239
+
+[895]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68465328_2
+[896]: https://stackoverflow.com/questions/68465328/how-to-display-nested-array-objects-in-ngx-datatable/68466239#68466239
