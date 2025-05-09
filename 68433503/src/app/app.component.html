@@ -1,0 +1,15 @@
+<form [formGroup]="itineraryrForm">
+  <input
+    type="text"
+    (dateTimeChange)="changeDate($event)"
+    [owlDateTimeTrigger]="dt"
+    [owlDateTime]="dt"
+    placeholder="DD/MM/YYYY HH:mm:ss"
+    maxlength="10"
+    formControlName="arrivalTime"
+    #arrivalTime
+  />
+  <owl-date-time #dt></owl-date-time>
+  <div *ngIf="f.arrivalTime.errors">Account arrivalTime is required</div>
+</form>
+

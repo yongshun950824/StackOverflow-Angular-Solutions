@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68433503][897] | [Angular - ng-pick-datetime: how to initialize the input value in a reactive form][898] |
 | [68465328_1][893]<br />[68465328_2][895] | [How to display nested array objects in ngx datatable?][894] |
 | [68468512][891] | [Angular routing (link) is not working in HTML][892] |
 | [68473741][889] | [Angular - Ng-Bootstrap Modal Edit not loading Any data][890] |
@@ -1796,3 +1797,6 @@ npm start
 
 [895]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68465328_2
 [896]: https://stackoverflow.com/questions/68465328/how-to-display-nested-array-objects-in-ngx-datatable/68466239#68466239
+
+[897]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68433503
+[898]: https://stackoverflow.com/questions/68433503/angular-ng-pick-datetime-how-to-initialize-the-input-value-in-a-reactive-form/68436343#68436343
