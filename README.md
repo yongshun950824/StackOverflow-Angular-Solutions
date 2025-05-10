@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68187335][919] | [Angular - Display rating value as stars][920] |
 | [68232037][917] | [Angular - error TS2339: Property 'results' does not exist on type 'Object'][914] |
 | [68244839_1][913]<br />[68244839_2][915] | [error TS2322: Type 'string' is not assignable to type 'keyof ChartTypeRegistry'][914] |
 | [68323074_1][909]<br />[68323074_2][911] | [How to change font color of matautocomplete options][910] |
@@ -1837,3 +1838,6 @@ npm start
 
 [917]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68232037
 [918]: https://stackoverflow.com/questions/68232037/angular-error-ts2339-property-results-does-not-exist-on-type-object/68232552#68232552
+
+[919]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68187335
+[920]: https://stackoverflow.com/questions/68187335/angular-display-rating-value-as-stars/68187591#68187591
