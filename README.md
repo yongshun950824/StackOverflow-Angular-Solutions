@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68323074_1][909]<br />[68323074_2][911] | [How to change font color of matautocomplete options][910] |
 | [68355634][907] | [Angular - ngx-datatable celltemplate not populating data][908] |
 | [68396486][905] | [Angular - Property 'results' does not exist on type 'ICandidate'.ngt][905] |
 | [68416293][903] | [icons are not showing in footer angular][904] |
@@ -1819,3 +1820,9 @@ npm start
 
 [907]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68355634
 [908]: https://stackoverflow.com/questions/68355634/angular-ngx-datatable-celltemplate-not-populating-data/68356535#68356535
+
+[909]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68323074_1
+[910]: https://stackoverflow.com/questions/68323074/how-to-change-font-color-of-matautocomplete-options/68341245#68341245
+
+[911]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68323074_2
+[912]: https://stackoverflow.com/questions/68323074/how-to-change-font-color-of-matautocomplete-options/68341245#68341245
