@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68396486][905] | [Angular - Property 'results' does not exist on type 'ICandidate'.ngt][905] |
 | [68416293][903] | [icons are not showing in footer angular][904] |
 | [68257830_1][899]<br />[68257830_2][901] | [Angular - Error: Object is possibly null in password change validator][900] |
 | [68433503][897] | [Angular - ng-pick-datetime: how to initialize the input value in a reactive form][898] |
@@ -1811,3 +1812,6 @@ npm start
 
 [903]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68416293
 [904]: https://stackoverflow.com/questions/68416293/icons-are-not-showing-in-footer-angular/68418779#68418779
+
+[905]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68396486
+[906]: https://stackoverflow.com/questions/68396486/angular-property-results-does-not-exist-on-type-icandidate-ngt/68402680#68402680
