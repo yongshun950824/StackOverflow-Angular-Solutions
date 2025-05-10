@@ -15,7 +15,7 @@ import { TokenService } from '../services/token.service';
 @Component({
   selector: 'app-profile-list',
   templateUrl: './profile-list.component.html',
-  styleUrls: ['./profile-list.component.scss']
+  styleUrls: ['./profile-list.component.css']
 })
 export class ProfileListComponent implements OnInit {
 
