@@ -5,7 +5,7 @@ import {
   FormGroup,
   Validators
 } from '@angular/forms';
-import moment from 'moment';
+import * as moment from 'moment';
 import { OwlDateTimeIntl } from 'ng-pick-datetime';
 
 @Component({
