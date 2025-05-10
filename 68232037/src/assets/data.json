@@ -1,0 +1,17 @@
+{
+  "message": "Company Detail.",
+  "error": false,
+  "code": 200,
+  "results": {
+     "countries": [
+        {
+            "name": "Spain",
+            "id": 2
+        },
+        {
+            "name": "Italy",
+            "id": 1
+        }
+     ]
+  }
+}
