@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68416293][903] | [icons are not showing in footer angular][904] |
 | [68257830_1][899]<br />[68257830_2][901] | [Angular - Error: Object is possibly null in password change validator][900] |
 | [68433503][897] | [Angular - ng-pick-datetime: how to initialize the input value in a reactive form][898] |
 | [68465328_1][893]<br />[68465328_2][895] | [How to display nested array objects in ngx datatable?][894] |
@@ -1807,3 +1808,6 @@ npm start
 
 [901]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68257830_2
 [902]: https://stackoverflow.com/questions/68257830/angular-error-object-is-possibly-null-in-password-change-validator/68419946#68419946
+
+[903]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68416293
+[904]: https://stackoverflow.com/questions/68416293/icons-are-not-showing-in-footer-angular/68418779#68418779
