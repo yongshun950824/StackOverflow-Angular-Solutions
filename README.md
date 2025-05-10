@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68244839_1][913]<br />[68244839_2][915] | [error TS2322: Type 'string' is not assignable to type 'keyof ChartTypeRegistry'][914] |
 | [68323074_1][909]<br />[68323074_2][911] | [How to change font color of matautocomplete options][910] |
 | [68355634][907] | [Angular - ngx-datatable celltemplate not populating data][908] |
 | [68396486][905] | [Angular - Property 'results' does not exist on type 'ICandidate'.ngt][905] |
@@ -1826,3 +1827,9 @@ npm start
 
 [911]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68323074_2
 [912]: https://stackoverflow.com/questions/68323074/how-to-change-font-color-of-matautocomplete-options/68341245#68341245
+
+[913]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68244839_1
+[914]: https://stackoverflow.com/questions/68244839/error-ts2322-type-string-is-not-assignable-to-type-keyof-charttyperegistry/68250314#68250314
+
+[915]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68244839_2
+[916]: https://stackoverflow.com/questions/68244839/error-ts2322-type-string-is-not-assignable-to-type-keyof-charttyperegistry/68250314#68250314
