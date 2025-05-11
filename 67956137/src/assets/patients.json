@@ -1,0 +1,56 @@
+[
+  {
+    "Pt_Id": 1,
+    "Pt_Name": "Ahmed",
+    "Pt_Age": 28,
+    "Department": "Dept 1",
+    "Docname": "Dr.Raja",
+    "Pt_Email": "ahmed@email.com",
+    "Pt_Mob": "01012345678"
+  },
+  {
+    "Pt_Id": 2,
+    "Pt_Name": "Lucas Smith",
+    "Pt_Age": 51,
+    "Department": "Dept 2",
+    "Docname": "Dr.Samantha",
+    "Pt_Email": "lucas.smith@email.com",
+    "Pt_Mob": "94820752065"
+  },
+    {
+    "Pt_Id": 3,
+    "Pt_Name": "Kimi Latatos",
+    "Pt_Age": 44,
+    "Department": "Dept 3",
+    "Docname": "Dr.Amos",
+    "Pt_Email": "kimi@email.com",
+    "Pt_Mob": "12345678"
+  },
+    {
+    "Pt_Id": 4,
+    "Pt_Name": "Dani Avocado",
+    "Pt_Age": 28,
+    "Department": "Dept 2",
+    "Docname": "Dr.Samantha",
+    "Pt_Email": "lucas.smith@email.com",
+    "Pt_Mob": "12345679"
+  },
+    {
+    "Pt_Id": 5,
+    "Pt_Name": "Abu Bakar",
+    "Pt_Age": 51,
+    "Department": "Dept 2",
+    "Docname": "Dr.Amos",
+    "Pt_Email": "abu.bakar@email.com",
+    "Pt_Mob": "9529594294"
+  },
+    {
+    "Pt_Id": 6,
+    "Pt_Name": "Peter Chong",
+    "Pt_Age": 51,
+    "Department": "Dept 2",
+    "Docname": "Dr.Raja",
+    "Pt_Email": "peter.chong@email.com",
+    "Pt_Mob": "926952955"
+  }
+]

@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [67956137][943] | [I am trying to use MatPaginator the paginator is showing but the all the rows are showing in the single page][944] |
 | [67964269][941] | [Ngx-datatable not showing data][942] |
 | [67980568][939] | [Angular Autocomplete - Filter by starting letters of the words in][940] |
 | [68036767][937] | [Angular Material - Paginate dynamic table][938] |
@@ -1884,3 +1885,6 @@ npm start
 
 [941]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67964269
 [942]: https://stackoverflow.com/questions/67964269/ngx-datatable-not-showing-data/67965274#67965274
+
+[943]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67956137
+[944]: https://stackoverflow.com/questions/67956137/i-am-trying-to-use-matpaginator-the-paginator-is-showing-but-the-all-the-rows-ar/67956510#67956510
