@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68036767][937] | [Angular Material - Paginate dynamic table][938] |
 | [68061161][935] | [DataSource from APIs method "get" is not loaded in mat-table][936] |
 | [68061659][933] | [Why ngfor paints the rows but not the data in it][934] |
 | [68090592][931] | [Angular - mat-paginator not appearing for mat-table][932] |
@@ -1872,3 +1873,6 @@ npm start
 
 [935]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68061161
 [936]: https://stackoverflow.com/questions/68061161/datasource-from-apis-method-get-is-not-loaded-in-mat-table/68061406#68061406
+
+[937]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68036767
+[938]: https://stackoverflow.com/questions/68036767/angular-material-paginate-dynamic-table/68044548#68044548
