@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68093856][925] | [Expanding multiple rows in a nested mat table in Angular not working][926] |
 | [68122079][923] | [ngb-pagination with an async collection not working][924] |
 | [68123711][921] | [Bootstrap dropdown don't show items][922] |
 | [68187335][919] | [Angular - Display rating value as stars][920] |
@@ -1849,3 +1850,6 @@ npm start
 
 [923]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68122079
 [924]: https://stackoverflow.com/questions/68122079/ngb-pagination-with-an-async-collection-not-working/68124352#68124352
+
+[925]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68093856
+[926]: https://stackoverflow.com/questions/68093856/expanding-multiple-rows-in-a-nested-mat-table-in-angular-not-working/68094477#68094477
