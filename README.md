@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [67964269][941] | [Ngx-datatable not showing data][942] |
 | [67980568][939] | [Angular Autocomplete - Filter by starting letters of the words in][940] |
 | [68036767][937] | [Angular Material - Paginate dynamic table][938] |
 | [68061161][935] | [DataSource from APIs method "get" is not loaded in mat-table][936] |
@@ -1880,3 +1881,6 @@ npm start
 
 [939]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67980568
 [940]: https://stackoverflow.com/questions/67980568/angular-autocomplete-filter-by-starting-letters-of-the-words-in/67981328#67981328
+
+[941]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67964269
+[942]: https://stackoverflow.com/questions/67964269/ngx-datatable-not-showing-data/67965274#67965274
