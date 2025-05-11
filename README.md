@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68091917_1][927]<br />[68091917_2][929] | [Angular ngIf else is not working inside ng-container][928] |
 | [68093856][925] | [Expanding multiple rows in a nested mat table in Angular not working][926] |
 | [68122079][923] | [ngb-pagination with an async collection not working][924] |
 | [68123711][921] | [Bootstrap dropdown don't show items][922] |
@@ -1853,3 +1854,9 @@ npm start
 
 [925]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68093856
 [926]: https://stackoverflow.com/questions/68093856/expanding-multiple-rows-in-a-nested-mat-table-in-angular-not-working/68094477#68094477
+
+[927]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68091917_1
+[928]: https://stackoverflow.com/questions/68091917/angular-ngif-else-is-not-working-inside-ng-container/68093279#68093279
+
+[929]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68091917_2
+[930]: https://stackoverflow.com/questions/68091917/angular-ngif-else-is-not-working-inside-ng-container/68093279#68093279

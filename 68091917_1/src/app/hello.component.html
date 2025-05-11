@@ -1,0 +1,24 @@
+<ng-template [ngIf]="seasonsdetail.season?.length">
+  <ng-container *ngFor="let seasons of seasonsdetail.season">
+    <div class="col-sm-2 col-md-3 col-lg-3">
+      <ng-container *ngIf="seasons.image?.medium; else elseTemplate">
+        <div class="card" data-id=''>
+          <a href=''><img class="card-img img-fluid " [src]='seasons.image.medium' alt="Seasons"></a>
+        </div>
+        <h4 class="card-title">
+          {{seasons.number}}
+        </h4>
+      </ng-container>
+    </div>
+    <ng-template #elseTemplate>
+      <div class="card" data-id=''>
+        <!--<div class="card-body"> -->
+        <h4>Image not Avaliable</h4>
+        <!--</div>-->
+      </div>
+      <h4 class="card-title">
+        {{seasons.number}}
+      </h4>
+    </ng-template>
+  </ng-container>
+</ng-template>
