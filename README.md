@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68061161][935] | [DataSource from APIs method "get" is not loaded in mat-table][936] |
 | [68061659][933] | [Why ngfor paints the rows but not the data in it][934] |
 | [68090592][931] | [Angular - mat-paginator not appearing for mat-table][932] |
 | [68091917_1][927]<br />[68091917_2][929] | [Angular ngIf else is not working inside ng-container][928] |
@@ -1868,3 +1869,6 @@ npm start
 
 [933]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68061659
 [934]: https://stackoverflow.com/questions/68061659/why-ngfor-paints-the-rows-but-not-the-data-in-it/68061773#68061773
+
+[935]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68061161
+[936]: https://stackoverflow.com/questions/68061161/datasource-from-apis-method-get-is-not-loaded-in-mat-table/68061406#68061406
