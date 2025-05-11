@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68123711][921] | [Bootstrap dropdown don't show items][922] |
 | [68187335][919] | [Angular - Display rating value as stars][920] |
 | [68232037][917] | [Angular - error TS2339: Property 'results' does not exist on type 'Object'][914] |
 | [68244839_1][913]<br />[68244839_2][915] | [error TS2322: Type 'string' is not assignable to type 'keyof ChartTypeRegistry'][914] |
@@ -1841,3 +1842,6 @@ npm start
 
 [919]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68187335
 [920]: https://stackoverflow.com/questions/68187335/angular-display-rating-value-as-stars/68187591#68187591
+
+[921]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68123711
+[922]: https://stackoverflow.com/questions/68123711/bootstrap-dropdown-dont-show-items/68130260#68130260
