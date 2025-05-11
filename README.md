@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [67980568][939] | [Angular Autocomplete - Filter by starting letters of the words in][940] |
 | [68036767][937] | [Angular Material - Paginate dynamic table][938] |
 | [68061161][935] | [DataSource from APIs method "get" is not loaded in mat-table][936] |
 | [68061659][933] | [Why ngfor paints the rows but not the data in it][934] |
@@ -1876,3 +1877,6 @@ npm start
 
 [937]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68036767
 [938]: https://stackoverflow.com/questions/68036767/angular-material-paginate-dynamic-table/68044548#68044548
+
+[939]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67980568
+[940]: https://stackoverflow.com/questions/67980568/angular-autocomplete-filter-by-starting-letters-of-the-words-in/67981328#67981328
