@@ -1,0 +1,34 @@
+[
+  {
+    "active": true,
+    "codeEnabled": "CODE ENABLED",
+    "codeDisabled": "CODE DISABLED",
+    "codeSupervision": "CODE SUPERVISION",
+    "name": "TEST 001",
+    "messageEnabled": "MESSAGE ENABLED",
+    "messageDisabled": "MESSAGE DISABLED",
+    "messageSupervision": "MESSAGE SUPERVISION",
+    "localization": "LOCALIZATION",
+    "image": "",
+    "actualState": "Actual state",
+    "actualSuvervisionState": "supervision state",
+    "dateLastSupervision": "2021-06-20T23:36:03.0000000Z",
+    "id": 1
+  },
+  {
+    "active": true,
+    "codeEnabled": "CODE ENABLED",
+    "codeDisabled": "CODE DISABLED",
+    "codeSupervision": "CODE SUPERVISION",
+    "name": "TEST 002",
+    "messageEnabled": "MESSAGE ENABLED",
+    "messageDisabled": "MESSAGE DISABLED",
+    "messageSupervision": "MESSAGE SUPERVISION",
+    "localization": "LOCALIZATION",
+    "image": "",
+    "actualState": "Actual state",
+    "actualSuvervisionState": "supervision state",
+    "dateLastSupervision": "2021-06-20T23:43:50.8093498Z",
+    "id": 2
+  }
+]

@@ -1,0 +1,19 @@
+<table class="table table-sm">
+    <tr *ngFor="let pokayoke of pokayokeService.listPokayokes; let i =index">
+        <td>{{i}}</td>
+        <td>{{pokayoke.name}}</td>
+        <td>{{pokayoke.id }}</td>
+        <td>{{pokayoke.active }}</td>
+        <td>{{pokayoke.codeEnabled }}</td>
+        <td>{{pokayoke.codeDisabled }}</td>
+        <td>{{pokayoke.codeSupervision }}</td>
+        <td>{{pokayoke.messageEnabled }}</td>
+        <td>{{pokayoke.messageDisabled }}</td>
+        <td>{{pokayoke.messageSupervision }}</td>
+        <td>{{pokayoke.localization }}</td>
+        <td>{{pokayoke.image }}</td>
+        <td>{{pokayoke.actualState }}</td>
+        <td>{{pokayoke.actualSuvervisionState}}</td>
+        <td>{{pokayoke.dateLastSupervision }}</td>        
+    </tr>
+</table>

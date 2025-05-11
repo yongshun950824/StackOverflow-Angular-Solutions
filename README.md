@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68061659][933] | [Why ngfor paints the rows but not the data in it][934] |
 | [68090592][931] | [Angular - mat-paginator not appearing for mat-table][932] |
 | [68091917_1][927]<br />[68091917_2][929] | [Angular ngIf else is not working inside ng-container][928] |
 | [68093856][925] | [Expanding multiple rows in a nested mat table in Angular not working][926] |
@@ -1864,3 +1865,6 @@ npm start
 
 [931]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68090592
 [932]: https://stackoverflow.com/questions/68090592/angular-mat-paginator-not-appearing-for-mat-table/68092145#68092145
+
+[933]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68061659
+[934]: https://stackoverflow.com/questions/68061659/why-ngfor-paints-the-rows-but-not-the-data-in-it/68061773#68061773
