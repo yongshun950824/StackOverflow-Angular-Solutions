@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [68122079][923] | [ngb-pagination with an async collection not working][924] |
 | [68123711][921] | [Bootstrap dropdown don't show items][922] |
 | [68187335][919] | [Angular - Display rating value as stars][920] |
 | [68232037][917] | [Angular - error TS2339: Property 'results' does not exist on type 'Object'][914] |
@@ -1845,3 +1846,6 @@ npm start
 
 [921]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68123711
 [922]: https://stackoverflow.com/questions/68123711/bootstrap-dropdown-dont-show-items/68130260#68130260
+
+[923]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68122079
+[924]: https://stackoverflow.com/questions/68122079/ngb-pagination-with-an-async-collection-not-working/68124352#68124352

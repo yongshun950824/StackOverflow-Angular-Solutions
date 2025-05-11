@@ -1,0 +1,49 @@
+<ng-container mCardBody>
+  <fieldset class="form-group position-relative mb-0">
+    <input type="text" class="form-control form-control-xl input-xl" id="iconLeft1"
+      placeholder="Search Users" [formControl]="searchCtrl">
+    <div class="form-control-position">
+      <i class="feather ft-search font-medium-4"></i>
+    </div>
+  </fieldset>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Lastname</th>
+      <th scope="col">Email</th>
+      <th scope="col" class="text-center">Admin</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of filteredUsers | async  | slice: (page-1) * pageSize : page * pageSize; index as i">
+      <th scope="row">{{ user.id }}</th>
+      <td>{{ user.name }} </td>
+      <td>{{ user.lastname }}</td>
+      <td>{{ user.email }}</td>
+      <td class="text-center">
+        <i *ngIf="user.admin" style="color: green;" class="ficon feather ft-check"></i>
+        <i *ngIf="!user.admin" style="color: red;"  class="ficon feather ft-x"></i>
+      </td>
+      <td>
+        <div ngbDropdown class="d-inline-block text-center">
+          <button class="btn btn-info" id="dropdownBasic1" ngbDropdownToggle>Action</button>
+          <div ngbDropdownMenu class="arrow _dropdown_mob dropdown-menu-right" aria-labelledby="dropdownBasic1">
+            <button class="dropdown-item" (click)="editUser(user)">Edit</button>
+            <button class="dropdown-item" (click)="deleteUser(user)">Delete</button>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<nav aria-label="Page navigation">
+  <ul class="pagination justify-content-center pagination-separate ">
+    <ngb-pagination [(page)]="page"
+    [pageSize]="pageSize"
+    [collectionSize]="(filteredUsers | async)?.length" aria-label="Default pagination"></ngb-pagination>
+  </ul>
+</nav>
+</ng-container>

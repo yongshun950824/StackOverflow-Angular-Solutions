@@ -1,0 +1,37 @@
+[
+  {
+    "name": "USER A",
+    "lastname": "user_a",
+    "email": "user_a@email.com"
+  },
+  {
+    "name": "USER B",
+    "lastname": "user_b",
+    "email": "user_b@email.com"
+  },
+  {
+    "name": "USER C",
+    "lastname": "user_c",
+    "email": "user_c@email.com"
+  },
+  {
+    "name": "USER D",
+    "lastname": "user_d",
+    "email": "user_d@email.com"
+  },
+  {
+    "name": "USER E",
+    "lastname": "user_e",
+    "email": "user_e@email.com"
+  },
+  {
+    "name": "USER F",
+    "lastname": "user_f",
+    "email": "user_f@email.com"
+  },
+  {
+    "name": "USER I",
+    "lastname": "user_i",
+    "email": "user_i@email.com"
+  }
+]
