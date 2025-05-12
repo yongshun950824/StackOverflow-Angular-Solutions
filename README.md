@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [67758374][951] | [Table row edit function is not working in angular][952] |
 | [67895307_1][947]<br />[67895307_2][949] | [Error: src/app/dashboard.component.ngtypecheck.ts:174:51 - error TS1003: Identifier expected. 174 "" + (((_t48 /*5654,5655*/). /*5656,5656*/) /*565][948] |
 | [67914179][945] | [Angular Material Date Picker isn't using the specified Custom Date Format][946] |
 | [67956137][943] | [I am trying to use MatPaginator the paginator is showing but the all the rows are showing in the single page][944] |
@@ -1899,3 +1900,6 @@ npm start
 
 [949]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67895307_2
 [950]: https://stackoverflow.com/questions/67895307/error-src-app-dashboard-component-ngtypecheck-ts17451-error-ts1003-identif/67896083#67896083
+
+[951]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67758374
+[952]: https://stackoverflow.com/questions/67758374/table-row-edit-function-is-not-working-in-angular/67758925#67758925
