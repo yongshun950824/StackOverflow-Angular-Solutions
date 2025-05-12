@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [67895307_1][947]<br />[67895307_2][949] | [Error: src/app/dashboard.component.ngtypecheck.ts:174:51 - error TS1003: Identifier expected. 174 "" + (((_t48 /*5654,5655*/). /*5656,5656*/) /*565][948] |
 | [67914179][945] | [Angular Material Date Picker isn't using the specified Custom Date Format][946] |
 | [67956137][943] | [I am trying to use MatPaginator the paginator is showing but the all the rows are showing in the single page][944] |
 | [67964269][941] | [Ngx-datatable not showing data][942] |
@@ -1892,3 +1893,9 @@ npm start
 
 [945]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67914179
 [946]: https://stackoverflow.com/questions/67914179/angular-material-date-picker-isnt-using-the-specified-custom-date-format/67914748#67914748
+
+[947]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67895307_1
+[948]: https://stackoverflow.com/questions/67895307/error-src-app-dashboard-component-ngtypecheck-ts17451-error-ts1003-identif/67896083#67896083
+
+[949]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67895307_2
+[950]: https://stackoverflow.com/questions/67895307/error-src-app-dashboard-component-ngtypecheck-ts17451-error-ts1003-identif/67896083#67896083
