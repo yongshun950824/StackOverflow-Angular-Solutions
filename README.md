@@ -26,6 +26,7 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [67697375_1][953]<br />[67697375_2][955] | [angular bootstrap 4 accordion load dynamically first tab show page load][954] |
 | [67758374][951] | [Table row edit function is not working in angular][952] |
 | [67895307_1][947]<br />[67895307_2][949] | [Error: src/app/dashboard.component.ngtypecheck.ts:174:51 - error TS1003: Identifier expected. 174 "" + (((_t48 /*5654,5655*/). /*5656,5656*/) /*565][948] |
 | [67914179][945] | [Angular Material Date Picker isn't using the specified Custom Date Format][946] |
@@ -1903,3 +1904,9 @@ npm start
 
 [951]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67758374
 [952]: https://stackoverflow.com/questions/67758374/table-row-edit-function-is-not-working-in-angular/67758925#67758925
+
+[953]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67697375_1
+[954]: https://stackoverflow.com/questions/67697375/angular-bootstrap-4-accordion-load-dynamically-first-tab-show-page-load/67697965#67697965
+
+[955]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67697375_2
+[956]: https://stackoverflow.com/questions/67697375/angular-bootstrap-4-accordion-load-dynamically-first-tab-show-page-load/67697965#67697965

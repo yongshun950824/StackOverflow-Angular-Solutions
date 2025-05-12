@@ -1,0 +1,12 @@
+<div class="panel-heading" role="tab" [id]="'heading'+data.id">
+  <h4 class="panel-title">
+    <a role="button" (click)="collapse.toggle()" [attr.aria-expanded]="!isCollapsed">
+      {{data.header}}
+    </a>
+  </h4>
+</div>
+<div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed" role="tabpanel" [attr.aria-labelledby]="'heading'+data.id">
+  <div class="panel-body">
+    {{data.content}}
+  </div>
+</div>
