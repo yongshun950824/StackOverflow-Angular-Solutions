@@ -1,0 +1,31 @@
+<form [formGroup]="trainerForm">
+  <mat-form-field class="selectedSkills">
+    <mat-select
+      multiple
+      ngDefaultControl
+      formControlName="selectedSkills"
+      placeholder="Select Device Type"
+      [compareWith]="compareFn"
+    >
+      <mat-option #pickAllCourse (click)="pickAll()" [value]="0"
+        >All</mat-option
+      >
+
+      <mat-option
+        *ngFor="let i of skillList"
+        [value]="{ skillId: i.skillId }"
+        (click)="selectOneItem(pickAllCourse.viewValue)"
+        >{{ i.skillName }}
+      </mat-option>
+    </mat-select>
+    <span
+      class="text-danger"
+      *ngIf="trainerForm.controls['selectedSkills'].invalid"
+      >This field is required</span
+    >
+  </mat-form-field>
+
+  <div>
+    <button mat-button color="primary" (click)="onSubmit()">Submit</button>
+  </div>
+</form>

@@ -1,0 +1,59 @@
+{
+  "isSuccess": true,
+  "data":[
+    {
+      "id": 10011,
+      "name": "TESTING TEAM",
+      "description": "THE TEST TEAM",
+      "memberCount": 2,
+      "accountId": 4,
+      "status": "Active",
+      "createOnString": null,
+      "teamMembersDto": [
+        {
+          "id": 10017,
+          "firstName": "Alexa",
+          "lastName": "Ryan",
+          "title": "COO",
+          "memberId": 1,
+          "roleDto": [
+            {
+              "id": 6,
+              "name": "COVP",
+              "isShow": true,
+              "transactionRoleId": 9
+            },
+            {
+              "id": 7,
+              "name": "DVP Real Estate",
+              "isShow": true,
+              "transactionRoleId": 6
+            }
+          ]
+        },
+        {
+          "id": 10018,
+          "firstName": "Briana",
+          "lastName": "Christoval",
+          "title": null,
+          "memberId": 2,
+          "roleDto": [
+            {
+              "id": 8,
+              "name": "Architect",
+              "isShow": true,
+              "transactionRoleId": 12
+            },
+            {
+              "id": 9,
+              "name": "Construction Project Director",
+              "isShow": true,
+              "transactionRoleId": 11
+            }
+          ]
+        }
+      ],
+      "teamTransactionDetailsDto": []
+    }
+  ]
+}

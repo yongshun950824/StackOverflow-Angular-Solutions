@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Doctors Appointment",
+      "day": "1st January 2022 at 10:30 AM",
+      "reminder": false
+    },
+    {
+      "id": 2,
+      "text": "Meeting",
+      "day": "5th July 2022 at 11:45 AM",
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "text": "Car Servicing",
+      "day": "15th October 2022 at 8:30 AM",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "Cleaner",
+      "day": "3rd November 2022 at 10:00 AM",
+      "reminder": false
+    },
+    {
+      "id": 5,
+      "text": "Dinner",
+      "day": "6th July 2022 at 7:50 PM",
+      "reminder": false
+    }
+  ]
+}

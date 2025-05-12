@@ -1,0 +1,10 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+
+<form [formGroup]="myForm">
+  <!-- [compareWith]="compare" -->
+  <select formControlName="user" [compareWith]="compare">
+    <option *ngFor="let us of user" [ngValue]="us">{{ us.name }}</option>
+  </select>
+</form>
+<pre>{{ myForm.value | json }}</pre>

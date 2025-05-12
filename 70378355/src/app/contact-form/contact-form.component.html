@@ -1,0 +1,14 @@
+<form [formGroup]="form">
+  <div class="form-group">
+    <label class="control-label">Email</label>
+    <input class="form-control w-100 mt-2" type="text" formControlName="login" required>
+    <span class="text-danger" *ngIf="form.controls.login.touched && form.controls.login.errors?.required">
+        Email is required
+    </span>
+</div>
+</form>
+
+<hr /> 
+Form Valid: {{ form.valid }}
+<br />
+Errors: {{ form.errors }}

@@ -1,0 +1,47 @@
+<p-table
+  #partsList
+  [value]="partList$ | async"
+  selectionMode="multiple"
+  [(selection)]="selectedParts"
+>
+  <ng-template pTemplate="header">
+    <tr>
+      <th>item1</th>
+      <th>item2</th>
+      <th>item3</th>
+      <th>item4</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-part let-rowData let-columns="columns">
+    <tr [pSelectableRow]="part">
+      <td>{{ part.item1 }}</td>
+      <td>{{ part.item2 }}</td>
+      <td>{{ part.item3 }}</td>
+      <td>{{ part.item4 }}</td>
+    </tr>
+  </ng-template>
+</p-table>
+
+Part List Selected: {{ selectedParts | json }}
+
+<br />
+
+<!-- <ng-template #modal_content_go let-modal>
+  <modal-form [selectedParts]="selectedParts"></modal-form>
+</ng-template> -->
+
+<p-button
+  (click)="isOpened = !isOpened"
+  icon="pi pi-external-link"
+  label="Show"
+></p-button>
+
+<p-dialog
+  [(visible)]="isOpened"
+  [modal]="true"
+  position="top"
+  [baseZIndex]="10000"
+  header="Modal"
+>
+  <modal-form [selectedParts]="selectedParts"></modal-form>
+</p-dialog>

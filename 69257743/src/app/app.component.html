@@ -1,0 +1,25 @@
+<form [formGroup]="registrationForm">
+  <ion-item lines="full">
+    <ion-label position="floating">Username</ion-label>
+    <ion-input type="text" formControlName="username"></ion-input>
+    <div
+      *ngIf="username.errors?.cannotContainSpace && username.touched"
+      class="alert alert-danger"
+    >
+      Username cannot contain space.
+    </div>
+    <div
+      *ngIf="username.errors?.required && username.touched"
+      class="alert alert-danger"
+    >
+      Username is required.
+    </div>
+    <div
+      *ngIf="username.errors?.shouldBeUnique && username.touched"
+      class="alert alert-danger"
+    >
+      Username is already taken.
+    </div>
+    <div *ngIf="username.pending">Verfügbarkeit wird überprüft...</div>
+  </ion-item>
+</form>

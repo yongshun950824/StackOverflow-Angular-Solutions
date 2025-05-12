@@ -1,0 +1,27 @@
+<ngx-datatable 
+	[rows]="rows" 
+	class="material" 
+	[loadingIndicator]="loadingIndicator"
+	[columnMode]="'force'" 
+	[headerHeight]="50" 
+	[footerHeight]="50" 
+	[rowHeight]="'auto'"
+	[columns]="columns" 
+	[reorderable]="reorderable">
+</ngx-datatable>
+
+<ng-template #batterTemplate let-row="row" let-value="value" let-i="index">
+	<ng-template ngFor let-obj [ngForOf]="value">
+		<strong> ID: {{ obj.id | json }} </strong>
+		<span>Type: {{ obj.type }}</span>
+		<br />
+	</ng-template>
+</ng-template>
+
+<ng-template #toppingTemplate let-row="row" let-value="value" let-i="index">
+	<ng-template ngFor let-obj [ngForOf]="value">
+		<strong> ID: {{ obj.id }} </strong>
+		<span>Type: {{ obj.type }}</span>
+		<br />
+	</ng-template>
+</ng-template>

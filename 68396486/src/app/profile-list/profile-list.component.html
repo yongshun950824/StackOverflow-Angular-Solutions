@@ -1,0 +1,60 @@
+Candidate Table
+<table class="table" *ngIf="candidate">
+  <tr>
+    <td>id</td>
+    <td>{{candidate.id}}</td>
+  </tr>
+  <tr>
+    <td>user_type</td>
+    <td>{{candidate.user_type}}</td>
+  </tr>
+  <tr>
+    <td>created_at</td>
+    <td>{{candidate.created_at}}</td>
+  </tr>
+  <tr>
+    <td>detail</td>
+    <td>
+      <table>
+        <tr>
+          <td>
+            first_name
+          </td>
+          <td>
+            {{candidate.detail.first_name}}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            last_name
+          </td>
+          <td>
+            {{candidate.detail.last_name}}
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+Candidate Details Table
+<table *ngIf="candidateDetail">
+  <tr>
+    <td>
+      first_name
+    </td>
+    <td>
+      {{candidateDetail.first_name}}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      last_name
+    </td>
+    <td>
+      {{candidateDetail.last_name}}
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,10 @@
+<mat-form-field appearance="fill" >
+<mat-label>Region</mat-label>
+<mat-select [(ngModel)]="territoryAssignmentFields.region" name="region">
+  <mat-option *ngFor="let region of regions" [value]="region.id">{{ region.description }}</mat-option>
+</mat-select>
+</mat-form-field>
+
+<hr />
+
+Value: {{ territoryAssignmentFields | json }}

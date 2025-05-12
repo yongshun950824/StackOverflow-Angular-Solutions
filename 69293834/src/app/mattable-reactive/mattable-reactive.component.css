@@ -1,0 +1,58 @@
+.detail-table {
+  width: 100% !important;
+  max-width: 100% !important;
+  border: 1px solid lightgray;
+}
+
+.detail-container {
+  overflow: auto;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+th.mat-column-select {
+  padding-left: unset !important;
+}
+
+td.mat-column-select {
+  width: 30px !important;
+  max-width: 30px !important;
+  padding-left: 7px !important;
+}
+
+th.mat-column-coa {
+  padding-left: 0 !important;
+}
+
+td.mat-column-coa,
+td.mat-column-cross_coa {
+  width: 100px !important;
+  max-width: 100px !important;
+}
+
+td.mat-column-dc {
+  width: 75px !important;
+  max-width: 75px !important;
+}
+
+td.mat-column-currency {
+  width: 75px !important;
+  max-width: 75px !important;
+}
+
+td.mat-column-amount, td.mat-column-local_amount {
+  width: 15% !important;
+  max-width: 15% !important;
+}
+
+td.mat-column-edit {
+  width: 55px !important;
+  max-width: 55px !important;
+}
+
+.btn-xs {
+  padding: .15rem .15rem !important;
+  font-size: .675rem;
+  height: 20px;
+  max-width: 20px;
+}

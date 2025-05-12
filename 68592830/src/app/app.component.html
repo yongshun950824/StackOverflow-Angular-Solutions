@@ -1,0 +1,30 @@
+<div class="modal_row">
+  <nz-progress
+    [nzPercent]="pos?.positionProportion"
+    nzStrokeColor="red"
+    nzType="circle"
+  ></nz-progress>
+  <br />
+  <nz-progress
+    [nzPercent]="pos?.positionProportion"
+    nzStrokeColor="red"
+    nzType="dashboard"
+  >
+  </nz-progress>
+  <br />
+  This Line progress not works!
+  <nz-progress
+    [nzPercent]="pos?.positionProportion"
+    nzStrokeColor="red"
+    nzType="line"
+  ></nz-progress>
+  <br />
+  This Line Progress works!
+  <div style="width: 100%;">
+    <nz-progress
+      [nzPercent]="pos?.positionProportion"
+      nzStrokeColor="red"
+      nzType="line"
+    ></nz-progress>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<div *ngFor="let t of tabs">
+  <p>TabName: {{t.etabName}}</p>
+  <p>TabType: {{t.etabType}}</p>
+
+  <table>
+    <thead>
+      <td>Username</td>
+      <td>Firstname</td>
+      <td>Lastname</td>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of t.users">
+        <td>{{ user.username }}</td>
+        <td>{{ user.firstName }}</td>
+        <td>{{ user.lastName }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr />
+</div>

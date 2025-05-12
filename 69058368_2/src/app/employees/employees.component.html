@@ -1,0 +1,28 @@
+<h2>
+  Employees
+</h2>
+
+<table>
+  <thead>
+    <td>
+      ID
+    </td>
+    <td>
+      Name
+    </td>
+    <td>
+      Action
+    </td>
+  </thead>
+  <tr *ngFor="let employee of employees">
+    <td>
+      {{ employee.id }}
+    </td>
+    <td>
+      {{ employee.name }}
+    </td>
+    <td>
+      <a [routerLink]="['/employees-edit', employee.id]" routerLinkActive="active">Edit</a>
+    </td>
+  </tr>
+</table>

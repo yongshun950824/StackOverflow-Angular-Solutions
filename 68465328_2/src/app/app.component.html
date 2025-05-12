@@ -1,0 +1,34 @@
+<ngx-datatable 
+	[rows]="rows" 
+	class="material" 
+	[loadingIndicator]="loadingIndicator"
+	[columnMode]="'force'" 
+	[headerHeight]="50" 
+	[footerHeight]="50" 
+	[rowHeight]="'auto'"
+	[columns]="columns" 
+	[reorderable]="reorderable">
+
+	<ngx-datatable-column name="Name" prop="name"></ngx-datatable-column>
+
+	<ngx-datatable-column name="Batter" prop="batters.batter">
+		<ng-template let-row="row" let-value="value" let-i="index" ngx-datatable-cell-template>
+			<ng-template ngFor let-obj [ngForOf]="value">
+				<strong> ID: {{ obj.id }} </strong>
+				<span>Type: {{ obj.type }}</span>
+				<br />
+			</ng-template>
+		</ng-template>
+	</ngx-datatable-column>
+
+	<ngx-datatable-column name="Toppings" prop="topping">
+		<ng-template let-row="row" let-value="value" let-i="index" ngx-datatable-cell-template>
+			<ng-template ngFor let-obj [ngForOf]="value">
+				<strong> ID: {{ obj.id }} </strong>
+				<span>Type: {{ obj.type }}</span>
+				<br />
+			</ng-template>
+		</ng-template>
+	</ngx-datatable-column>
+
+</ngx-datatable>

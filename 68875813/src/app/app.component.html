@@ -1,0 +1,25 @@
+<form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">                
+       
+  ...
+
+  <div class="form-group">
+       <label for="gender">Gender</label>            
+       <select class="form-control" id="gender" formControlName="gender">
+           <ng-container *ngFor="let genderEl of genders">
+               <option [ngValue]="genderEl.id" [selected] = "gender == genderEl.id">{{genderEl.name}}</option>
+           </ng-container>        
+       </select>
+   </div>                   
+
+   <div class="form-group">
+       <label for="team">Team</label>
+       <select class="form-control" id="team" formControlName="team">                
+           <ng-container *ngFor="let teamEl of teams">
+               <option [ngValue]="teamEl.id" [selected] = "team == teamEl.id">{{teamEl.name}}</option>
+           </ng-container>
+       </select>
+   </div>
+
+   ...
+
+</form>

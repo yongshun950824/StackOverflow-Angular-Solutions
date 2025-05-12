@@ -1,0 +1,19 @@
+<mat-form-field>
+  <input
+    matInput
+    #inUrl="ngModel"
+    [(ngModel)]="value"
+    type="url"
+    [attr.maxlength]="maxLen"
+    (input)="changeInput(inUrl.value)"
+    [disabled]="isDisabled"
+    [value]="strUrl"
+    placeholder="Homepage"
+    [errorStateMatcher]="errorStateMatcher"
+  />
+  <mat-error>test error</mat-error>
+  <!-- doesn't show up - neither the next -->
+  <mat-error *ngIf="inUrl.touched && inUrl.invalid"
+    >This field is required</mat-error
+  >
+</mat-form-field>

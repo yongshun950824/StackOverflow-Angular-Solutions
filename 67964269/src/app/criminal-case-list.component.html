@@ -1,0 +1,23 @@
+<ngx-datatable
+      class="material p-4"
+      [rows]="rows"
+      [columns]="[
+      { name: 'Case Title', prop: 'title'},
+      { name: 'Location of Incidence', prop: 'location'},
+      { name: 'Date of incidence', prop: 'dateOfIncidence'},
+      { name: 'Description', prop: 'description'},
+      { name: 'No of Victims', prop: 'numberOfVictims' },
+      { name: 'No of Perpetrators', prop: 'numberOfSuspects' },
+      {name: 'Action', prop: 'id'}
+      ]"
+      [columnMode]="ColumnMode.force"
+      [headerHeight]="50"
+      [footerHeight]="50"
+      rowHeight="auto"
+      [externalPaging]="true"
+      [count]="page.totalElements"
+      [offset]="page.pageNumber"
+      [limit]="page.size"
+      (page)="setPage($event)"
+    >
+    </ngx-datatable>

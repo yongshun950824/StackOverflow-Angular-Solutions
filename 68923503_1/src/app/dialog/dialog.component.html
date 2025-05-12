@@ -1,0 +1,9 @@
+<p-dialog [(visible)]="displayDialog" (onHide)="cancel()" [style]="{width: '50vw'}" [baseZIndex]="10000">
+  <p-tabView [controlClose]="displayDialog">
+    <p-tabPanel header="Header 1" [headerStyle]='{"width": "70px"}'>Text 1</p-tabPanel>
+    <p-tabPanel header="Header 2" [headerStyle]='{"width": "70px"}'> Text 2</p-tabPanel>
+    <p-tabPanel header="Header 3" [headerStyle]='{"width": "70px"}'>Tex 3</p-tabPanel>
+  </p-tabView>
+</p-dialog>
+
+<p-button (click)="showDialog()" icon="pi pi-external-link" label="Show"></p-button>

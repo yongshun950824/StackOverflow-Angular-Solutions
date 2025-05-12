@@ -1,0 +1,18 @@
+<h2>With (change) event</h2>
+<div *ngFor="let task of tasks" [class.stroke]="task.isDone">
+  <input
+    type="checkbox"
+    [checked]="task.isDone"
+    (change)="task.isDone = !task.isDone"
+  />
+  {{ task.name }}
+</div>
+
+<hr />
+
+<h2>With [(ngModel)]</h2>
+
+<div *ngFor="let task of tasks" [class.stroke]="task.isDone">
+  <input type="checkbox" [(ngModel)]="task.isDone" />
+  {{ task.name }}
+</div>

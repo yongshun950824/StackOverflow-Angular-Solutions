@@ -1,0 +1,10 @@
+<div *ngFor="let results of data.response.slice(0, 6)">
+  <div class="panel panel-default">
+    <div *ngFor="let result of results.videos">
+      <ng-container *ngIf="result.title == 'Highlights'">
+        <p [innerHTML]="result.embed"></p>
+        <p>{{ result.title }}</p>
+      </ng-container>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+{
+  "message": "Companies successfully Retrieved.",
+  "error": false,
+  "code": 200,
+  "results": {
+    "company": {
+      "id": 1,
+      "name": "NIKITA PLC",
+      "website": "www.niikita.com",
+      "country": {
+        "id": 31,
+        "name": "Canada"
+      }
+    }
+  }
+}

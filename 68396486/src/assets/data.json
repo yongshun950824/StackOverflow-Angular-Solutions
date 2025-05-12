@@ -1,0 +1,38 @@
+{
+    "message": "Profile Successfully Retrieved.",
+    "error": false,
+    "code": 200,
+    "results": {
+        "profile": {
+            "id": 2,
+            "user_type": "Teacher",
+            "created_at": "2021-07-07T07:19:13.000000Z",
+            "updated_at": "2021-07-15T09:57:48.000000Z",
+            "deleted_at": null,
+            "last_login_at": "2021-07-15T09:57:48.000000Z",
+            "detail": {
+                "id": 1,
+                "user_id": 2,
+                "first_name": "Lamptey",
+                "last_name": "Akwetey",
+                "other_name": null,
+                "email": "lamptey@yahoo.com",
+                "gender": null,
+                "user_photo": null,
+                "marital_status": null,
+                "dob": null,
+                "address": null,
+                "cv_file": null,
+                "summary": null,
+                "created_at": "2021-07-07T07:19:13.000000Z",
+                "updated_at": null
+            },
+            "educations": [],
+            "experiences": [],
+            "achievements": [],
+            "certificates": [],
+            "skills": [],
+            "employees": []
+        }
+    }
+}

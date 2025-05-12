@@ -1,0 +1,90 @@
+<mat-horizontal-stepper [linear]="isLinear" #stepper labelPosition="bottom">
+  <mat-step [stepControl]="companyForm">
+    <form [formGroup]="companyForm">
+      <ng-template matStepLabel matStepperIcon="phone">Company Info</ng-template>
+
+      <div class="col-12 col-md-4">
+        <div class="form-group">
+          <label for="mobileNumber">Mobile Number:<span style="color:red;">*</span></label>
+          <div class="input-group mb-4">
+            <ngx-intl-tel-input [cssClass]="'form-control mb-4'" [preferredCountries]="preferredCountries"
+              [enableAutoCountrySelect]="false" [enablePlaceholder]="true" [searchCountryFlag]="true"
+              [searchCountryField]="[SearchCountryField.Iso2, SearchCountryField.Name]" [selectFirstCountry]="false"
+              [selectedCountryISO]="CountryISO.India" [maxlength]="15" [phoneValidation]="true"
+              [separateDialCode]="true" name="mobileNumber" formControlName="mobileNumber">
+            </ngx-intl-tel-input>
+          </div>
+        </div>
+        <div *ngIf="fc.mobileNumber.touched && fc.mobileNumber.invalid">
+          <div *ngIf="fc.mobileNumber.hasError('required')">
+            <div class="text-danger">
+              Mobile Number is required!
+            </div>
+          </div>
+          <div *ngIf="fc.mobileNumber.hasError('validatePhoneNumber')">
+            <div class="text-danger">
+              Invalid Phone Number!
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-8">
+        <div class="form-group">
+          <label for="name">Company Name:<span style="color:red;">*</span></label>
+          <input type="text" formControlName="companyName" placeholder="Company Name" class="form-control" required/>
+        </div>
+        <div *ngIf="fc.companyName.touched && fc.companyName.invalid">
+          <div *ngIf="fc.companyName.hasError('required')">
+            <div class="text-danger">
+              Company Name is required!
+            </div>
+          </div>
+          <div *ngIf="fc.companyName.hasError('minlength')">
+            <div class="text-danger">
+              Company Name cannot be less than 3 characters!
+            </div>
+          </div>
+          <div *ngIf="fc.companyName.hasError('maxlength')">
+            <div class="text-danger">
+              Company Name cannot be more than 100 characters!
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer">
+        <button mat-raised-button color="primary" matStepperNext [disabled]="companyForm.status != 'VALID'">Next</button>
+      </div>
+    </form>
+  </mat-step>
+  <mat-step [stepControl]="idForm">
+    <form [formGroup]="idForm">
+      <ng-template matStepLabel>Company ID</ng-template>
+      <div class="col-12 col-md-12">
+        <div class="form-group">
+          <label for="registration_number">Registration Number:<span style="color:red;">*</span></label>
+          <input type="text" formControlName="registrationNumber" placeholder="Registration Number" class="form-control" required/>
+        </div>
+        <div *ngIf="fi.registrationNumber.touched && fi.registrationNumber.invalid">
+          <div *ngIf="fi.registrationNumber.hasError('required')">
+            <div class="text-danger">
+              Company Reg. No. is required!
+            </div>
+          </div>
+          <div *ngIf="fi.registrationNumber.hasError('maxlength')">
+            <div class="text-danger">
+              Company Reg. No. cannot be more than 100 characters!
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer">
+        <button mat-raised-button color="black" matStepperPrevious>Back</button> &nbsp;
+        <button mat-raised-button color="success" [disabled]="isLoading" type="submit" (click)="onSubmit()">
+                        <span *ngIf="isLoading" class="spinner-border spinner-border-sm mr-1"></span>
+                          Submit
+                      </button> &nbsp;
+        <button mat-raised-button color="warn" (click)="stepper.reset()">Reset</button>
+      </div>
+    </form>
+  </mat-step>
+</mat-horizontal-stepper>

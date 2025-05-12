@@ -1,0 +1,43 @@
+<form [formGroup]="form">
+  <mat-form-field appearance="outline" fxFlex="1 1 calc(100% - 10px)" fxFlex.lt-md="1 1 calc(100% - 10px)"
+    fxFlex.lt-sm="100%" fxFlex.xs="100%" class="from-color">
+    <mat-label class="label-padding">Enter Current Password</mat-label>
+    <input type="password" class="label-padding" type="text" style="-webkit-text-security: disc;"matInput placeholder="Current Password" formControlName="currentPassword" />
+    <mat-error *ngIf="currentPassword.errors?.required && currentPassword.touched">Enter current password</mat-error>
+    <mat-error *ngIf="currentPassword.errors?.matches">Doesn't match</mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" fxFlex="1 1 calc(100% - 10px)" fxFlex.lt-md="1 1 calc(100% - 10px)"
+    fxFlex.lt-sm="100%" fxFlex.xs="100%" class="from-color">
+    <mat-label class="label-padding">Enter New Password</mat-label>
+    <input type="password" class="label-padding" type="text" style="-webkit-text-security: disc;"matInput placeholder="New Password" formControlName="newPassword" />
+    <mat-error *ngIf="newPassword.errors?.required && newPassword.touched">Enter New password</mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" fxFlex="1 1 calc(100% - 10px)" fxFlex.lt-md="1 1 calc(100% - 10px)"
+    fxFlex.lt-sm="100%" fxFlex.xs="100%" class="from-color">
+    <mat-label class="label-padding">Enter Confirm Password</mat-label>
+    <input type="password" class="label-padding" type="text" style="-webkit-text-security: disc;"matInput placeholder="Confirm Password" formControlName="confirmPassword" [errorStateMatcher]="passwordMatcher" />
+    <mat-error *ngIf="confirmPassword.errors?.required && confirmPassword.touched">Enter Confirm password</mat-error>
+    <mat-error *ngIf="confirmPassword.errors?.confirmedValidator && confirmPassword.touched">New & Confirm password not
+      match!</mat-error>
+  </mat-form-field>
+</form>
+
+<hr />
+
+<div>
+  <div>Current Password (Hardcode): 123456</div>
+</div>
+
+<hr />
+
+<div>
+  <h4>Current Passord error</h4>
+  <div>{{currentPassword.errors | json}}</div>
+</div>
+
+<div>
+  <h4>Form valid</h4>
+  <div>{{form.valid }}</div>
+</div>

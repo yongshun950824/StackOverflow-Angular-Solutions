@@ -1,0 +1,39 @@
+<form [formGroup]="form" (submit)="onSubmit()">
+  <input formControlName="title" />
+  <table formArrayName="actors">
+    <tr>
+      <th colspan="2">Besetzung:</th>
+      <th width="150px">
+        <button
+          type="button"
+          mat-stroked-button
+          color="primary"
+          (click)="addActor()"
+        >
+          Hinzufügen +
+        </button>
+      </th>
+    </tr>
+    <tr
+      *ngFor="let actor of actors.controls; let i = index"
+      [formGroupName]="i"
+    >
+      <td>
+        Darsteller:
+        <input type="text" formControlName="actor" class="form-control" />
+      </td>
+      <td>
+        Rolle:
+        <input type="text" formControlName="role" class="form-control" />
+      </td>
+      <td>
+        <button (click)="removeActor(i)" mat-stroked-button color="warn">
+          Remove
+        </button>
+      </td>
+    </tr>
+  </table>
+  <button mat-raised-button color="primary" type="submit">
+    Film speichern
+  </button>
+</form>

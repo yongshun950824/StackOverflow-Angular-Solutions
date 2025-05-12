@@ -1,0 +1,86 @@
+<div class="card">
+      <form [formGroup]="userform">
+        <div class="mt-5 box">
+          <div class="form-row">
+            <div class="col-md-12">
+              <div class="formgroup mt-4">
+                <label>Name</label>
+              </div>
+              <div class="form-row" style="margin-top: -10px;">
+                <div class="col">
+                  <input type="text" formControlName="name" class="form-contorl" placdeholder="name">
+                </div>
+    
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="formgroup mt-4">
+                <label>Phone number</label>
+              </div>
+              <div class="form-row" style="margin-top: -10px;">
+                <div class="col">
+                  <input type="text" formControlName="Phone" class="form-contorl" placdeholder="Phone number">
+                </div>
+    
+              </div>
+              <div class="form-row mt-4">
+                <div class="col-md-2">
+                  <button type="button" class="btn btn-primary" [disabled]="!userform.valid"
+                    (click)="submit()">submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      <div class="col-md mt-4 mb-4">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Phone</th>
+              <th>Remove</th>
+              <th>Edit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of listdata">
+              <td><span>{{item.name}}</span></td>
+              <td><span>{{item.Phone}}</span></td>
+    
+              <td><button type="button" class="btn btn-danger" (click)="removeitem(item)">Remove</button></td>
+              <td><button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary"
+                  (click)="edit(item)">Edit</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Update</h5>
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+    
+            <form [formGroup]="editUserForm">
+    
+              <div class="input-group form-group">
+                <input type="text" class="form-control" formControlName="name" placeholder="Name">
+              </div>
+              <div class="input-group form-group">
+                <input type="text" class="form-control" formControlName="Phone" placeholder="Phone number">
+              </div>
+              <div class="col-md-2">
+                <button type="button" class="btn btn-primary" [disabled]="!editUserForm.valid"
+                  (click)="update()">update</button>
+              </div>
+            </form>`
+          </div>
+        </div>
+      </div>
+    </div>

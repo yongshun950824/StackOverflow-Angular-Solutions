@@ -1,0 +1,56 @@
+<table mat-table class="table" matSort aria-label="Elements" [dataSource]="this.dataSource">
+
+    <ng-container matColumnDef="Pt_Id">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Patient Id</th>
+        <td mat-cell *matCellDef="let row">{{row.Pt_Id}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Pt_Name">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Patient Name</th>
+        <td mat-cell *matCellDef="let row">{{row.Pt_Name}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Pt_Age">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Patient Age</th>
+        <td mat-cell *matCellDef="let row">{{row.Pt_Age}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Department">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Department</th>
+        <td mat-cell *matCellDef="let row">{{row.Department}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Docname">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Doctor Name</th>
+        <td mat-cell *matCellDef="let row">{{row.Docname}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Pt_Email">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Patient Email</th>
+        <td mat-cell *matCellDef="let row">{{row.Pt_Email}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Pt_Mob">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Patient Mobile</th>
+        <td mat-cell *matCellDef="let row">{{row.Pt_Mob}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Options">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Options</th>
+        <td mat-cell *matCellDef="let row">
+            <button type="button" class="btn btn-light mr-1"
+                data-toggle="modal" data-target="#exampleModal"
+                (click)="editClick(row)">
+                Edit</button>
+            <button type="button" class="btn btn-light mr-1"
+                (click)="deleteClick(row)">
+                    Delete</button>
+        </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+
+<mat-paginator [length]="1000" [pageSize]="5" [pageSizeOptions]="[5, 10, 25, 100]">
+</mat-paginator>

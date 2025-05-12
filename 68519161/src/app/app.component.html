@@ -1,0 +1,14 @@
+<nz-layout class="full-screen">
+<nz-sider nzCollapsible
+          [(nzCollapsed)]="isCollapsed"
+          [nzWidth]="260">
+    <app-left-control></app-left-control>
+</nz-sider>
+<nz-content class="container">
+    <i nz-icon nzType="step-backward" nzTheme="outline"></i> Cannot render<br>
+    <i nz-icon nzType="down" nzTheme="outline"></i> Can render<br>
+    <i nz-icon nzType="caret-left" nzTheme="outline"></i> Cannot render<br>
+    <i nz-icon nzType="double-right" nzTheme="outline"></i> Can render<br>
+    <i nz-icon nzType="setting" nzTheme="outline"></i> Cannot render<br>
+</nz-content>
+</nz-layout>

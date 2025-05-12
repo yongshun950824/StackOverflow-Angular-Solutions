@@ -1,0 +1,36 @@
+{
+  "message": "vehicle Model Detail.",
+  "error": false,
+  "code": 200,
+  "results": {
+    "vehiclemakes": [{
+        "name": "Freightliner",
+        "id": 15
+      },
+      {
+        "name": "Honda",
+        "id": 13
+      },
+      {
+        "name": "Renault",
+        "id": 3
+      },
+      {
+        "name": "Suzuki",
+        "id": 16
+      },
+      {
+        "name": "Toyota",
+        "id": 4
+      },
+      {
+        "name": "Volkswagen",
+        "id": 6
+      },
+      {
+        "name": "Volvo",
+        "id": 5
+      }
+    ]
+  }
+}

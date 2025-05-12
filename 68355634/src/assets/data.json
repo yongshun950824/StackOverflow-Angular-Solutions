@@ -1,0 +1,26 @@
+{
+  "message": "Site Infos. Successfully Retrieved.",
+  "error": false,
+  "code": 200,
+  "results": {
+      "infos": [
+          {
+            "id": 1,
+            "name": "Lamptey",
+            "email": "example@email.com",
+            "address": "ddsdsdsd",
+            "website": "www.marlamp.com",
+            "phone1": 2549099887766,
+            "phone2": null,
+            "phone3": null,
+            "site_name": null,
+            "site_logo": null,
+            "site_favicon": null,
+            "created_by": 0,
+            "updated_by": 0,
+            "created_at": null,
+            "updated_at": null
+          }
+      ]
+    }
+}

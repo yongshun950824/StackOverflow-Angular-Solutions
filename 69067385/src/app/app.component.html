@@ -1,0 +1,131 @@
+<div class="col-md-3">
+  <div class="sticky-top mb-3">
+    <div class="card">
+      <div class="card-header">
+        <h4 class="card-title">Click to Edit</h4>
+      </div>
+      <div class="card-body">
+        <div id="external-events">
+          <button (click)="profileFunction()" type="button" class="btn btn-block btn-primary">Profile</button>
+          <button (click)="licenceFunction()" type="button" class="btn btn-block btn-warning">Licence</button>
+        </div>
+      </div>
+      <div class="card-header">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="col-md-9" *ngIf="employee != undefined">
+  <div *ngIf="profileTemplate" class="card card-default color-palette-box">
+    <div class="card-body">
+      <form [formGroup]="profileInfoForm" (ngSubmit)="onSubmitProfile()">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <div class="form-group">
+                  <label for="first_name">First Name:<span style="color:red;">*</span></label>
+                  <input type="text" formControlName="first_name" placeholder="First Name" class="form-control" required/>
+                </div>
+                <div *ngIf="fp.first_name.touched && fp.first_name.invalid">
+                  <div *ngIf="fp.first_name.hasError('required')">
+                    <div class="text-danger">
+                      First Name is required!
+                    </div>
+                  </div>
+                  <div *ngIf="fp.first_name.hasError('minlength')">
+                    <div class="text-danger">
+                      First Name cannot be less than 2 characters!
+                    </div>
+                  </div>
+                  <div *ngIf="fp.first_name.hasError('maxlength')">
+                    <div class="text-danger">
+                      First Name cannot be more than 50 characters!
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="form-group">
+                  <label for="other_name">Middle Name:<span style="color:red;">*</span></label>
+                  <input type="text" formControlName="other_name" placeholder="Middle Name" class="form-control" required/>
+                </div>
+                <div *ngIf="fp.other_name.touched && fp.other_name.invalid">
+                  <div *ngIf="fp.other_name.hasError('maxlength')">
+                    <div class="text-danger">
+                      Middle Name cannot be more than 50 characters!
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="form-group">
+                  <label for="last_name">Last Name:<span style="color:red;">*</span></label>
+                  <input type="text" formControlName="last_name" placeholder="Last Name" class="form-control" required/>
+                </div>
+                <div *ngIf="fp.last_name.touched && fp.last_name.invalid">
+                  <div *ngIf="fp.last_name.hasError('required')">
+                    <div class="text-danger">
+                      Last Name is required!
+                    </div>
+                  </div>
+                  <div *ngIf="fp.last_name.hasError('minlength')">
+                    <div class="text-danger">
+                      Last Name cannot be less than 2 characters!
+                    </div>
+                  </div>
+                  <div *ngIf="fp.last_name.hasError('maxlength')">
+                    <div class="text-danger">
+                      Last Name cannot be more than 50 characters!
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button type="submit" class="btn btn-success" [disabled]="isLoading" class="btn btn-success" (click)="profileValidate()">
+                    <span *ngIf="isLoading" class="spinner-border spinner-border-sm mr-1"></span>
+                    <i class="fa fa-save" aria-hidden="true"></i> Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div *ngIf="licenceTemplate" class="card card-default color-palette-box">
+    <form [formGroup]="licenceInfoForm" (ngSubmit)="onSubmitLicence()">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="form-group">
+            <label for="licence_number">Licence Number:<span style="color:red;">*</span></label>
+            <input type="text" formControlName="licence_number" placeholder="Licence Number" class="form-control" required/>
+          </div>
+          <div *ngIf="fl.licence_number.touched && fl.licence_number.invalid">
+            <div *ngIf="fl.licence_number.hasError('required')">
+              <div class="text-danger">
+                Licence Number is required!
+              </div>
+            </div>
+            <div *ngIf="fl.licence_number.hasError('minlength')">
+              <div class="text-danger">
+                Licence Number cannot be less than 2 characters!
+              </div>
+            </div>
+            <div *ngIf="fl.licence_number.hasError('maxlength')">
+              <div class="text-danger">
+                Licence Number cannot be more than 50 characters!
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button type="submit" class="btn btn-success" [disabled]="isLoading" class="btn btn-success" (click)="licenceValidate()">
+                    <span *ngIf="isLoading" class="spinner-border spinner-border-sm mr-1"></span>
+                    <i class="fa fa-save" aria-hidden="true"></i> Save</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+p {
+  font-family: Lato;
+}
+
+:host {
+  display: block;
+  font-family: sans-serif;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+

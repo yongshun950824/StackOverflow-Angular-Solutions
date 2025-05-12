@@ -1,0 +1,5 @@
+<div class="posts-div">
+  <div *ngFor="let post of posts$ | async | keyvalue">
+    {{ post.value.title }}
+  </div>
+</div>

@@ -1,0 +1,34 @@
+<ngx-datatable tableClass="table table-striped table-bordered table-hover" [data]="userInfoList" [columns]="columns"
+  [options]="options">
+  <ngx-caption>
+    <div class="row">
+      <div class="col-sm-6 col-xs-6 col-6 ">
+        <b>
+                <i class="fa fa-table" aria-hidden="true"></i>
+                Site Info. List
+            </b>
+      </div>
+    </div>
+  </ngx-caption>
+
+  <ng-template #addressTpl let-row let-rowIndex="rowIndex" let-columnValue="columnValue">
+    {{columnValue.name}}, {{columnValue.email}}
+  </ng-template>
+
+  <ng-template #actionTpl let-row let-rowIndex="rowIndex" let-columnValue="columnValue">
+    <a href="javascript:void(0)" (click)="edit(row)">Edit</a> |
+    <a href="javascript:void(0)" (click)="remove(rowIndex)">Delete</a>
+  </ng-template>
+
+  <ng-template #companyTpl let-row let-rowIndex="rowIndex" let-columnValue="columnValue">
+    {{columnValue.name}}
+  </ng-template>
+
+  <ng-template #rolesTpl let-row let-rowIndex="rowIndex" let-columnValue="columnValue">
+    <ng-template ngFor let-obj [ngForOf]="columnValue">
+      {{obj.name}}
+      <br />
+    </ng-template>
+  </ng-template>
+
+</ngx-datatable>

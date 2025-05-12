@@ -1,0 +1,30 @@
+{
+  "message": "You have successfully Retrieved User Detail",
+  "error": false,
+  "code": 200,
+  "results": {
+    "user": {
+      "id": 2,
+      "company_id": 6,
+      "first_name": "Ashar",
+      "email": "example@email.com",
+      "last_name": "Nelo",
+      "roles": [{
+          "id": 4,
+          "name": "HOD",
+          "guard_name": "api"
+        },
+        {
+          "id": 6,
+          "name": "Account Officer",
+          "guard_name": "api"
+        }
+      ],
+      "company": {
+        "id": 6,
+        "name": "ABC Company",
+        "website": "https://mycompany.com"
+      }
+    }
+  }
+}

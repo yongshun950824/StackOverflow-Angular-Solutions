@@ -1,0 +1,3 @@
+<ng-select [items]="branchModel$ | async" bindLabel="branchName" required (change)="getBankInfo($event);"
+  name="branchName" bindValue="title" placeholder="Select Branch" [(ngModel)]="reserve.branchName">
+</ng-select>

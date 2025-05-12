@@ -1,0 +1,60 @@
+<form [formGroup]="myForm">
+  Value: {{ myForm.value | json }}
+  <hr />
+  <mat-form-field>
+    <input matInput placeholder="Nom" formControlName="name" />
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Prénom" formControlName="surname" />
+  </mat-form-field>
+
+  <mat-form-field>
+    <input
+      matInput
+      placeholder="Date de naissance"
+      formControlName="birthday"
+    />
+  </mat-form-field>
+  <br />
+  <br />
+  <div
+    *ngIf="myForm.get('address')['controls'].length > 0"
+    formArrayName="address"
+  >
+    <div
+      *ngFor="let address of myForm.get('address')['controls']; let i = index"
+      [formGroup]="address"
+    >
+      <mat-form-field>
+        <input matInput placeholder="identifiant" formControlName="id" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="type" formControlName="type" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="rue" formControlName="rue" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="numero" formControlName="numero" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="ville" formControlName="ville" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="codepst" formControlName="codepst" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="pays" formControlName="pays" />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="commentaire"
+          formControlName="commentaire"
+        />
+      </mat-form-field>
+    </div>
+  </div>
+  <br />
+</form>

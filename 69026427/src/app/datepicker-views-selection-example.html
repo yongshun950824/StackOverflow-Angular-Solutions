@@ -1,0 +1,21 @@
+<mat-form-field appearance="fill">
+  <mat-label>Month and Year</mat-label>
+  <input matInput
+        [matDatepicker]="dp"
+        [formControl]="date"
+         (click)="_openDatepickerOnClick(dp)"
+         (keydown.arrowdown)="_openDatepickerOnClick(dp)"
+         (keydown.enter)="_openDatepickerOnClick(dp)">
+  <mat-datepicker-toggle matSuffix [for]="dp"></mat-datepicker-toggle>
+  <mat-datepicker #dp startView="multi-year" (yearSelected)="chosenYearHandler($event, dp)"
+    (monthSelected)="chosenMonthHandler($event, dp)" panelClass="example-month-picker">
+  </mat-datepicker>
+</mat-form-field>
+
+<br />
+Selected value: {{ date.value }}
+
+
+<!-- Copyright 2021 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->

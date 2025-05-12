@@ -1,0 +1,22 @@
+{
+  "message": "Company Detail.",
+  "error": false,
+  "code": 200,
+  "results": {
+    "company": {
+        "id": 6,
+        "name": "ABC Company",
+        "website": "https://mycompany.com",
+        "company_logo": null,
+        "registration_number": "sdsddssd",
+        "date_established": "1970-01-01",
+        "address": "sdsdssd",
+        "country_id": 1,
+        "brief_description": "ddssdsd",
+        "created_by": 0,
+        "updated_by": 0,
+        "created_at": "2021-06-16T21:23:07.000000Z",
+        "updated_at": null
+    }
+  }
+}

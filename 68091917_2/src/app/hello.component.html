@@ -1,0 +1,14 @@
+<ng-template [ngIf]="seasonsdetail.season?.length">
+  <ng-container *ngFor="let seasons of seasonsdetail.season">
+    <div class="col-sm-2 col-md-3 col-lg-3">
+      <ng-container>
+        <div class="card" data-id=''>
+          <a href=''><img class="card-img img-fluid " [src]='seasons.image ? seasons.image.medium : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"' alt="Seasons"></a>
+        </div>
+        <h4 class="card-title">
+          {{seasons.number}}
+        </h4>
+      </ng-container>
+    </div>
+  </ng-container>
+</ng-template>

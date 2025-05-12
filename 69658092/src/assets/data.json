@@ -1,0 +1,7 @@
+{
+  "title": "James Bond 007",
+  "actors": [
+    { "id": 5, "role": "test", "actor": "test" },
+    { "id": 6, "role": "test", "actor": "test2" }
+  ]
+}

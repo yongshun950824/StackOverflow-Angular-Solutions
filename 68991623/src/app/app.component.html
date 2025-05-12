@@ -1,0 +1,29 @@
+<form [formGroup]="wareHouseGroup">
+  <div class="form-group">
+    <label>ID: </label>
+    <input formControlName="id" class="form-control"/>
+  </div>
+
+  <div class="form-group">
+    <label>Side ID: </label>
+    <input formControlName="sideId" class="form-control"/>
+  </div>
+
+  <div class="form-group" formGroupName="itemDetail">
+    <div class="form-group">
+      <label>Item1Qty: </label>
+      <input formControlName="Item1Qty" class="form-control"/>
+    </div>
+
+    <div class="form-group">
+      <label>Item2Qty: </label>
+      <input formControlName="item2Qty" class="form-control"/>
+    </div>
+
+    <div class="form-group">
+      <label>Item3Qty: </label>
+      <input formControlName="item3Qty" class="form-control"/>
+    </div>
+
+  </div>
+</form>

@@ -1,0 +1,17 @@
+<div class="form-group">
+  <label class="form-label">{{ label }}</label>
+  <input #input="ngModel"
+      class="form-control"
+      (blur)="onTouched()"
+      [(ngModel)]="value"
+      (ngModelChange)="onChange(input.value)" />
+  <div class="error" *ngIf="control?.errors?.required">
+    {{ label }} is required.
+  </div>
+  <div class="error" *ngIf="control?.errors?.minlength">
+    Min. length for {{ label }} is {{ control?.errors?.minlength.requiredLength }}.
+  </div>
+  <div class="error" *ngIf="control?.errors?.pattern">
+    Pattern for {{ label }} incorrect.
+  </div>
+</div>

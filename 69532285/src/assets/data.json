@@ -1,0 +1,22 @@
+{
+  "dataList": [
+    {
+      "id": 1,
+      "name": "house risk 17",
+      "description": "the best guidelines",
+      "settings": []
+    },
+    {
+      "id": 2,
+      "name": "house risk 2",
+      "description": "the next best guidelines",
+      "settings": []
+    },
+    {
+      "id": 3,
+      "name": "house risk 3",
+      "description": "the worst guidelines",
+      "settings": []
+    }
+  ]
+}

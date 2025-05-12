@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+  <a class="navbar-brand" routerLink="/">
+    <img src="assets/bot.png" alt="END Logo">
+  </a>
+  <div class="nav navbar-nav">
+    <a class="nav-item nav-link" routerLink="/commands" routerLinkActive="active">
+      <i class="fa fa-code" aria-hidden="true"></i>
+    </a>
+    <a class="nav-item nav-link" routerLink="/docs" routerLinkActive="active">
+      <i class="fa fa-book" aria-hidden="true"></i>
+    </a>
+    <a class="nav-item nav-link" [href]="githubURL" routerLinkActive="active">
+      <i class="fab fa-github" aria-hidden="true"></i>
+    </a>
+    <a class="nav-item nav-link" [href]="discordInvite" routerLinkActive="active">
+      <i class="fab fa-discord"></i>
+    </a>
+  </div>
+  <div class="nav navbar-nav ml-auto">
+    <div *ngIf="!user">
+      <a class="nav-item nav-link" routerLink="/login"><i class="fa fa-user" aria-hidden="true"></i> Login</a>
+    </div>
+    <div *ngIf="user">
+      <div ngbDropdown class="nav-item">
+        <a ngbDropdownToggle id="dropdownMenuButton" class="nav-link" aria-haspopup="true" aria-expanded="false">
+          <img [src]="user.displayAvatarURL"> {{ user.username }}
+        </a>
+        <div ngbDropdownMenu aria-labelledby="dropdownMenuButton">
+          <a ngbDropdownItem routerLink="/dashboard">Dashboard</a>
+          <hr class="m-1">
+          <a ngbDropdownItem routerLink="/logout">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

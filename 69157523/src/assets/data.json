@@ -1,0 +1,52 @@
+[
+  {
+      "date": "2021-09-07T00:00:00",
+      "type": "Teacher",
+      "total": 744
+  },
+  {
+      "date": "2021-09-07T00:00:00",
+      "type": "Student",
+      "total": 4769
+  },
+  {
+      "date": "2021-09-08T00:00:00",
+      "type": "Teacher",
+      "total": 740
+  },
+  {
+      "date": "2021-09-08T00:00:00",
+      "type": "Student",
+      "total": 4743
+  },
+  {
+      "date": "2021-09-09T00:00:00",
+      "type": "Teacher",
+      "total": 736
+  },
+  {
+      "date": "2021-09-09T00:00:00",
+      "type": "Student",
+      "total": 4714
+  },
+  {
+      "date": "2021-09-10T00:00:00",
+      "type": "Teacher",
+      "total": 52
+  },
+  {
+      "date": "2021-09-10T00:00:00",
+      "type": "Student",
+      "total": 47
+  },
+  {
+      "date": "2021-09-11T00:00:00",
+      "type": "Teacher",
+      "total": 648
+  },
+  {
+      "date": "2021-09-11T00:00:00",
+      "type": "Student",
+      "total": 4341
+  }
+]

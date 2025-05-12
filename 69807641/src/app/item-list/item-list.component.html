@@ -1,0 +1,45 @@
+<p-table
+  [value]="projects"
+  styleClass="p-datatable-gridlines"
+  responsiveLayout="scroll"
+  scrollHeight="17.8vw"
+>
+  <ng-template pTemplate="header">
+    <tr>
+      <th style="text-align: center;" translate>
+        itemlist.customer <br />
+        itemlist.name
+      </th>
+      <th style="text-align: center;" translate>
+        itemlist.project <br />
+        itemlist.name
+      </th>
+      <th style="text-align: center;" translate>
+        itemlist.business <br />
+        itemlist.divition
+      </th>
+      <th style="text-align: center;" translate>itemlist.rank</th>
+      <th style="text-align: center;" translate>
+        itemlist.order <br />
+        itemlist.amount
+      </th>
+      <th style="text-align: center;" translate>
+        itemlist.customer <br />
+        itemlist.area
+      </th>
+    </tr></ng-template
+  >
+
+  <ng-template pTemplate="body" let-pjt>
+    <tr>
+      <td style="text-align: center;">{{ pjt.customer_name }}</td>
+      <td style="text-align: center; width: 15vw;">
+        {{ pjt.project_name_jp }}
+      </td>
+      <td style="text-align: center;">{{ pjt.business_divition }}</td>
+      <td style="text-align: center;">{{ pjt.rank }}</td>
+      <td style="text-align: center;">{{ pjt.order_amount }}</td>
+      <td style="text-align: center;">{{ pjt.customer_area }}</td>
+    </tr>
+  </ng-template>
+</p-table>

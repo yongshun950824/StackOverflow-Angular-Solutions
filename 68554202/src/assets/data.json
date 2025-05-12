@@ -1,0 +1,28 @@
+{
+  "message": "You have successfully Retrieved User Detail",
+  "error": false,
+  "code": 200,
+  "results": {
+    "user": {
+      "id": 2,
+      "department_id": 2,
+      "first_name": "Frank",
+      "active": "1",
+      "last_name": "Akram",
+      "roles": [
+        {
+          "id": 1,
+          "name": "Manager"
+        },
+        {
+          "id": 2,
+          "name": "Supervisor"
+        }
+      ],
+      "department": {
+        "id": 6,
+        "name": "Account"
+      }
+    }
+  }
+}

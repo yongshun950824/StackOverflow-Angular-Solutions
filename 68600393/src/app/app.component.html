@@ -1,0 +1,17 @@
+<div class="container">
+  <ul>
+      <li class="active"><a routerLink="/login">Login</a></li>
+      <li><a routerLink="/auth/register">Register</a></li>
+  </ul>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <input formControlName="email" type="email" placeholder="email">
+      <div *ngIf="(loginForm.get('email')?.touched || loginForm.get('email')?.dirty) && loginForm.get('email')?.errors?.required">
+          Email is required!
+      </div>
+      <div *ngIf="loginForm.get('email')?.errors?.invalidEmail">
+          Email is invalid!
+      </div>
+      <input formControlName="password" type="password" placeholder="password">
+      <input type="submit" value="Login">
+  </form>
+</div>

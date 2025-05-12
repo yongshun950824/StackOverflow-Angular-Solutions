@@ -26,6 +26,136 @@ npm start
 
 | Project source | Question |
 |-|-|
+| [67697375_1][953]<br />[67697375_2][955] | [angular bootstrap 4 accordion load dynamically first tab show page load][954] |
+| [67758374][951] | [Table row edit function is not working in angular][952] |
+| [67895307_1][947]<br />[67895307_2][949] | [Error: src/app/dashboard.component.ngtypecheck.ts:174:51 - error TS1003: Identifier expected. 174 "" + (((_t48 /*5654,5655*/). /*5656,5656*/) /*565][948] |
+| [67914179][945] | [Angular Material Date Picker isn't using the specified Custom Date Format][946] |
+| [67956137][943] | [I am trying to use MatPaginator the paginator is showing but the all the rows are showing in the single page][944] |
+| [67964269][941] | [Ngx-datatable not showing data][942] |
+| [67980568][939] | [Angular Autocomplete - Filter by starting letters of the words in][940] |
+| [68036767][937] | [Angular Material - Paginate dynamic table][938] |
+| [68061161][935] | [DataSource from APIs method "get" is not loaded in mat-table][936] |
+| [68061659][933] | [Why ngfor paints the rows but not the data in it][934] |
+| [68090592][931] | [Angular - mat-paginator not appearing for mat-table][932] |
+| [68091917_1][927]<br />[68091917_2][929] | [Angular ngIf else is not working inside ng-container][928] |
+| [68093856][925] | [Expanding multiple rows in a nested mat table in Angular not working][926] |
+| [68122079][923] | [ngb-pagination with an async collection not working][924] |
+| [68123711][921] | [Bootstrap dropdown don't show items][922] |
+| [68187335][919] | [Angular - Display rating value as stars][920] |
+| [68232037][917] | [Angular - error TS2339: Property 'results' does not exist on type 'Object'][914] |
+| [68244839_1][913]<br />[68244839_2][915] | [error TS2322: Type 'string' is not assignable to type 'keyof ChartTypeRegistry'][914] |
+| [68323074_1][909]<br />[68323074_2][911] | [How to change font color of matautocomplete options][910] |
+| [68355634][907] | [Angular - ngx-datatable celltemplate not populating data][908] |
+| [68396486][905] | [Angular - Property 'results' does not exist on type 'ICandidate'.ngt][905] |
+| [68416293][903] | [icons are not showing in footer angular][904] |
+| [68257830_1][899]<br />[68257830_2][901] | [Angular - Error: Object is possibly null in password change validator][900] |
+| [68433503][897] | [Angular - ng-pick-datetime: how to initialize the input value in a reactive form][898] |
+| [68465328_1][893]<br />[68465328_2][895] | [How to display nested array objects in ngx datatable?][894] |
+| [68468512][891] | [Angular routing (link) is not working in HTML][892] |
+| [68473741][889] | [Angular - Ng-Bootstrap Modal Edit not loading Any data][890] |
+| [68497263][887] | [Angular - How to validate maxlength in ngx-intl-tel-input][888] |
+| [68519161][885] | [Can't render some NG-ZORRO icon][886] |
+| [68525279][883] | ['AbstractControl' is missing the following properties from type 'FormControl'][884] |
+| [68369290][881] | [Angular - How to display related fields in @tusharghoshbd ngx-datatable][882] |
+| [68550158][879] | [@tusharghoshbd ngx-datatable not displaying related data][880] |
+| [68554098][877] | [Angular - How to format created_at in @tusharghoshbd ngx-datatable][878] |
+| [68554202][875] | [Angular - How to customize id as autoincrement in @tusharghoshbd ngx-datatable][876] |
+| [68566431][873] | [Angular - How to customize color for boolean in @tusharghoshbd ngx-datatable][874] |
+| [68568726_1][869]<br />[68568726_2][871] | [Error: NG0301: Export of name 'ngModel' not found][870] |
+| [68600393][867] | [Angular async validator error is not showing][868] |
+| [68253773][865] | [Angular - How to format Material Datepicker before submit][866] |
+| [68615677][863] | [Error: Unexpected value 'CookieService' imported by the module 'DynamicTestModule'. Please add an @NgModule annotation][864] |
+| [68629455_1][859]<br />[68629455_2][861] | [Angular 8 - How to format date in saturn-datepicker][860] |
+| [67212529][857] | [How to fix the nzType isn't a known property of 'i' in antd v11.4.0][858] |
+| [68592830][855] | [ng-zorro - Linear ProgressBar is not showing][856] |
+| [68662984][853] | [Primeng password template suggestions not coming up][854] |
+| [68676863][851] | [Handling Error in HTTPClient get method not working][852] |
+| [68681370][849] | [ngb-rating is not working without bootstrap cdn links][850] |
+| [68703758][847] | [Angular 12 - leaflet : leaflet routing maching problem - Property 'Routing' does not exist on type 'typeof import][848] |
+| [68709892][845] | [amcharts in Angular: ColumnSeries 'stroke' and 'fill' not a function][846] |
+| [68708595][843] | [Import statement for MAT_DATE_LOCALE in Angular 11][844] |
+| [68779927][841] | [How to define nested object model in Angular?][842] |
+| [68781375][839] | [Compile time error after using PrimeNG table for filtering data in textbox][840] |
+| [68786386][837] | [Dropdown filter is not working in with Row Group table in PrimeNG controls][838] |
+| [68767098][835] | [Angular Material - Sort the data for mat-table][836] |
+| [68796129][833] | [Manipulating array of objects][834] |
+| [68810020][831] | [Angular tusharghoshbd-ngx-datatable - ERROR TypeError: arr.forEach is not a function][832] |
+| [68808225][829] | [how to set default initial value on nz-autocomplete][830] |
+| [68826288][827] | [Angular - How to pass object dynamically to div element using \[ngstyle\]][828] |
+| [68829959_1][823]<br />[68829959_2][825] | [Angular Ionic - Data not displaying because ctx.data is undefined][824] |
+| [68871553][821] | [ngtsc(2345) - Argument of type 'Event' is not assignable to parameter of type 'SortEvent'][822] |
+| [68875813][819] | [Angular - Why the "[selected]" works in a case but not in another?][820] |
+| [68879640_1][815]<br />[68879640_2][817] | [Angular: Converting SQL 24 hour time format to 12 hour time format][816] |
+| [68889415][813] | [ng-select - Data not loading correctly according to JSON][814] |
+| [68900230_1][809]<br />[68900230_2][811] | [ngFor Property 'id' does not exist on type 'Object'][810] |
+| [68901471][807] | [Angular Dropdown not Rendering][808] |
+| [68899513][805] | [Angular - Select dropdown list is blank][806] |
+| [68915846][803] | [How to fix ERROR Uncaught (in promise): Error: Cannot match any routes when clicking on row with navigation in Material Angular table?][804] |
+| [68923503_1][799]<br />[68923503_2][801] | [PrimeNG TabView - Open Tab based on URL][800] |
+| [68862373][797] | [PrimeNG TabView - Open Tab based on URL][798] |
+| [68946569_1][793]<br />[68946569_2][795] | [Angular: async \| keyvalue --> Property 'X' does not exist on type 'X'][794] |
+| [68950773][791] | [Add alternating rowcolor to Angular Material Table with expandable rows][792] |
+| [68952309][789] | [Bootstrap 5 dropdown is not working on Angular 12][790] |
+| [68962562_1][785]<br />[68962562_2][787] | [Angular - error TS2769: No overload matches this call. Overload 1 of 5, '(next: null \| undefined, error: (error: any)][786] |
+| [68962776_1][781]<br />[68962776_2][783] | [Angular Material - Type 'string' is not assignable to type 'MatSnackBarHorizontalPosition'][782] |
+| [68991623][779] | [Angular subscribe data to show in Form UI][780] |
+| [68982169][777] | [Why centering children of "ion-content" doesn't work but centering children of a "div" does?][778] |
+| [69005090_1][773]<br />[69005090_2][775] | [Angular - Get undefined from service][774] |
+| [69024360][771] | [mat-input still remains invalid after successful validation - Angular 12][772] |
+| [69026427][769] | [Angular Material disable Month][770] |
+| [69013823][767] | [How to set columnMode/... of a ngx-datatable without binding to ViewModel?][768] |
+| [69046447][765] | [Angular 12 Set Validators Component][766] |
+| [69068665][763] | [Need Help Disabling Year/month combobox in mat-calendar Angular Material Component][764] |
+| [69072431][761] | [Array in object with mat-Table in Angular][762] |
+| [69067385][759] | [Angular - How to have multiple patchvalues for data retrieval][760] |
+| [69081925][757] | [Angular - Implement NgxMatSelectSearch in mat-select][758] |
+| [69058368_1][753]<br />[69058368_2][755] | [Angular - How to call and activate a function from another component][754] |
+| [69096767_1][749]<br />[69096767_2][751] | [Sorting array got error like cannot read properties of undefined (reading 'sort')][750] |
+| [69100370][747] | [display the data of an array of one object in another object][748] |
+| [69094908][745] | [Display Data in Angular Material Table][746] |
+| [69115504][743] | [How to get value from Observable][744] |
+| [69121458][741] | [ngx-bootstrap 7: BsDropdownModule error TS2554: Expected 0 arguments, but got 1][742] |
+| [69157523][739] | [Ng2-Chart - Assign JSON Data To DataSet][740] |
+| [69160897][737] | [How to use angular ngx-translate pipe in ngx-charts?][738] |
+| [69161446][735] | [Reactive Forms Not Working with ControlValueAccessor][736] |
+| [69165576][733] | [Angular - How to allow only one checkbox to be selected in dynamic FormArray][734] |
+| [69239715][731] | [Angular Material - How to add a button on each row of a table?][732] |
+| [69240521][729] | [Angular - ngValue is not binding][730] |
+| [69248074][727] | [Bind JSON Array to a Nested Form Group][728] |
+| [69257743][725] | [Angular: Cannot read properties of null (reading 'cannotContainSpace')][726] |
+| [69235584][723] | [Angular Material - How to set value to the Mat Date Range Picker][724] |
+| [69255137][721] | [Angular Material - Hide disabled select option][722] |
+| [69275784][719] | [NullInjectorError while testing][720] |
+| [69293834][717] | [Angular - FormArray with Material Table and data row was incorrect][718] |
+| [69294961][715] | [Angular - Dynamic input form array fails to update][716] |
+| [69324455][713] | [Angular 11 - text-decoration: line-through does not work properly with class binding][714] |
+| [69345600][711] | [Angular mat-date-picker format inside calendar][712] |
+| [69364297][709] | [Angular 12: Cannot find a differ supporting object '\[object Object\]' of type 'object'][710] |
+| [69370690][707] | [Angular12 get API making table data not showing][708] |
+| [69487827][705] | [Error: formGroup expects a FormGroup instance. Please pass one in., core.js:6479 ERROR TypeError: Cannot read properties of undefined (reading 'get')][706] |
+| [69532285][703] | [Cannot iterate over "dataList" returned from service call to java backend in angular 9 application][704] |
+| [69498214][701] | [PrimeNG - Use trueValue/falseValue on p-checkbox][702] |
+| [69654691][699] | [Push or Splice onto array of objects at a certain index typescript / angular 9?][700] |
+| [69658092][697] | [Angular FormArray setValue with data from Service][698] |
+| [69659005][695] | [Mat-form-field must contain a MatFormFieldControl Error, Using *ngIf][696] |
+| [69687735][693] | [Angular Reactive form validation and data formation issue][694] |
+| [69694034][691] | [Cannot set properties of undefined in Subscription callback][692] |
+| [69748221][689] | [PrimeNG Dropdown - How to set two value in one optionLabel][690] |
+| [69750235][687] | [Angular Material mat-select - Showing count number along with the first selected value in multiple selection][688] |
+| [69777737][685] | [Displaying Error message under the button Login, when condition is wrong (static username and password) in Angular?][686] |
+| [69792573][683] | [Mat Autocomplete shows \[object object\] in the dropdown before the selection][684] |
+| [69807641][681] | [Getting duplicate data in Angular HTML table (PrimeNG)][682] |
+| [69842396][679] | [Angular Material custom form field doesn't show mat-error][680] |
+| [69908423_1][675]<br />[69908423_2][677] | [How do I iterate an array of JSON data to always get the first JSON object][676] |
+| [70001872][673] | [Angular template: grouping rows on month][674] |
+| [70163265][671] | [Angular - Filter list object to other list][672] |
+| [70372162][669] | ["Type 'ValidatorFn \| null' is not assignable to type 'ValidatorFn'." contact-form component in angular][670] |
+| [70378355][667] | [How not to display an error message if the field was not touched?][668] |
+| [70387568][665] | [Angular FormGroup touched not working for checkbox][666] |
+| [70459684][663] | [Angular - Argument of type null is not assignable to parameter of type IUser][664] |
+| [70460308][661] | [Angular - Argument of type 'OperatorFunction\<IUser, void\>' is not assignable to parameter of type 'OperatorFunction\<Object, void\>'][662] |
+| [70503429][659] | [Parse value from object in Angular template][660] |
+| [70519777][657] | [Angular - Get this ERROR Error: Error trying to diff '[object Object]'. Only arrays and iterables are allowed][658] |
 | [70630385][655] | [Angular - Got type mismatch error while using for-in loop][656] |
 | [70661310][653] | [Cannot find control with path: 'data -> 1 -> value'][654] |
 | [70727908][651] | [Angular - Get Error: Error trying to diff '[object Object]'. Only arrays and iterables are allowed][652] |
@@ -1330,3 +1460,453 @@ npm start
 
 [655]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70630385
 [656]: https://stackoverflow.com/questions/70630385/angular-got-type-mismatch-error-while-using-for-in-loop/70630496#70630496
+
+[657]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70519777
+[658]: https://stackoverflow.com/questions/70519777/angular-get-this-error-error-error-trying-to-diff-object-object-only-arr/70527012#70527012
+
+[659]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70503429
+[660]: https://stackoverflow.com/questions/70503429/parse-value-from-object-in-angular-template/70503565#70503565
+
+[661]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70460308
+[662]: https://stackoverflow.com/questions/70460308/angular-argument-of-type-operatorfunctioniuser-void-is-not-assignable-to/70460381#70460381
+
+[663]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70459684
+[664]: https://stackoverflow.com/questions/70459684/angular-argument-of-type-null-is-not-assignable-to-parameter-of-type-iuser/70459888#70459888
+
+[665]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70387568
+[666]: https://stackoverflow.com/questions/70387568/angular-formgroup-touched-not-working-for-checkbox/70387627#70387627
+
+[667]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70378355
+[668]: https://stackoverflow.com/questions/70378355/how-not-to-display-an-error-message-if-the-field-was-not-touched/70378453#70378453
+
+[669]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70372162
+[670]: https://stackoverflow.com/questions/70372162/type-validatorfn-null-is-not-assignable-to-type-validatorfn-contact-for/70372241#70372241
+
+[671]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70163265
+[672]: https://stackoverflow.com/questions/70163265/angular-filter-list-object-to-other-list/70163408#70163408
+
+[673]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/70001872
+[674]: https://stackoverflow.com/questions/70001872/angular-template-grouping-rows-on-month/70002242#70002242
+
+[675]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69908423_1
+[676]: https://stackoverflow.com/questions/69908423/how-do-i-iterate-an-array-of-json-data-to-always-get-the-first-json-object/69908500#69908500
+
+[677]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69908423_2
+[678]: https://stackoverflow.com/questions/69908423/how-do-i-iterate-an-array-of-json-data-to-always-get-the-first-json-object/69908500#69908500
+
+[679]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69842396
+[680]: https://stackoverflow.com/questions/69842396/angular-material-custom-form-field-doesnt-show-mat-error/69848833#69848833
+
+[681]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69807641
+[682]: https://stackoverflow.com/questions/69807641/getting-duplicate-data-in-angular-html-table-primeng/69807817#69807817
+
+[683]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69792573
+[684]: https://stackoverflow.com/questions/69792573/mat-autocomplete-shows-object-object-in-the-dropdown-before-the-selection/69796233#69796233
+
+[685]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69777737
+[686]: https://stackoverflow.com/questions/69777737/displaying-error-message-under-the-button-login-when-condition-is-wrong-static/69777871#69777871
+
+[687]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69750235
+[688]: https://stackoverflow.com/questions/69750235/angular-material-mat-select-showing-count-number-along-with-the-first-selected/69762572#69762572
+
+[689]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69748221
+[690]: https://stackoverflow.com/questions/69748221/primeng-dropdown-how-to-set-two-value-in-one-optionlabel/69751383#69751383
+
+[691]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69694034
+[692]: https://stackoverflow.com/questions/69694034/cannot-set-properties-of-undefined-in-subscription-callback/69694073#69694073
+
+[693]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69687735
+[694]: https://stackoverflow.com/questions/69687735/angular-reactive-form-validation-and-data-formation-issue/69693480#69693480
+
+[695]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69659005
+[696]: https://stackoverflow.com/questions/69659005/mat-form-field-must-contain-a-matformfieldcontrol-error-using-ngif/69659296#69659296
+
+[697]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69658092
+[698]: https://stackoverflow.com/questions/69658092/angular-formarray-setvalue-with-data-from-service/69658989#69658989
+
+[699]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69654691
+[700]: https://stackoverflow.com/questions/69654691/push-or-splice-onto-array-of-objects-at-a-certain-index-typescript-angular-9/69654766#69654766
+
+[701]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69498214
+[702]: https://stackoverflow.com/questions/69498214/primeng-use-truevalue-falsevalue-on-p-checkbox/69549187#69549187
+
+[703]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69532285
+[704]: https://stackoverflow.com/questions/69532285/cannot-iterate-over-datalist-returned-from-service-call-to-java-backend-in-ang/69548279#69548279
+
+[705]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69487827
+[706]: https://stackoverflow.com/questions/69487827/error-formgroup-expects-a-formgroup-instance-please-pass-one-in-core-js6479/69490041#69490041
+
+[707]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69370690
+[708]: https://stackoverflow.com/questions/69370690/angular12-get-api-making-table-data-not-showing/69370762#69370762
+
+[709]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69364297
+[710]: https://stackoverflow.com/questions/69364297/angular-12-cannot-find-a-differ-supporting-object-object-object-of-type-ob/69370147#69370147
+
+[711]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69345600
+[712]: https://stackoverflow.com/questions/69345600/angular-mat-date-picker-format-inside-calendar/69354764#69354764
+
+[713]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69324455
+[714]: https://stackoverflow.com/questions/69324455/angular-11-text-decoration-line-through-does-not-work-properly-with-class-bin/69324687#
+
+[715]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69294961
+[716]: https://stackoverflow.com/questions/69294961/angular-dynamic-input-form-array-fails-to-update/69297167#69297167
+
+[717]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69293834
+[718]: https://stackoverflow.com/questions/69293834/angular-formarray-with-material-table-and-data-row-was-incorrect/69294372#69294372
+
+[719]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69275784
+[720]: https://stackoverflow.com/questions/69275784/nullinjectorerror-while-testing/69278146#69278146
+
+[721]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69255137
+[722]: https://stackoverflow.com/questions/69255137/angular-material-hide-disabled-select-option/69262596#69262596
+
+[723]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69235584
+[724]: https://stackoverflow.com/questions/69235584/angular-material-how-to-set-value-to-the-mat-date-range-picker/69262237#69262237
+
+[725]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69257743
+[726]: https://stackoverflow.com/questions/69257743/angular-cannot-read-properties-of-null-reading-cannotcontainspace/69262077#69262077
+
+[727]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69248074
+[728]: https://stackoverflow.com/questions/69248074/bind-json-array-to-a-nested-form-group/69248228#69248228
+
+[729]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69240521
+[730]: https://stackoverflow.com/questions/69240521/angular-ngvalue-is-not-binding/69240571#69240571
+
+[731]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69239715
+[732]: https://stackoverflow.com/questions/69239715/angular-material-how-to-add-a-button-on-each-row-of-a-table/69240243#69240243
+
+[733]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69165576
+[734]: https://stackoverflow.com/questions/69165576/angular-how-to-allow-only-one-checkbox-to-be-selected-in-dynamic-formarray/69170416#69170416
+
+[735]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69161446
+[736]: https://stackoverflow.com/questions/69161446/reactive-forms-not-working-with-controlvalueaccessor/69161673#69161673
+
+[737]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69160897
+[738]: https://stackoverflow.com/questions/69160897/how-to-use-angular-ngx-translate-pipe-in-ngx-charts/69161323#69161323
+
+[739]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69157523
+[740]: https://stackoverflow.com/questions/69157523/ng2-chart-assign-json-data-to-dataset/69158849#69158849
+
+[741]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69121458
+[742]: https://stackoverflow.com/questions/69121458/ngx-bootstrap-7-bsdropdownmodule-error-ts2554-expected-0-arguments-but-got-1/69126086#69126086
+
+[743]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69115504
+[744]: https://stackoverflow.com/questions/69115504/how-to-get-value-from-observable/69115778#69115778
+
+[745]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69094908
+[746]: https://stackoverflow.com/questions/69094908/display-data-in-angular-material-table/69111182#69111182
+
+[747]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69100370
+[748]: https://stackoverflow.com/questions/69100370/display-the-data-of-an-array-of-one-object-in-another-object/69110937#69110937
+
+[749]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69096767_1
+[750]: https://stackoverflow.com/questions/69096767/sorting-array-got-error-like-cannot-read-properties-of-undefined-reading-sort/69097210#69097210
+
+[751]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69096767_2
+[752]: https://stackoverflow.com/questions/69096767/sorting-array-got-error-like-cannot-read-properties-of-undefined-reading-sort/69097210#69097210
+
+[753]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69058368_1
+[754]: https://stackoverflow.com/questions/69058368/angular-how-to-call-and-activate-a-function-from-another-component/69082827#69082827
+
+[755]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69058368_2
+[756]: https://stackoverflow.com/questions/69058368/angular-how-to-call-and-activate-a-function-from-another-component/69082827#69082827
+
+[757]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69081925
+[758]: https://stackoverflow.com/questions/69081925/angular-implement-ngxmatselectsearch-in-mat-select/69082112#69082112
+
+[759]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69067385
+[760]: https://stackoverflow.com/questions/69067385/angular-how-to-have-multiple-patchvalues-for-data-retrieval/69081384#69081384
+
+[761]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69072431
+[762]: https://stackoverflow.com/questions/69072431/array-in-object-with-mat-table-in-angular/69073982#69073982
+
+[763]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69068665
+[764]: https://stackoverflow.com/questions/69068665/need-help-disabling-year-month-combobox-in-mat-calendar-angular-material-compone/69068873#69068873
+
+[765]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69046447
+[766]: https://stackoverflow.com/questions/69046447/angular-12-set-validators-component/69053885#69053885
+
+[767]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69013823
+[768]: https://stackoverflow.com/questions/69013823/how-to-set-columnmode-of-a-ngx-datatable-without-binding-to-viewmodel/69045123#69045123
+
+[769]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69026427
+[770]: https://stackoverflow.com/questions/69026427/angular-material-disable-month/69038638#69038638
+
+[771]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69024360
+[772]: https://stackoverflow.com/questions/69024360/mat-input-still-remains-invalid-after-successful-validation-angular-12/69024706#69024706
+
+[773]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69005090_1
+[774]: https://stackoverflow.com/questions/69005090/angular-get-undefined-from-service/69006623#69006623
+
+[775]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/69005090_2
+[776]: https://stackoverflow.com/questions/69005090/angular-get-undefined-from-service/69006623#69006623
+
+[777]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68982169
+[778]: https://stackoverflow.com/questions/68982169/why-centering-children-of-ion-content-doesnt-work-but-centering-children-of-a/68992373#68992373
+
+[779]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68991623
+[780]: https://stackoverflow.com/questions/68991623/angular-subscribe-data-to-show-in-form-ui/68991860#68991860
+
+[781]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68962776_1
+[782]: https://stackoverflow.com/questions/68962776/angular-material-type-string-is-not-assignable-to-type-matsnackbarhorizonta/68963032#68963032
+
+[783]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68962776_2
+[784]: https://stackoverflow.com/questions/68962776/angular-material-type-string-is-not-assignable-to-type-matsnackbarhorizonta/68963032#68963032
+
+[785]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68962562_1
+[786]: https://stackoverflow.com/questions/68962562/angular-error-ts2769-no-overload-matches-this-call-overload-1-of-5-next/68962890#68962890
+
+[787]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68962562_2
+[788]: https://stackoverflow.com/questions/68962562/angular-error-ts2769-no-overload-matches-this-call-overload-1-of-5-next/68962890#68962890
+
+[789]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68952309
+[790]: https://stackoverflow.com/questions/68952309/bootstrap-5-dropdown-is-not-working-on-angular-12/68953199#68953199
+
+[791]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68950773
+[792]: https://stackoverflow.com/questions/68950773/add-alternating-rowcolor-to-angular-material-table-with-expandable-rows/68951227#68951227
+
+[793]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68946569_1
+[794]: https://stackoverflow.com/questions/68946569/angular-async-keyvalue-property-x-does-not-exist-on-type-x/68946732#68946732
+
+[795]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68946569_2
+[796]: https://stackoverflow.com/questions/68946569/angular-async-keyvalue-property-x-does-not-exist-on-type-x/68946732#68946732
+
+[797]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68862373
+[798]: https://stackoverflow.com/questions/68862373/primeng-tabview-open-tab-based-on-url/68932956#68932956
+
+[799]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68923503_1
+[800]: https://stackoverflow.com/questions/68923503/angular-primeng-p-dialog-with-tabs/68931533#68931533
+
+[801]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68923503_2
+[802]: https://stackoverflow.com/questions/68923503/angular-primeng-p-dialog-with-tabs/68931533#68931533
+
+[803]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68915846
+[804]: https://stackoverflow.com/questions/68915846/how-to-fix-error-uncaught-in-promise-error-cannot-match-any-routes-when-clic/68916321#68916321
+
+[805]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68899513
+[806]: https://stackoverflow.com/questions/68899513/angular-select-dropdown-list-is-blank/68902895#68902895
+
+[807]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68901471
+[808]: https://stackoverflow.com/questions/68901471/angular-dropdown-not-rendering/68901796#68901796
+
+[809]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68900230_1
+[810]: https://stackoverflow.com/questions/68900230/ngfor-property-id-does-not-exist-on-type-object/68900320#68900320
+
+[811]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68900230_2
+[812]: https://stackoverflow.com/questions/68900230/ngfor-property-id-does-not-exist-on-type-object/68900320#68900320
+
+[813]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68889415
+[814]: https://stackoverflow.com/questions/68889415/ng-select-data-not-loading-correctly-according-to-json/68890074#68890074
+
+[815]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68879640_1
+[816]: https://stackoverflow.com/questions/68879640/angular-converting-sql-24-hour-time-format-to-12-hour-time-format/68879825#68879825
+
+[817]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68879640_2
+[818]: https://stackoverflow.com/questions/68879640/angular-converting-sql-24-hour-time-format-to-12-hour-time-format/68879825#68879825
+
+[819]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68875813
+[820]: https://stackoverflow.com/questions/68875813/angular-why-the-selected-works-in-a-case-but-not-in-another/68877873#68877873
+
+[821]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68871553
+[822]: https://stackoverflow.com/questions/68871553/ngtsc2345-argument-of-type-event-is-not-assignable-to-parameter-of-type-s/68877767#68877767
+
+[823]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68829959_1
+[824]: https://stackoverflow.com/questions/68829959/angular-ionic-data-not-displaying-because-ctx-data-is-undefined/68831206#68831206
+
+[825]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68829959_2
+[826]: https://stackoverflow.com/questions/68829959/angular-ionic-data-not-displaying-because-ctx-data-is-undefined/68831206#68831206
+
+[827]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68826288
+[828]: https://stackoverflow.com/questions/68826288/angular-how-to-pass-object-dynamically-to-div-element-using-ngstyle/68826372#68826372
+
+[829]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68808225
+[830]: https://stackoverflow.com/questions/68808225/how-to-set-default-initial-value-on-nz-autocomplete/68812494#68812494
+
+[831]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68810020
+[832]: https://stackoverflow.com/questions/68810020/angular-tusharghoshbd-ngx-datatable-error-typeerror-arr-foreach-is-not-a-func/68810272#68810272
+
+[833]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68796129
+[834]: https://stackoverflow.com/questions/68796129/manipulating-array-of-objects/68796257#68796257
+
+[835]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68767098
+[836]: https://stackoverflow.com/questions/68767098/angular-material-sort-the-data-for-mat-table/68789061#68789061
+
+[837]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68786386
+[838]: https://stackoverflow.com/questions/68786386/dropdown-filter-is-not-working-in-with-row-group-table-in-primeng-controls/68788559#68788559
+
+[839]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68781375
+[840]: https://stackoverflow.com/questions/68781375/compile-time-error-after-using-primeng-table-for-filtering-data-in-textbox/68782040#68782040
+
+[841]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68779927
+[842]: https://stackoverflow.com/questions/68779927/how-to-define-nested-object-model-in-angular/68780564#68780564
+
+[843]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68708595
+[844]: https://stackoverflow.com/questions/68708595/import-statement-for-mat-date-locale-in-angular-11/68750392#68750392
+
+[845]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68709892
+[846]: https://stackoverflow.com/questions/68709892/amcharts-in-angular-columnseries-stroke-and-fill-not-a-function/68711314#68711314
+
+[847]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68703758
+[848]: https://stackoverflow.com/questions/68703758/angular-12-leaflet-leaflet-routing-maching-problem-property-routing-does/68706207#68706207
+
+[849]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68681370
+[850]: https://stackoverflow.com/questions/68681370/ngb-rating-is-not-working-without-bootstrap-cdn-links/68688780#68688780
+
+[851]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68676863
+[852]: https://stackoverflow.com/questions/68676863/handling-error-in-httpclient-get-method-not-working/68677170#68677170
+
+[853]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68662984
+[854]: https://stackoverflow.com/questions/68662984/primeng-password-template-suggestions-not-coming-up/68663678#68663678
+
+[855]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68592830
+[856]: https://stackoverflow.com/questions/68592830/ng-zorro-linear-progressbar-is-not-showing/68659654#68659654
+
+[857]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67212529
+[858]: https://stackoverflow.com/questions/67212529/how-to-fix-the-nztype-isnt-a-known-property-of-i-in-antd-v11-4-0/68646965#68646965
+
+[859]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68629455_1
+[860]: https://stackoverflow.com/questions/68629455/angular-8-how-to-format-date-in-saturn-datepicker/68629678#68629678
+
+[861]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68629455_2
+[862]: https://stackoverflow.com/questions/68629455/angular-8-how-to-format-date-in-saturn-datepicker/68629678#68629678
+
+[863]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68615677
+[864]: https://stackoverflow.com/questions/68615677/error-unexpected-value-cookieservice-imported-by-the-module-dynamictestmodul/68615818#68615818
+
+[865]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68253773
+[866]: https://stackoverflow.com/questions/68253773/angular-how-to-format-material-datepicker-before-submit/68607483#68607483
+
+[867]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68600393
+[868]: https://stackoverflow.com/questions/68600393/angular-async-validator-error-is-not-showing/68600563#68600563
+
+[869]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68568726_1
+[870]: https://stackoverflow.com/questions/68568726/error-ng0301-export-of-name-ngmodel-not-found/68569718#68569718
+
+[871]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68568726_2
+[872]: https://stackoverflow.com/questions/68568726/error-ng0301-export-of-name-ngmodel-not-found/68569718#68569718
+
+[873]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68566431
+[874]: https://stackoverflow.com/questions/68566431/angular-how-to-customize-color-for-boolean-in-tusharghoshbd-ngx-datatable/68568672#68568672
+
+[875]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68554202
+[876]: https://stackoverflow.com/questions/68554202/angular-how-to-customize-id-as-autoincrement-in-tusharghoshbd-ngx-datatable/68554606#68554606
+
+[877]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68554098
+[878]: https://stackoverflow.com/questions/68554098/angular-how-to-format-created-at-in-tusharghoshbd-ngx-datatable/68554489#68554489
+
+[879]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68550158
+[880]: https://stackoverflow.com/questions/68550158/tusharghoshbd-ngx-datatable-not-displaying-related-data/68553391#68553391
+
+[881]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68369290
+[882]: https://stackoverflow.com/questions/68369290/angular-how-to-display-related-fields-in-tusharghoshbd-ngx-datatable/68553383#68553383
+
+[883]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68525279
+[884]: https://stackoverflow.com/questions/68525279/abstractcontrol-is-missing-the-following-properties-from-type-formcontrol/68525416#68525416
+
+[885]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68519161
+[886]: https://stackoverflow.com/questions/68519161/cant-render-some-ng-zorro-icon/68523502#68523502
+
+[887]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68497263
+[888]: https://stackoverflow.com/questions/68497263/angular-how-to-validate-maxlength-in-ngx-intl-tel-input/68498479#68498479
+
+[889]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68473741
+[890]: https://stackoverflow.com/questions/68473741/angular-ng-bootstrap-modal-edit-not-loading-any-data/68492595#68492595
+
+[891]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68468512
+[892]: https://stackoverflow.com/questions/68468512/angular-routing-link-is-not-working-in-html/68468617#68468617
+
+[893]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68465328_1
+[894]: https://stackoverflow.com/questions/68465328/how-to-display-nested-array-objects-in-ngx-datatable/68466239#68466239
+
+[895]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68465328_2
+[896]: https://stackoverflow.com/questions/68465328/how-to-display-nested-array-objects-in-ngx-datatable/68466239#68466239
+
+[897]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68433503
+[898]: https://stackoverflow.com/questions/68433503/angular-ng-pick-datetime-how-to-initialize-the-input-value-in-a-reactive-form/68436343#68436343
+
+[899]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68257830_1
+[900]: https://stackoverflow.com/questions/68257830/angular-error-object-is-possibly-null-in-password-change-validator/68419946#68419946
+
+[901]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68257830_2
+[902]: https://stackoverflow.com/questions/68257830/angular-error-object-is-possibly-null-in-password-change-validator/68419946#68419946
+
+[903]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68416293
+[904]: https://stackoverflow.com/questions/68416293/icons-are-not-showing-in-footer-angular/68418779#68418779
+
+[905]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68396486
+[906]: https://stackoverflow.com/questions/68396486/angular-property-results-does-not-exist-on-type-icandidate-ngt/68402680#68402680
+
+[907]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68355634
+[908]: https://stackoverflow.com/questions/68355634/angular-ngx-datatable-celltemplate-not-populating-data/68356535#68356535
+
+[909]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68323074_1
+[910]: https://stackoverflow.com/questions/68323074/how-to-change-font-color-of-matautocomplete-options/68341245#68341245
+
+[911]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68323074_2
+[912]: https://stackoverflow.com/questions/68323074/how-to-change-font-color-of-matautocomplete-options/68341245#68341245
+
+[913]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68244839_1
+[914]: https://stackoverflow.com/questions/68244839/error-ts2322-type-string-is-not-assignable-to-type-keyof-charttyperegistry/68250314#68250314
+
+[915]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68244839_2
+[916]: https://stackoverflow.com/questions/68244839/error-ts2322-type-string-is-not-assignable-to-type-keyof-charttyperegistry/68250314#68250314
+
+[917]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68232037
+[918]: https://stackoverflow.com/questions/68232037/angular-error-ts2339-property-results-does-not-exist-on-type-object/68232552#68232552
+
+[919]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68187335
+[920]: https://stackoverflow.com/questions/68187335/angular-display-rating-value-as-stars/68187591#68187591
+
+[921]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68123711
+[922]: https://stackoverflow.com/questions/68123711/bootstrap-dropdown-dont-show-items/68130260#68130260
+
+[923]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68122079
+[924]: https://stackoverflow.com/questions/68122079/ngb-pagination-with-an-async-collection-not-working/68124352#68124352
+
+[925]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68093856
+[926]: https://stackoverflow.com/questions/68093856/expanding-multiple-rows-in-a-nested-mat-table-in-angular-not-working/68094477#68094477
+
+[927]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68091917_1
+[928]: https://stackoverflow.com/questions/68091917/angular-ngif-else-is-not-working-inside-ng-container/68093279#68093279
+
+[929]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68091917_2
+[930]: https://stackoverflow.com/questions/68091917/angular-ngif-else-is-not-working-inside-ng-container/68093279#68093279
+
+[931]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68090592
+[932]: https://stackoverflow.com/questions/68090592/angular-mat-paginator-not-appearing-for-mat-table/68092145#68092145
+
+[933]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68061659
+[934]: https://stackoverflow.com/questions/68061659/why-ngfor-paints-the-rows-but-not-the-data-in-it/68061773#68061773
+
+[935]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68061161
+[936]: https://stackoverflow.com/questions/68061161/datasource-from-apis-method-get-is-not-loaded-in-mat-table/68061406#68061406
+
+[937]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/68036767
+[938]: https://stackoverflow.com/questions/68036767/angular-material-paginate-dynamic-table/68044548#68044548
+
+[939]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67980568
+[940]: https://stackoverflow.com/questions/67980568/angular-autocomplete-filter-by-starting-letters-of-the-words-in/67981328#67981328
+
+[941]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67964269
+[942]: https://stackoverflow.com/questions/67964269/ngx-datatable-not-showing-data/67965274#67965274
+
+[943]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67956137
+[944]: https://stackoverflow.com/questions/67956137/i-am-trying-to-use-matpaginator-the-paginator-is-showing-but-the-all-the-rows-ar/67956510#67956510
+
+[945]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67914179
+[946]: https://stackoverflow.com/questions/67914179/angular-material-date-picker-isnt-using-the-specified-custom-date-format/67914748#67914748
+
+[947]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67895307_1
+[948]: https://stackoverflow.com/questions/67895307/error-src-app-dashboard-component-ngtypecheck-ts17451-error-ts1003-identif/67896083#67896083
+
+[949]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67895307_2
+[950]: https://stackoverflow.com/questions/67895307/error-src-app-dashboard-component-ngtypecheck-ts17451-error-ts1003-identif/67896083#67896083
+
+[951]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67758374
+[952]: https://stackoverflow.com/questions/67758374/table-row-edit-function-is-not-working-in-angular/67758925#67758925
+
+[953]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67697375_1
+[954]: https://stackoverflow.com/questions/67697375/angular-bootstrap-4-accordion-load-dynamically-first-tab-show-page-load/67697965#67697965
+
+[955]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67697375_2
+[956]: https://stackoverflow.com/questions/67697375/angular-bootstrap-4-accordion-load-dynamically-first-tab-show-page-load/67697965#67697965
