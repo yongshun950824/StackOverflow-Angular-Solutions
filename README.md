@@ -480,6 +480,7 @@ npm start
 | [79422026][961] | [How to Clear p-select Value When Clicking on the Selected Item in PrimeNG?][962] |
 | [79460990][963] | [I am having an issue integrating DrillDown from Highcharts with Angular 19][964] |
 | [79477287][965] | [HighCharts - Bubbles are not spreading][966] |
+| [79535776_1][967]<br />[79535776_2][969] | [How could I apply different colors for mat-form-field "formControl" depends on the state of it?][968] |
 
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
@@ -1930,3 +1931,9 @@ npm start
 
 [965]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79477287
 [966]: https://stackoverflow.com/questions/79477287/highcharts-bubbles-are-not-spreading/79477439#79477439
+
+[967]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79535776_1
+[968]: https://stackoverflow.com/questions/79535776/how-could-i-apply-different-colors-for-mat-form-field-formcontrol-depends-on-t/79535855#79535855
+
+[969]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79535776_2
+[970]: https://stackoverflow.com/questions/79535776/how-could-i-apply-different-colors-for-mat-form-field-formcontrol-depends-on-t/79535855#79535855
