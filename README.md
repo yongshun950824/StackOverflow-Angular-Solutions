@@ -348,6 +348,7 @@ npm start
 | [77492471][261] | [How to divide \<div\>s in HTML into 8 equal parts using Bootstrap][262] |
 | [77497194][259] | [How Do I Edit a Nested Form Array using PatchValue?][260] |
 | [77505484][257] | [Angular using JSON Data from API Call][258] |
+| [77756385][957] | [primeng p-multiselect dropdown filter search not showing no result found primeNG v-16.7.1][958] |
 | [77573447][255] | [Angular how to use slicePipe in the new @for loop][256] |
 | [77583447][253] | [Angular Material table not showing data from API call][254] |
 | [77644328][251] | [Change the param name & ID with the next previous buttons][252] |
@@ -1910,3 +1911,6 @@ npm start
 
 [955]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/67697375_2
 [956]: https://stackoverflow.com/questions/67697375/angular-bootstrap-4-accordion-load-dynamically-first-tab-show-page-load/67697965#67697965
+
+[957]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77756385
+[958]: https://stackoverflow.com/questions/77756385/primeng-p-multiselect-dropdown-filter-search-not-showing-no-result-found-primeng/77756482#77756482
