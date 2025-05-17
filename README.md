@@ -477,6 +477,7 @@ npm start
 | [79335155][3] | [How to make the bottom of a NgbModal to be transparent so that content beneath is visible through it][4] |
 | [79331321][1] | [How to validate that 2 folders on the same level cannot have the same name in a recursive Angular form array][2] |
 | [79398250][959] | [mat-table header content not updating even when underlying data is changed][960] |
+| [79422026][961] | [mat-table header content not updating even when underlying data is changed][962] |
 
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
@@ -1918,3 +1919,6 @@ npm start
 
 [959]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79398250
 [960]: https://stackoverflow.com/questions/79398250/mat-table-header-content-not-updating-even-when-underlying-data-is-changed/79398580#79398580
+
+[961]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79422026
+[962]: https://stackoverflow.com/questions/79422026/how-to-clear-p-select-value-when-clicking-on-the-selected-item-in-primeng/79423216#79423216
