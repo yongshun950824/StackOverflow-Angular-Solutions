@@ -476,6 +476,7 @@ npm start
 | [79338132][5] | [chartjs / ng2-charts charts does not work properly in display flex][6] |
 | [79335155][3] | [How to make the bottom of a NgbModal to be transparent so that content beneath is visible through it][4] |
 | [79331321][1] | [How to validate that 2 folders on the same level cannot have the same name in a recursive Angular form array][2] |
+| [79398250][959] | [mat-table header content not updating even when underlying data is changed][960] |
 
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
@@ -1914,3 +1915,6 @@ npm start
 
 [957]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77756385
 [958]: https://stackoverflow.com/questions/77756385/primeng-p-multiselect-dropdown-filter-search-not-showing-no-result-found-primeng/77756482#77756482
+
+[959]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79398250
+[960]: https://stackoverflow.com/questions/79398250/mat-table-header-content-not-updating-even-when-underlying-data-is-changed/79398580#79398580
