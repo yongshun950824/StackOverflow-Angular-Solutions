@@ -477,7 +477,8 @@ npm start
 | [79335155][3] | [How to make the bottom of a NgbModal to be transparent so that content beneath is visible through it][4] |
 | [79331321][1] | [How to validate that 2 folders on the same level cannot have the same name in a recursive Angular form array][2] |
 | [79398250][959] | [mat-table header content not updating even when underlying data is changed][960] |
-| [79422026][961] | [mat-table header content not updating even when underlying data is changed][962] |
+| [79422026][961] | [How to Clear p-select Value When Clicking on the Selected Item in PrimeNG?][962] |
+| [79460990][963] | [I am having an issue integrating DrillDown from Highcharts with Angular 19][964] |
 
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
@@ -1922,3 +1923,6 @@ npm start
 
 [961]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79422026
 [962]: https://stackoverflow.com/questions/79422026/how-to-clear-p-select-value-when-clicking-on-the-selected-item-in-primeng/79423216#79423216
+
+[963]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79460990
+[964]: https://stackoverflow.com/questions/79460990/i-am-having-an-issue-integrating-drilldown-from-highcharts-with-angular-19/79460995#79460995
