@@ -479,6 +479,7 @@ npm start
 | [79398250][959] | [mat-table header content not updating even when underlying data is changed][960] |
 | [79422026][961] | [How to Clear p-select Value When Clicking on the Selected Item in PrimeNG?][962] |
 | [79460990][963] | [I am having an issue integrating DrillDown from Highcharts with Angular 19][964] |
+| [79477287][965] | [HighCharts - Bubbles are not spreading][966] |
 
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
@@ -1926,3 +1927,6 @@ npm start
 
 [963]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79460990
 [964]: https://stackoverflow.com/questions/79460990/i-am-having-an-issue-integrating-drilldown-from-highcharts-with-angular-19/79460995#79460995
+
+[965]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79477287
+[966]: https://stackoverflow.com/questions/79477287/highcharts-bubbles-are-not-spreading/79477439#79477439
