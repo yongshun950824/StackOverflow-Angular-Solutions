@@ -60,17 +60,17 @@ export class AppComponent implements OnInit {
     const checkBox1Selected = values.Checkbox1;
     const checkBox2Selected = values.Checkbox2;
     const checkBox3Selected = values.Checkbox3;
-    const isAllSelectedChanged = previousValues?.ALL != values.ALL;
+    const isAllSelectedChanged = previousValues && previousValues.ALL !== values.ALL;
     const checkBox1SelectedChanged =
-      previousValues.Checkbox1 != values.Checkbox1;
+      previousValues.Checkbox1 !== values.Checkbox1;
     const checkBox2SelectedChanged =
-      previousValues.Checkbox2 != values.Checkbox2;
+      previousValues.Checkbox2 !== values.Checkbox2;
     const checkBox3SelectedChanged =
-      previousValues.Checkbox3 != values.Checkbox3;
+      previousValues.Checkbox3 !== values.Checkbox3;
 
     if (isAllSelectedChanged && allSelected) {
       // If "All" is selected, deselect others
-      this.reportListFG.get('filterGroup')?.patchValue(
+      this.reportListFG.get('filterGroup').patchValue(
         {
           Checkbox1: false,
           Checkbox2: false,
@@ -85,7 +85,7 @@ export class AppComponent implements OnInit {
     ) {
       // If "All" is not selected, deselect "All" if any other is selected
 
-      this.reportListFG.get('filterGroup')?.patchValue(
+      this.reportListFG.get('filterGroup').patchValue(
         {
           ALL: false,
           Checkbox1: checkBox1Selected,
