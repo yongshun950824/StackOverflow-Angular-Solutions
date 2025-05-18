@@ -482,6 +482,7 @@ npm start
 | [79477287][965] | [HighCharts - Bubbles are not spreading][966] |
 | [79535776_1][967]<br />[79535776_2][969] | [How could I apply different colors for mat-form-field "formControl" depends on the state of it?][968] |
 | [79547540][971] | [How to create Angular mutually exclusive checkboxes and filter][972] |
+| [79567804][973] | [Initial value not displayed on mat-select component using async pipe][974] |
 
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
@@ -1941,3 +1942,6 @@ npm start
 
 [971]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79547540
 [972]: https://stackoverflow.com/questions/79547540/how-to-create-angular-mutually-exclusive-checkboxes-and-filter/79547628#79547628
+
+[973]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79567804
+[974]: https://stackoverflow.com/questions/79567804/initial-value-not-displayed-on-mat-select-component-using-async-pipe/79567832#79567832
