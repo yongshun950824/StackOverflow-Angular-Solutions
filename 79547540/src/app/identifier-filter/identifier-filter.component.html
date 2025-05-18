@@ -1,0 +1,27 @@
+<form [formGroup]="formGroup">
+  <label class="identifier-label">Identifier</label>
+  <div class="checkbox-container">
+    <mat-checkbox
+      formControlName="ALL"
+      (change)="onIdentifierSelectionChange($event, 'ALL')"
+      >ALL</mat-checkbox
+    >
+    <mat-checkbox
+      formControlName="Checkbox1"
+      (change)="onIdentifierSelectionChange($event, 'Checkbox1')"
+      >Checkbox1</mat-checkbox
+    >
+
+    <mat-checkbox
+      formControlName="Checkbox2"
+      (change)="onIdentifierSelectionChange($event, 'Checkbox2')"
+      >Checkbox2</mat-checkbox
+    >
+
+    <mat-checkbox
+      formControlName="Checkbox3"
+      (change)="onIdentifierSelectionChange($event, 'Checkbox3')"
+      >Checkbox3</mat-checkbox
+    >
+  </div>
+</form>

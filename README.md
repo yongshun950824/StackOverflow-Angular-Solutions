@@ -481,6 +481,7 @@ npm start
 | [79460990][963] | [I am having an issue integrating DrillDown from Highcharts with Angular 19][964] |
 | [79477287][965] | [HighCharts - Bubbles are not spreading][966] |
 | [79535776_1][967]<br />[79535776_2][969] | [How could I apply different colors for mat-form-field "formControl" depends on the state of it?][968] |
+| [79547540][971] | [How to create Angular mutually exclusive checkboxes and filter][972] |
 
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
@@ -1937,3 +1938,6 @@ npm start
 
 [969]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79535776_2
 [970]: https://stackoverflow.com/questions/79535776/how-could-i-apply-different-colors-for-mat-form-field-formcontrol-depends-on-t/79535855#79535855
+
+[971]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79547540
+[972]: https://stackoverflow.com/questions/79547540/how-to-create-angular-mutually-exclusive-checkboxes-and-filter/79547628#79547628
