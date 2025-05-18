@@ -483,6 +483,7 @@ npm start
 | [79535776_1][967]<br />[79535776_2][969] | [How could I apply different colors for mat-form-field "formControl" depends on the state of it?][968] |
 | [79547540][971] | [How to create Angular mutually exclusive checkboxes and filter][972] |
 | [79567804][973] | [Initial value not displayed on mat-select component using async pipe][974] |
+| [79568190][975] | [How to setup system theme?][976] |
 
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
@@ -1945,3 +1946,6 @@ npm start
 
 [973]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79567804
 [974]: https://stackoverflow.com/questions/79567804/initial-value-not-displayed-on-mat-select-component-using-async-pipe/79567832#79567832
+
+[975]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79568190
+[976]: https://stackoverflow.com/questions/79568190/how-to-setup-system-theme/79568437#79568437
