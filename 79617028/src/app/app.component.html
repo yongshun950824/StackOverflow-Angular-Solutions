@@ -1,0 +1,17 @@
+<div>
+  <ul>
+    <ng-container
+      *ngIf="months?.length; then items; else nothing"
+    ></ng-container>
+    <ng-template #items>
+      <li *ngFor="let entry of months">
+        <a [routerLink]="['/month', entry.id]">{{ entry.name }}</a>
+      </li>
+    </ng-template>
+    <ng-template #nothing>
+      <p>No month...</p>
+    </ng-template>
+  </ul>
+</div>
+
+<router-outlet class="content"></router-outlet>

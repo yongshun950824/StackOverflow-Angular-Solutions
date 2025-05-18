@@ -486,6 +486,7 @@ npm start
 | [79568190][975] | [How to setup system theme?][976] |
 | [79580388][977] | [NG Bootstrap modal disable a button in the modal's template][978] |
 | [79593199][979] | [Toggle button doesn't show chart from db.json data][980] |
+| [79617028][981] | [Toggle button doesn't show chart from db.json data][982] |
 
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
@@ -1957,3 +1958,6 @@ npm start
 
 [979]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79593199
 [980]: https://stackoverflow.com/questions/79593199/toggle-button-doesnt-show-chart-from-db-json-data/79593689#79593689
+
+[981]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79617028
+[982]: https://stackoverflow.com/questions/79617028/angular-19-routing-not-working-with-a-element/79618776#79618776
