@@ -485,6 +485,7 @@ npm start
 | [79567804][973] | [Initial value not displayed on mat-select component using async pipe][974] |
 | [79568190][975] | [How to setup system theme?][976] |
 | [79580388][977] | [NG Bootstrap modal disable a button in the modal's template][978] |
+| [79593199][979] | [Toggle button doesn't show chart from db.json data][980] |
 
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
@@ -1953,3 +1954,6 @@ npm start
 
 [977]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79580388
 [978]: https://stackoverflow.com/questions/79580388/ng-bootstrap-modal-disable-a-button-in-the-modals-template/79580449#79580449
+
+[979]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79593199
+[980]: https://stackoverflow.com/questions/79593199/toggle-button-doesnt-show-chart-from-db-json-data/79593689#79593689
