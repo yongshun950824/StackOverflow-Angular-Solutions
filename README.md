@@ -466,6 +466,7 @@ npm start
 | [79076675][27] | [Angular Material Table - How to specify the width of a column][28] |
 | [79103801][25] | [How to pass array with multiple objects to Angular FormControl?][26] |
 | [79125752][23] | [Angular Reactive Form - Issue when patching form control with object instead of value][24] |
+| [79217121][983] | [Unable to send data from parent component to child component showing child component is not known element][984] |
 | [79220004][21] | [Edit "Cruceros" with tituloQueHacer returning key-value pair: "descripcion: value" instead of string in the array][22] |
 | [79239270][19] | [Angular - ngx-datepicker validation not working as expected][20] |
 | [79301084][17] | [Angular Reactive Form - Multiple parsing errors when trying to implement multiple step form][18] |
@@ -486,7 +487,7 @@ npm start
 | [79568190][975] | [How to setup system theme?][976] |
 | [79580388][977] | [NG Bootstrap modal disable a button in the modal's template][978] |
 | [79593199][979] | [Toggle button doesn't show chart from db.json data][980] |
-| [79617028][981] | [Toggle button doesn't show chart from db.json data][982] |
+| [79617028][981] | [Angular 19 - Routing not working with <a> element][982] |
 
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
@@ -1961,3 +1962,6 @@ npm start
 
 [981]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79617028
 [982]: https://stackoverflow.com/questions/79617028/angular-19-routing-not-working-with-a-element/79618776#79618776
+
+[983]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79217121
+[984]: https://stackoverflow.com/questions/79217121/unable-to-send-data-from-parent-component-to-child-component-showing-child-compo/79217123#79217123
