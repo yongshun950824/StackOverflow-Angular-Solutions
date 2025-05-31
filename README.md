@@ -488,6 +488,7 @@ npm start
 | [79580388][977] | [NG Bootstrap modal disable a button in the modal's template][978] |
 | [79593199][979] | [Toggle button doesn't show chart from db.json data][980] |
 | [79617028][981] | [Angular 19 - Routing not working with <a> element][982] |
+| [79626479][985] | [Angular 19 - NG04002: Cannot match any routes. URL Segment: 'company-create'][986] |
 
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
@@ -1965,3 +1966,6 @@ npm start
 
 [983]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79217121
 [984]: https://stackoverflow.com/questions/79217121/unable-to-send-data-from-parent-component-to-child-component-showing-child-compo/79217123#79217123
+
+[985]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79626479
+[986]: https://stackoverflow.com/questions/79626479/angular-19-ng04002-cannot-match-any-routes-url-segment-company-create/79626528#79626528
