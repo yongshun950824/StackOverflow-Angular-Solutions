@@ -489,7 +489,7 @@ npm start
 | [79593199][979] | [Toggle button doesn't show chart from db.json data][980] |
 | [79617028][981] | [Angular 19 - Routing not working with <a> element][982] |
 | [79626479][985] | [Angular 19 - NG04002: Cannot match any routes. URL Segment: 'company-create'][986] |
-
+| [79656941][987] | [How to pass context properly in ngbPopover?][988] |
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
 [2]: https://stackoverflow.com/questions/79331321/how-to-validate-that-2-folders-on-the-same-level-cannot-have-the-same-name-in-a/79341666#79341666
@@ -1969,3 +1969,6 @@ npm start
 
 [985]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79626479
 [986]: https://stackoverflow.com/questions/79626479/angular-19-ng04002-cannot-match-any-routes-url-segment-company-create/79626528#79626528
+
+[987]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79626479
+[988]: https://stackoverflow.com/questions/79626479/angular-19-ng04002-cannot-match-any-routes-url-segment-company-create/79626528#79626528c
