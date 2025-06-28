@@ -1,0 +1,7 @@
+<form #form="ngForm">
+  <app-component-with-the-ngmodelgroup-inside groupName="personalInfo">
+    <!--<input type="string" ngModel name="firstName" />
+    <input type="string" ngModel name="lastName" />-->
+  </app-component-with-the-ngmodelgroup-inside>
+</form>
+<pre>{{form.value | json}}</pre>
