@@ -487,11 +487,12 @@ npm start
 | [79568190][975] | [How to setup system theme?][976] |
 | [79580388][977] | [NG Bootstrap modal disable a button in the modal's template][978] |
 | [79593199][979] | [Toggle button doesn't show chart from db.json data][980] |
-| [79617028][981] | [Angular 19 - Routing not working with <a> element][982] |
+| [79617028][981] | [Angular 19 - Routing not working with \<a\> element][982] |
 | [79626479][985] | [Angular 19 - NG04002: Cannot match any routes. URL Segment: 'company-create'][986] |
 | [79656941][987] | [How to pass context properly in ngbPopover?][988] |
 | [79668502][989] | [How to get calendar_today_outlined icon for angular material datepicker?][990] |
 | [79678448][991] | [How can I populate a ngModelGroup with content projection?][992] |
+| [79679342][993] | [Angular 17 shows Object is possibly 'null'][994] |
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
 [2]: https://stackoverflow.com/questions/79331321/how-to-validate-that-2-folders-on-the-same-level-cannot-have-the-same-name-in-a/79341666#79341666
@@ -1980,3 +1981,6 @@ npm start
 
 [991]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79678448
 [992]: https://stackoverflow.com/questions/79678448/how-can-i-populate-a-ngmodelgroup-with-content-projection/79678454#79678454
+
+[993]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79679342
+[994]: https://stackoverflow.com/questions/79679342/angular-17-shows-object-is-possibly-null/79685398#79685398

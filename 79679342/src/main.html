@@ -1,0 +1,59 @@
+<h1>{{title}}</h1>
+<br /><br />
+<style>
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    padding: 15px;
+  }
+</style>
+<table>
+  <tr>
+    <td><b>ID</b></td>
+    <td><b>Name</b></td>
+    <td><b>Appointment Date</b></td>
+    <td><b>Reason</b></td>
+  </tr>
+  @if(patients$ | async;as patients){ @if(patients.length>0){ @for(item of
+  patients; track $index){
+  <tr>
+    <td><p>{{item.id}}</p></td>
+    <td><p>{{item.name}}</p></td>
+    <td><p>{{item.appointmentDate}}</p></td>
+    <td><p>{{item.reason}}</p></td>
+  </tr>
+  } } @else{
+  <p>Nothing found</p>
+  } }
+</table>
+
+<br />
+<br />
+
+<div ng-controller="myController">
+  <label for="myInput">Enter Date:</label><br />
+  <input
+    type="text"
+    id="myInput"
+    [(ngModel)]="inputValue"
+    placeholder="Type here..."
+  />
+  <br /><br />
+  <button (click)="GetPatientByDate()">Show Alert</button>
+
+  <p>Value bound to component property: {{ inputValue }}</p>
+</div>
+<br />
+
+<h3>Approach 1 with &#64;if</h3>
+@if (patientDetail) {
+<p>Details:{{patientDetail.name}}</p>
+}
+
+<h3>Approach 2 with `?.` Optional chaining</h3>
+<p>Details:{{patientDetail?.name}}</p>
