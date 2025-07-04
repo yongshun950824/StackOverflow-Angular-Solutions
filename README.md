@@ -409,6 +409,7 @@ npm start
 | [78446333][141] | [Angular Mat Pagination and Mat Sort are not working][142] |
 | [78449124][139] | [Angular Datepicker with format MM.yyyy wants to select day][140] |
 | [78448907][137] | [Angular 17 - How to indicate both else to same ng-template for *ngIf using @if @else][138] |
+| [78448933][995] | [Material Datepicker sending the date with one day earlier than selected date][996] |
 | [78458776][135] | [Angular 16 Reactive Form - Form Control disabled not working][136] |
 | [78461122][133] | [Angular: property binding with the property name constructed inside the loop][134] |
 | [78487909][131] | [Recursive template inside inner @for in Angular 17][132] |
@@ -1984,3 +1985,6 @@ npm start
 
 [993]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79679342
 [994]: https://stackoverflow.com/questions/79679342/angular-17-shows-object-is-possibly-null/79685398#79685398
+
+[995]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78448933
+[996]: https://stackoverflow.com/questions/78448933/material-datepicker-sending-the-date-with-one-day-earlier-than-selected-date/78449054#78449054
