@@ -494,6 +494,7 @@ npm start
 | [79668502][989] | [How to get calendar_today_outlined icon for angular material datepicker?][990] |
 | [79678448][991] | [How can I populate a ngModelGroup with content projection?][992] |
 | [79679342][993] | [Angular 17 shows Object is possibly 'null'][994] |
+| [79690703][997] | [TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type 'App', if string is a method component?][998] |
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
 [2]: https://stackoverflow.com/questions/79331321/how-to-validate-that-2-folders-on-the-same-level-cannot-have-the-same-name-in-a/79341666#79341666
@@ -1988,3 +1989,6 @@ npm start
 
 [995]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78448933
 [996]: https://stackoverflow.com/questions/78448933/material-datepicker-sending-the-date-with-one-day-earlier-than-selected-date/78449054#78449054
+
+[997]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79690703
+[998]: https://stackoverflow.com/questions/79690703/ts7053-element-implicitly-has-an-any-type-because-expression-of-type-string/79690715#79690715
