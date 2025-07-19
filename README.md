@@ -499,6 +499,7 @@ npm start
 | [79697419][1001] | [How to Create a Nested Array from 2 Tables in Angular][1002] |
 | [79701439][1003] | [Angular Material "Select All" Directive Not Deselecting Correctly on Single Option Change][1004] |
 | [79702967][1005] | [Angular TiledWebMap with Providers][1006] |
+| [79703908][1007] | [Ionic Standalone Component - FormControlName][1008] |
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
 [2]: https://stackoverflow.com/questions/79331321/how-to-validate-that-2-folders-on-the-same-level-cannot-have-the-same-name-in-a/79341666#79341666
@@ -2008,3 +2009,6 @@ npm start
 
 [1005]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79702967
 [1006]: https://stackoverflow.com/questions/79702967/angular-tiledwebmap-with-providers/79703040#79703040
+
+[1007]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79703908
+[1008]: https://stackoverflow.com/questions/79703908/ionic-standalone-component-formcontrolname/79704177#79704177
