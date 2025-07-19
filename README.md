@@ -497,6 +497,7 @@ npm start
 | [79690703][997] | [TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type 'App', if string is a method component?][998] |
 | [79690875][999] | [In Angular 19, on keydown event,Spacebar is not getting ignored][1000] |
 | [79697419][1001] | [How to Create a Nested Array from 2 Tables in Angular][1002] |
+| [79701439][1003] | [Angular Material "Select All" Directive Not Deselecting Correctly on Single Option Change][1004] |
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
 [2]: https://stackoverflow.com/questions/79331321/how-to-validate-that-2-folders-on-the-same-level-cannot-have-the-same-name-in-a/79341666#79341666
@@ -2000,3 +2001,6 @@ npm start
 
 [1001]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79697419
 [1002]: https://stackoverflow.com/questions/79697419/how-to-create-a-nested-array-from-2-tables-in-angular/79697736#79697736
+
+[1003]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79701439
+[1004]: https://stackoverflow.com/questions/79701439/angular-material-select-all-directive-not-deselecting-correctly-on-single-opti/79701450#79701450
