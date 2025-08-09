@@ -205,6 +205,10 @@ export class TableExpandableRowsExample {
   isElementExpanded(element) {
     return this.expandedElements.indexOf(element) > -1;
   }
+
+  trackByColumn(index: number, column: string) {
+    return column;
+  }
 }
 
 export interface PeriodicElement {

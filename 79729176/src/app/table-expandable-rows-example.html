@@ -44,7 +44,7 @@
 
   <ng-container
     matColumnDef="{{column}}"
-    *ngFor="let column of columnsToDisplay; let i = index; trackBy column"
+    *ngFor="let column of columnsToDisplay; let i = index; trackBy trackByColumn"
   >
     <ng-container>
       <th
