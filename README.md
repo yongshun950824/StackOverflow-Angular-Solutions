@@ -500,6 +500,7 @@ npm start
 | [79701439][1003] | [Angular Material "Select All" Directive Not Deselecting Correctly on Single Option Change][1004] |
 | [79702967][1005] | [Angular TiledWebMap with Providers][1006] |
 | [79703908][1007] | [Ionic Standalone Component - FormControlName][1008] |
+| [79725375][1009] | [Unable to get show and hide columns button to work][1010] |
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
 [2]: https://stackoverflow.com/questions/79331321/how-to-validate-that-2-folders-on-the-same-level-cannot-have-the-same-name-in-a/79341666#79341666
@@ -2012,3 +2013,6 @@ npm start
 
 [1007]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79703908
 [1008]: https://stackoverflow.com/questions/79703908/ionic-standalone-component-formcontrolname/79704177#79704177
+
+[1009]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79725375
+[1010]: https://stackoverflow.com/questions/79725375/unable-to-get-show-and-hide-columns-button-to-work/79725488#79725488
