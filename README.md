@@ -501,6 +501,7 @@ npm start
 | [79702967][1005] | [Angular TiledWebMap with Providers][1006] |
 | [79703908][1007] | [Ionic Standalone Component - FormControlName][1008] |
 | [79725375][1009] | [Unable to get show and hide columns button to work][1010] |
+| [79726695][1011] | [Expand All/Collapse All column in Angular Material][1012] |
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
 [2]: https://stackoverflow.com/questions/79331321/how-to-validate-that-2-folders-on-the-same-level-cannot-have-the-same-name-in-a/79341666#79341666
@@ -2016,3 +2017,6 @@ npm start
 
 [1009]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79725375
 [1010]: https://stackoverflow.com/questions/79725375/unable-to-get-show-and-hide-columns-button-to-work/79725488#79725488
+
+[1011]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79726695
+[1012]: https://stackoverflow.com/questions/79726695/expand-all-collapse-all-column-in-angular-material/79726736#79726736
