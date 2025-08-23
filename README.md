@@ -503,6 +503,7 @@ npm start
 | [79725375][1009] | [Unable to get show and hide columns button to work][1010] |
 | [79726695][1011] | [Expand All/Collapse All column in Angular Material][1012] |
 | [79729176][1013] | [How to reorder columns in data table?][1014] |
+| [79740120][1015] | [Drag/drop an expanded row into another set of expanded rows - Angular Material][1016] |
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
 [2]: https://stackoverflow.com/questions/79331321/how-to-validate-that-2-folders-on-the-same-level-cannot-have-the-same-name-in-a/79341666#79341666
@@ -2024,3 +2025,6 @@ npm start
 
 [1013]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79729176
 [1014]: https://stackoverflow.com/questions/79729176/how-to-reorder-columns-in-data-table/79729289#79729289
+
+[1015]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79740120
+[1016]: https://stackoverflow.com/questions/79740120/drag-drop-an-expanded-row-into-another-set-of-expanded-rows-angular-material/79740688#79740688

@@ -1,0 +1,119 @@
+table {
+  width: 100%;
+}
+
+tr.example-detail-row {
+  height: 0;
+}
+
+tr.example-element-row:not(.example-expanded-row):hover {
+  background: #777;
+}
+
+tr.example-element-row:not(.example-expanded-row):active {
+  background: #efefef;
+}
+
+.example-element-row td {
+  border-bottom-width: 0;
+}
+
+.example-element-detail {
+  overflow: hidden;
+  display: flex;
+}
+
+.example-element-diagram {
+  min-width: 80px;
+  border: 2px solid black;
+  padding: 8px;
+  font-weight: lighter;
+  margin: 8px 0;
+  height: 104px;
+}
+
+.example-element-symbol {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: normal;
+}
+
+.example-element-description {
+  padding: 16px;
+}
+
+.example-element-description-attribution {
+  opacity: 0.5;
+}
+
+mat-icon {
+  cursor: pointer;
+}
+
+.checkbox-spacing {
+  word-spacing: 100px;
+}
+
+button {
+  margin: 5px; /* Creates 5px space on all sides */
+}
+
+.expanded-column-spacing {
+  margin: 5px; /* Creates 5px space on all sides */
+}
+
+::ng-deep .table-config-menu {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  padding: 0;
+
+  mat-checkbox {
+    label {
+      display: block;
+      padding: 10px 15px;
+
+      &:hover {
+        background-color: rgba(155, 213, 239, 0.7);
+      }
+
+      &:active {
+        background: rgba(106, 192, 231, 0.7);
+      }
+    }
+  }
+  .main-row {
+    cursor: pointer;
+  }
+  .detail {
+    padding: 8px 16px;
+  }
+  .child-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .child-row {
+    display: grid;
+    grid-template-columns: 20px 1fr 100px 100px;
+    align-items: center;
+    padding: 6px 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background: #fff;
+  }
+  .drag-handle {
+    cursor: grab;
+    user-select: none;
+    opacity: 0.6;
+  }
+  .empty {
+    font-style: italic;
+    color: #888;
+    padding: 8px 0;
+  }
+
+  .example-detail-row {
+    cursor: pointer;
+  }
+}
