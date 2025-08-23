@@ -235,6 +235,14 @@ export class TableExpandableRowsExample {
     targetParent.children = [...targetParent.children];
     this.dataSource._updateChangeSubscription();
   }
+
+  trackByColumn(index: number, column: string) {
+    return column;
+  }
+
+  trackByChild(index: number, child: PeriodicElement) {
+    return child;
+  }
 }
 
 export interface PeriodicElement {
