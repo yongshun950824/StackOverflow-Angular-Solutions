@@ -280,6 +280,14 @@ export class TableExpandableRowsExample {
     this.dataSource._updateChangeSubscription();
   }
 
+  trackByColumn(index: number, column: string) {
+    return column;
+  }
+
+  trackByChild(index: number, child: PeriodicElement) {
+    return child;
+  }
+
   applyFilter(filterValue: string, column: string) {
     if (column === 'DeliveryDate') {
       filterValue = filterValue.toString();

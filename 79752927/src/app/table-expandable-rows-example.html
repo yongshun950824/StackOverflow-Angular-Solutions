@@ -70,7 +70,7 @@
 
   <ng-container
     matColumnDef="{{column}}"
-    *ngFor="let column of columnsToDisplay; let i = index; trackBy column"
+    *ngFor="let column of columnsToDisplay; let i = index; trackBy trackByColumn"
   >
     <ng-container>
       <th
@@ -134,7 +134,7 @@
       <div
         class="example-element-detail"
         [@detailExpand]="isElementExpanded(element) ? 'expanded' : 'collapsed'"
-        *ngFor="let child of element.children; trackBy child"
+        *ngFor="let child of element.children; trackBy trackByChild"
         cdkDrag
       >
         <div></div>
