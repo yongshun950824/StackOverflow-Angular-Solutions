@@ -504,6 +504,7 @@ npm start
 | [79726695][1011] | [Expand All/Collapse All column in Angular Material][1012] |
 | [79729176][1013] | [How to reorder columns in data table?][1014] |
 | [79740120][1015] | [Drag/drop an expanded row into another set of expanded rows - Angular Material][1016] |
+| [79752927][1017] | [Filter by date column in Angular Material table][1018] |
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
 [2]: https://stackoverflow.com/questions/79331321/how-to-validate-that-2-folders-on-the-same-level-cannot-have-the-same-name-in-a/79341666#79341666
@@ -2028,3 +2029,6 @@ npm start
 
 [1015]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79740120
 [1016]: https://stackoverflow.com/questions/79740120/drag-drop-an-expanded-row-into-another-set-of-expanded-rows-angular-material/79740688#79740688
+
+[1017]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79752927
+[1018]: https://stackoverflow.com/questions/79752927/filter-by-date-column-in-angular-material-table/79752998#79752998
