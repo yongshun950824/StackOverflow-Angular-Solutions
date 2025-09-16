@@ -6,7 +6,10 @@
 <button class="mat-button-main" (click)="showPrompt()">Add/Remove Reps</button>
 <button class="mat-button-main">Report</button>
 
-{{daysList|json}}
+<br />
+{{ dayList | json }}
+<br />
+
 <mat-form-field class="days-dropdown">
   <mat-label>Delivery Days</mat-label>
   <mat-select
@@ -16,7 +19,7 @@
     panelClass="days-offset"
   >
     <mat-select-trigger>
-      {{days && days.length?days.value[0].text:''}}
+      {{days && days.value?.length ? days.value[0].text : ''}}
       <span
         *ngIf="((days.value?.length || 0) > 1)"
         class="example-additional-selection"
@@ -75,7 +78,7 @@
 
   <ng-container
     matColumnDef="{{column}}"
-    *ngFor="let column of columnsToDisplay; let i = index; trackBy column"
+    *ngFor="let column of columnsToDisplay; let i = index; trackBy trackByColumn"
   >
     <ng-container>
       <th
@@ -139,7 +142,7 @@
       <div
         class="example-element-detail"
         [@detailExpand]="isElementExpanded(element) ? 'expanded' : 'collapsed'"
-        *ngFor="let child of element.children; trackBy child"
+        *ngFor="let child of element.children; trackBy trackByChild"
         cdkDrag
       >
         <div></div>

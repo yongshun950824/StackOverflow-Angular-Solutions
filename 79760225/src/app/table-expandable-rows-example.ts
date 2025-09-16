@@ -49,7 +49,7 @@ export class TableExpandableRowsExample implements AfterViewInit, OnDestroy {
     'weight',
     'symbol',
     'position',
-    'Delivery Day',
+    'DeliveryDay',
   ];
 
   constructor(private dialog: MatDialog) {}
@@ -77,7 +77,7 @@ export class TableExpandableRowsExample implements AfterViewInit, OnDestroy {
   //    *
   //    * -> to make it work, wee need extra styling on dialog component below...
   //    */
-  //   const dialogRef = this.dialog.open(DialogContentExample, {
+  //   const dialogRef = this.dialog.open(DialogContentExampleComponent, {
   //     height: 'calc(80% - 100px)',
   //     width: 'calc(80% - 100px)',
   //     maxWidth: '50%',
@@ -134,7 +134,7 @@ export class TableExpandableRowsExample implements AfterViewInit, OnDestroy {
   daysSelected: string = 'all';
   previousIndex: number;
 
-  @ViewChild(MatSort) sort: MatSort;
+  @ViewChild(MatSort, {static: true}) sort: MatSort;
 
   ngOnDestroy() {
     this.sub && this.sub.unsubscribe();
@@ -316,6 +316,14 @@ export class TableExpandableRowsExample implements AfterViewInit, OnDestroy {
     targetParent.children = [...targetParent.children];
     this.dataSource._updateChangeSubscription();
   }
+
+  trackByColumn(index: number, column: string) {
+    return column;
+  }
+
+  trackByChild(index: number, child: PeriodicElement) {
+    return child;
+  }
 }
 
 let myDate: Date = new Date(1678886400000); // Pass the number as a timestamp to the Date constructor
@@ -431,27 +439,6 @@ const ELEMENT_DATA: PeriodicElement[] = [
   },
 ];
 
-/**
- * Dialog component with styling for full screen
- */
-@Component({
-  selector: 'dialog-content-example',
-  templateUrl: 'dialog-content-example.component.html',
-  styles: [
-    `
-    :host{
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-    }
-    mat-dialog-content{
-      max-height: unset !important;
-      flex: 1 0 0;
-    }
-  `,
-  ],
-})
-export class DialogContentExample {}
 /**
  * Control column ordering and which columns are displayed.
  */
