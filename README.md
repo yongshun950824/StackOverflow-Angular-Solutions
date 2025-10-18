@@ -507,6 +507,7 @@ npm start
 | [79752927][1017] | [Filter by date column in Angular Material table][1018] |
 | [79760225][1019] | [Why does the dialog window not show content when clicking on button?][1020] |
 | [79774741][1021] | [how to sort data table primeng by checkbox checked][1022] |
+| [79779058][1023] | [How to disable radio button on all levels in a recursive Angular form component based on a specific level's value][1024] |
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
 [2]: https://stackoverflow.com/questions/79331321/how-to-validate-that-2-folders-on-the-same-level-cannot-have-the-same-name-in-a/79341666#79341666
@@ -2040,3 +2041,6 @@ npm start
 
 [1021]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79774741
 [1022]: https://stackoverflow.com/questions/79774741/how-to-sort-data-table-primeng-by-checkbox-checked/79775463#79775463
+
+[1023]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79779058
+[1024]: https://stackoverflow.com/questions/79779058/how-to-disable-radio-button-on-all-levels-in-a-recursive-angular-form-component/79779598#79779598
