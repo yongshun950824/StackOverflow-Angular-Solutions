@@ -1,0 +1,76 @@
+<h1>Sign Up</h1>
+<p>Please sign up to to use this app:</p>
+<form #formDirective="ngForm" [formGroup]="frm">
+  <fieldset>
+    <legend color="primary">Valid Email Address</legend>
+    <div class="two-cols">
+      <mat-form-field appearance="fill" id="emailFld">
+        <mat-label>Email</mat-label>
+        <input
+          autocomplete="off"
+          formControlName="email"
+          matInput
+          placeholder="yourname@domain.com"
+          required
+          type="email"
+          (change)="emailChanged()"
+        />
+        @if (emailCrl?.invalid) {
+        <mat-error>{{ getErrorMessage("email") }}</mat-error>
+        }
+      </mat-form-field>
+      @if (!store.isCodeSent()) {
+      <div>
+        <button
+          class="btn-next2fld send-ver-code"
+          color="primary"
+          mat-flat-button
+          type="button"
+          [disabled]="emailCrl?.invalid || store.inProgress()"
+          (click)="sendCode()"
+        >
+          @if (store.inProgress()) {
+          <mat-icon><mat-spinner diameter="18" /></mat-icon>
+          } @else {
+          <mat-icon>check</mat-icon>
+          }
+          <ng-container>Send verification code</ng-container>
+        </button>
+      </div>
+      } @else {
+      <mat-form-field appearance="fill" id="veriCodeFld">
+        <mat-label>Verification Code</mat-label>
+        <input
+          autocomplete="off"
+          formControlName="code"
+          matInput
+          placeholder="Code from email"
+          required
+          type="text"
+        />
+        @if(isTouchedAndInvalid('code') || (!store.emailVerified() &&
+        store.veriCodeIsWrong())) {
+        <mat-error>{{ getErrorMessage("code") }}</mat-error>
+        } @if (store.emailVerified() && this.codeCrl?.valid) {
+        <mat-icon matSuffix>check</mat-icon>
+        } @else if (!store.emailVerified() && store.veriCodeIsWrong()) {
+        <mat-icon matSuffix>error</mat-icon>
+        }
+      </mat-form-field>
+      @if (!store.emailVerified()) {
+      <div class="pb-1 text-center">
+        <p>Please check your mailbox.</p>
+      </div>
+      } }
+    </div>
+  </fieldset>
+  <div class="pb--5 text-center">
+    <button mat-fab type="submit" [disabled]="!canSaveForm">
+      <mat-icon>how_to_reg</mat-icon>
+    </button>
+  </div>
+</form>
+
+@if (this.store.isCodeSent()) {
+<p>Verification code is invalid: "{{ this.store.veriCodeIsWrong() }}"</p>
+}
