@@ -1,0 +1,38 @@
+<theme-switcher />
+<div class="card">
+  <p-table
+    #tableDt 
+    [value]="permissions"
+    [tableStyle]="{'min-width': '60rem'}"
+    [sortMode]="'multiple'"
+    [multiSortMeta]="multiSortMeta"
+  >
+    <ng-template #header>
+      <tr>
+        <th class="col-auto" style="width: 5%">Row</th>
+        <th pSortableColumn="isTicked" style="width: 5%">
+          <p-tableHeaderCheckbox />
+          <p-sortIcon field="isTicked" />
+        </th>
+        <th pSortableColumn="name" style="width: 20%">
+          <div class="flex items-center gap-2">
+            Name
+            <p-sortIcon field="name" />
+          </div>
+        </th>
+      </tr>
+    </ng-template>
+    <ng-template #body let-element let-rowIndex="rowIndex">
+      <tr>
+        <td class="print-none" style="width: 5%">{{rowIndex+1}}</td>
+        <td style="width: 5%">
+          <p-tableCheckbox
+            [value]="element.name"
+            (change)="onRowChecked(element.name)"
+          />
+        </td>
+        <td>{{ element.name }}</td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>

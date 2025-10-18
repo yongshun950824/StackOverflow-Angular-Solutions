@@ -506,6 +506,7 @@ npm start
 | [79740120][1015] | [Drag/drop an expanded row into another set of expanded rows - Angular Material][1016] |
 | [79752927][1017] | [Filter by date column in Angular Material table][1018] |
 | [79760225][1019] | [Why does the dialog window not show content when clicking on button?][1020] |
+| [79774741][1021] | [how to sort data table primeng by checkbox checked][1022] |
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
 [2]: https://stackoverflow.com/questions/79331321/how-to-validate-that-2-folders-on-the-same-level-cannot-have-the-same-name-in-a/79341666#79341666
@@ -2036,3 +2037,6 @@ npm start
 
 [1019]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79760225
 [1020]: https://stackoverflow.com/questions/79760225/why-does-the-dialog-window-not-show-content-when-clicking-on-button/79760398#79760398
+
+[1021]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79774741
+[1022]: https://stackoverflow.com/questions/79774741/how-to-sort-data-table-primeng-by-checkbox-checked/79775463#79775463
