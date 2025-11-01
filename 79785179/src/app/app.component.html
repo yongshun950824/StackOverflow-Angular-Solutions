@@ -1,0 +1,17 @@
+<h1 class="title">items: {{ array.length }}</h1>
+
+<div
+  class="search-results"
+  infinite-scroll
+  [scrollWindow]="false"
+  (scrolled)="onScrollDown()"
+  appInfiniteScrollTrigger
+  [items]="array"
+>
+  <p *ngFor="let item of array">
+    {{ item.id }}
+    {{ item.name }}
+  </p>
+
+  <p *ngIf="this.isLoading">Loading...</p>
+</div>

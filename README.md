@@ -508,8 +508,8 @@ npm start
 | [79760225][1019] | [Why does the dialog window not show content when clicking on button?][1020] |
 | [79774741][1021] | [how to sort data table primeng by checkbox checked][1022] |
 | [79779058][1023] | [How to disable radio button on all levels in a recursive Angular form component based on a specific level's value][1024] |
-| [79788834_1][1025] | [Angular 20 Reactive Forms - Custom validator based on signal][1026] |
-| [79788834_2][1027] | [Angular 20 Reactive Forms - Custom validator based on signal][1028] |
+| [79788834_1][1025]<br />[79788834_2][1027] | [Angular 20 Reactive Forms - Custom validator based on signal][1026] |
+| [79785179][1029] | [How to show 10 items on each scroll][1030] |
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
 [2]: https://stackoverflow.com/questions/79331321/how-to-validate-that-2-folders-on-the-same-level-cannot-have-the-same-name-in-a/79341666#79341666
@@ -2052,3 +2052,6 @@ npm start
 
 [1027]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79788834_2
 [1028]: https://stackoverflow.com/questions/79788834/angular-20-reactive-forms-custom-validator-based-on-signal/79788946#79788946
+
+[1029]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79785179
+[1030]: https://stackoverflow.com/questions/79785179/how-to-show-10-items-on-each-scroll/79799875#79799875
