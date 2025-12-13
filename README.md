@@ -510,6 +510,7 @@ npm start
 | [79779058][1023] | [How to disable radio button on all levels in a recursive Angular form component based on a specific level's value][1024] |
 | [79788834_1][1025]<br />[79788834_2][1027] | [Angular 20 Reactive Forms - Custom validator based on signal][1026] |
 | [79785179][1029] | [How to show 10 items on each scroll][1030] |
+| [79823706][1031] | [Form with nested arrays and form groups][1032] |
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
 [2]: https://stackoverflow.com/questions/79331321/how-to-validate-that-2-folders-on-the-same-level-cannot-have-the-same-name-in-a/79341666#79341666
@@ -2055,3 +2056,6 @@ npm start
 
 [1029]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79785179
 [1030]: https://stackoverflow.com/questions/79785179/how-to-show-10-items-on-each-scroll/79799875#79799875
+
+[1031]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79823706
+[1032]: https://stackoverflow.com/questions/79823706/form-with-nested-arrays-and-form-groups/79823991#79823991

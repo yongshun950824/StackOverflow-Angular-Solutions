@@ -1,0 +1,42 @@
+<form [formGroup]="myForm">
+  <div class="control-row">
+    <div class="control-column">
+      <label>ID:</label>
+      <input formControlName="id" />
+    </div>
+  </div>
+  <div class="control-row">
+    <div class="control-column">
+      <label>Name:</label>
+      <input formControlName="name" />
+    </div>
+  </div>
+
+  <br />
+
+  <div class="control-row">
+    <div class="control-column">
+      <div formArrayName="events">
+        @for (event of events.controls; let i = $index; track $index) {
+        <div [formGroupName]="i">
+          <input hidden formControlName="eventId" />
+          <input hidden formControlName="title" />
+          <input formControlName="detail" />
+
+          <div formArrayName="dates">
+            @for (date of dates(i).controls; let j = $index; track $index) {
+            <div [formGroupName]="j">
+              <input hidden formControlName="dateId" />
+              <input formControlName="eventDate" />
+              <input formControlName="startTime" />
+            </div>
+            }
+          </div>
+
+          <hr />
+        </div>
+        }
+      </div>
+    </div>
+  </div>
+</form>
