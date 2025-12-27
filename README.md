@@ -511,6 +511,7 @@ npm start
 | [79788834_1][1025]<br />[79788834_2][1027] | [Angular 20 Reactive Forms - Custom validator based on signal][1026] |
 | [79785179][1029] | [How to show 10 items on each scroll][1030] |
 | [79823706][1031] | [Form with nested arrays and form groups][1032] |
+| [79854897_1][1033]<br />[79854897_2][1035] | [Angular Reactive Form - patchValue doesn't work on Multiple Select field][1034] |
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
 [2]: https://stackoverflow.com/questions/79331321/how-to-validate-that-2-folders-on-the-same-level-cannot-have-the-same-name-in-a/79341666#79341666
@@ -2059,3 +2060,9 @@ npm start
 
 [1031]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79823706
 [1032]: https://stackoverflow.com/questions/79823706/form-with-nested-arrays-and-form-groups/79823991#79823991
+
+[1033]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79854897_1
+[1034]: https://stackoverflow.com/questions/79854897/angular-reactive-form-patchvalue-doesnt-work-on-multiple-select-field/79855079#79855079
+
+[1035]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79854897_1
+[1036]: https://stackoverflow.com/questions/79854897/angular-reactive-form-patchvalue-doesnt-work-on-multiple-select-field/79855079#79855079
