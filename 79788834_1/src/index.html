@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My app</title>
+    <meta charset="UTF-8" />
+    <base href="/" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="mat-typography">
+    <h1>Reactive form validator problem with signal()</h1>
+    <p>
+      Enter any email, then click on
+      <strong>Send Verification Code</strong> button. The validation code field
+      appears. Any code except <strong>888555</strong> is invalid.
+    </p>
+    <p>
+      Now, the validation code field has a custom validator which gets a signal
+      'veriCodeIsWrong()' value and uses it to mark the field as invalid. But
+      for some reason the field doesn't get an invalid state.
+    </p>
+
+    <app-root>Loading...</app-root>
+  </body>
+</html>

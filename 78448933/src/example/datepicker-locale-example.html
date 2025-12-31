@@ -1,0 +1,15 @@
+<form [formGroup]="form">
+  <mat-form-field class="w-full">
+    <mat-label>{{ "DATE" }}</mat-label>
+    <input matInput [matDatepicker]="datePicker" [formControlName]="'date'" />
+    <mat-datepicker-toggle matSuffix [for]="datePicker"></mat-datepicker-toggle>
+    <mat-datepicker #datePicker></mat-datepicker>
+    <mat-error> {{ 'REQUIRED' }} </mat-error>
+  </mat-form-field>
+</form>
+
+{{ form.controls.date.value }}
+
+<!-- Copyright 2024 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at https://angular.io/license -->

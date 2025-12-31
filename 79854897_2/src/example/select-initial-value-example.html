@@ -1,0 +1,22 @@
+<h4>Basic mat-select with initial value</h4>
+<form [formGroup]="form">
+  <mat-form-field>
+    <mat-label>Favorite Food</mat-label>
+    <mat-select
+      formControlName="managers"
+      multiple
+      [compareWith]="compareSelectOptions"
+    >
+      <!-- <mat-option></mat-option> -->
+      @for (option of foods; track option) {
+      <mat-option [value]="option">{{ option.fullName }}</mat-option>
+      }
+    </mat-select>
+  </mat-form-field>
+</form>
+
+{{ form.value.managers | json }}
+
+<!-- Copyright 2025 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at https://angular.io/license -->

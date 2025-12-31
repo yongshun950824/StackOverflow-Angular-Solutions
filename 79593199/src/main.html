@@ -1,0 +1,31 @@
+<div class="api-call-container">
+  <div>
+    <h3 class="api-call-title">Graficar una collección de serie de tiempo:</h3>
+  </div>
+  <div class="api-buttons-container">
+    <button class="plot-button" (click)="toggleChart()">
+      {{ showChart ? 'Hide Chart' : 'Show Chart' }}
+    </button>
+    <button class="clean-button">Limpiar Gráfico</button>
+  </div>
+</div>
+<section class="plot-results" *ngIf="showChart">
+  <div class="div-test-results">
+    <h2 class="test-plot-title">Line Chart from static data</h2>
+    <canvas
+      baseChart
+      class="test-plot"
+      [type]="'line'"
+      [data]="testChartData"
+      [options]="testChartOptions"
+      [legend]="testChartLegend"
+    >
+    </canvas>
+  </div>
+  <div class="div-line-results">
+    <h2 class="plot-title">
+      Line Chart from db.json data (uses inerface and service)
+    </h2>
+    <canvas baseChart id="lineChart" #lineChart></canvas>
+  </div>
+</section>

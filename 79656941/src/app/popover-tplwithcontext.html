@@ -1,0 +1,21 @@
+<button
+  type="button"
+  class="btn btn-primary"
+  triggers="manual"
+  #popover="ngbPopover"
+  [ngbPopover]="popoverContent"
+  [popoverTitle]="'My Popover'"
+  (click)="openPopoverWithData()"
+	
+>
+  Open Popover
+</button>
+
+<ng-template #popoverContent let-data="context">
+  <div *ngIf="data; else noData">
+    <strong>Received context:</strong> {{ data | json }}
+  </div>
+  <ng-template #noData>
+    <div>⚠️ No context available</div>
+  </ng-template>
+</ng-template>

@@ -409,6 +409,7 @@ npm start
 | [78446333][141] | [Angular Mat Pagination and Mat Sort are not working][142] |
 | [78449124][139] | [Angular Datepicker with format MM.yyyy wants to select day][140] |
 | [78448907][137] | [Angular 17 - How to indicate both else to same ng-template for *ngIf using @if @else][138] |
+| [78448933][995] | [Material Datepicker sending the date with one day earlier than selected date][996] |
 | [78458776][135] | [Angular 16 Reactive Form - Form Control disabled not working][136] |
 | [78461122][133] | [Angular: property binding with the property name constructed inside the loop][134] |
 | [78487909][131] | [Recursive template inside inner @for in Angular 17][132] |
@@ -466,6 +467,7 @@ npm start
 | [79076675][27] | [Angular Material Table - How to specify the width of a column][28] |
 | [79103801][25] | [How to pass array with multiple objects to Angular FormControl?][26] |
 | [79125752][23] | [Angular Reactive Form - Issue when patching form control with object instead of value][24] |
+| [79217121][983] | [Unable to send data from parent component to child component showing child component is not known element][984] |
 | [79220004][21] | [Edit "Cruceros" with tituloQueHacer returning key-value pair: "descripcion: value" instead of string in the array][22] |
 | [79239270][19] | [Angular - ngx-datepicker validation not working as expected][20] |
 | [79301084][17] | [Angular Reactive Form - Multiple parsing errors when trying to implement multiple step form][18] |
@@ -476,7 +478,40 @@ npm start
 | [79338132][5] | [chartjs / ng2-charts charts does not work properly in display flex][6] |
 | [79335155][3] | [How to make the bottom of a NgbModal to be transparent so that content beneath is visible through it][4] |
 | [79331321][1] | [How to validate that 2 folders on the same level cannot have the same name in a recursive Angular form array][2] |
-
+| [79398250][959] | [mat-table header content not updating even when underlying data is changed][960] |
+| [79422026][961] | [How to Clear p-select Value When Clicking on the Selected Item in PrimeNG?][962] |
+| [79460990][963] | [I am having an issue integrating DrillDown from Highcharts with Angular 19][964] |
+| [79477287][965] | [HighCharts - Bubbles are not spreading][966] |
+| [79535776_1][967]<br />[79535776_2][969] | [How could I apply different colors for mat-form-field "formControl" depends on the state of it?][968] |
+| [79547540][971] | [How to create Angular mutually exclusive checkboxes and filter][972] |
+| [79567804][973] | [Initial value not displayed on mat-select component using async pipe][974] |
+| [79568190][975] | [How to setup system theme?][976] |
+| [79580388][977] | [NG Bootstrap modal disable a button in the modal's template][978] |
+| [79593199][979] | [Toggle button doesn't show chart from db.json data][980] |
+| [79617028][981] | [Angular 19 - Routing not working with \<a\> element][982] |
+| [79626479][985] | [Angular 19 - NG04002: Cannot match any routes. URL Segment: 'company-create'][986] |
+| [79656941][987] | [How to pass context properly in ngbPopover?][988] |
+| [79668502][989] | [How to get calendar_today_outlined icon for angular material datepicker?][990] |
+| [79678448][991] | [How can I populate a ngModelGroup with content projection?][992] |
+| [79679342][993] | [Angular 17 shows Object is possibly 'null'][994] |
+| [79690703][997] | [TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type 'App', if string is a method component?][998] |
+| [79690875][999] | [In Angular 19, on keydown event,Spacebar is not getting ignored][1000] |
+| [79697419][1001] | [How to Create a Nested Array from 2 Tables in Angular][1002] |
+| [79701439][1003] | [Angular Material "Select All" Directive Not Deselecting Correctly on Single Option Change][1004] |
+| [79702967][1005] | [Angular TiledWebMap with Providers][1006] |
+| [79703908][1007] | [Ionic Standalone Component - FormControlName][1008] |
+| [79725375][1009] | [Unable to get show and hide columns button to work][1010] |
+| [79726695][1011] | [Expand All/Collapse All column in Angular Material][1012] |
+| [79729176][1013] | [How to reorder columns in data table?][1014] |
+| [79740120][1015] | [Drag/drop an expanded row into another set of expanded rows - Angular Material][1016] |
+| [79752927][1017] | [Filter by date column in Angular Material table][1018] |
+| [79760225][1019] | [Why does the dialog window not show content when clicking on button?][1020] |
+| [79774741][1021] | [how to sort data table primeng by checkbox checked][1022] |
+| [79779058][1023] | [How to disable radio button on all levels in a recursive Angular form component based on a specific level's value][1024] |
+| [79788834_1][1025]<br />[79788834_2][1027] | [Angular 20 Reactive Forms - Custom validator based on signal][1026] |
+| [79785179][1029] | [How to show 10 items on each scroll][1030] |
+| [79823706][1031] | [Form with nested arrays and form groups][1032] |
+| [79854897_1][1033]<br />[79854897_2][1035] | [Angular Reactive Form - patchValue doesn't work on Multiple Select field][1034] |
 
 [1]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79331321
 [2]: https://stackoverflow.com/questions/79331321/how-to-validate-that-2-folders-on-the-same-level-cannot-have-the-same-name-in-a/79341666#79341666
@@ -1914,3 +1949,120 @@ npm start
 
 [957]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/77756385
 [958]: https://stackoverflow.com/questions/77756385/primeng-p-multiselect-dropdown-filter-search-not-showing-no-result-found-primeng/77756482#77756482
+
+[959]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79398250
+[960]: https://stackoverflow.com/questions/79398250/mat-table-header-content-not-updating-even-when-underlying-data-is-changed/79398580#79398580
+
+[961]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79422026
+[962]: https://stackoverflow.com/questions/79422026/how-to-clear-p-select-value-when-clicking-on-the-selected-item-in-primeng/79423216#79423216
+
+[963]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79460990
+[964]: https://stackoverflow.com/questions/79460990/i-am-having-an-issue-integrating-drilldown-from-highcharts-with-angular-19/79460995#79460995
+
+[965]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79477287
+[966]: https://stackoverflow.com/questions/79477287/highcharts-bubbles-are-not-spreading/79477439#79477439
+
+[967]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79535776_1
+[968]: https://stackoverflow.com/questions/79535776/how-could-i-apply-different-colors-for-mat-form-field-formcontrol-depends-on-t/79535855#79535855
+
+[969]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79535776_2
+[970]: https://stackoverflow.com/questions/79535776/how-could-i-apply-different-colors-for-mat-form-field-formcontrol-depends-on-t/79535855#79535855
+
+[971]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79547540
+[972]: https://stackoverflow.com/questions/79547540/how-to-create-angular-mutually-exclusive-checkboxes-and-filter/79547628#79547628
+
+[973]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79567804
+[974]: https://stackoverflow.com/questions/79567804/initial-value-not-displayed-on-mat-select-component-using-async-pipe/79567832#79567832
+
+[975]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79568190
+[976]: https://stackoverflow.com/questions/79568190/how-to-setup-system-theme/79568437#79568437
+
+[977]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79580388
+[978]: https://stackoverflow.com/questions/79580388/ng-bootstrap-modal-disable-a-button-in-the-modals-template/79580449#79580449
+
+[979]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79593199
+[980]: https://stackoverflow.com/questions/79593199/toggle-button-doesnt-show-chart-from-db-json-data/79593689#79593689
+
+[981]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79617028
+[982]: https://stackoverflow.com/questions/79617028/angular-19-routing-not-working-with-a-element/79618776#79618776
+
+[983]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79217121
+[984]: https://stackoverflow.com/questions/79217121/unable-to-send-data-from-parent-component-to-child-component-showing-child-compo/79217123#79217123
+
+[985]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79626479
+[986]: https://stackoverflow.com/questions/79626479/angular-19-ng04002-cannot-match-any-routes-url-segment-company-create/79626528#79626528
+
+[987]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79626479
+[988]: https://stackoverflow.com/questions/79626479/angular-19-ng04002-cannot-match-any-routes-url-segment-company-create/79626528#79626528
+
+[989]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79668502
+[990]: https://stackoverflow.com/questions/79668502/how-to-get-calendar-today-outlined-icon-for-angular-material-datepicker
+
+[991]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79678448
+[992]: https://stackoverflow.com/questions/79678448/how-can-i-populate-a-ngmodelgroup-with-content-projection/79678454#79678454
+
+[993]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79679342
+[994]: https://stackoverflow.com/questions/79679342/angular-17-shows-object-is-possibly-null/79685398#79685398
+
+[995]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/78448933
+[996]: https://stackoverflow.com/questions/78448933/material-datepicker-sending-the-date-with-one-day-earlier-than-selected-date/78449054#78449054
+
+[997]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79690703
+[998]: https://stackoverflow.com/questions/79690703/ts7053-element-implicitly-has-an-any-type-because-expression-of-type-string/79690715#79690715
+
+[999]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79690875
+[1000]: https://stackoverflow.com/questions/79690875/in-angular-19-on-keydown-event-spacebar-is-not-getting-ignored/79690890#79690890
+
+[1001]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79697419
+[1002]: https://stackoverflow.com/questions/79697419/how-to-create-a-nested-array-from-2-tables-in-angular/79697736#79697736
+
+[1003]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79701439
+[1004]: https://stackoverflow.com/questions/79701439/angular-material-select-all-directive-not-deselecting-correctly-on-single-opti/79701450#79701450
+
+[1005]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79702967
+[1006]: https://stackoverflow.com/questions/79702967/angular-tiledwebmap-with-providers/79703040#79703040
+
+[1007]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79703908
+[1008]: https://stackoverflow.com/questions/79703908/ionic-standalone-component-formcontrolname/79704177#79704177
+
+[1009]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79725375
+[1010]: https://stackoverflow.com/questions/79725375/unable-to-get-show-and-hide-columns-button-to-work/79725488#79725488
+
+[1011]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79726695
+[1012]: https://stackoverflow.com/questions/79726695/expand-all-collapse-all-column-in-angular-material/79726736#79726736
+
+[1013]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79729176
+[1014]: https://stackoverflow.com/questions/79729176/how-to-reorder-columns-in-data-table/79729289#79729289
+
+[1015]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79740120
+[1016]: https://stackoverflow.com/questions/79740120/drag-drop-an-expanded-row-into-another-set-of-expanded-rows-angular-material/79740688#79740688
+
+[1017]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79752927
+[1018]: https://stackoverflow.com/questions/79752927/filter-by-date-column-in-angular-material-table/79752998#79752998
+
+[1019]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79760225
+[1020]: https://stackoverflow.com/questions/79760225/why-does-the-dialog-window-not-show-content-when-clicking-on-button/79760398#79760398
+
+[1021]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79774741
+[1022]: https://stackoverflow.com/questions/79774741/how-to-sort-data-table-primeng-by-checkbox-checked/79775463#79775463
+
+[1023]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79779058
+[1024]: https://stackoverflow.com/questions/79779058/how-to-disable-radio-button-on-all-levels-in-a-recursive-angular-form-component/79779598#79779598
+
+[1025]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79788834_1
+[1026]: https://stackoverflow.com/questions/79788834/angular-20-reactive-forms-custom-validator-based-on-signal/79788946#79788946
+
+[1027]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79788834_2
+[1028]: https://stackoverflow.com/questions/79788834/angular-20-reactive-forms-custom-validator-based-on-signal/79788946#79788946
+
+[1029]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79785179
+[1030]: https://stackoverflow.com/questions/79785179/how-to-show-10-items-on-each-scroll/79799875#79799875
+
+[1031]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79823706
+[1032]: https://stackoverflow.com/questions/79823706/form-with-nested-arrays-and-form-groups/79823991#79823991
+
+[1033]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79854897_1
+[1034]: https://stackoverflow.com/questions/79854897/angular-reactive-form-patchvalue-doesnt-work-on-multiple-select-field/79855079#79855079
+
+[1035]: https://github.com/yongshun950824/StackOverflow-Angular-Solutions/tree/main/79854897_1
+[1036]: https://stackoverflow.com/questions/79854897/angular-reactive-form-patchvalue-doesnt-work-on-multiple-select-field/79855079#79855079

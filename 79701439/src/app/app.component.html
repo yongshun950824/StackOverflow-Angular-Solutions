@@ -1,0 +1,15 @@
+<form [formGroup]="myFormFG">
+  <mat-form-field appearance="outline" class="narrow-field column-item">
+    <mat-label>Office</mat-label>
+    <mat-select formControlName="office" multiple>
+      <mat-option selectAll [allValues]="allOfficeValues"
+        >Select All</mat-option
+      >
+      <mat-option *ngFor="let item of allOffices" [value]="item.value">
+        {{ item.viewValue }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</form>
+
+{{ myFormFG.controls.office.value | json }}

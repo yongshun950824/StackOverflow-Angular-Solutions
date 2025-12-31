@@ -1,0 +1,23 @@
+<h4>Basic mat-select</h4>
+<form [formGroup]="form">
+  <mat-form-field class="me-3" appearance="outline" class="filterText">
+    <mat-label
+      [ngClass]="{'mat-label-error': form.get('result')?.invalid && form.get('result')?.touched}"
+    >
+      {{ 'evaluation_detail.result' }}
+    </mat-label>
+    <mat-select id="result" formControlName="result" data-testid="result-select">
+      <mat-option *ngFor="let res of resultOptions" [value]="res.id"
+        >{{res.name }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</form>
+
+{{ form.get('result')?.invalid }}
+{{ form.get('result')?.touched }}
+
+
+<!-- Copyright 2025 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at https://angular.io/license -->

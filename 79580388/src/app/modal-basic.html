@@ -1,0 +1,58 @@
+<ng-template #getReportName let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Report File Name</h4>
+    <button
+      type="button"
+      class="btn-close"
+      aria-label="Close"
+      (click)="modal.dismiss('Cross click')"
+    ></button>
+  </div>
+  <div class="modal-body">
+    <form #reportNameForm>
+      <div class="mb-3">
+        <label for="reportname">Report Name</label>
+        <div class="input-group">
+          <input
+            #reportInput
+            id="reportname"
+            class="form-control"
+            placeholder="Report Name"
+            name="filename"
+            [(ngModel)]="value"
+            (change)="saveButton.disabled = value ===''"
+          />
+
+          <!-- Alternate answer-->
+          <!--<input
+            #reportInput
+            id="reportname"
+            class="form-control"
+            placeholder="Report Name"
+            name="filename"
+            (change)="saveButton.disabled = reportInput.value===''"
+          />-->
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button
+      #saveButton
+      type="button"
+      class="btn btn-outline-secondary"
+      disabled="true"
+      (click)="modal.close(reportInput.value)"
+    >
+      Save
+    </button>
+  </div>
+</ng-template>
+
+<button class="btn btn-lg btn-outline-primary" (click)="open(getReportName)">
+  Launch demo modal
+</button>
+
+<hr />
+
+<pre>{{ closeResult() }}</pre>

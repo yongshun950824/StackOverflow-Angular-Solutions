@@ -1,0 +1,21 @@
+<form [formGroup]="reportListFG">
+  <mat-card-actions>
+    <button mat-raised-button color="primary" (click)="searchReport($event)">
+      Search
+    </button>
+  </mat-card-actions>
+
+  <app-identifier-filter
+    [formGroup]="reportListFG.get('filterGroup')"
+    (identifierFilterChanged)="onIdentifierFilterChanged($event)"
+    #identifierFilter
+  >
+  </app-identifier-filter>
+</form>
+<app-reports-view-table
+  [searchPerformed]="searchPerformed"
+  [identifierFilterValue]="identifierFilterValue"
+  (dataSourceChanged)="onDataSourceChanged($event)"
+>
+  <app-reports-view-table> </app-reports-view-table
+></app-reports-view-table>

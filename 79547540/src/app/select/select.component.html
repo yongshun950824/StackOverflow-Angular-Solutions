@@ -1,0 +1,57 @@
+<mat-card>
+  <mat-card-content>
+<form [formGroup]="form">
+	<mat-form-field
+  appearance="outline"
+  [hideRequiredMarker]="'true'"
+  floatLabel="auto"
+  hintLabel="">
+    <mat-label>{{ disableControl ? 'Select (disabled)' : 'Select' }}</mat-label>
+    <span matPrefix>+1 &nbsp;</span>
+    <mat-select 
+    formControlName="select"
+    [disableControl]="disableControl"
+    [errorStateMatcher]="matcher"
+    multiple
+    (openedChange)="openedChange($event)"
+    (selectionChange)="selectionChange($event)"
+    selected="bellsprout-2">
+      <mat-option>--select a value --</mat-option>
+      <mat-optgroup 
+      *ngFor="let group of pokemonGroups"
+      [label]="group.name"
+      [disabled]="group.disabled">
+      <mat-option 
+      *ngFor="let pokemon of group.pokemon"
+      [value]="pokemon.value"
+      [disabled]="pokemon.disabled">
+        {{pokemon.viewValue}}
+      </mat-option>
+    </mat-optgroup>
+    </mat-select>
+    <button 
+    mat-button
+    *ngIf="controlValue && !readonlyState"
+    matSuffix
+    mat-icon-button
+    aria-label="Clear"
+    (click)="resetControl()">
+      <mat-icon>close</mat-icon>
+    </button>
+    <mat-hint align="start">
+      <strong>Yolo!</strong>
+    </mat-hint>
+    <mat-hint align="end">{{controlLength}} / 80</mat-hint>
+    <mat-error *ngIf="hasError">{{ errorMessage }}</mat-error>
+  </mat-form-field>
+</form>
+</mat-card-content>
+<mat-card-actions>
+  <button (click)="changeReadonlyState()" mat-raised-button>
+    {{readonlyState ? 'Edit input' : 'Read only'}}
+  </button>
+  <button (click)="disable()" mat-raised-button>
+    {{disableControl ? 'Enable' : 'Disable'}}
+  </button>
+  </mat-card-actions>
+</mat-card>
